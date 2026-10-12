@@ -1,0 +1,1345 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="WHOLE (working title): a clickable prototype of a health and beauty magazine app built on Anthropologic pipelines. Sample data.">
+<meta name="theme-color" content="#FFF7F1">
+<title>Whole Wellness Issues</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Instrument+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#FFF7F1; --paper-2:#F6E9E0; --ink:#1C1216; --muted:#6F5E63; --line:#E6D5CB;
+  --stage:#EFE3DA; --device:#0E0A0C; --chip:#FFFFFF;
+  --nutrition:#FFB21C; --nutrition-ink:#2A1400; --nutrition-hi:#E5401A;
+  --beauty:#EE1A7C; --beauty-ink:#FFF2F8; --beauty-hi:#FFC6DE;
+  --exercise:#2536E4; --exercise-ink:#F1F3FF; --exercise-hi:#A9DCFF;
+  --sleep:#3B1F5C; --sleep-ink:#F6EEFF; --sleep-hi:#FFD66B;
+  --custom:#C7B3FF; --custom-ink:#1C0F3D; --custom-hi:#6A3DF0;
+  --up:#0F8A5F; --down:#C23B22; --flat:#8A7A70; --warn:#B86E00; --early:#6A3DF0;
+  --display:"Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
+  --body:"Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono:"DM Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#171114; --paper-2:#221A1E; --ink:#FBEFF2; --muted:#B19CA3; --line:#3A2D33;
+    --stage:#0B0809; --device:#000; --chip:#2A2025;
+    --up:#4FD1A0; --down:#FF7A5C; --flat:#A8978F; --warn:#F2B24C; --early:#B79CFF;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#171114; --paper-2:#221A1E; --ink:#FBEFF2; --muted:#B19CA3; --line:#3A2D33;
+  --stage:#0B0809; --device:#000; --chip:#2A2025;
+  --up:#4FD1A0; --down:#FF7A5C; --flat:#A8978F; --warn:#F2B24C; --early:#B79CFF;
+  color-scheme:dark;
+}
+html,body{height:100%}
+[hidden]{display:none!important}
+img{max-width:100%}
+body{margin:0;-webkit-text-size-adjust:100%;background:var(--stage);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;padding-inline:16px;box-sizing:border-box}
+*{box-sizing:border-box}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--custom-hi);outline-offset:2px}
+.mono{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+
+/* ---------- stage ---------- */
+.stage{min-height:100%;display:flex;align-items:center;justify-content:center;gap:56px;padding-block:32px}
+.note{max-width:300px;display:flex;flex-direction:column;gap:14px;color:var(--ink)}
+.note h1{font-family:var(--display);font-weight:900;font-size:64px;line-height:.9;margin:0;letter-spacing:-.02em}
+.note h1 em{font-weight:400;font-size:18px;letter-spacing:0;display:block;margin-top:8px;color:var(--muted)}
+.note p{margin:0;color:var(--muted);font-size:14px}
+.note dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-size:13px;border-top:1px solid var(--line);padding-top:14px}
+.note dt{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:2px}
+.note dd{margin:0}
+.device{width:390px;height:844px;flex:0 0 auto;border-radius:52px;background:var(--device);padding:10px;box-shadow:0 40px 80px -30px rgba(40,10,20,.45)}
+.screen{position:relative;width:100%;height:100%;border-radius:42px;overflow:hidden;overflow:clip;background:var(--paper);isolation:isolate}
+@media (max-width:760px){
+  body{padding-inline:0}
+  .stage{padding:0;display:block;height:100%}
+  .note{display:none}
+  .device{width:100%;height:100%;border-radius:0;padding:0;box-shadow:none}
+  .screen{border-radius:0}
+}
+
+/* ---------- home ---------- */
+.home{position:absolute;inset:0;overflow-y:auto;padding:54px 18px 110px;display:flex;flex-direction:column;gap:22px;scrollbar-width:none}
+.home::-webkit-scrollbar{display:none}
+.home > *, .pg > *, .sheet-body > *{flex-shrink:0}
+.mast{display:flex;flex-direction:column;gap:4px}
+.mast-row{display:flex;justify-content:space-between;align-items:center}
+.mast h2{font-family:var(--display);font-weight:900;font-size:78px;line-height:.82;margin:0;letter-spacing:-.035em}
+.mast .dateline{display:flex;justify-content:space-between;color:var(--muted);border-top:1.5px solid var(--ink);padding-top:7px;margin-top:6px}
+.sample{font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:99px;padding:3px 8px;color:var(--muted)}
+.iconbtn{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--chip);border:1px solid var(--line)}
+.iconbtn svg{width:18px;height:18px}
+
+.quilt{background:var(--ink);color:var(--paper);border-radius:22px;padding:20px 18px 18px;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden}
+.quilt::after{content:"";position:absolute;right:-40px;top:-40px;width:160px;height:160px;border-radius:50%;
+  background:conic-gradient(var(--nutrition) 0 33%,var(--beauty) 0 66%,var(--exercise) 0);opacity:.9}
+.quilt::before{content:"";position:absolute;right:0;top:0;width:80px;height:80px;border-radius:50%;background:var(--ink);z-index:1}
+.quilt h3{font-family:var(--display);font-style:italic;font-weight:500;font-size:30px;line-height:1;margin:0;max-width:70%;position:relative;z-index:2}
+.quilt .kicker{opacity:.7;position:relative;z-index:2}
+.qitems{display:flex;flex-direction:column;position:relative;z-index:2}
+.qitem{display:grid;grid-template-columns:28px 1fr;gap:10px;padding:12px 0;border-top:1px solid color-mix(in srgb,var(--paper) 16%,transparent);text-align:left}
+.qitem .n{font-family:var(--display);font-weight:900;font-size:26px;line-height:1}
+.qitem b{display:block;font-weight:600;font-size:15px;line-height:1.25}
+.qitem span.why{display:block;font-size:13px;opacity:.72;margin-top:3px}
+.dots{display:flex;gap:4px;margin-top:7px;align-items:center}
+.dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto}
+.dots .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;opacity:.7;margin-left:4px}
+
+.sechead{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.sechead h4{margin:0;font-family:var(--display);font-weight:700;font-size:24px;line-height:1.05}
+.sechead button{font-size:13px;font-weight:600;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.subline{color:var(--muted);margin-top:-14px}
+.block{display:flex;flex-direction:column;gap:12px}
+
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.cover-card{position:relative;aspect-ratio:3/4.1;border-radius:18px;overflow:hidden;text-align:left;padding:12px;display:flex;flex-direction:column;justify-content:space-between;transition:transform .2s}
+.cover-card:active{transform:scale(.97)}
+.cover-card.wide{grid-column:span 2;aspect-ratio:16/10}
+.cover-card .t{font-family:var(--display);font-weight:900;font-size:30px;line-height:.85;letter-spacing:-.03em;position:relative;z-index:1}
+.cover-card.wide .t{font-size:46px}
+.cover-card .stat{font-family:var(--display);font-weight:800;font-size:44px;line-height:.9;position:relative;z-index:1}
+.cover-card.wide .stat{font-size:58px}
+.cover-card .line{font-size:12.5px;line-height:1.25;font-weight:500;position:relative;z-index:1;margin-top:4px}
+.cover-card .tag{position:relative;z-index:1;opacity:.8}
+.gloss{position:absolute;border-radius:50%;pointer-events:none}
+.newcard{border:2px dashed var(--line);border-radius:18px;aspect-ratio:3/4.1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:var(--muted);font-weight:600}
+.newcard .plus{font-family:var(--display);font-size:54px;line-height:.8;color:var(--ink)}
+.working{background:var(--custom);color:var(--custom-ink)}
+.bar{height:4px;border-radius:4px;background:rgba(28,15,61,.18);overflow:hidden;position:relative;z-index:1}
+.bar i{display:block;height:100%;background:var(--custom-ink);transition:width .6s}
+
+/* horizontal rails */
+.rail{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:-18px;padding-inline:18px;scrollbar-width:none;padding-bottom:2px}
+.rail::-webkit-scrollbar{display:none}
+.rail > *{scroll-snap-align:start;flex:0 0 auto}
+.thread-card{width:236px;min-height:150px;border-radius:18px;padding:14px;color:#fff;text-align:left;display:flex;flex-direction:column;justify-content:space-between;gap:16px;position:relative;overflow:hidden}
+.thread-card .t{font-family:var(--display);font-weight:900;font-size:34px;line-height:.9;letter-spacing:-.02em}
+.thread-card .l{font-size:13px;font-weight:500;line-height:1.25}
+.thread-card .dots{margin-top:0}
+.thread-card .dot{box-shadow:0 0 0 1.5px #fff}
+.hype-card{width:200px;border-radius:18px;padding:14px;background:var(--paper-2);text-align:left;display:flex;flex-direction:column;gap:10px;position:relative}
+.hype-card b{font-family:var(--display);font-style:italic;font-size:21px;line-height:1.05;font-weight:600;padding-right:56px}
+.hype-card .says{font-size:12.5px;color:var(--muted)}
+.stamp{position:absolute;top:12px;right:10px;width:58px;height:58px;border-radius:50%;border:2px solid currentColor;display:grid;place-items:center;text-align:center;font-family:var(--mono);font-size:9.5px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;line-height:1.05;transform:rotate(-12deg)}
+.v-real{color:var(--up)} .v-mixed{color:var(--warn)} .v-early{color:var(--early)} .v-hype{color:var(--down)}
+.ask-row{display:grid;grid-template-columns:64px 1fr;gap:12px;align-items:center;text-align:left;padding:12px 0;border-top:1px solid var(--line)}
+.ask-row .mult{font-family:var(--display);font-weight:900;font-size:30px;line-height:1}
+.ask-row q{font-family:var(--display);font-style:italic;font-size:18px;line-height:1.15;quotes:"\201C" "\201D"}
+.ask-row .mono{color:var(--muted);display:flex;gap:6px;align-items:center;margin-top:4px}
+.life-row{display:grid;grid-template-columns:1fr 82px auto;gap:12px;align-items:center;padding:11px 0;border-top:1px solid var(--line);text-align:left}
+.life-row b{font-size:15px;display:block;line-height:1.2}
+.life-row span.n{font-size:12.5px;color:var(--muted)}
+.spark{width:82px;height:28px;display:block}
+.status{font-size:11px;font-weight:700;padding:4px 9px;border-radius:99px;white-space:nowrap}
+.s-rising{color:var(--up);background:color-mix(in srgb,var(--up) 14%,transparent)}
+.s-peaked{color:var(--warn);background:color-mix(in srgb,var(--warn) 16%,transparent)}
+.s-sticking{color:var(--early);background:color-mix(in srgb,var(--early) 14%,transparent)}
+.s-faded{color:var(--flat);background:color-mix(in srgb,var(--flat) 16%,transparent)}
+
+.tabbar{position:absolute;left:0;right:0;bottom:0;padding:10px 18px calc(18px + env(safe-area-inset-bottom,0px));display:flex;justify-content:space-around;background:linear-gradient(to top,var(--paper) 60%,transparent);z-index:5}
+.tabbar button{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;font-weight:600;color:var(--muted);position:relative}
+.tabbar button.on{color:var(--ink)}
+.tabbar svg{width:22px;height:22px}
+.badge{position:absolute;top:-4px;right:2px;min-width:16px;height:16px;border-radius:8px;background:var(--beauty);color:#fff;font-size:10px;display:grid;place-items:center;padding:0 4px}
+
+/* ---------- issue ---------- */
+.issue{position:absolute;inset:0;z-index:20;background:var(--paper);transform:translateY(100%);transition:transform .38s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column}
+.issue.open{transform:none}
+.issue-top{position:absolute;top:0;left:0;right:0;z-index:5;padding:48px 14px 10px;display:flex;flex-direction:column;gap:10px;pointer-events:none;background:linear-gradient(to bottom,var(--top-bg,transparent) 70%,transparent)}
+.segs{display:flex;gap:3px;pointer-events:auto}
+.segs button{flex:1;height:14px;display:flex;align-items:center}
+.segs button i{display:block;width:100%;height:3px;border-radius:3px;background:currentColor;opacity:.3;transition:opacity .2s}
+.segs button.on i{opacity:1}
+.issue-meta{display:flex;justify-content:space-between;align-items:center;pointer-events:auto}
+.closebtn{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:rgba(0,0,0,.14)}
+.closebtn svg{width:16px;height:16px}
+.pager{flex:1;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}
+.pager::-webkit-scrollbar{display:none}
+.pg{flex:0 0 100%;height:100%;scroll-snap-align:start;overflow-y:auto;padding:104px 22px 96px;display:flex;flex-direction:column;gap:18px;scrollbar-width:none}
+.pg::-webkit-scrollbar{display:none}
+.next{position:absolute;bottom:calc(20px + env(safe-area-inset-bottom,0px));right:18px;z-index:6;height:44px;padding:0 18px;border-radius:99px;font-weight:700;font-size:14px;display:flex;align-items:center;gap:8px;box-shadow:0 8px 20px -8px rgba(0,0,0,.4)}
+.next svg{width:16px;height:16px}
+.prev{position:absolute;bottom:calc(20px + env(safe-area-inset-bottom,0px));left:18px;z-index:6;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--chip);border:1px solid var(--line)}
+.prev svg{width:16px;height:16px;transform:rotate(180deg)}
+
+.pg.cover{padding-top:118px;justify-content:space-between;position:relative;overflow:hidden}
+.cover .masthead{font-family:var(--display);font-weight:900;font-size:104px;line-height:.78;letter-spacing:-.045em;margin:0;position:relative;z-index:1}
+.cover .masthead small{display:block;font-size:13px;letter-spacing:.24em;font-weight:600;font-family:var(--body);margin-top:12px;text-transform:uppercase;line-height:1.3}
+.cover .big{position:relative;z-index:1}
+.cover .big .stat{font-family:var(--display);font-weight:900;font-size:120px;line-height:.8;letter-spacing:-.04em}
+.cover .big .sl{font-size:18px;font-weight:600;line-height:1.2;max-width:260px;margin-top:8px}
+.cover .lines{display:flex;flex-direction:column;gap:8px;position:relative;z-index:1}
+.cover .lines div{font-family:var(--display);font-style:italic;font-size:21px;line-height:1.05}
+.cover .lines div b{font-style:normal;font-family:var(--body);font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;display:block;margin-bottom:1px}
+.cover .foot{display:flex;justify-content:space-between;position:relative;z-index:1;opacity:.8}
+
+.eyebrow{display:flex;gap:8px;align-items:center;color:var(--muted)}
+.eyebrow .sw{width:10px;height:10px;border-radius:50%}
+.pg h2{font-family:var(--display);font-weight:800;font-size:38px;line-height:.95;margin:0;letter-spacing:-.02em;text-wrap:balance}
+.answer{font-family:var(--display);font-style:italic;font-weight:500;font-size:27px;line-height:1.1;margin:0;text-wrap:balance}
+.lede{margin:0;font-size:15.5px}
+.src{color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;margin:0}
+.how{display:inline-flex;align-items:center;gap:5px;font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:4px 9px;align-self:flex-start}
+.how::before{content:"i";font-family:var(--display);font-style:italic;font-weight:700;font-size:12px;text-transform:none}
+.theme{border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:8px}
+.theme h5{margin:0;font-size:17px;font-weight:700;line-height:1.2}
+.theme p{margin:0;font-size:14px;color:var(--muted)}
+.split{display:grid;grid-template-columns:62px 1fr 38px;gap:4px 8px;align-items:center;font-size:12px}
+.split .lab{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.split .track{height:8px;border-radius:8px;background:var(--paper-2)}
+.split .track i{display:block;height:100%;border-radius:8px}
+.split .v{font-family:var(--mono);font-size:11px;text-align:right;font-variant-numeric:tabular-nums}
+.pill{align-self:flex-start;font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:99px}
+.hormone{border:1.5px solid var(--ink);border-radius:18px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;position:relative}
+.hormone .mono{display:flex;gap:6px;align-items:center}
+.hormone .mono::before{content:"";width:16px;height:8px;border-radius:8px;background:linear-gradient(90deg,var(--beauty),var(--custom-hi))}
+.hormone b{font-size:16px;line-height:1.25}
+.hormone p{margin:0;font-size:14px;color:var(--muted)}
+
+.big-ask{border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:8px}
+.big-ask .mult{font-family:var(--display);font-weight:900;font-size:56px;line-height:.85}
+.big-ask q{font-family:var(--display);font-style:italic;font-size:23px;line-height:1.1;quotes:"\201C" "\201D"}
+.big-ask p{margin:0;font-size:14.5px}
+
+.hype{border-top:1px solid var(--line);padding-top:16px;display:flex;flex-direction:column;gap:10px;position:relative}
+.hype h5{margin:0;font-family:var(--display);font-style:italic;font-weight:600;font-size:24px;line-height:1.05;padding-right:74px;min-height:62px}
+.hype .stamp{top:12px;right:0;width:64px;height:64px;font-size:10px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.two > div{background:var(--paper-2);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:4px;font-size:13.5px}
+.two .mono{color:var(--muted);font-size:9.5px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted)}
+.legend span{display:flex;align-items:center;gap:5px}
+.legend i{width:8px;height:8px;border-radius:50%;background:currentColor}
+
+.seg{border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:10px;background:var(--paper-2)}
+.seg .name{font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.seg q{font-family:var(--display);font-style:italic;font-size:23px;line-height:1.1;quotes:"\201C" "\201D"}
+.meta{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:13px;margin:0}
+.meta dt{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-top:2px}
+.meta dd{margin:0}
+.share{display:flex;align-items:center;gap:8px}
+.share .track{flex:1;height:6px;border-radius:6px;background:color-mix(in srgb,var(--ink) 10%,transparent)}
+.share .track i{display:block;height:100%;border-radius:6px}
+.share b{font-family:var(--mono);font-size:12px;font-variant-numeric:tabular-nums}
+
+.brand{display:grid;grid-template-columns:1fr auto;gap:4px 12px;border-top:1px solid var(--line);padding-top:12px}
+.brand h5{margin:0;font-size:17px;font-weight:700}
+.brand .what{grid-column:1/-1;font-size:13.5px;color:var(--muted);margin:0}
+.trend{font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:99px;align-self:start;white-space:nowrap}
+.trend.up{color:var(--up);background:color-mix(in srgb,var(--up) 14%,transparent)}
+.trend.flat{color:var(--flat);background:color-mix(in srgb,var(--flat) 16%,transparent)}
+.trend.down{color:var(--down);background:color-mix(in srgb,var(--down) 14%,transparent)}
+.disclose{font-size:12px;color:var(--muted);border:1px dashed var(--line);border-radius:12px;padding:10px 12px;margin:0}
+.disclose b{color:var(--ink)}
+
+.prod{border-radius:20px;background:var(--chip);border:1px solid var(--line);padding:14px;display:flex;flex-direction:column;gap:10px;text-align:left;width:100%}
+.prod-top{display:grid;grid-template-columns:64px 1fr auto;gap:12px;align-items:start}
+.thumb{width:64px;height:64px;border-radius:14px;display:grid;place-items:center;font-family:var(--display);font-weight:900;font-size:26px;position:relative;overflow:hidden}
+.prod h5{margin:0;font-size:16px;font-weight:700;line-height:1.2}
+.prod .brandname{font-size:12.5px;color:var(--muted)}
+.price{font-family:var(--display);font-weight:800;font-size:22px;line-height:1;text-align:right}
+.price small{display:block;font-family:var(--mono);font-size:10px;font-weight:400;color:var(--muted);margin-top:4px;letter-spacing:.03em}
+.verdict{font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:99px;align-self:flex-start}
+.vd-worth{color:var(--up);background:color-mix(in srgb,var(--up) 14%,transparent)}
+.vd-dupe{color:var(--early);background:color-mix(in srgb,var(--early) 14%,transparent)}
+.vd-skip{color:var(--down);background:color-mix(in srgb,var(--down) 14%,transparent)}
+.vd-try{color:var(--warn);background:color-mix(in srgb,var(--warn) 16%,transparent)}
+.street{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:13px}
+.street dt{font-weight:700}
+.street dd{margin:0;color:var(--muted)}
+.prod-actions{display:flex;gap:8px;align-items:center}
+.shopbtn{flex:1;background:var(--ink);color:var(--paper);border-radius:99px;padding:10px 14px;font-weight:700;font-size:13.5px;text-align:center}
+.savebtn{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center}
+.savebtn svg{width:18px;height:18px}
+.savebtn[aria-pressed="true"]{background:var(--beauty);border-color:var(--beauty);color:#fff}
+.dupe-line{display:flex;justify-content:space-between;gap:10px;background:var(--paper-2);border-radius:12px;padding:9px 12px;font-size:13px}
+.dupe-line b{white-space:nowrap}
+.budget-note{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--early)}
+
+.tl{display:flex;flex-direction:column}
+.tl-item{display:grid;grid-template-columns:74px 1fr;gap:14px;padding:14px 0;border-top:1px solid var(--line)}
+.tl-item .when{font-family:var(--display);font-weight:800;font-size:22px;line-height:1}
+.tl-item .when small{display:block;font-family:var(--mono);font-size:10px;font-weight:400;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.tl-item h5{margin:0 0 4px;font-size:16px;font-weight:700;line-height:1.2}
+.tl-item p{margin:0;font-size:14px;color:var(--muted)}
+.worlds{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.world{border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:6px;background:var(--paper-2)}
+.world b{font-family:var(--display);font-style:italic;font-size:19px;line-height:1.05;font-weight:600}
+.world span{font-size:12.5px;color:var(--muted)}
+
+.life-big{border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:8px}
+.life-big .row{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.life-big h5{margin:0;font-size:18px;font-weight:700}
+.life-big p{margin:0;font-size:14px;color:var(--muted)}
+.life-big .spark{width:100%;height:46px}
+
+.facet{border-radius:20px;padding:16px;display:flex;flex-direction:column;gap:8px;text-align:left;width:100%}
+.facet .mono{opacity:.8}
+.facet b{font-family:var(--display);font-size:24px;line-height:1.05;font-weight:700}
+.facet p{margin:0;font-size:14.5px}
+.facet .go{font-weight:700;font-size:13px;display:flex;gap:6px;align-items:center;margin-top:4px}
+.facet .go svg{width:14px;height:14px}
+.todo{display:flex;flex-direction:column}
+.todo div{display:grid;grid-template-columns:30px 1fr;gap:10px;padding:12px 0;border-top:1px solid var(--line);font-size:15px}
+.todo div span{font-family:var(--display);font-weight:900;font-size:22px;line-height:1}
+
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--ink);border-radius:99px;padding:8px 13px;font-size:13.5px;font-weight:600;text-align:left;line-height:1.2}
+.chip.on{background:var(--ink);color:var(--paper)}
+.convo{display:flex;flex-direction:column;gap:12px}
+.bubble{padding:12px 14px;border-radius:18px;font-size:14.5px;max-width:88%}
+.bubble.me{align-self:flex-end;background:var(--ink);color:var(--paper);border-bottom-right-radius:4px}
+.bubble.them{align-self:flex-start;background:var(--paper-2);border-bottom-left-radius:4px}
+.bubble.them .who{display:block;margin-bottom:4px;color:var(--muted)}
+.typing{display:inline-flex;gap:4px}
+.typing i{width:6px;height:6px;border-radius:50%;background:var(--muted);animation:blink 1s infinite}
+.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes blink{0%,100%{opacity:.25}50%{opacity:1}}
+.askbar{display:flex;gap:8px;align-items:center;border:1.5px solid var(--ink);border-radius:99px;padding:5px 5px 5px 16px;background:var(--chip)}
+.askbar input{flex:1;border:0;background:none;font:inherit;color:var(--ink);outline:none;min-width:0}
+.askbar button{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:var(--paper)}
+.askbar svg{width:15px;height:15px}
+
+/* ---------- sheets ---------- */
+.scrim{position:absolute;inset:0;background:rgba(20,8,14,.45);z-index:30;opacity:0;pointer-events:none;transition:opacity .25s}
+.scrim.open{opacity:1;pointer-events:auto}
+.sheet{position:absolute;left:0;right:0;bottom:0;max-height:90%;z-index:31;background:var(--paper);border-radius:28px 28px 0 0;transform:translateY(105%);transition:transform .34s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column}
+.sheet.open{transform:none}
+.sheet-head{padding:10px 20px 12px;display:flex;flex-direction:column;gap:12px;border-bottom:1px solid var(--line)}
+.grab{width:40px;height:5px;border-radius:5px;background:var(--line);align-self:center}
+.sheet-head .row{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.sheet-head h3{margin:0;font-family:var(--display);font-weight:800;font-size:28px;line-height:1.05}
+.seg-toggle{display:flex;background:var(--paper-2);border-radius:99px;padding:3px}
+.seg-toggle button{flex:1;padding:8px;border-radius:99px;font-size:13.5px;font-weight:600;color:var(--muted)}
+.seg-toggle button.on{background:var(--chip);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.sheet-body{overflow-y:auto;padding:16px 20px calc(28px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:18px}
+.done{font-weight:700;font-size:15px}
+.list{display:flex;flex-direction:column;gap:8px}
+.row-item{display:grid;grid-template-columns:22px 14px 1fr auto;gap:12px;align-items:center;background:var(--chip);border:1px solid var(--line);border-radius:14px;padding:12px 12px 12px 10px;touch-action:none}
+.row-item.dragging{box-shadow:0 12px 30px -10px rgba(0,0,0,.35);position:relative;z-index:2;transform:scale(1.02)}
+.row-item.off{opacity:.55}
+.handle{cursor:grab;color:var(--muted);display:grid;place-items:center;height:28px}
+.handle svg{width:18px;height:18px}
+.row-item .sw{width:14px;height:14px;border-radius:50%}
+.row-item .nm{font-weight:600}
+.row-item .nm small{display:block;font-weight:400;color:var(--muted);font-size:12px}
+.switch{width:46px;height:28px;border-radius:99px;background:var(--line);position:relative;transition:background .2s;flex:0 0 auto}
+.switch::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;transition:transform .2s;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.switch[aria-checked="true"]{background:var(--ink)}
+.switch[aria-checked="true"]::after{transform:translateX(18px)}
+.toggle-row{display:flex;justify-content:space-between;gap:14px;align-items:center}
+.toggle-row b{display:block}
+.toggle-row span{font-size:13px;color:var(--muted)}
+.group{display:flex;flex-direction:column;gap:10px}
+.group > .mono{color:var(--muted)}
+.hint{font-size:13px;color:var(--muted);margin:0}
+.banner{border-radius:14px;padding:12px 14px;background:var(--custom);color:var(--custom-ink);font-size:13.5px;display:flex;gap:10px;align-items:flex-start}
+.banner b{display:block}
+.privacy{border-radius:14px;padding:12px 14px;background:var(--paper-2);font-size:13px;display:grid;grid-template-columns:22px 1fr;gap:10px}
+.privacy svg{width:20px;height:20px}
+.privacy b{display:block;font-size:14px}
+.field{display:flex;flex-direction:column;gap:8px}
+.field input{font:inherit;font-size:22px;font-family:var(--display);font-style:italic;padding:14px 16px;border-radius:14px;border:1.5px solid var(--ink);background:var(--chip);color:var(--ink);width:100%}
+.primary{background:var(--ink);color:var(--paper);border-radius:99px;padding:14px 20px;font-weight:700;font-size:15px;text-align:center}
+.primary[disabled]{opacity:.35;cursor:not-allowed}
+.ghost{border:1.5px solid var(--ink);border-radius:99px;padding:12px 18px;font-weight:700;font-size:14px;text-align:center}
+.brief{border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-size:13.5px;margin:0}
+.brief dt{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-top:3px}
+.brief dd{margin:0}
+.retail{display:flex;flex-direction:column;gap:8px}
+.retail button{display:flex;justify-content:space-between;align-items:center;border:1px solid var(--line);background:var(--chip);border-radius:14px;padding:12px 14px;font-weight:600}
+.retail button span{font-family:var(--display);font-weight:800;font-size:18px}
+.empty{text-align:center;color:var(--muted);padding:30px 10px;display:flex;flex-direction:column;gap:8px;align-items:center}
+.empty b{font-family:var(--display);font-size:24px;color:var(--ink)}
+.saved-row{display:grid;grid-template-columns:48px 1fr auto;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--line);text-align:left;width:100%}
+.saved-row .thumb{width:48px;height:48px;font-size:20px;border-radius:12px}
+.saved-row b{display:block;font-size:14.5px}
+.saved-row span{font-size:12.5px;color:var(--muted)}
+
+.steps{display:flex;flex-direction:column}
+.step{display:grid;grid-template-columns:28px 1fr auto;gap:12px;align-items:center;padding:13px 0;border-top:1px solid rgba(28,15,61,.18)}
+.step .ic{width:24px;height:24px;border-radius:50%;border:2px solid currentColor;display:grid;place-items:center;font-size:12px;font-weight:700}
+.step.done .ic{background:var(--custom-ink);color:var(--custom)}
+.step.run .ic{border-style:dashed;animation:spin 2.4s linear infinite}
+.step.wait{opacity:.45}
+.step b{display:block;font-size:15px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.toast{position:absolute;left:50%;bottom:96px;transform:translate(-50%,20px);background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:16px;font-size:13.5px;font-weight:600;opacity:0;transition:.25s;z-index:50;pointer-events:none;width:max-content;max-width:86%;text-align:center}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+@media (prefers-reduced-motion: reduce){
+  *{transition:none!important;animation:none!important}
+}
+
+/* ---------- onboarding ---------- */
+.onb{position:absolute;inset:0;z-index:40;background:var(--paper);display:flex;flex-direction:column;transition:opacity .35s,transform .35s}
+.onb.gone{opacity:0;transform:scale(1.03);pointer-events:none}
+.onb-top{padding:54px 20px 8px;display:flex;justify-content:space-between;align-items:center;min-height:96px}
+.onb-dots{display:flex;gap:6px}
+.onb-dots i{width:22px;height:4px;border-radius:4px;background:var(--line)}
+.onb-dots i.on{background:var(--ink)}
+.onb-back{font-weight:600;font-size:14px}
+.onb-body{flex:1;min-height:0;overflow-y:auto;padding:8px 20px 20px;display:flex;flex-direction:column;gap:18px;scrollbar-width:none}
+.onb-body > *{flex-shrink:0}
+.onb-foot{padding:12px 20px calc(24px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:10px}
+.onb h2{font-family:var(--display);font-weight:800;font-size:40px;line-height:.95;margin:0;letter-spacing:-.02em;text-wrap:balance}
+.onb .lede{color:var(--muted)}
+.welcome{background:var(--ink);color:var(--paper)}
+.welcome .onb-body{justify-content:flex-end;gap:16px}
+.patches{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;transform:rotate(-4deg);margin:10px -8px 6px}
+.patch{aspect-ratio:1;border-radius:16px;display:flex;align-items:flex-end;padding:10px;font-family:var(--display);font-weight:800;font-size:17px;line-height:1;position:relative;overflow:hidden}
+.patch small{position:absolute;top:9px;left:10px;font-family:var(--mono);font-weight:400;font-size:9px;letter-spacing:.06em;text-transform:uppercase;opacity:.8}
+.welcome .masthead{font-family:var(--display);font-weight:900;font-size:clamp(64px,21vw,84px);line-height:.8;letter-spacing:-.045em;margin:0}
+.welcome p{margin:0;font-size:17px;line-height:1.35;opacity:.85}
+.welcome .primary{background:var(--paper);color:var(--ink)}
+.welcome .ghost{border-color:var(--paper);color:var(--paper)}
+.welcome .fine{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;opacity:.6;text-align:center}
+.pick{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pick button{aspect-ratio:1/1.05;border-radius:18px;padding:12px;text-align:left;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;border:3px solid transparent;transition:transform .15s}
+.pick button[aria-pressed="false"]{opacity:.42;filter:saturate(.4)}
+.pick button[aria-pressed="true"]{border-color:var(--ink)}
+.pick b{font-family:var(--display);font-weight:900;font-size:24px;line-height:.9;position:relative;z-index:1;padding-right:26px}
+.pick span{font-size:12px;position:relative;z-index:1;line-height:1.25}
+.pick .check{position:absolute;top:10px;right:10px;width:24px;height:24px;border-radius:50%;background:var(--paper);color:var(--ink);display:grid;place-items:center;font-size:13px;font-weight:800;z-index:2}
+.pick button[aria-pressed="false"] .check{display:none}
+.build{background:var(--ink);color:var(--paper)}
+.build .step{border-top-color:color-mix(in srgb,var(--paper) 18%,transparent)}
+.build .step.done .ic{background:var(--paper);color:var(--ink)}
+.build-issues{display:flex;gap:6px;flex-wrap:wrap}
+.build-issues span{border-radius:99px;padding:6px 12px;font-weight:700;font-size:13px}
+
+/* ---------- about ---------- */
+.about{position:absolute;inset:0;z-index:35;background:var(--paper);transform:translateX(100%);transition:transform .35s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column}
+.about.open{transform:none}
+.about-top{position:sticky;top:0;padding:50px 18px 10px;display:flex;justify-content:space-between;align-items:center;background:var(--paper);z-index:2;border-bottom:1px solid var(--line)}
+.about-body{flex:1;min-height:0;overflow-y:auto;padding:20px 22px 60px;display:flex;flex-direction:column;gap:26px;scrollbar-width:none}
+.about-body > *{flex-shrink:0}
+.about h2{font-family:var(--display);font-weight:900;font-size:64px;line-height:.85;margin:0;letter-spacing:-.04em}
+.about h3{font-family:var(--display);font-weight:800;font-size:28px;line-height:1;margin:0 0 4px}
+.about section{display:flex;flex-direction:column;gap:12px}
+.about p{margin:0;font-size:15px}
+.about .muted{color:var(--muted)}
+.flow{display:flex;flex-direction:column;align-items:stretch;gap:0}
+.flow .node{border-radius:16px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;background:var(--paper-2)}
+.flow .node b{font-size:15px}
+.flow .node span{font-size:13px;color:var(--muted)}
+.flow .node.dark{background:var(--ink);color:var(--paper)}
+.flow .node.dark span{color:color-mix(in srgb,var(--paper) 70%,transparent)}
+.flow .node.agent{background:var(--custom);color:var(--custom-ink)}
+.flow .node.agent span{color:var(--custom-ink);opacity:.75}
+.flow .arrow{align-self:center;width:2px;height:18px;background:var(--line);position:relative}
+.flow .arrow::after{content:"";position:absolute;bottom:-2px;left:-4px;border:5px solid transparent;border-top-color:var(--line)}
+.pipes{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px}
+.pipes i{font-style:normal;font-family:var(--mono);font-size:10px;letter-spacing:.04em;border:1px solid color-mix(in srgb,var(--paper) 35%,transparent);border-radius:99px;padding:3px 8px}
+.pagelist{display:flex;flex-direction:column}
+.pagelist div{display:grid;grid-template-columns:28px 1fr;gap:10px;padding:11px 0;border-top:1px solid var(--line)}
+.pagelist div > span:first-child{font-family:var(--display);font-weight:900;font-size:20px;line-height:1.1}
+.pagelist b{display:block;font-size:15px}
+.pagelist small{display:block;font-size:13px;color:var(--muted)}
+.pagelist em{font-style:normal;font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--early)}
+.status-table{display:grid;grid-template-columns:auto 1fr;gap:8px 12px;font-size:14px;margin:0}
+.status-table dt{font-weight:700;font-size:11.5px;padding:3px 9px;border-radius:99px;align-self:start;white-space:nowrap}
+.status-table dd{margin:0}
+.st-built{color:var(--up);background:color-mix(in srgb,var(--up) 14%,transparent)}
+.st-sample{color:var(--warn);background:color-mix(in srgb,var(--warn) 16%,transparent)}
+.st-code{color:var(--early);background:color-mix(in srgb,var(--early) 14%,transparent)}
+.st-not{color:var(--flat);background:color-mix(in srgb,var(--flat) 16%,transparent)}
+.about a{color:inherit;font-weight:600}
+.note-actions{display:flex;gap:8px;flex-wrap:wrap}
+.note-actions button,.note-actions a{border:1.5px solid var(--ink);border-radius:99px;padding:8px 14px;font-weight:700;font-size:13px;color:var(--ink);text-decoration:none}
+
+/* ---------- evidence agent ---------- */
+.agent{border-radius:14px;padding:10px 12px;background:color-mix(in srgb,var(--custom) 45%,transparent);display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:12.5px;text-align:left;width:100%}
+.agent .who{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;font-weight:500;display:flex;align-items:center;gap:6px}
+.agent .who::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--custom-hi)}
+.agent .more{margin-left:auto;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.rev{font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px}
+.rev-approved{color:var(--up);background:color-mix(in srgb,var(--up) 14%,transparent)}
+.rev-pending{color:var(--warn);background:color-mix(in srgb,var(--warn) 16%,transparent)}
+.runbar{display:flex;justify-content:space-between;align-items:center;gap:12px;border:1.5px dashed var(--custom-hi);border-radius:16px;padding:12px 14px}
+.runbar b{display:block;font-size:14.5px}
+.runbar span{font-size:12.5px;color:var(--muted)}
+.runbar button{background:var(--custom-hi);color:#fff;border-radius:99px;padding:9px 14px;font-weight:700;font-size:13px;white-space:nowrap}
+.trace .step{border-top-color:var(--line)}
+.trace .step.done .ic{background:var(--custom-hi);color:#fff;border-color:var(--custom-hi)}
+
+</style>
+</head>
+<body>
+<div class="stage">
+  <aside class="note">
+    <h1>WHOLE<em>Working title · clickable prototype v3</em></h1>
+    <p>A weekly magazine for your health and beauty. Every card is an issue, built from Anthropologic pipeline runs.</p>
+    <dl>
+      <dt>Cover</dt><dd>Trends</dd>
+      <dt>Conversation</dt><dd>Discourse</dd>
+      <dt>Asking</dt><dd>Discourse · posted vs searched</dd>
+      <dt>Real or hype</dt><dd>Discourse + WHOLE Evidence Agent</dd>
+      <dt>Who's talking</dt><dd>Digital Segmentation</dd>
+      <dt>Shop</dt><dd>Brand Performance · affiliate</dd>
+      <dt>Where now</dt><dd>Trends, re-run over time</dd>
+      <dt>What's next</dt><dd>Foresight Simulator</dd>
+      <dt>Ask</dt><dd>Ask an Anthropologist</dd>
+    </dl>
+    <div class="note-actions"><button type="button" id="noteAbout">About WHOLE</button><button type="button" id="noteIntro">Replay intro</button><a href="https://github.com/Lilyaddy15/whole-app" target="_blank" rel="noopener">GitHub</a></div>
+    <p class="mono" style="font-size:10.5px">Sample data · pipelines not connected · US women 25–40</p>
+  </aside>
+
+  <div class="device"><div class="screen" id="screen">
+    <main class="home" id="home"></main>
+
+    <nav class="tabbar" aria-label="Main">
+      <button class="on" type="button" id="tabHome"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg>Issues</button>
+      <button type="button" id="tabSaved"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8a3 3 0 016 0"/></svg>Saved<span class="badge" id="savedBadge" hidden></span></button>
+      <button type="button" id="tabNew"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>New card</button>
+      <button type="button" id="tabTune"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>Customize</button>
+    </nav>
+
+    <section class="issue" id="issue" aria-modal="true" role="dialog" aria-label="Issue"></section>
+    <section class="about" id="about" role="dialog" aria-modal="true" aria-label="About WHOLE"></section>
+    <div class="scrim" id="scrim"></div>
+    <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Details"></section>
+    <section class="onb" id="onb" hidden></section>
+    <div class="toast" id="toast" role="status"></div>
+  </div></div>
+</div>
+
+<script src="data/issues.js"></script>
+<script>
+/* ===================== DATA (data/issues.js) ===================== */
+const {TOPICS, THREADS, QUILT} = window.WHOLE_DATA;
+let EVIDENCE = {};
+const SUGGESTED = ['Sleep','Gut health','Hormones','Hair','Supplements','Longevity','Mental wellness','Skin'];
+const PIPE_STEPS = [
+  ['Trends','Finding the cover stat'],
+  ['Discourse','Reading what people say and search'],
+  ['Digital Segmentation','Finding who is talking'],
+  ['Brand Performance','Checking which products people back'],
+  ['Foresight Simulator','Mapping what comes next']
+];
+const STEP_MS = 7000;
+const VERDICT = {real:['Real','v-real'], mixed:['Mixed','v-mixed'], early:['Too early','v-early'], hype:['Hype','v-hype']};
+const PVERDICT = {worth:['Worth it','vd-worth'], dupe:['Dupe it','vd-dupe'], skip:['Skip it','vd-skip'], try:['Try once','vd-try']};
+const STATUS = {rising:['Rising','s-rising','var(--up)'], sticking:['Sticking','s-sticking','var(--early)'], peaked:['Peaked','s-peaked','var(--warn)'], faded:['Faded','s-faded','var(--flat)']};
+
+/* ===================== STATE ===================== */
+const DEFAULT = {order:['nutrition','beauty','exercise'], off:[], custom:[], saved:[], angle:{age:'25–40', goals:['Feel stronger','Better skin'], budget:'Mix it up', values:['Science-backed'], hormones:true}};
+let S;
+try{ S = JSON.parse(localStorage.getItem('whole-proto-v3')||'null') }catch(e){}
+if(!S || !S.order) S = structuredClone(DEFAULT);
+S.saved = S.saved||[]; if(S.angle.hormones===undefined) S.angle.hormones = true;
+const REPO = 'https://github.com/Lilyaddy15/whole-app';
+function save(){ try{ localStorage.setItem('whole-proto-v3', JSON.stringify(S)) }catch(e){} }
+
+const $ = (s,el=document)=>el.querySelector(s);
+const esc = s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const money = n=> n>=100 ? '$'+Math.round(n).toLocaleString() : '$'+n.toFixed(2).replace(/\.00$/,'');
+const ICON = {
+  close:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+  arrow:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
+  tune:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>',
+  grip:'<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="9" cy="6" r="1.6"/><circle cx="15" cy="6" r="1.6"/><circle cx="9" cy="12" r="1.6"/><circle cx="15" cy="12" r="1.6"/><circle cx="9" cy="18" r="1.6"/><circle cx="15" cy="18" r="1.6"/></svg>',
+  send:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 19V5M6 11l6-6 6 6"/></svg>',
+  heart:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"/></svg>',
+  lock:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/></svg>'
+};
+function fitSize(name, max){ const w = Math.min(document.querySelector('.screen').clientWidth, 400) - 44; return Math.round(Math.min(max, w/(name.length*0.62))) }
+function cohort(){ return `Women ${S.angle.age} · US` }
+function colorOf(id){ return TOPICS[id]? TOPICS[id].bg : 'var(--custom)' }
+function visibleTopics(){ return S.order.filter(id=>!S.off.includes(id)) }
+function customProgress(c){ return Math.min(PIPE_STEPS.length, Math.floor((Date.now()-c.created)/STEP_MS)) }
+function spark(pts, color, w=82, h=28){
+  const max = Math.max(...pts), min = Math.min(...pts), n = pts.length;
+  const xy = pts.map((p,i)=>[ (i/(n-1))*(w-6)+3, h-3-((p-min)/((max-min)||1))*(h-8) ]);
+  const d = xy.map((p,i)=>(i?'L':'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' ');
+  const last = xy[n-1];
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-hidden="true"><path d="${d} L${last[0]} ${h} L3 ${h} Z" fill="${color}" opacity=".14"/><path d="${d}" fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/><circle cx="${last[0]}" cy="${last[1]}" r="3" fill="${color}"/></svg>`;
+}
+function glossFor(id, wide){
+  const shapes = {
+    nutrition:`<i class="gloss" style="width:${wide?200:150}px;height:${wide?200:150}px;right:-38px;bottom:-30px;background:radial-gradient(circle at 32% 28%,#fff8 0 8%,var(--nutrition-hi) 30%,#9c2408 100%)"></i>`,
+    beauty:`<i class="gloss" style="width:${wide?90:70}px;height:${wide?220:170}px;right:14px;bottom:-40px;border-radius:40px 40px 20px 20px;transform:rotate(18deg);background:linear-gradient(100deg,#7a0036,#ff5aa5 45%,#fff9 52%,#b3004f 70%)"></i>`,
+    exercise:`<i class="gloss" style="width:${wide?210:160}px;height:${wide?210:160}px;right:-50px;bottom:-50px;border:${wide?26:20}px solid transparent;background:conic-gradient(from 200deg,#0b1480,#6fb8ff,#fff,#2536e4,#0b1480) border-box;-webkit-mask:linear-gradient(#000 0 0) padding-box exclude,linear-gradient(#000 0 0);mask:linear-gradient(#000 0 0) padding-box exclude,linear-gradient(#000 0 0)"></i>`,
+    sleep:`<i class="gloss" style="width:${wide?170:130}px;height:${wide?170:130}px;right:-20px;bottom:-24px;background:radial-gradient(circle at 35% 30%,#fff 0 6%,var(--sleep-hi) 35%,#c98a00 100%)"></i><i class="gloss" style="width:${wide?150:116}px;height:${wide?150:116}px;right:${wide?-46:-40}px;bottom:${wide?10:2}px;background:var(--sleep)"></i>`
+  };
+  return shapes[id]||'';
+}
+// "How we know" receipts
+const RECEIPTS = {};
+let rid = 0;
+function how(label, r){ const k='r'+(rid++); RECEIPTS[k]=r; return `<button class="how" data-how="${k}">${esc(label||'How we know')}</button>` }
+function wireHow(root){ root.querySelectorAll('[data-how]').forEach(b=>b.onclick=e=>{ e.stopPropagation(); openReceipt(RECEIPTS[b.dataset.how]) }) }
+
+/* ===================== HOME ===================== */
+function renderHome(){
+  const visible = visibleTopics();
+  const qItems = QUILT.filter(q=>q.topics.some(t=>visible.includes(t)));
+  const threads = Object.entries(THREADS).filter(([,t])=>t.topics.filter(x=>visible.includes(x)).length>=2);
+  let cards = '';
+  visible.forEach((id,i)=>{
+    const c = TOPICS[id];
+    const wide = i===0;
+    cards += `<button class="cover-card ${wide?'wide':''}" style="background:${c.bg};color:${c.ink}" data-open="${id}" aria-label="Open ${c.name} issue">
+      ${glossFor(id,wide)}
+      <div><div class="tag mono">Issue 42</div><div class="t">${c.name}</div></div>
+      <div><div class="stat">${c.stat}</div><div class="line">${esc(c.cover[0][0])}</div></div>
+    </button>`;
+  });
+  S.custom.forEach(c=>{
+    const p = customProgress(c), ready = p>=PIPE_STEPS.length;
+    cards += `<button class="cover-card working" data-custom="${c.id}" aria-label="Open ${esc(c.name)}">
+      <div><div class="tag mono">${ready?'Ready · mock':'In the works'}</div><div class="t">${esc(c.name)}</div></div>
+      <div style="display:flex;flex-direction:column;gap:8px;position:relative;z-index:1">
+        <div class="line" data-live="${c.id}-label">${ready?'All 5 pipelines done':PIPE_STEPS[p][0]+'…'}</div>
+        <div class="bar"><i data-live="${c.id}-bar" style="width:${Math.round(p/PIPE_STEPS.length*100)}%"></i></div>
+      </div>
+    </button>`;
+  });
+  cards += `<button class="newcard" id="addCard"><span class="plus">+</span>New card</button>`;
+
+  const hypeCards = visible.flatMap(id=>TOPICS[id].hype.slice(1,3).map(h=>({...h,id}))).slice(0,6);
+  const asks = visible.map(id=>({...TOPICS[id].asking[0], id}));
+  const lifes = visible.flatMap(id=>TOPICS[id].life.filter(l=>l.s!=='rising').slice(0,1).map(l=>({...l,id})));
+
+  $('#home').innerHTML = `
+    <header class="mast">
+      <div class="mast-row"><span class="sample">Prototype · sample data</span>
+        <span style="display:flex;gap:8px"><button class="iconbtn" id="aboutBtn" aria-label="About WHOLE"><span style="font-family:var(--display);font-style:italic;font-weight:800;font-size:19px">i</span></button><button class="iconbtn" id="tuneBtn" aria-label="Customize">${ICON.tune}</button></span></div>
+      <h2>WHOLE</h2>
+      <div class="dateline mono"><span>Week of Oct 12</span><span>No. 42</span></div>
+    </header>
+
+    <section class="quilt" aria-label="Your quilt this week">
+      <span class="mono kicker">Your quilt · this week</span>
+      <h3>Three things worth knowing</h3>
+      <div class="qitems">
+        ${qItems.map((q,i)=>`<button class="qitem" data-go="${q.open.join(':')}">
+          <span class="n">${i+1}</span>
+          <span><b>${esc(q.t)}</b><span class="why">${esc(q.why)}</span>
+          <span class="dots">${q.topics.map(t=>`<i class="dot" style="background:${colorOf(t)}"></i>`).join('')}<span class="lbl">${q.topics.map(t=>TOPICS[t].name).join(' + ')}</span></span></span>
+        </button>`).join('') || '<p style="margin:0;opacity:.7;font-size:14px">Turn on a card to see what’s worth knowing this week.</p>'}
+      </div>
+    </section>
+
+    <div class="sechead"><h4>Your issues</h4><button id="editBtn" type="button">Edit</button></div>
+    <div class="subline mono">For: ${esc(cohort())} · ${esc(S.angle.values.join(', ')||'Any approach')}</div>
+    <div class="grid">${cards}</div>
+
+    ${threads.length?`<section class="block">
+      <div class="sechead"><h4>Threads</h4></div>
+      <div class="subline mono" style="margin-top:-6px">Where your topics connect</div>
+      <div class="rail">${threads.map(([k,t])=>`<button class="thread-card" style="background:${t.grad}" data-go="thread:${k}">
+        <span class="dots">${t.topics.map(x=>`<i class="dot" style="background:${colorOf(x)}"></i>`).join('')}<span class="lbl" style="opacity:.9">${t.topics.length} issues</span></span>
+        <span><span class="t">${t.name}</span><span class="l" style="display:block;margin-top:6px">${esc(t.stat)} ${esc(t.statLine)}</span></span>
+      </button>`).join('')}</div>
+    </section>`:''}
+
+    ${hypeCards.length?`<section class="block">
+      <div class="sechead"><h4>Real or hype?</h4></div>
+      <div class="subline mono" style="margin-top:-6px">This week’s trends, checked</div>
+      <div class="rail">${hypeCards.map(h=>`<button class="hype-card" data-go="issue:${h.id}:hype">
+        ${stampFor(h)}
+        <span class="dots" style="margin:0"><i class="dot" style="background:${colorOf(h.id)}"></i><span class="lbl" style="color:var(--muted);opacity:1">${TOPICS[h.id].name}</span></span>
+        <b>${esc(h.t)}</b><span class="says">${esc(h.says)}</span>
+      </button>`).join('')}</div>
+    </section>`:''}
+
+    ${asks.length?`<section class="block">
+      <div class="sechead"><h4>Asking, not posting</h4></div>
+      <div class="subline mono" style="margin-top:-6px">Searched far more than shared</div>
+      <div>${asks.map(a=>`<button class="ask-row" data-go="issue:${a.id}:asking">
+        <span class="mult">${a.mult}</span>
+        <span><q>${esc(a.q)}</q><span class="mono"><i class="dot" style="background:${colorOf(a.id)}"></i>${TOPICS[a.id].name}</span></span>
+      </button>`).join('')}</div>
+    </section>`:''}
+
+    ${lifes.length?`<section class="block">
+      <div class="sechead"><h4>Where are they now?</h4></div>
+      <div class="subline mono" style="margin-top:-6px">Trends we’re still following</div>
+      <div>${lifes.map(l=>`<button class="life-row" data-go="issue:${l.id}:life">
+        <span><b>${esc(l.t)}</b><span class="n">${esc(l.since)}</span></span>
+        ${spark(l.pts, STATUS[l.s][2])}
+        <span class="status ${STATUS[l.s][1]}">${STATUS[l.s][0]}</span>
+      </button>`).join('')}</div>
+    </section>`:''}
+  `;
+  $('#home').querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>openIssue(b.dataset.open));
+  $('#home').querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>go(b.dataset.go));
+  $('#home').querySelectorAll('[data-custom]').forEach(b=>b.onclick=()=>openWorking(b.dataset.custom));
+  $('#addCard').onclick = ()=>openSheet('create');
+  $('#tuneBtn').onclick = ()=>openSheet('tune');
+  $('#aboutBtn').onclick = openAbout;
+  $('#editBtn').onclick = ()=>openSheet('cards');
+  updateBadge();
+}
+function go(spec){
+  const [kind,id,page] = spec.split(':');
+  if(kind==='thread') openThread(id); else openIssue(id, page);
+}
+
+/* ===================== PAGER (shared by issues and threads) ===================== */
+let curPage = 0, pagerState = null;
+function openPager({pages, names, theme, startKey}){
+  pagerState = {names, theme, count:pages.length};
+  const el = $('#issue');
+  el.innerHTML = `
+    <div class="issue-top" id="issueTop">
+      <div class="segs" id="segs">${pages.map((_,i)=>`<button aria-label="${esc(names[i])}" data-p="${i}"><i></i></button>`).join('')}</div>
+      <div class="issue-meta"><span class="mono" id="pageName"></span><button class="closebtn" id="closeIssue" aria-label="Close">${ICON.close}</button></div>
+    </div>
+    <div class="pager" id="pager">${pages.map(p=>p.html).join('')}</div>
+    <button class="prev" id="prevBtn" aria-label="Previous page" hidden>${ICON.arrow}</button>
+    <button class="next" id="nextBtn" style="background:${theme.bg};color:${theme.ink}">Next ${ICON.arrow}</button>`;
+  el.classList.add('open');
+  const pager = $('#pager');
+  $('#closeIssue').onclick = closeIssue;
+  $('#nextBtn').onclick = ()=> curPage<pages.length-1 ? goPage(curPage+1) : closeIssue();
+  $('#prevBtn').onclick = ()=> goPage(curPage-1);
+  $('#segs').querySelectorAll('button').forEach(b=>b.onclick=()=>goPage(+b.dataset.p));
+  pager.onscroll = ()=>{ const p = Math.round(pager.scrollLeft/pager.clientWidth); if(p!==curPage){curPage=p; syncPager()} };
+  wireHow(el);
+  el.querySelectorAll('[data-prod]').forEach(b=>b.onclick=e=>{ if(e.target.closest('.savebtn,.shopbtn')) return; openProduct(b.dataset.prod) });
+  el.querySelectorAll('.shopbtn').forEach(b=>b.onclick=e=>{ e.stopPropagation(); openProduct(b.dataset.key) });
+  el.querySelectorAll('.savebtn').forEach(b=>b.onclick=e=>{ e.stopPropagation(); toggleSave(b.dataset.key); b.setAttribute('aria-pressed', S.saved.includes(b.dataset.key)) });
+  el.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>go(b.dataset.go));
+  const start = Math.max(0, pages.findIndex(p=>p.key===startKey));
+  curPage = start;
+  requestAnimationFrame(()=>{ pager.scrollLeft = start*pager.clientWidth; syncPager() });
+}
+function goPage(p){ const pager=$('#pager'); pager.scrollTo({left:p*pager.clientWidth, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}); curPage=p; syncPager() }
+function syncPager(){
+  const {names, theme, count} = pagerState;
+  $('#segs').querySelectorAll('button').forEach((b,i)=>b.classList.toggle('on', i<=curPage));
+  $('#pageName').textContent = names[curPage];
+  const onCover = curPage===0;
+  $('#issueTop').style.color = onCover ? theme.ink : 'var(--ink)';
+  $('#issueTop').style.setProperty('--top-bg', onCover ? 'transparent' : 'var(--paper)');
+  $('#closeIssue').style.background = onCover ? 'rgba(0,0,0,.16)' : 'var(--paper-2)';
+  $('#prevBtn').hidden = onCover;
+  $('#nextBtn').innerHTML = (curPage===count-1 ? 'Done' : onCover ? 'Open issue' : 'Next') + ' ' + ICON.arrow;
+}
+function closeIssue(){ $('#issue').classList.remove('open'); pagerState=null; clearInterval(workTimer) }
+
+/* ===================== ISSUE ===================== */
+function splitRow(label, v, color){ return `<span class="lab">${label}</span><span class="track"><i style="width:${v*3}%;background:${color}"></i></span><span class="v">${v}%</span>` }
+function verdictOf(t){
+  const r = t.searched/Math.max(t.posted,1);
+  if(r>=1.6) return ['Quietly googled','var(--custom)','var(--custom-ink)'];
+  if(r<=0.6) return ['Loud online','var(--ink)','var(--paper)'];
+  return ['Talked & searched','var(--paper-2)','var(--ink)'];
+}
+function eyebrow(c, label){ return `<div class="eyebrow mono"><i class="sw" style="background:${c.bg}"></i>${c.name} · ${label}</div>` }
+function hormoneNote(h){
+  if(!S.angle.hormones) return '';
+  return `<aside class="hormone"><span class="mono">Hormone lens</span><b>${esc(h.b)}</b><p>${esc(h.p)}</p></aside>`;
+}
+function productCard(topicId, p, i){
+  const key = `${topicId}:${i}`;
+  const budgetPick = p.dupe && S.angle.budget==='Drugstore' && p.dupe.price < p.price;
+  const v = PVERDICT[p.verdict];
+  return `<article class="prod" data-prod="${key}" tabindex="0">
+    <div class="prod-top">
+      <span class="thumb" style="background:${TOPICS[topicId].bg};color:${TOPICS[topicId].ink}">${esc(p.mark)}</span>
+      <span><h5>${esc(p.name)}</h5><span class="brandname">${esc(p.brand)}</span></span>
+      <span class="price">${money(p.price)}<small>${money(p.perUse)} / use</small></span>
+    </div>
+    <span class="verdict ${v[1]}">${v[0]}</span>
+    ${budgetPick?`<div class="dupe-line" style="background:color-mix(in srgb,var(--custom) 55%,transparent)"><span><span class="budget-note" style="display:block">Your budget pick</span>${esc(p.dupe.name)}</span><b>${money(p.dupe.price)}</b></div>`:''}
+    <dl class="street"><dt>Loved</dt><dd>${esc(p.loved)}</dd><dt>Gripes</dt><dd>${esc(p.gripes)}</dd></dl>
+    ${p.dupe && !budgetPick?`<div class="dupe-line"><span>${p.verdict==='skip'?'Instead':'Dupe'}: ${esc(p.dupe.name)}</span><b>${money(p.dupe.price)}</b></div>`:''}
+    <div class="prod-actions">
+      <button class="shopbtn" data-key="${key}">Shop · from ${money(Math.min(...p.shops.map(s=>s[1])))}</button>
+      <button class="savebtn" data-key="${key}" aria-pressed="${S.saved.includes(key)}" aria-label="Save">${ICON.heart}</button>
+    </div>
+  </article>`;
+}
+
+const ISSUE_PAGES = [['cover','Cover'],['conversation','The conversation'],['asking','Asking, not posting'],['hype','Real or hype?'],['who','Who’s talking'],['shop','Shop the issue'],['life','Where are they now?'],['next','What’s next'],['ask','Ask']];
+function openIssue(id, startKey){
+  const c = TOPICS[id]; if(!c) return;
+  const R = c.receipt;
+  const P = {};
+  P.cover = `<section class="pg cover" style="background:${c.bg};color:${c.ink}">
+    ${glossFor(id,true).replace(/width:200px;height:200px/,'width:320px;height:320px')}
+    <h2 class="masthead" style="font-size:${fitSize(c.name,104)}px">${c.name}<small>Whole · Issue 42</small></h2>
+    <div class="big"><div class="stat">${c.stat}</div><div class="sl">${esc(c.statLine)}</div></div>
+    <div class="lines">${c.cover.map(l=>`<div><b>${esc(l[0])}</b>${esc(l[1])}</div>`).join('')}</div>
+    <div class="foot mono"><span>${esc(cohort())}</span><span>Swipe →</span></div>
+  </section>`;
+  P.conversation = `<section class="pg">
+    ${eyebrow(c,'The conversation')}
+    <p class="answer">${esc(c.answer)}</p>
+    <p class="lede">${esc(c.lede)}</p>
+    ${how('How we know', {title:c.name+': the conversation', rows:[['Pipeline',R.pipe],['Read',R.posts],['Window',R.window],['Who',cohort()],['Sources','TikTok, Instagram, Reddit, YouTube, Google search']], note:'The headline and themes are written by our editors from the pipeline output. Percentages are each theme’s share of posts and of searches.'})}
+    ${hormoneNote(c.hormone)}
+    <h2 style="font-size:30px;margin-top:6px">Six things everyone’s talking about</h2>
+    ${c.themes.map(t=>{const v=verdictOf(t);return `<div class="theme">
+      <h5>${esc(t.h)}</h5><p>${esc(t.p)}</p>
+      <div class="split">${splitRow('Posted',t.posted,'var(--ink)')}${splitRow('Searched',t.searched,c.bg)}</div>
+      <span class="pill" style="background:${v[1]};color:${v[2]}">${v[0]}</span>
+    </div>`}).join('')}
+  </section>`;
+  P.asking = `<section class="pg">
+    ${eyebrow(c,'Asking, not posting')}
+    <h2>What women search but don’t share</h2>
+    <p class="lede">These questions get far more searches than posts. They’re often the most personal, so nobody is answering them in public.</p>
+    ${c.asking.map(a=>`<div class="big-ask" style="background:${c.bg};color:${c.ink}">
+      <span class="mult">${a.mult}</span><span class="mono" style="opacity:.8">more searched than posted</span>
+      <q>${esc(a.q)}</q><p>${esc(a.a)}</p>
+    </div>`).join('')}
+    ${how('How we know', {title:'Asking, not posting', rows:[['Pipeline','Discourse · posted vs searched'],['Read',R.posts],['Window',R.window],['Who',cohort()]], note:'The multiplier compares a question’s share of searches with its share of posts. 3× means it’s three times as present in search as in public posts.'})}
+  </section>`;
+  P.hype = `<section class="pg">
+    ${eyebrow(c,'Real or hype?')}
+    <h2>This issue’s trends, checked</h2>
+    <div class="legend"><span class="v-real"><i></i>Real</span><span class="v-mixed"><i></i>Mixed</span><span class="v-early"><i></i>Too early</span><span class="v-hype"><i></i>Hype</span></div>
+    <div class="runbar"><span><b>Checked by the WHOLE Evidence Agent</b><span>Searches medical research, then an editor approves.</span></span><button data-run="${id}">Re-check</button></div>
+    ${c.hype.map(h=>{const e=evidenceFor(h);return `<div class="hype">
+      ${stampFor(h)}
+      <h5>${esc(h.t)}</h5>
+      <div class="two"><div><span class="mono">What people say</span>${esc(h.says)}</div><div><span class="mono">What the evidence says</span>${esc(e.evidence)}</div></div>
+      <button class="agent" data-ev="${h.id}"><span class="who">Evidence Agent</span><span>${esc(cap(e.confidence))} confidence</span><span>${esc((e.source_types||[]).join(' · '))}</span><span class="rev rev-${e.review.status}">${e.review.status==='approved'?'Editor approved':'Awaiting editor'}</span><span class="more">How it was checked</span></button>
+    </div>`}).join('')}
+    <p class="hint">General information from published research and what people share. Not medical advice.</p>
+  </section>`;
+  P.who = `<section class="pg">
+    ${eyebrow(c,'Who’s talking')}
+    <h2>Four kinds of women in this conversation</h2>
+    ${c.segments.map(s=>`<article class="seg">
+      <span class="name">${esc(s.n)}</span>
+      <q>${esc(s.q)}</q>
+      <div class="share"><span class="track"><i style="width:${s.share*2.5}%;background:${c.bg}"></i></span><b>${s.share}%</b></div>
+      <dl class="meta"><dt>Gets in by</dt><dd>${esc(s.trigger)}</dd><dt>Buys</dt><dd>${esc(s.buys)}</dd></dl>
+    </article>`).join('')}
+    ${how('How we know', {title:'Who’s talking', rows:[['Pipeline','Digital Segmentation'],['Read',R.posts],['Window',R.window]], note:'Groups are built from how people talk and what they do online. Percentages are each group’s share of the conversation.'})}
+  </section>`;
+  P.shop = `<section class="pg">
+    ${eyebrow(c,'Shop the issue')}
+    <h2>What people actually back</h2>
+    <p class="disclose"><b>Ranked by what people say, never by commission.</b> We may earn a commission when you shop through these links. It never changes the order or the verdict.</p>
+    ${S.angle.budget==='Drugstore'?'<span class="budget-note">Budget: Drugstore · cheaper picks are highlighted</span>':''}
+    ${c.products.map((p,i)=>productCard(id,p,i)).join('')}
+    <h2 style="font-size:26px;margin-top:6px">Brand momentum</h2>
+    ${c.brands.map(b=>`<div class="brand"><h5>${esc(b.b)}</h5><span class="trend ${b.t}">${b.t==='up'?'↑':b.t==='down'?'↓':'→'} ${b.tl}</span><p class="what">${esc(b.what)}</p></div>`).join('')}
+    ${how('How we know', {title:'Shop the issue', rows:[['Pipeline','Brand Performance · social, search & AI answers'],['Word on the street','Discourse · product mentions'],['Prices','Retailer feeds (mock)'],['Order','By mentions and sentiment, not commission']], note:'“Worth it”, “Dupe it”, “Try once” and “Skip it” summarize what people say after buying. Cost per use is the price divided by typical uses.'})}
+  </section>`;
+  P.life = `<section class="pg">
+    ${eyebrow(c,'Where are they now?')}
+    <h2>Did it last?</h2>
+    <p class="lede">We keep checking trends after the hype. Here’s where this issue’s past trends landed.</p>
+    <div class="legend">${Object.values(STATUS).map(s=>`<span style="color:${s[2]}"><i></i>${s[0]}</span>`).join('')}</div>
+    ${c.life.map(l=>`<div class="life-big">
+      <div class="row"><h5>${esc(l.t)}</h5><span class="status ${STATUS[l.s][1]}">${STATUS[l.s][0]}</span></div>
+      ${spark(l.pts, STATUS[l.s][2], 300, 46)}
+      <p>${esc(l.since)}</p>
+    </div>`).join('')}
+    ${how('How we know', {title:'Where are they now?', rows:[['Pipeline','Trends, re-run every month'],['Line','Monthly share of conversation, last 8 months'],['Window','Feb – Sep 2026']], note:'“Sticking” means a trend settled into a steady habit after its peak. “Faded” means it dropped to a small share of its peak.'})}
+  </section>`;
+  P.next = `<section class="pg">
+    ${eyebrow(c,'What’s next')}
+    <h2>Where ${c.name.toLowerCase()} is heading</h2>
+    <div class="tl">${c.next.map(n=>`<div class="tl-item"><div class="when">${n.w}<small>${n.s}</small></div><div><h5>${esc(n.h)}</h5><p>${esc(n.p)}</p></div></div>`).join('')}</div>
+    <h2 style="font-size:26px;margin-top:8px">Two possible futures</h2>
+    <div class="worlds">${c.worlds.map(w=>`<div class="world"><b>${esc(w[0])}</b><span>${esc(w[1])}</span></div>`).join('')}</div>
+    ${how('How we know', {title:'What’s next', rows:[['Pipeline','Foresight Simulator'],['Horizon','2030'],['Depth','Quick']], note:'Futures are scenarios built from current forces, not predictions.'})}
+  </section>`;
+  P.ask = `<section class="pg">
+    ${eyebrow(c,'Ask')}
+    <h2>Ask about this issue</h2>
+    <div class="chips" id="askChips">${c.qa.map((x,i)=>`<button class="chip" data-q="${i}">${esc(x.q)}</button>`).join('')}</div>
+    <div class="convo" id="convo"></div>
+    <form class="askbar" id="askForm"><label for="askInput" style="position:absolute;left:-9999px">Your question</label><input id="askInput" placeholder="Ask anything about ${c.name.toLowerCase()}…" autocomplete="off"><button aria-label="Ask">${ICON.send}</button></form>
+    <p class="src mono"><span>Ask an Anthropologist · sample answers</span></p>
+  </section>`;
+  openPager({pages: ISSUE_PAGES.map(([k])=>({key:k, html:P[k]})), names: ISSUE_PAGES.map(p=>p[1]), theme:{bg:c.bg, ink:c.ink}, startKey});
+  $('#issue').querySelectorAll('[data-ev]').forEach(b=>b.onclick=()=>openEvidence(id, b.dataset.ev));
+  $('#issue').querySelectorAll('[data-run]').forEach(b=>b.onclick=()=>runAgent(id));
+  $('#issue').querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{ b.classList.add('on'); ask(c.qa[+b.dataset.q].q, c.qa[+b.dataset.q].a) });
+  $('#askForm').onsubmit = e=>{ e.preventDefault(); const v=$('#askInput').value.trim(); if(!v) return; $('#askInput').value='';
+    ask(v, `In the live app this goes to Ask an Anthropologist, which reads your question against this issue’s ${c.themes.length} themes and ${c.segments.length} audience groups. The closest thread in this mockup: ${c.answer}`) };
+}
+function ask(q, a){
+  const convo = $('#convo');
+  convo.insertAdjacentHTML('beforeend', `<div class="bubble me">${esc(q)}</div>`);
+  const t = document.createElement('div'); t.className='bubble them'; t.innerHTML='<span class="typing"><i></i><i></i><i></i></span>';
+  convo.appendChild(t); t.scrollIntoView({block:'nearest',behavior:'smooth'});
+  setTimeout(()=>{ t.innerHTML = `<span class="who mono">Whole · from this issue</span>${esc(a)}`; t.scrollIntoView({block:'nearest',behavior:'smooth'}) }, 1100);
+}
+
+/* ===================== THREAD ISSUE ===================== */
+function openThread(tid){
+  const t = THREADS[tid]; if(!t) return;
+  const vis = visibleTopics(); const tops = t.topics.filter(x=>vis.includes(x));
+  const theme = {bg:'var(--ink)', ink:'#fff'};
+  const pages = [
+    {key:'cover', html:`<section class="pg cover" style="background:${t.grad};color:#fff">
+      <h2 class="masthead" style="font-size:${fitSize(t.name,96)}px">${esc(t.name)}<small>A thread · ${tops.length} of your issues</small></h2>
+      <div class="big"><div class="stat" style="font-size:96px">${esc(t.stat)}</div><div class="sl">${esc(t.statLine)}</div></div>
+      <div class="lines"><div><b>Across your quilt</b>${tops.map(x=>TOPICS[x].name).join(', ')}</div></div>
+      <div class="foot mono"><span>${esc(cohort())}</span><span>Swipe →</span></div>
+    </section>`},
+    {key:'across', html:`<section class="pg">
+      <div class="eyebrow mono"><span class="dots" style="margin:0">${tops.map(x=>`<i class="dot" style="background:${colorOf(x)}"></i>`).join('')}</span>Thread · ${esc(t.name)}</div>
+      <h2>One story, ${tops.length} of your issues</h2>
+      <p class="lede">${esc(t.lede)}</p>
+      ${tops.map(x=>{const c=TOPICS[x], f=t.facets[x];return `<button class="facet" style="background:${c.bg};color:${c.ink}" data-go="issue:${x}">
+        <span class="mono">In ${c.name}</span><b>${esc(f.b)}</b><p>${esc(f.p)}</p><span class="go">Open the ${c.name} issue ${ICON.arrow}</span>
+      </button>`}).join('')}
+      ${how('How we know', {title:'Threads', rows:[['How','Themes that appear in two or more of your issues'],['Pipelines','Discourse across each topic’s run'],['Window','Jul 1 – Sep 30, 2026']], note:'A thread links themes that show up in more than one of your issues.'})}
+    </section>`},
+    {key:'asking', html:`<section class="pg">
+      <div class="eyebrow mono">Thread · ${esc(t.name)} · Asking, not posting</div>
+      <h2>The private questions</h2>
+      ${t.asking.map(a=>`<div class="ask-row"><span class="mult">${a.mult}</span><span><q>${esc(a.q)}</q></span></div>`).join('')}
+    </section>`},
+    {key:'todo', html:`<section class="pg">
+      <div class="eyebrow mono">Thread · ${esc(t.name)} · What to do</div>
+      <h2>If this is you</h2>
+      <div class="todo">${t.todo.map((x,i)=>`<div><span>${i+1}</span>${esc(x)}</div>`).join('')}</div>
+      <p class="hint">General information from what people share and published research, not medical advice.</p>
+    </section>`}
+  ];
+  openPager({pages, names:['Cover','Across your quilt','Asking, not posting','What to do'], theme, startKey:'cover'});
+}
+
+/* ---------- in-the-works issue ---------- */
+let workTimer = null;
+function openWorking(cid){
+  const c = S.custom.find(x=>x.id===cid); if(!c) return;
+  const el = $('#issue');
+  const draw = ()=>{
+    const p = customProgress(c), ready = p>=PIPE_STEPS.length;
+    el.innerHTML = `
+      <div class="issue-top" style="color:var(--custom-ink)"><div class="issue-meta"><span class="mono">${ready?'Ready':'In the works'}</span><button class="closebtn" id="closeIssue" aria-label="Close">${ICON.close}</button></div></div>
+      <div class="pager"><section class="pg" style="background:var(--custom);color:var(--custom-ink)">
+        <h2 style="font-family:var(--display);font-weight:900;font-size:64px;line-height:.85;letter-spacing:-.03em">${esc(c.name)}</h2>
+        <p class="answer">${ready?'Your issue is ready.':'We’re putting your issue together.'}</p>
+        <p class="lede">${ready?'In the live app, your new issue opens here with all nine pages.':'Five research pipelines run on your topic, and the Evidence Agent checks its trends. We’ll let you know when the issue is ready. Live runs take about 15–40 minutes; this prototype runs fast.'}</p>
+        ${c.topic?'<p class="hint" style="color:inherit;opacity:.8">This one has sample content, so it opens as a full issue when it finishes.</p>':''}
+        <div class="steps">${PIPE_STEPS.map((s,i)=>`<div class="step ${i<p?'done':i===p?'run':'wait'}"><span class="ic">${i<p?'✓':''}</span><span><b>${s[1]}</b><span class="mono" style="font-size:10px">${s[0]}</span></span><span class="mono" style="font-size:10px">${i<p?'Done':i===p?'Running':'Queued'}</span></div>`).join('')}</div>
+        <dl class="brief" style="border-color:rgba(28,15,61,.25)">
+          <dt>Topic</dt><dd>${esc(c.name)}</dd><dt>Cohort</dt><dd>Women ${esc(S.angle.age)}</dd><dt>Market</dt><dd>US</dd><dt>Window</dt><dd>Last 3 months</dd><dt>Angle</dt><dd>${esc(S.angle.values.join(', ')||'Go broad')}</dd>
+        </dl>
+        ${ready?`<p class="mono" style="font-size:10.5px;opacity:.75">Mockup: live pipelines aren’t connected, so there’s no issue to show yet.</p>`:''}
+        <button class="ghost" id="removeCard" style="color:var(--custom-ink);border-color:currentColor">Remove this card</button>
+      </section></div>`;
+    $('#closeIssue').onclick = closeIssue;
+    $('#removeCard').onclick = ()=>{ S.custom = S.custom.filter(x=>x.id!==cid); save(); closeIssue(); renderHome(); toast('Card removed') };
+    if(ready) clearInterval(workTimer);
+  };
+  draw(); el.classList.add('open');
+  clearInterval(workTimer); workTimer = setInterval(draw, 1000);
+}
+
+/* ===================== SHEETS ===================== */
+let sheetTab = 'cards';
+function showSheet(html){ const sh=$('#sheet'); sh.innerHTML=html; sh.classList.add('open'); $('#scrim').classList.add('open'); return sh }
+function openSheet(tab){
+  if(tab==='create') return drawCreate();
+  if(tab==='saved') return drawSaved();
+  sheetTab = tab; drawCustomize();
+}
+function closeSheet(){ $('#sheet').classList.remove('open'); $('#scrim').classList.remove('open'); if(!pagerState) renderHome(); updateBadge() }
+$('#scrim').onclick = closeSheet;
+
+function sheetHead(title, btn='Done'){ return `<div class="sheet-head"><span class="grab"></span><div class="row"><h3>${title}</h3><button class="done" id="doneBtn">${btn}</button></div>` }
+
+function openReceipt(r){
+  showSheet(`${sheetHead('How we know')}</div>
+    <div class="sheet-body">
+      <span class="mono" style="color:var(--muted)">${esc(r.title)}</span>
+      <dl class="brief">${r.rows.map(x=>`<dt>${esc(x[0])}</dt><dd>${esc(x[1])}</dd>`).join('')}</dl>
+      <p class="hint">${esc(r.note)}</p>
+      <p class="hint">Sample data in this prototype. Live issues show the real run details.</p>
+    </div>`);
+  $('#doneBtn').onclick = ()=>{ $('#sheet').classList.remove('open'); $('#scrim').classList.remove('open') };
+}
+
+function findProduct(key){ const [t,i]=key.split(':'); return {t, p:TOPICS[t].products[+i]} }
+function openProduct(key){
+  const {t,p} = findProduct(key); const c = TOPICS[t]; const v = PVERDICT[p.verdict];
+  const sh = showSheet(`${sheetHead(esc(p.name))}<span class="brandname" style="color:var(--muted);margin-top:-8px">${esc(p.brand)} · ${c.name}</span></div>
+    <div class="sheet-body">
+      <div style="display:flex;gap:12px;align-items:center">
+        <span class="thumb" style="background:${c.bg};color:${c.ink}">${esc(p.mark)}</span>
+        <span class="price" style="text-align:left">${money(p.price)}<small>${money(p.perUse)} per use · per ${esc(p.unit)}</small></span>
+        <span class="verdict ${v[1]}" style="margin-left:auto">${v[0]}</span>
+      </div>
+      <div class="group"><span class="mono">Word on the street · ${esc(p.mentions)} mentions</span>
+        <dl class="street"><dt>Loved</dt><dd>${esc(p.loved)}</dd><dt>Gripes</dt><dd>${esc(p.gripes)}</dd></dl></div>
+      ${p.dupe?`<div class="group"><span class="mono">Cheaper or alternative pick</span><div class="dupe-line"><span>${esc(p.dupe.name)}</span><b>${money(p.dupe.price)}</b></div></div>`:''}
+      <div class="group"><span class="mono">Where to buy</span>
+        <div class="retail">${p.shops.slice().sort((a,b)=>a[1]-b[1]).map(s=>`<button data-shop="${esc(s[0])}"><span style="font-family:var(--body);font-weight:600;font-size:15px">${esc(s[0])}</span><span>${money(s[1])}</span></button>`).join('')}</div></div>
+      <button class="ghost" id="saveIt">${S.saved.includes(key)?'Saved ♥':'Save for later'}</button>
+      <p class="disclose"><b>Ranked by what people say, never by commission.</b> We may earn a commission when you buy through these links.</p>
+    </div>`);
+  $('#doneBtn').onclick = ()=>{ sh.classList.remove('open'); $('#scrim').classList.remove('open') };
+  sh.querySelectorAll('[data-shop]').forEach(b=>b.onclick=()=>toast(`Mockup: would open ${b.dataset.shop} with an affiliate link`));
+  $('#saveIt').onclick = ()=>{ toggleSave(key); $('#saveIt').textContent = S.saved.includes(key)?'Saved ♥':'Save for later';
+    document.querySelectorAll(`.savebtn[data-key="${key}"]`).forEach(b=>b.setAttribute('aria-pressed', S.saved.includes(key))) };
+}
+function toggleSave(key){
+  S.saved = S.saved.includes(key) ? S.saved.filter(k=>k!==key) : [...S.saved, key];
+  save(); updateBadge(); toast(S.saved.includes(key)?'Saved':'Removed from saved');
+}
+function updateBadge(){ const b=$('#savedBadge'); b.hidden = !S.saved.length; b.textContent = S.saved.length }
+function drawSaved(){
+  const items = S.saved.map(k=>({k,...findProduct(k)}));
+  const total = items.reduce((a,x)=>a+x.p.price,0);
+  const sh = showSheet(`${sheetHead('Saved')}</div>
+    <div class="sheet-body">
+      ${items.length?`<div>${items.map(x=>`<button class="saved-row" data-k="${x.k}">
+        <span class="thumb" style="background:${TOPICS[x.t].bg};color:${TOPICS[x.t].ink}">${esc(x.p.mark)}</span>
+        <span><b>${esc(x.p.name)}</b><span>${esc(x.p.brand)} · ${PVERDICT[x.p.verdict][0]}</span></span>
+        <span class="price" style="font-size:18px">${money(x.p.price)}</span></button>`).join('')}</div>
+        <div class="dupe-line"><span>Total if you bought it all</span><b>${money(total)}</b></div>
+        <p class="hint">Items marked “Skip it” or “Dupe it” have a cheaper option in their details.</p>`
+      :`<div class="empty"><b>Nothing saved yet</b>Tap the heart on any product in an issue’s Shop page.</div>`}
+      <p class="disclose"><b>Ranked by what people say, never by commission.</b> We may earn a commission when you buy through these links.</p>
+    </div>`);
+  $('#doneBtn').onclick = closeSheet;
+  sh.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>openProduct(b.dataset.k));
+}
+
+function drawCustomize(){
+  showSheet(`${sheetHead('Customize')}
+      <div class="seg-toggle" role="tablist">
+        <button role="tab" class="${sheetTab==='cards'?'on':''}" data-t="cards">Your cards</button>
+        <button role="tab" class="${sheetTab==='tune'?'on':''}" data-t="tune">Tune the angle</button>
+      </div>
+    </div>
+    <div class="sheet-body" id="sheetBody"></div>`);
+  const sh = $('#sheet');
+  $('#doneBtn').onclick = closeSheet;
+  sh.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{ sheetTab=b.dataset.t; drawCustomize() });
+  const body = $('#sheetBody');
+  if(sheetTab==='cards'){
+    body.innerHTML = `
+      <p class="hint">Drag to reorder. Your first card shows up large on the home page.</p>
+      <div class="list" id="cardList">${S.order.map(id=>{const c=TOPICS[id];const on=!S.off.includes(id);return `
+        <div class="row-item ${on?'':'off'}" data-id="${id}">
+          <span class="handle" aria-label="Drag ${c.name}">${ICON.grip}</span>
+          <i class="sw" style="background:${c.bg}"></i>
+          <span class="nm">${c.name}<small>${esc(c.cover[0][0])}</small></span>
+          <button class="switch" role="switch" aria-checked="${on}" aria-label="Show ${c.name}"></button>
+        </div>`}).join('')}</div>
+      ${S.custom.length?`<div class="group"><span class="mono">Your own cards</span><div class="list">${S.custom.map(c=>`<div class="row-item" style="grid-template-columns:14px 1fr auto"><i class="sw" style="background:var(--custom)"></i><span class="nm">${esc(c.name)}<small>${customProgress(c)>=PIPE_STEPS.length?'Ready':'In the works'}</small></span><button class="mono" data-rm="${c.id}" style="color:var(--down)">Remove</button></div>`).join('')}</div></div>`:''}
+      <div class="group"><span class="mono">Add a topic</span>
+        <div class="chips">${SUGGESTED.filter(s=>{const k=topicKeyFor(s);return !(k&&S.order.includes(k)) && !S.custom.some(c=>c.name===s)}).map(s=>`<button class="chip" data-add="${esc(s)}">+ ${esc(s)}</button>`).join('')}</div>
+        ${S.order.includes('sleep')||S.custom.some(c=>c.topic==='sleep')?'':'<p class="hint">Try Sleep: in this prototype it finishes into a full issue.</p>'}
+        <button class="primary" id="ownBtn">Create your own card</button>
+      </div>`;
+    body.querySelectorAll('.switch').forEach(sw=>sw.onclick=()=>{
+      const id = sw.closest('[data-id]').dataset.id;
+      S.off = S.off.includes(id) ? S.off.filter(x=>x!==id) : [...S.off,id]; save(); renderHome(); drawCustomize() });
+    body.querySelectorAll('[data-add]').forEach(b=>b.onclick=()=>{ addCustom(b.dataset.add); drawCustomize() });
+    body.querySelectorAll('[data-rm]').forEach(b=>b.onclick=()=>{ S.custom=S.custom.filter(x=>x.id!==b.dataset.rm); save(); renderHome(); drawCustomize() });
+    $('#ownBtn').onclick = ()=>drawCreate();
+    enableDrag($('#cardList'));
+  } else {
+    const A = S.angle;
+    const opt = (key, list, multi)=>`<div class="chips">${list.map(v=>{const on = multi? A[key].includes(v) : A[key]===v; return `<button class="chip ${on?'on':''}" data-k="${key}" data-v="${esc(v)}" data-m="${multi?1:0}" aria-pressed="${on}">${esc(v)}</button>`}).join('')}</div>`;
+    body.innerHTML = `
+      <p class="hint">Every issue is written for you. Change these and your issues are re-run with the new angle.</p>
+      <div class="group"><span class="mono">Age</span>${opt('age',['18–24','25–40','40–55','55+'],false)}</div>
+      <div class="group"><span class="mono">Goals</span>${opt('goals',['Feel stronger','Better skin','More energy','Sleep better','Eat cleaner','Hormone balance','Lose weight','Less stress'],true)}</div>
+      <div class="group"><span class="mono">Budget</span>${opt('budget',['Drugstore','Mix it up','Splurge'],false)}<p class="hint">Drugstore highlights the cheaper pick on every Shop page.</p></div>
+      <div class="group"><span class="mono">What matters to you</span>${opt('values',['Science-backed','Clean ingredients','Cruelty-free','Sustainable','Quick routines','Inclusive shades'],true)}</div>
+      <div class="toggle-row"><span><b>Hormone lens</b><span>Show how your cycle and perimenopause connect to each issue</span></span>
+        <button class="switch" id="hormoneSw" role="switch" aria-checked="${A.hormones}" aria-label="Hormone lens"></button></div>
+      <div class="banner" id="angleBanner" hidden><span>↻</span><span><b>Your issues will re-run with this angle</b>In the live app, pipelines use it as the cohort and angle.</span></div>
+      <div class="privacy">${ICON.lock}<span><b>Private by default</b>Your angle and saved items stay on this phone. WHOLE never asks for health data, cycle dates or symptoms.</span></div>`;
+    body.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>{
+      const k=b.dataset.k, v=b.dataset.v;
+      if(b.dataset.m==='1'){ A[k] = A[k].includes(v)? A[k].filter(x=>x!==v) : [...A[k],v] } else A[k]=v;
+      save(); drawCustomize(); $('#angleBanner').hidden=false });
+    $('#hormoneSw').onclick = ()=>{ A.hormones=!A.hormones; save(); drawCustomize(); toast(A.hormones?'Hormone lens on':'Hormone lens off') };
+  }
+}
+
+function enableDrag(list){
+  list.querySelectorAll('.handle').forEach(h=>{
+    h.onpointerdown = e=>{
+      e.preventDefault();
+      const item = h.closest('.row-item'); item.classList.add('dragging');
+      h.setPointerCapture(e.pointerId);
+      const move = ev=>{
+        const siblings = [...list.children].filter(x=>x!==item);
+        const after = siblings.find(s=>{const r=s.getBoundingClientRect(); return ev.clientY < r.top + r.height/2});
+        after ? list.insertBefore(item, after) : list.appendChild(item);
+      };
+      const up = ()=>{
+        item.classList.remove('dragging');
+        h.removeEventListener('pointermove',move); h.removeEventListener('pointerup',up); h.removeEventListener('pointercancel',up);
+        S.order = [...list.children].map(x=>x.dataset.id); save(); renderHome();
+      };
+      h.addEventListener('pointermove',move); h.addEventListener('pointerup',up); h.addEventListener('pointercancel',up);
+    };
+  });
+}
+
+function topicKeyFor(name){ return Object.keys(TOPICS).find(k=>TOPICS[k].name.toLowerCase()===name.trim().toLowerCase()) }
+function addCustom(name, quiet){
+  name = name.trim(); if(!name) return;
+  const key = topicKeyFor(name);
+  if(key && S.order.includes(key) && !S.off.includes(key)){ if(!quiet) toast(`You already have a ${TOPICS[key].name} card`); return }
+  if(key && S.off.includes(key)){ S.off = S.off.filter(x=>x!==key); save(); renderHome(); if(!quiet) toast(`${TOPICS[key].name} is back on your home screen`); return }
+  if(S.custom.some(c=>c.name.toLowerCase()===name.toLowerCase())) return;
+  S.custom.push({id:'c'+Date.now()+Math.random().toString(36).slice(2,5), name: name.charAt(0).toUpperCase()+name.slice(1), created:Date.now(), topic:key||null});
+  save(); renderHome(); if(!quiet) toast(`“${name}” is in the works`);
+}
+function promoteReady(){
+  let done = [];
+  S.custom = S.custom.filter(c=>{
+    if(c.topic && customProgress(c)>=PIPE_STEPS.length){ if(!S.order.includes(c.topic)) S.order.push(c.topic); S.off=S.off.filter(x=>x!==c.topic); done.push(c.name); return false }
+    return true;
+  });
+  if(done.length){ save(); if(!pagerState) renderHome(); toast(`Your ${done.join(', ')} issue is ready`) }
+}
+function drawCreate(){
+  const sh = showSheet(`${sheetHead('New card','Cancel')}</div>
+    <div class="sheet-body">
+      <div class="field"><label class="mono" for="newTopic" style="color:var(--muted)">What do you want an issue about?</label>
+        <input id="newTopic" placeholder="e.g. creatine, retinol, perimenopause" autocomplete="off" maxlength="40"></div>
+      <div class="chips">${['Sleep','Creatine','Retinol','Perimenopause','Magnesium','Hair loss'].map(s=>`<button class="chip" data-fill="${s}">${s}</button>`).join('')}</div>
+      <dl class="brief"><dt>Cohort</dt><dd>Women ${esc(S.angle.age)} · US</dd><dt>Window</dt><dd>Last 3 months</dd><dt>Angle</dt><dd>${esc(S.angle.values.join(', ')||'Go broad')}</dd><dt>Runs</dt><dd>Trends, Discourse, Segmentation, Brand Performance, Foresight</dd></dl>
+      <button class="primary" id="makeBtn" disabled>Start my issue</button>
+      <p class="hint">Your issue takes about 15–40 minutes to research. We’ll let you know when it’s ready.</p>
+    </div>`);
+  const inp = $('#newTopic'), mk = $('#makeBtn');
+  inp.oninput = ()=> mk.disabled = !inp.value.trim();
+  sh.querySelectorAll('[data-fill]').forEach(b=>b.onclick=()=>{ inp.value=b.dataset.fill; mk.disabled=false; inp.focus() });
+  mk.onclick = ()=>{ addCustom(inp.value); closeSheet() };
+  $('#doneBtn').onclick = closeSheet;
+  setTimeout(()=>inp.focus({preventScroll:true}), 350);
+}
+
+function toast(msg){ const t=$('#toast'); t.textContent=msg; t.classList.add('show'); clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.remove('show'),2400) }
+
+setInterval(()=>{
+  promoteReady();
+  S.custom.forEach(c=>{
+    const p = customProgress(c), bar = document.querySelector(`[data-live="${c.id}-bar"]`), lab = document.querySelector(`[data-live="${c.id}-label"]`);
+    if(bar) bar.style.width = Math.round(p/PIPE_STEPS.length*100)+'%';
+    if(lab) lab.textContent = p>=PIPE_STEPS.length ? 'All 5 pipelines done' : PIPE_STEPS[p][0]+'…';
+  });
+},1000);
+
+$('#tabHome').onclick = ()=>{ closeIssue(); closeSheet(); $('#home').scrollTo({top:0,behavior:'smooth'}) };
+$('#tabSaved').onclick = ()=>openSheet('saved');
+$('#tabNew').onclick = ()=>openSheet('create');
+$('#tabTune').onclick = ()=>openSheet('tune');
+document.addEventListener('keydown', e=>{
+  if(e.key==='Escape'){ if($('#sheet').classList.contains('open')) closeSheet(); else closeIssue(); return }
+  if(!pagerState || document.activeElement.tagName==='INPUT') return;
+  if(e.key==='ArrowRight' && curPage<pagerState.count-1) goPage(curPage+1);
+  if(e.key==='ArrowLeft' && curPage>0) goPage(curPage-1);
+});
+
+/* ===================== EVIDENCE AGENT ===================== */
+const cap = s=>String(s||'').charAt(0).toUpperCase()+String(s||'').slice(1);
+const DEFAULT_TYPES = {real:[['Systematic review','Clinical guideline'],'high'], mixed:[['Randomized trial','Systematic review'],'medium'], early:[['Small trials'],'low'], hype:[['Systematic review','Expert body'],'medium']};
+function evidenceFor(h){
+  const e = EVIDENCE[h.id];
+  if(e) return {source_types: e.source_types || [...new Set((e.sources||[]).map(x=>x.type))], ...e};
+  return {verdict:h.v, evidence:h.ev, confidence:DEFAULT_TYPES[h.v][1], source_types:DEFAULT_TYPES[h.v][0], sources:[], sample:true, checked_at:'2026-10-09', model:'claude-opus-5-5', review:{status:'approved', editor:'Sample editor'}};
+}
+function stampFor(h){
+  const e = evidenceFor(h);
+  if(e.review.status!=='approved') return `<span class="stamp v-early">Being checked</span>`;
+  return `<span class="stamp ${VERDICT[e.verdict][1]}">${VERDICT[e.verdict][0]}</span>`;
+}
+const AGENT_STEPS = [['Reads the claim','What people say, from the Discourse pipeline'],['Searches research','PubMed, Cochrane, NIH and medical societies only'],['Reads the sources','Reviews and guidelines first, then trials'],['Grades the evidence','Real, Mixed, Too early or Hype, with confidence'],['Sends to an editor','Nothing is published until a person approves it']];
+function openEvidence(topicId, hid){
+  const h = TOPICS[topicId].hype.find(x=>x.id===hid), e = evidenceFor(h);
+  const v = VERDICT[e.verdict];
+  const sh = showSheet(`${sheetHead('How it was checked')}</div>
+    <div class="sheet-body">
+      <div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start"><span><span class="mono" style="color:var(--muted)">${esc(TOPICS[topicId].name)} · Real or hype?</span><h3 style="font-family:var(--display);font-style:italic;font-size:26px;margin:4px 0 0;line-height:1.05">${esc(h.t)}</h3></span>
+        <span class="stamp ${v[1]}" style="position:static;flex:0 0 auto">${v[0]}</span></div>
+      <p style="margin:0">${esc(e.evidence)}</p>
+      <dl class="brief"><dt>Confidence</dt><dd>${esc(cap(e.confidence))}</dd><dt>Evidence</dt><dd>${esc((e.source_types||[]).join(', '))}</dd><dt>Checked</dt><dd>${esc(e.checked_at)} · ${esc(e.model)}</dd><dt>Review</dt><dd>${e.review.status==='approved'?'Approved by '+esc(e.review.editor||'an editor'):'Waiting for an editor'}</dd>${e.caveats?`<dt>Caveats</dt><dd>${esc(e.caveats)}</dd>`:''}</dl>
+      <div class="group"><span class="mono">Sources</span>
+        ${(e.sources||[]).length?`<div class="list">${e.sources.map(x=>`<a class="dupe-line" href="${esc(x.url)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none"><span>${esc(x.title)}<br><small style="color:var(--muted)">${esc(x.publisher)} · ${esc(x.year)} · ${esc(x.type)}</small></span><b>↗</b></a>`).join('')}</div>`
+          :`<p class="hint">Sample output. Sources with links are filled in when the Evidence Agent runs on live data.</p>`}
+      </div>
+      <div class="group trace"><span class="mono">What the agent did</span><div class="steps">${AGENT_STEPS.map(st=>`<div class="step done"><span class="ic">✓</span><span><b>${st[0]}</b><span class="mono" style="font-size:10px;color:var(--muted)">${st[1]}</span></span><span></span></div>`).join('')}</div></div>
+      <p class="hint">General information, not medical advice.</p>
+    </div>`);
+  $('#doneBtn').onclick = ()=>{ sh.classList.remove('open'); $('#scrim').classList.remove('open') };
+}
+function runAgent(topicId){
+  const c = TOPICS[topicId]; let i = 0;
+  const sh = showSheet(`${sheetHead('Evidence Agent')}</div>
+    <div class="sheet-body">
+      <p class="hint">Demo run. In the live app this calls Claude with web search limited to medical sources. The code is in the project repo.</p>
+      <div class="group"><span class="mono">Checking ${c.hype.length} ${esc(c.name.toLowerCase())} trends</span><div class="list">${c.hype.map(h=>`<div class="dupe-line"><span>${esc(h.t)}</span><b data-runstate="${h.id}" style="color:var(--muted)">Queued</b></div>`).join('')}</div></div>
+      <div class="group trace"><span class="mono">Agent steps</span><div class="steps" id="runSteps"></div></div>
+    </div>`);
+  $('#doneBtn').onclick = ()=>{ clearInterval(runAgent._t); sh.classList.remove('open'); $('#scrim').classList.remove('open') };
+  const draw = ()=>{ $('#runSteps').innerHTML = AGENT_STEPS.map((st,k)=>`<div class="step ${k<i?'done':k===i?'run':'wait'}"><span class="ic">${k<i?'✓':''}</span><span><b>${st[0]}</b><span class="mono" style="font-size:10px;color:var(--muted)">${st[1]}</span></span><span class="mono" style="font-size:10px">${k<i?'Done':k===i?'Running':''}</span></div>`).join('');
+    c.hype.forEach((h,k)=>{ const el=sh.querySelector(`[data-runstate="${h.id}"]`); if(!el) return; const d = i>=AGENT_STEPS.length; el.textContent = d ? VERDICT[evidenceFor(h).verdict][0] : (i>0?'Checking…':'Queued'); el.style.color = d?'var(--ink)':'var(--muted)' }) };
+  draw(); clearInterval(runAgent._t);
+  runAgent._t = setInterval(()=>{ i++; draw(); if(i>=AGENT_STEPS.length){ clearInterval(runAgent._t); toast('Demo: verdicts sent to an editor for review') } }, 900);
+}
+
+/* ===================== ABOUT ===================== */
+function openAbout(){
+  const pages = [['Cover','Trends','The biggest number in the topic this week'],['The conversation','Discourse','The headline story, six themes, and what’s posted vs searched'],['Asking, not posting','Discourse','Questions women search far more than they share'],['Real or hype?','Discourse + Evidence Agent','What people say next to what the research says'],['Who’s talking','Digital Segmentation','The kinds of women in the conversation, in their words'],['Shop the issue','Brand Performance','Products people back, with verdicts, dupes and cost per use'],['Where are they now?','Trends, re-run monthly','Whether past trends lasted'],['What’s next','Foresight Simulator','Where the topic is heading and two possible futures'],['Ask','Ask an Anthropologist','Ask your own question about the issue']];
+  $('#about').innerHTML = `
+    <div class="about-top"><span class="mono" style="color:var(--muted)">About · working title</span><button class="closebtn" id="closeAbout" aria-label="Close" style="background:var(--paper-2)">${ICON.close}</button></div>
+    <div class="about-body">
+      <section><h2>WHOLE</h2>
+        <p style="font-family:var(--display);font-style:italic;font-size:24px;line-height:1.1">A weekly magazine for your health and beauty, built from what people actually say and search.</p>
+        <p class="muted">Every card on your home screen is an issue: Nutrition, Beauty, Exercise, Sleep or any topic you add. Each issue shows what’s being talked about, who is talking, what’s real, what’s worth buying and what’s coming next. The big picture across all your cards is at the top of the home screen.</p></section>
+
+      <section><h3>How an issue is made</h3>
+        <div class="flow">
+          <div class="node"><b>What people post and search</b><span>TikTok, Instagram, Reddit, YouTube and Google search, for your cohort and market</span></div><i class="arrow"></i>
+          <div class="node dark"><b>Anthropologic pipelines</b><span>Quilt.ai’s research pipelines read the conversation</span><span class="pipes"><i>Trends</i><i>Discourse</i><i>Segmentation</i><i>Brand Performance</i><i>Foresight</i><i>Ask an Anthropologist</i></span></div><i class="arrow"></i>
+          <div class="node agent"><b>WHOLE Evidence Agent</b><span>Checks each trend against published research for “Real or hype?”</span></div><i class="arrow"></i>
+          <div class="node"><b>Editors</b><span>Write the issue in magazine voice and approve every verdict</span></div><i class="arrow"></i>
+          <div class="node dark"><b>Your issue</b><span>Shaped by your angle: age, goals, budget and values</span></div>
+        </div></section>
+
+      <section><h3>Inside an issue</h3>
+        <p class="muted">Swipe through nine pages. Each one comes from a specific pipeline.</p>
+        <div class="pagelist">${pages.map((p,i)=>`<div><span>${i+1}</span><span><b>${p[0]}</b><small>${p[2]}</small><em>${p[1]}</em></span></div>`).join('')}</div>
+        <p class="muted">Every section has a <b>How we know</b> tag showing the pipeline, how many posts and searches it read, and the time window.</p></section>
+
+      <section><h3>On your home screen</h3>
+        <div class="pagelist">
+          <div><span>◆</span><span><b>Your quilt</b><small>Three things worth knowing this week, across all your cards.</small></span></div>
+          <div><span>◆</span><span><b>Threads</b><small>Stories that run through several cards at once, like GLP-1s, hormones and recovery.</small></span></div>
+          <div><span>◆</span><span><b>Real or hype?</b><small>This week’s trends with their verdicts.</small></span></div>
+          <div><span>◆</span><span><b>Asking, not posting</b><small>The private questions, from the gap between searches and posts.</small></span></div>
+          <div><span>◆</span><span><b>Where are they now?</b><small>Old trends we keep following, with a status.</small></span></div>
+        </div></section>
+
+      <section><h3>Real or hype?</h3>
+        <p>The pipelines tell us what people say. The <b>Evidence Agent</b> adds what the research says. It is built on Claude, searches only trusted medical sources (PubMed, Cochrane, NIH, medical societies), reads the strongest evidence, and grades each trend:</p>
+        <div class="legend" style="font-size:13px"><span class="v-real"><i></i>Real: good human studies support it</span><span class="v-mixed"><i></i>Mixed: some support, smaller than claimed</span><span class="v-early"><i></i>Too early: not enough research yet</span><span class="v-hype"><i></i>Hype: evidence doesn’t support it</span></div>
+        <p>Every verdict waits for an editor before it appears. WHOLE gives general information, not medical advice.</p></section>
+
+      <section><h3>Shopping</h3>
+        <p>Each issue’s Shop page lists products people actually back, with what they love, their complaints, cost per use and a cheaper pick. Products are ranked by what people say, never by commission. WHOLE may earn a commission when you buy through a link, and every Shop page says so.</p></section>
+
+      <section><h3>Make it yours</h3>
+        <p>Pick and reorder your cards, add any topic as a new card, and tune the angle: age, goals, budget and what matters to you. Turn on the hormone lens to see how your cycle and perimenopause connect to each issue. A Drugstore budget highlights the cheaper pick when you shop.</p></section>
+
+      <section><h3>Private by default</h3>
+        <p>Your settings and saved items stay on your phone. WHOLE never asks for health data, cycle dates or symptoms. Issues are written for groups of women like you, not from your personal data.</p></section>
+
+      <section><h3>What’s real in this prototype</h3>
+        <dl class="status-table">
+          <dt class="st-built">Built</dt><dd>Every screen and flow: intro, home, issues, threads, shop, saved, new cards, customizing.</dd>
+          <dt class="st-code">Code ready</dt><dd>The Evidence Agent (Python, Claude Opus 5.5). It isn’t running live; the verdicts here are sample output.</dd>
+          <dt class="st-sample">Sample</dt><dd>All numbers, quotes, products and prices. Written to look like pipeline output for US women 25–40. Not real data.</dd>
+          <dt class="st-not">Not built</dt><dd>Live pipeline runs, accounts, notifications and real retailer links.</dd>
+        </dl>
+        <p class="muted">Code and docs: <a href="${REPO}" target="_blank" rel="noopener">${REPO.replace('https://','')}</a></p></section>
+
+      <button class="ghost" id="replayIntro">Replay the intro</button>
+    </div>`;
+  $('#about').classList.add('open');
+  $('#closeAbout').onclick = ()=>$('#about').classList.remove('open');
+  $('#replayIntro').onclick = ()=>{ $('#about').classList.remove('open'); startOnboarding() };
+}
+
+/* ===================== ONBOARDING ===================== */
+let OB = null;
+const ONB_TOPICS = ['nutrition','beauty','exercise','sleep'];
+function startOnboarding(){ closeIssue(); closeSheet(); OB = {step:0, picks:['nutrition','beauty','exercise'], extra:[]}; drawOnb(); const o=$('#onb'); o.hidden=false; requestAnimationFrame(()=>o.classList.remove('gone')) }
+function drawOnb(){
+  const o = $('#onb'), st = OB.step, A = S.angle;
+  const dots = `<div class="onb-dots">${[1,2,3].map(n=>`<i class="${n<=st?'on':''}"></i>`).join('')}</div>`;
+  const top = (back=true)=>`<div class="onb-top">${back?'<button class="onb-back" id="obBack">← Back</button>':'<span></span>'}${dots}<button class="onb-back" id="obSkip" style="color:var(--muted)">Skip</button></div>`;
+  const chips = (key, list, multi)=>`<div class="chips">${list.map(v=>{const on = multi? A[key].includes(v) : A[key]===v; return `<button class="chip ${on?'on':''}" data-k="${key}" data-v="${esc(v)}" data-m="${multi?1:0}" aria-pressed="${on}">${esc(v)}</button>`}).join('')}</div>`;
+  o.className = 'onb' + (st===0?' welcome':'') + (st===4?' build':'');
+  if(st===0){
+    o.innerHTML = `<div class="onb-body" style="padding-top:60px">
+      <div class="patches" aria-hidden="true">
+        <div class="patch" style="background:var(--nutrition);color:var(--nutrition-ink)"><small>No. 42</small>Nutrition</div>
+        <div class="patch" style="background:var(--beauty);color:var(--beauty-ink)"><small>Real?</small>Beauty</div>
+        <div class="patch" style="background:var(--exercise);color:var(--exercise-ink)"><small>2×</small>Exercise</div>
+        <div class="patch" style="background:var(--sleep);color:var(--sleep-ink)"><small>3am</small>Sleep</div>
+        <div class="patch" style="background:var(--custom);color:var(--custom-ink)"><small>New</small>Your topic</div>
+        <div class="patch" style="background:linear-gradient(135deg,var(--beauty),var(--custom-hi));color:#fff"><small>Thread</small>Hormones</div>
+      </div>
+      <h1 class="masthead">WHOLE</h1>
+      <p>Your health and beauty, in issues. What everyone’s talking about, what’s actually real, and what’s worth buying.</p>
+    </div>
+    <div class="onb-foot"><button class="primary" id="obNext">Get started</button><button class="ghost" id="obAbout">How it works</button><span class="fine">Prototype · sample data · working title</span></div>`;
+    $('#obAbout').onclick = openAbout;
+  } else if(st===1){
+    o.innerHTML = `${top()}<div class="onb-body"><h2>Pick your cards</h2><p class="lede" style="margin:0">Each card is a weekly issue. You can change these any time.</p>
+      <div class="pick">${ONB_TOPICS.map(k=>{const t=TOPICS[k];return `<button data-pick="${k}" aria-pressed="${OB.picks.includes(k)}" style="background:${t.bg};color:${t.ink}">${glossFor(k,false)}<span class="check">✓</span><b>${t.name}</b><span>${esc(t.cover[0][0])}</span></button>`}).join('')}</div>
+      <div class="group"><span class="mono" style="color:var(--muted)">Add more topics</span><div class="chips">${['Gut health','Hormones','Hair','Supplements','Longevity','Mental wellness'].map(x=>`<button class="chip ${OB.extra.includes(x)?'on':''}" data-extra="${x}" aria-pressed="${OB.extra.includes(x)}">${OB.extra.includes(x)?'✓ ':'+ '}${x}</button>`).join('')}</div><p class="hint">Extra topics are researched after you finish setup.</p></div>
+    </div><div class="onb-foot"><button class="primary" id="obNext" ${OB.picks.length+OB.extra.length?'':'disabled'}>Continue</button></div>`;
+    o.querySelectorAll('[data-pick]').forEach(b=>b.onclick=()=>{ const k=b.dataset.pick; OB.picks = OB.picks.includes(k)?OB.picks.filter(x=>x!==k):[...OB.picks,k]; drawOnb() });
+    o.querySelectorAll('[data-extra]').forEach(b=>b.onclick=()=>{ const k=b.dataset.extra; OB.extra = OB.extra.includes(k)?OB.extra.filter(x=>x!==k):[...OB.extra,k]; drawOnb() });
+  } else if(st===2){
+    o.innerHTML = `${top()}<div class="onb-body"><h2>Tune your angle</h2><p class="lede" style="margin:0">Issues are written for women like you. This sets who “like you” is.</p>
+      <div class="group"><span class="mono" style="color:var(--muted)">Age</span>${chips('age',['18–24','25–40','40–55','55+'],false)}</div>
+      <div class="group"><span class="mono" style="color:var(--muted)">Goals</span>${chips('goals',['Feel stronger','Better skin','More energy','Sleep better','Eat cleaner','Hormone balance','Lose weight','Less stress'],true)}</div>
+      <div class="group"><span class="mono" style="color:var(--muted)">Budget</span>${chips('budget',['Drugstore','Mix it up','Splurge'],false)}<p class="hint">Drugstore highlights the cheaper pick when you shop.</p></div>
+    </div><div class="onb-foot"><button class="primary" id="obNext">Continue</button></div>`;
+  } else if(st===3){
+    o.innerHTML = `${top()}<div class="onb-body"><h2>What matters to you</h2>
+      <div class="group">${chips('values',['Science-backed','Clean ingredients','Cruelty-free','Sustainable','Quick routines','Inclusive shades'],true)}</div>
+      <div class="toggle-row"><span><b>Hormone lens</b><span>Show how your cycle and perimenopause connect to each issue</span></span><button class="switch" id="obHorm" role="switch" aria-checked="${A.hormones}" aria-label="Hormone lens"></button></div>
+      <div class="privacy">${ICON.lock}<span><b>Private by default</b>These settings stay on your phone. WHOLE never asks for health data, cycle dates or symptoms.</span></div>
+    </div><div class="onb-foot"><button class="primary" id="obNext">Build my issues</button></div>`;
+    $('#obHorm').onclick = ()=>{ A.hormones=!A.hormones; drawOnb() };
+  } else if(st===4){
+    const names = OB.picks.map(k=>TOPICS[k]);
+    o.innerHTML = `<div class="onb-top"><span></span><span class="mono" style="opacity:.7">Building issue 42</span><span></span></div>
+      <div class="onb-body"><h2>Putting your issues together</h2>
+        <div class="build-issues">${names.map(t=>`<span style="background:${t.bg};color:${t.ink}">${t.name}</span>`).join('')}${OB.extra.map(x=>`<span style="background:var(--custom);color:var(--custom-ink)">${esc(x)}</span>`).join('')}</div>
+        <div class="steps" id="obSteps"></div>
+        <p class="hint" style="color:inherit;opacity:.65">Prototype: these issues use sample data, so this takes seconds.</p>
+      </div>`;
+    const steps = [...PIPE_STEPS, ['Evidence Agent','Checking what’s real']];
+    let i = 0;
+    const draw = ()=>{ $('#obSteps').innerHTML = steps.map((s,k)=>`<div class="step ${k<i?'done':k===i?'run':'wait'}"><span class="ic">${k<i?'✓':''}</span><span><b>${s[1]}</b><span class="mono" style="font-size:10px;opacity:.7">${s[0]}</span></span><span></span></div>`).join('') };
+    draw();
+    const t = setInterval(()=>{ i++; draw(); if(i>steps.length){ clearInterval(t); finishOnboarding() } }, 520);
+    return;
+  }
+  o.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>{ const k=b.dataset.k, v=b.dataset.v; if(b.dataset.m==='1'){ A[k] = A[k].includes(v)? A[k].filter(x=>x!==v) : [...A[k],v] } else A[k]=v; drawOnb() });
+  const nx = $('#obNext'); if(nx) nx.onclick = ()=>{ OB.step++; drawOnb() };
+  const bk = $('#obBack'); if(bk) bk.onclick = ()=>{ OB.step--; drawOnb() };
+  const sk = $('#obSkip'); if(sk) sk.onclick = ()=>finishOnboarding(true);
+}
+function finishOnboarding(skipped){
+  if(!skipped){
+    S.order = [...OB.picks, ...ONB_TOPICS.filter(k=>!OB.picks.includes(k) && k!=='sleep')];
+    S.off = S.order.filter(k=>!OB.picks.includes(k));
+    S.custom = [];
+  }
+  S.onboarded = true; save();
+  if(!skipped) OB.extra.forEach(x=>addCustom(x, true));
+  renderHome();
+  const o = $('#onb'); o.classList.add('gone'); setTimeout(()=>{ o.hidden = true }, 400);
+  if(!skipped) setTimeout(()=>toast('Your issues are ready'), 450);
+}
+
+$('#noteAbout').onclick = openAbout;
+$('#noteIntro').onclick = startOnboarding;
+
+/* ===================== INIT ===================== */
+fetch('data/evidence.json').then(r=>r.ok?r.json():null).then(j=>{ if(j&&j.claims){ EVIDENCE = j.claims; if(!pagerState) renderHome() } }).catch(()=>{});
+renderHome();
+if(!S.onboarded) startOnboarding();
+</script>
+</body>
+</html>

@@ -1,0 +1,290 @@
+{
+  "generated_by": "scripts/export_claims.mjs --seed",
+  "sample": true,
+  "claims": {
+    "nutrition-fibermaxxing": {
+      "verdict": "real",
+      "evidence": "Most US adults eat well under the recommended 25–34 grams a day. Higher fiber intake is linked to lower heart disease risk. Build up slowly.",
+      "confidence": "high",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Systematic review",
+        "Clinical guideline"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "nutrition-vinegar-shots-before-meals": {
+      "verdict": "mixed",
+      "evidence": "Small studies show a modest dip in blood sugar after meals. It is not a weight-loss tool on its own, and undiluted vinegar can wear down tooth enamel.",
+      "confidence": "medium",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Randomized trial",
+        "Systematic review"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "nutrition-wearing-a-cgm-without-diabetes": {
+      "verdict": "early",
+      "evidence": "Useful as a short experiment. There is little research yet on long-term benefit for people without diabetes.",
+      "confidence": "low",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Small trials"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "nutrition-seed-oils-are-toxic": {
+      "verdict": "hype",
+      "evidence": "Major reviews do not support this. Swapping unsaturated oils for butter is not linked to better heart health.",
+      "confidence": "medium",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Systematic review",
+        "Expert body"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "beauty-barrier-repair": {
+      "verdict": "real",
+      "evidence": "Ceramides and gentle routines are well supported for irritated, over-exfoliated skin.",
+      "confidence": "high",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Systematic review",
+        "Clinical guideline"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "beauty-at-home-led-masks": {
+      "verdict": "mixed",
+      "evidence": "There is some evidence for red light on mild acne and fine lines. Home devices are weaker than clinic ones and need near-daily use.",
+      "confidence": "medium",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Randomized trial",
+        "Systematic review"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "beauty-pdrn-salmon-dna-serums": {
+      "verdict": "early",
+      "evidence": "Clinic injections have some studies behind them. Serums you apply to the skin have very little published evidence yet.",
+      "confidence": "low",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Small trials"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "beauty-beef-tallow-moisturizer": {
+      "verdict": "hype",
+      "evidence": "There is no evidence it beats ordinary moisturizers, and it can clog pores on acne-prone skin.",
+      "confidence": "medium",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Systematic review",
+        "Expert body"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "exercise-lifting-heavy": {
+      "verdict": "real",
+      "evidence": "Strength training supports muscle and bone density, and both matter more with every decade.",
+      "confidence": "high",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Systematic review",
+        "Clinical guideline"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "exercise-creatine-for-women": {
+      "verdict": "real",
+      "evidence": "One of the most studied supplements. It supports strength and muscle, with research on women growing.",
+      "confidence": "high",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Systematic review",
+        "Clinical guideline"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "exercise-cycle-synced-workouts": {
+      "verdict": "early",
+      "evidence": "Research on training by cycle phase is small and mixed. Adjusting to how you feel is reasonable; strict phase plans are not proven.",
+      "confidence": "low",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Small trials"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "exercise-cold-plunges-for-fat-loss": {
+      "verdict": "hype",
+      "evidence": "They may help you feel better after hard training. There is no good evidence for fat loss, and a plunge right after lifting can blunt muscle gains.",
+      "confidence": "medium",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Systematic review",
+        "Expert body"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "sleep-a-consistent-wake-up-time": {
+      "verdict": "real",
+      "evidence": "A regular sleep schedule is one of the best-supported habits for better sleep, and it is part of standard insomnia treatment.",
+      "confidence": "high",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Systematic review",
+        "Clinical guideline"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "sleep-magnesium-before-bed": {
+      "verdict": "mixed",
+      "evidence": "Small studies suggest a modest benefit, mostly in older adults or people low in magnesium. It is generally safe at label doses but is not a strong sleep aid.",
+      "confidence": "medium",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Randomized trial",
+        "Systematic review"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "sleep-sleepy-girl-mocktail": {
+      "verdict": "early",
+      "evidence": "Tart cherry juice has a few small studies with modest effects. The drink is unlikely to hurt, but the hype is far ahead of the research.",
+      "confidence": "low",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Small trials"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    },
+    "sleep-mouth-taping": {
+      "verdict": "hype",
+      "evidence": "Reviews find little good evidence of benefit, and doctors warn it can be risky for people with a blocked nose or undiagnosed sleep apnea.",
+      "confidence": "medium",
+      "caveats": "",
+      "sources": [],
+      "source_types": [
+        "Systematic review",
+        "Expert body"
+      ],
+      "checked_at": "2026-10-09",
+      "model": "claude-opus-5-5",
+      "sample": true,
+      "review": {
+        "status": "approved",
+        "editor": "Sample editor"
+      }
+    }
+  }
+}
