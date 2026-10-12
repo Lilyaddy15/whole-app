@@ -17,7 +17,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "nutrition-vinegar-shots-before-meals": {
@@ -35,7 +35,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "nutrition-wearing-a-cgm-without-diabetes": {
@@ -52,7 +52,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "nutrition-seed-oils-are-toxic": {
@@ -70,7 +70,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "beauty-barrier-repair": {
@@ -88,7 +88,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "beauty-at-home-led-masks": {
@@ -106,7 +106,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "beauty-pdrn-salmon-dna-serums": {
@@ -123,7 +123,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "beauty-beef-tallow-moisturizer": {
@@ -141,7 +141,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "exercise-lifting-heavy": {
@@ -159,7 +159,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "exercise-creatine-for-women": {
@@ -177,7 +177,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "exercise-cycle-synced-workouts": {
@@ -194,7 +194,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "exercise-cold-plunges-for-fat-loss": {
@@ -212,7 +212,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "sleep-a-consistent-wake-up-time": {
@@ -230,7 +230,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "sleep-magnesium-before-bed": {
@@ -248,7 +248,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "sleep-sleepy-girl-mocktail": {
@@ -265,7 +265,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     },
     "sleep-mouth-taping": {
@@ -283,7 +283,7 @@
       "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Sample editor"
+        "editor": "Editor Agent"
       }
     }
   }

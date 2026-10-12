@@ -28,7 +28,7 @@ if (process.argv.includes('--seed')) {
     out.claims[h.id] = {
       verdict: h.v, evidence: h.ev, confidence, caveats: '', sources: [], source_types,
       checked_at: '2026-10-09', model: 'claude-opus-5-5', sample: true,
-      review: { status: 'approved', editor: 'Sample editor' },
+      review: { status: 'approved', editor: 'Editor Agent' },
     };
   }
   fs.writeFileSync('data/evidence.json', JSON.stringify(out, null, 2) + '\n');

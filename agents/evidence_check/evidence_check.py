@@ -12,8 +12,9 @@ For each claim in claims.json it:
                  (real / mixed / early / hype) with a consumer-friendly summary,
                  confidence, source list and caveats,
   3. QUEUE     — every verdict is written to data/evidence.json with
-                 review.status = "pending". Nothing is shown as checked in the
-                 app until an editor approves it (human in the loop).
+                 review.status = "pending". The WHOLE Editor Agent
+                 (agents/editor/editor_agent.py) reviews it next. Nothing is shown
+                 as checked in the app until it is approved.
 
 Usage
 -----
@@ -22,7 +23,8 @@ Usage
   python3 agents/evidence_check/evidence_check.py --dry-run          # print prompts, no API calls
   python3 agents/evidence_check/evidence_check.py --only nutrition-seed-oils
   python3 agents/evidence_check/evidence_check.py                    # check every claim
-  python3 agents/evidence_check/evidence_check.py --approve nutrition-seed-oils --editor "Lily"
+  python3 agents/editor/editor_agent.py --topic nutrition --review-only     # Editor Agent review
+  python3 agents/evidence_check/evidence_check.py --approve nutrition-seed-oils --editor "Lily"   # manual override
 
 Each run calls Claude and costs money: roughly one research call (with up to
 8 searches) plus one short grading call per claim.
@@ -211,7 +213,7 @@ def run(args):
             "review": {"status": "pending", "editor": None},
         }
         save_out(out)
-        print(f"  {verdict['verdict']} ({verdict['confidence']} confidence) — waiting for editor review")
+        print(f"  {verdict['verdict']} ({verdict['confidence']} confidence) — waiting for Editor Agent review")
     print(f"Wrote {OUT.relative_to(ROOT)}")
 
 
@@ -230,7 +232,7 @@ if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--only", nargs="+", help="claim ids to check")
     p.add_argument("--dry-run", action="store_true", help="print prompts without calling the API")
-    p.add_argument("--approve", nargs="+", help="mark checked claim ids as editor-approved")
+    p.add_argument("--approve", nargs="+", help="manually approve checked claim ids (overrides the Editor Agent)")
     p.add_argument("--editor", default="editor", help="name recorded on approval")
     a = p.parse_args()
     approve(a) if a.approve else run(a)

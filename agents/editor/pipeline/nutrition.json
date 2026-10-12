@@ -1,0 +1,60 @@
+{
+  "_note": "SAMPLE pipeline output for the Editor Agent. Shaped like Anthropologic results; numbers are invented.",
+  "topic": "Nutrition",
+  "cohort": "US women 25-40",
+  "market": "US",
+  "window": "Jul 1 - Sep 30, 2026",
+  "trends": {
+    "pipeline": "Trends",
+    "headline_stat": "64%",
+    "headline_stat_context": "of Americans are now fibermaxxing, counting grams like macros",
+    "rising": [
+      {"trend": "Fibermaxxing", "status": "rising", "note": "Up 3x since spring"},
+      {"trend": "Cottage cheese everything", "status": "sticking", "note": "Peaked 2024, still steady"},
+      {"trend": "Protein in everything", "status": "peaked", "note": "Turning since June"},
+      {"trend": "Girl dinner", "status": "faded", "note": "Gone quiet after 2023"}
+    ]
+  },
+  "discourse": {
+    "pipeline": "Discourse",
+    "read": "4,812 posts and 2.1M searches",
+    "the_answer": "Women 25-40 have shifted from subtractive to additive nutrition framing, with fiber replacing protein as the primary tracked macro.",
+    "summary": "Two years of protein fortification across categories (coffee, chips, cereal) has produced visible fatigue and parody. The cohort now sets daily fiber targets (commonly 30g) and logs them in the same apps. A parallel, low-visibility conversation concerns eating on GLP-1 medication, where search volume far exceeds published content.",
+    "themes": [
+      {"theme": "Fibermaxxing goes mainstream", "setup": "Chia, lentils and 30-plants-a-week challenges logged like macros.", "written_pct": 24, "search_pct": 31},
+      {"theme": "Protein fatigue", "setup": "Backlash and parody targeting protein-fortified coffee, chips and cereal.", "written_pct": 18, "search_pct": 6},
+      {"theme": "Eating on GLP-1s", "setup": "Smaller plates, nausea workarounds and muscle-loss concern.", "written_pct": 9, "search_pct": 28},
+      {"theme": "Blood-sugar hacks", "setup": "Vinegar before meals, post-dinner walks, avoiding naked carbs.", "written_pct": 20, "search_pct": 15},
+      {"theme": "Ultra-processed anxiety", "setup": "Label-scanning apps and seed-oil avoidance.", "written_pct": 17, "search_pct": 12},
+      {"theme": "Cottage cheese everything", "setup": "Flatbreads, ice cream and queso built on cottage cheese.", "written_pct": 12, "search_pct": 8}
+    ],
+    "searched_not_posted": [
+      {"question": "What should I eat on Ozempic?", "search_to_post_ratio": "3.1x"},
+      {"question": "Why am I bloated after adding fiber?", "search_to_post_ratio": "2.4x"},
+      {"question": "Is it bad to skip breakfast?", "search_to_post_ratio": "1.9x"}
+    ],
+    "cycle_signal": "Posts about magnesium, dark chocolate and bloating cluster in the week before a period."
+  },
+  "segmentation": {
+    "pipeline": "Digital Segmentation",
+    "segments": [
+      {"name": "The Add-Don't-Subtract Eater", "mindset": "I'm done with restriction. I'd rather ask what I can add to my plate.", "share_pct": 34, "trigger": "A fiber challenge or 30-plants tracker going viral", "buys": "Prebiotic sodas, chia, bean pastas"},
+      {"name": "The Glucose Watcher", "mindset": "If I can see the spike, I can fix it.", "share_pct": 22, "trigger": "Trying a CGM for two weeks, then keeping the habits", "buys": "Over-the-counter CGMs, apple cider vinegar"},
+      {"name": "The Protein Burnout", "mindset": "I've had enough protein pudding for a lifetime.", "share_pct": 19, "trigger": "Price hikes and taste fatigue on protein products", "buys": "Whole-food swaps, Greek yogurt, eggs"},
+      {"name": "The Quiet GLP-1 Eater", "mindset": "I'm eating less, so every bite has to count. I just don't want to talk about why.", "share_pct": 25, "trigger": "Starting a GLP-1 and losing appetite overnight", "buys": "Protein shakes, electrolytes, small-portion meals"}
+    ]
+  },
+  "foresight": {
+    "pipeline": "Foresight Simulator",
+    "horizon": "2030",
+    "forces": [
+      {"when": "2026", "force": "Fiber claims displace high-protein claims as the primary front-of-pack badge."},
+      {"when": "2027", "force": "Product development for GLP-1 users: small, dense, high-protein formats."},
+      {"when": "2030", "force": "CGM and food-app data converge; retail baskets personalize to glycemic response."}
+    ],
+    "worlds": [
+      {"name": "Tracked plate", "description": "Every gram logged, every spike seen"},
+      {"name": "Intuitive plate", "description": "Tracking burnout brings back just eat real food"}
+    ]
+  }
+}

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
-<meta name="description" content="WHOLE (working title): a clickable prototype of a health and beauty magazine app built on Anthropologic pipelines. Sample data.">
+<meta name="description" content="WHOLE: a clickable prototype of a health and beauty magazine app built on Anthropologic pipelines. Sample data.">
 <meta name="theme-color" content="#FFF7F1">
 <title>Whole Wellness Issues</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -477,13 +477,14 @@ button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px so
 <body>
 <div class="stage">
   <aside class="note">
-    <h1>WHOLE<em>Working title · clickable prototype v3</em></h1>
+    <h1>WHOLE<em>Clickable prototype</em></h1>
     <p>A weekly magazine for your health and beauty. Every card is an issue, built from Anthropologic pipeline runs.</p>
     <dl>
       <dt>Cover</dt><dd>Trends</dd>
       <dt>Conversation</dt><dd>Discourse</dd>
       <dt>Asking</dt><dd>Discourse · posted vs searched</dd>
-      <dt>Real or hype</dt><dd>Discourse + WHOLE Evidence Agent</dd>
+      <dt>Real or hype</dt><dd>Discourse + Evidence Agent</dd>
+      <dt>Every page</dt><dd>Written by the Editor Agent</dd>
       <dt>Who's talking</dt><dd>Digital Segmentation</dd>
       <dt>Shop</dt><dd>Brand Performance · affiliate</dd>
       <dt>Where now</dt><dd>Trends, re-run over time</dd>
@@ -779,7 +780,7 @@ function openIssue(id, startKey){
     ${eyebrow(c,'The conversation')}
     <p class="answer">${esc(c.answer)}</p>
     <p class="lede">${esc(c.lede)}</p>
-    ${how('How we know', {title:c.name+': the conversation', rows:[['Pipeline',R.pipe],['Read',R.posts],['Window',R.window],['Who',cohort()],['Sources','TikTok, Instagram, Reddit, YouTube, Google search']], note:'The headline and themes are written by our editors from the pipeline output. Percentages are each theme’s share of posts and of searches.'})}
+    ${how('How we know', {title:c.name+': the conversation', rows:[['Pipeline',R.pipe],['Read',R.posts],['Window',R.window],['Who',cohort()],['Sources','TikTok, Instagram, Reddit, YouTube, Google search']], note:'The headline and themes are written by the WHOLE Editor Agent from the pipeline output, then fact-checked against it. Percentages are each theme’s share of posts and of searches.'})}
     ${hormoneNote(c.hormone)}
     <h2 style="font-size:30px;margin-top:6px">Six things everyone’s talking about</h2>
     ${c.themes.map(t=>{const v=verdictOf(t);return `<div class="theme">
@@ -802,12 +803,12 @@ function openIssue(id, startKey){
     ${eyebrow(c,'Real or hype?')}
     <h2>This issue’s trends, checked</h2>
     <div class="legend"><span class="v-real"><i></i>Real</span><span class="v-mixed"><i></i>Mixed</span><span class="v-early"><i></i>Too early</span><span class="v-hype"><i></i>Hype</span></div>
-    <div class="runbar"><span><b>Checked by the WHOLE Evidence Agent</b><span>Searches medical research, then an editor approves.</span></span><button data-run="${id}">Re-check</button></div>
+    <div class="runbar"><span><b>Checked by the WHOLE Evidence Agent</b><span>Searches medical research, then the Editor Agent reviews it.</span></span><button data-run="${id}">Re-check</button></div>
     ${c.hype.map(h=>{const e=evidenceFor(h);return `<div class="hype">
       ${stampFor(h)}
       <h5>${esc(h.t)}</h5>
       <div class="two"><div><span class="mono">What people say</span>${esc(h.says)}</div><div><span class="mono">What the evidence says</span>${esc(e.evidence)}</div></div>
-      <button class="agent" data-ev="${h.id}"><span class="who">Evidence Agent</span><span>${esc(cap(e.confidence))} confidence</span><span>${esc((e.source_types||[]).join(' · '))}</span><span class="rev rev-${e.review.status}">${e.review.status==='approved'?'Editor approved':'Awaiting editor'}</span><span class="more">How it was checked</span></button>
+      <button class="agent" data-ev="${h.id}"><span class="who">Evidence Agent</span><span>${esc(cap(e.confidence))} confidence</span><span>${esc((e.source_types||[]).join(' · '))}</span><span class="rev ${e.review.status==='approved'?'rev-approved':'rev-pending'}">${e.review.status==='approved'?'Editor Agent approved':'With the Editor Agent'}</span><span class="more">How it was checked</span></button>
     </div>`}).join('')}
     <p class="hint">General information from published research and what people share. Not medical advice.</p>
   </section>`;
@@ -923,7 +924,7 @@ function openWorking(cid){
       <div class="pager"><section class="pg" style="background:var(--custom);color:var(--custom-ink)">
         <h2 style="font-family:var(--display);font-weight:900;font-size:64px;line-height:.85;letter-spacing:-.03em">${esc(c.name)}</h2>
         <p class="answer">${ready?'Your issue is ready.':'We’re putting your issue together.'}</p>
-        <p class="lede">${ready?'In the live app, your new issue opens here with all nine pages.':'Five research pipelines run on your topic, and the Evidence Agent checks its trends. We’ll let you know when the issue is ready. Live runs take about 15–40 minutes; this prototype runs fast.'}</p>
+        <p class="lede">${ready?'In the live app, your new issue opens here with all nine pages.':'Five research pipelines run on your topic, the Evidence Agent checks its trends, and the Editor Agent writes it up. We’ll let you know when the issue is ready. Live runs take about 15–40 minutes; this prototype runs fast.'}</p>
         ${c.topic?'<p class="hint" style="color:inherit;opacity:.8">This one has sample content, so it opens as a full issue when it finishes.</p>':''}
         <div class="steps">${PIPE_STEPS.map((s,i)=>`<div class="step ${i<p?'done':i===p?'run':'wait'}"><span class="ic">${i<p?'✓':''}</span><span><b>${s[1]}</b><span class="mono" style="font-size:10px">${s[0]}</span></span><span class="mono" style="font-size:10px">${i<p?'Done':i===p?'Running':'Queued'}</span></div>`).join('')}</div>
         <dl class="brief" style="border-color:rgba(28,15,61,.25)">
@@ -1151,14 +1152,14 @@ const DEFAULT_TYPES = {real:[['Systematic review','Clinical guideline'],'high'],
 function evidenceFor(h){
   const e = EVIDENCE[h.id];
   if(e) return {source_types: e.source_types || [...new Set((e.sources||[]).map(x=>x.type))], ...e};
-  return {verdict:h.v, evidence:h.ev, confidence:DEFAULT_TYPES[h.v][1], source_types:DEFAULT_TYPES[h.v][0], sources:[], sample:true, checked_at:'2026-10-09', model:'claude-opus-5-5', review:{status:'approved', editor:'Sample editor'}};
+  return {verdict:h.v, evidence:h.ev, confidence:DEFAULT_TYPES[h.v][1], source_types:DEFAULT_TYPES[h.v][0], sources:[], sample:true, checked_at:'2026-10-09', model:'claude-opus-5-5', review:{status:'approved', editor:'Editor Agent'}};
 }
 function stampFor(h){
   const e = evidenceFor(h);
   if(e.review.status!=='approved') return `<span class="stamp v-early">Being checked</span>`;
   return `<span class="stamp ${VERDICT[e.verdict][1]}">${VERDICT[e.verdict][0]}</span>`;
 }
-const AGENT_STEPS = [['Reads the claim','What people say, from the Discourse pipeline'],['Searches research','PubMed, Cochrane, NIH and medical societies only'],['Reads the sources','Reviews and guidelines first, then trials'],['Grades the evidence','Real, Mixed, Too early or Hype, with confidence'],['Sends to an editor','Nothing is published until a person approves it']];
+const AGENT_STEPS = [['Reads the claim','What people say, from the Discourse pipeline'],['Searches research','PubMed, Cochrane, NIH and medical societies only'],['Reads the sources','Reviews and guidelines first, then trials'],['Grades the evidence','Real, Mixed, Too early or Hype, with confidence'],['Sends to the Editor Agent','It checks the verdict and the wording before anything is published']];
 function openEvidence(topicId, hid){
   const h = TOPICS[topicId].hype.find(x=>x.id===hid), e = evidenceFor(h);
   const v = VERDICT[e.verdict];
@@ -1167,7 +1168,7 @@ function openEvidence(topicId, hid){
       <div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start"><span><span class="mono" style="color:var(--muted)">${esc(TOPICS[topicId].name)} · Real or hype?</span><h3 style="font-family:var(--display);font-style:italic;font-size:26px;margin:4px 0 0;line-height:1.05">${esc(h.t)}</h3></span>
         <span class="stamp ${v[1]}" style="position:static;flex:0 0 auto">${v[0]}</span></div>
       <p style="margin:0">${esc(e.evidence)}</p>
-      <dl class="brief"><dt>Confidence</dt><dd>${esc(cap(e.confidence))}</dd><dt>Evidence</dt><dd>${esc((e.source_types||[]).join(', '))}</dd><dt>Checked</dt><dd>${esc(e.checked_at)} · ${esc(e.model)}</dd><dt>Review</dt><dd>${e.review.status==='approved'?'Approved by '+esc(e.review.editor||'an editor'):'Waiting for an editor'}</dd>${e.caveats?`<dt>Caveats</dt><dd>${esc(e.caveats)}</dd>`:''}</dl>
+      <dl class="brief"><dt>Confidence</dt><dd>${esc(cap(e.confidence))}</dd><dt>Evidence</dt><dd>${esc((e.source_types||[]).join(', '))}</dd><dt>Checked</dt><dd>${esc(e.checked_at)} · ${esc(e.model)}</dd><dt>Review</dt><dd>${e.review.status==='approved'?'Approved by the '+esc(e.review.editor||'Editor Agent'):e.review.status==='returned'?'Sent back for re-checking':'Waiting for the Editor Agent'}${e.review.notes?' · '+esc(e.review.notes):''}</dd>${e.caveats?`<dt>Caveats</dt><dd>${esc(e.caveats)}</dd>`:''}</dl>
       <div class="group"><span class="mono">Sources</span>
         ${(e.sources||[]).length?`<div class="list">${e.sources.map(x=>`<a class="dupe-line" href="${esc(x.url)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none"><span>${esc(x.title)}<br><small style="color:var(--muted)">${esc(x.publisher)} · ${esc(x.year)} · ${esc(x.type)}</small></span><b>↗</b></a>`).join('')}</div>`
           :`<p class="hint">Sample output. Sources with links are filled in when the Evidence Agent runs on live data.</p>`}
@@ -1189,14 +1190,14 @@ function runAgent(topicId){
   const draw = ()=>{ $('#runSteps').innerHTML = AGENT_STEPS.map((st,k)=>`<div class="step ${k<i?'done':k===i?'run':'wait'}"><span class="ic">${k<i?'✓':''}</span><span><b>${st[0]}</b><span class="mono" style="font-size:10px;color:var(--muted)">${st[1]}</span></span><span class="mono" style="font-size:10px">${k<i?'Done':k===i?'Running':''}</span></div>`).join('');
     c.hype.forEach((h,k)=>{ const el=sh.querySelector(`[data-runstate="${h.id}"]`); if(!el) return; const d = i>=AGENT_STEPS.length; el.textContent = d ? VERDICT[evidenceFor(h).verdict][0] : (i>0?'Checking…':'Queued'); el.style.color = d?'var(--ink)':'var(--muted)' }) };
   draw(); clearInterval(runAgent._t);
-  runAgent._t = setInterval(()=>{ i++; draw(); if(i>=AGENT_STEPS.length){ clearInterval(runAgent._t); toast('Demo: verdicts sent to an editor for review') } }, 900);
+  runAgent._t = setInterval(()=>{ i++; draw(); if(i>=AGENT_STEPS.length){ clearInterval(runAgent._t); toast('Demo: verdicts sent to the Editor Agent for review') } }, 900);
 }
 
 /* ===================== ABOUT ===================== */
 function openAbout(){
   const pages = [['Cover','Trends','The biggest number in the topic this week'],['The conversation','Discourse','The headline story, six themes, and what’s posted vs searched'],['Asking, not posting','Discourse','Questions women search far more than they share'],['Real or hype?','Discourse + Evidence Agent','What people say next to what the research says'],['Who’s talking','Digital Segmentation','The kinds of women in the conversation, in their words'],['Shop the issue','Brand Performance','Products people back, with verdicts, dupes and cost per use'],['Where are they now?','Trends, re-run monthly','Whether past trends lasted'],['What’s next','Foresight Simulator','Where the topic is heading and two possible futures'],['Ask','Ask an Anthropologist','Ask your own question about the issue']];
   $('#about').innerHTML = `
-    <div class="about-top"><span class="mono" style="color:var(--muted)">About · working title</span><button class="closebtn" id="closeAbout" aria-label="Close" style="background:var(--paper-2)">${ICON.close}</button></div>
+    <div class="about-top"><span class="mono" style="color:var(--muted)">About WHOLE</span><button class="closebtn" id="closeAbout" aria-label="Close" style="background:var(--paper-2)">${ICON.close}</button></div>
     <div class="about-body">
       <section><h2>WHOLE</h2>
         <p style="font-family:var(--display);font-style:italic;font-size:24px;line-height:1.1">A weekly magazine for your health and beauty, built from what people actually say and search.</p>
@@ -1207,7 +1208,7 @@ function openAbout(){
           <div class="node"><b>What people post and search</b><span>TikTok, Instagram, Reddit, YouTube and Google search, for your cohort and market</span></div><i class="arrow"></i>
           <div class="node dark"><b>Anthropologic pipelines</b><span>Quilt.ai’s research pipelines read the conversation</span><span class="pipes"><i>Trends</i><i>Discourse</i><i>Segmentation</i><i>Brand Performance</i><i>Foresight</i><i>Ask an Anthropologist</i></span></div><i class="arrow"></i>
           <div class="node agent"><b>WHOLE Evidence Agent</b><span>Checks each trend against published research for “Real or hype?”</span></div><i class="arrow"></i>
-          <div class="node"><b>Editors</b><span>Write the issue in magazine voice and approve every verdict</span></div><i class="arrow"></i>
+          <div class="node agent"><b>WHOLE Editor Agent</b><span>Thinks like a magazine editor: finds the story, writes it so you want to read it, fact-checks every number against the research, and signs off every verdict</span></div><i class="arrow"></i>
           <div class="node dark"><b>Your issue</b><span>Shaped by your angle: age, goals, budget and values</span></div>
         </div></section>
 
@@ -1228,7 +1229,7 @@ function openAbout(){
       <section><h3>Real or hype?</h3>
         <p>The pipelines tell us what people say. The <b>Evidence Agent</b> adds what the research says. It is built on Claude, searches only trusted medical sources (PubMed, Cochrane, NIH, medical societies), reads the strongest evidence, and grades each trend:</p>
         <div class="legend" style="font-size:13px"><span class="v-real"><i></i>Real: good human studies support it</span><span class="v-mixed"><i></i>Mixed: some support, smaller than claimed</span><span class="v-early"><i></i>Too early: not enough research yet</span><span class="v-hype"><i></i>Hype: evidence doesn’t support it</span></div>
-        <p>Every verdict waits for an editor before it appears. WHOLE gives general information, not medical advice.</p></section>
+        <p>Every verdict then goes to the <b>Editor Agent</b>, which checks that the grade matches the sources and that the wording is accurate and plain. It can approve, tighten the wording, or send it back to be re-checked. WHOLE gives general information, not medical advice.</p></section>
 
       <section><h3>Shopping</h3>
         <p>Each issue’s Shop page lists products people actually back, with what they love, their complaints, cost per use and a cheaper pick. Products are ranked by what people say, never by commission. WHOLE may earn a commission when you buy through a link, and every Shop page says so.</p></section>
@@ -1242,7 +1243,7 @@ function openAbout(){
       <section><h3>What’s real in this prototype</h3>
         <dl class="status-table">
           <dt class="st-built">Built</dt><dd>Every screen and flow: intro, home, issues, threads, shop, saved, new cards, customizing.</dd>
-          <dt class="st-code">Code ready</dt><dd>The Evidence Agent (Python, Claude Opus 5.5). It isn’t running live; the verdicts here are sample output.</dd>
+          <dt class="st-code">Code ready</dt><dd>The Evidence Agent and the Editor Agent (Python, Claude Opus 5.5). They aren’t running live; the copy and verdicts here are sample output.</dd>
           <dt class="st-sample">Sample</dt><dd>All numbers, quotes, products and prices. Written to look like pipeline output for US women 25–40. Not real data.</dd>
           <dt class="st-not">Not built</dt><dd>Live pipeline runs, accounts, notifications and real retailer links.</dd>
         </dl>
@@ -1278,7 +1279,7 @@ function drawOnb(){
       <h1 class="masthead">WHOLE</h1>
       <p>Your health and beauty, in issues. What everyone’s talking about, what’s actually real, and what’s worth buying.</p>
     </div>
-    <div class="onb-foot"><button class="primary" id="obNext">Get started</button><button class="ghost" id="obAbout">How it works</button><span class="fine">Prototype · sample data · working title</span></div>`;
+    <div class="onb-foot"><button class="primary" id="obNext">Get started</button><button class="ghost" id="obAbout">How it works</button><span class="fine">Prototype · sample data</span></div>`;
     $('#obAbout').onclick = openAbout;
   } else if(st===1){
     o.innerHTML = `${top()}<div class="onb-body"><h2>Pick your cards</h2><p class="lede" style="margin:0">Each card is a weekly issue. You can change these any time.</p>
@@ -1308,7 +1309,7 @@ function drawOnb(){
         <div class="steps" id="obSteps"></div>
         <p class="hint" style="color:inherit;opacity:.65">Prototype: these issues use sample data, so this takes seconds.</p>
       </div>`;
-    const steps = [...PIPE_STEPS, ['Evidence Agent','Checking what’s real']];
+    const steps = [...PIPE_STEPS, ['Evidence Agent','Checking what’s real'], ['Editor Agent','Writing your issues']];
     let i = 0;
     const draw = ()=>{ $('#obSteps').innerHTML = steps.map((s,k)=>`<div class="step ${k<i?'done':k===i?'run':'wait'}"><span class="ic">${k<i?'✓':''}</span><span><b>${s[1]}</b><span class="mono" style="font-size:10px;opacity:.7">${s[0]}</span></span><span></span></div>`).join('') };
     draw();
