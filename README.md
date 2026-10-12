@@ -4,7 +4,7 @@ A clickable prototype of a phone app: a weekly health and beauty magazine for wo
 
 **Live prototype:** https://lilyaddy15.github.io/whole-app/
 
-> **Prototype with sample data.** Every number, quote, product, price and verdict is invented to look like pipeline output. Nothing here is real research or medical advice. Brand names appear only to make the mockup realistic.
+> **Prototype with sample data.** Issue numbers, quotes, products and prices are invented to look like pipeline output, and brand names appear only to make the mockup realistic. The **Real or hype? verdicts are real**: each one links to published studies that were checked against PubMed or Crossref. WHOLE gives general information, not medical advice.
 
 ## What's in the app
 
@@ -34,18 +34,21 @@ The pipelines say what people *say*. The Evidence Agent adds what the *research*
 `agents/evidence_check/evidence_check.py`:
 
 1. **Research**: Claude Opus 5.5 with web search and web fetch, limited to trusted medical sources (PubMed, Cochrane, NIH, CDC, medical societies…).
-2. **Grade**: a structured verdict (real / mixed / early / hype), a plain-language summary, confidence, sources and caveats.
-3. **Queue for review**: results go to `data/evidence.json` as `pending`. The Editor Agent reviews them next. The app shows "Being checked" until a verdict is approved.
+2. **Grade**: a structured verdict (real / mixed / early / hype), a plain-language summary, confidence, caveats, and sources with PubMed IDs and DOIs.
+3. **Verify citations**: `agents/citations/verify_sources.py` looks every source up in PubMed (or Crossref for DOIs) and checks the title and year against the official record. It saves the abstract for the editor. A verdict needs **at least 2 verified studies**, and "real" or "hype" needs **a verified systematic review, meta-analysis, guideline or expert-body statement**. Anything short of that is held back as `needs_sources` and never shown as a verdict.
+4. **Editor Agent review**: reads each study's abstract to confirm it says what the verdict claims, then approves, tightens the wording, or sends it back.
+
+No person signs off. The safeguard is the citation rule: every published verdict links to real, verified research.
 
 ```bash
 pip install -r requirements.txt
 node scripts/export_claims.mjs                                         # claims from data/issues.js
 python3 agents/evidence_check/evidence_check.py --dry-run              # see the prompts, no API calls
 python3 agents/evidence_check/evidence_check.py --only sleep-mouth-taping
-python3 agents/evidence_check/evidence_check.py --approve sleep-mouth-taping --editor "Your name"   # manual override
+python3 agents/citations/verify_sources.py                             # re-check every citation (no API key needed)
 ```
 
-Needs `ANTHROPIC_API_KEY` (or `ant auth login`). Each claim costs one research call (up to 8 searches) plus one short grading call. The `data/evidence.json` in this repo is **sample output** created by `node scripts/export_claims.mjs --seed`; it has no real sources.
+Needs `ANTHROPIC_API_KEY` (or `ant auth login`). Each claim costs one research call (up to 8 searches) plus one short grading call. `data/evidence.json` holds the 16 current verdicts with 46 published studies, all verified against PubMed or Crossref on 2026-10-11.
 
 ## The Editor Agent
 
@@ -79,7 +82,8 @@ Anthropologic pipelines ──► Editor Agent (write + fact-check) ──► da
 ```
 index.html                      the app (no build step)
 data/issues.js                  all issue content (sample)
-data/evidence.json              Evidence Agent output the app reads (sample)
+data/evidence.json              verdicts + verified studies the app reads
+agents/citations/               citation checker (PubMed / Crossref)
 agents/evidence_check/          the Evidence Agent and its claims list
 agents/editor/                  the Editor Agent and sample pipeline input
 scripts/export_claims.mjs       exports claims for the Evidence Agent

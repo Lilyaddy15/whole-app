@@ -16,8 +16,10 @@ Three jobs:
               and claim must trace back to the pipeline output. If anything
               doesn't, the draft goes back for a rewrite (up to --rounds times).
   3. REVIEW   Review the Evidence Agent's "Real or hype?" verdicts for this
-              topic. Approve them, tighten the wording, or send them back with
-              notes. Nothing reaches the app without this sign-off.
+              topic. Only verdicts whose sources passed the citation check
+              (agents/citations/verify_sources.py) are reviewed. The editor reads
+              each study's abstract and approves the verdict, tightens the
+              wording, or sends it back. Nothing reaches the app without this.
 
 Usage
 -----
@@ -189,12 +191,14 @@ def review_prompt(trend, says, verdict):
 Trend: {trend}
 What people say: {says}
 
-Evidence Agent verdict:
+Evidence Agent verdict, with each source's official record and abstract (looked up in PubMed / Crossref):
 {json.dumps(verdict, indent=2, ensure_ascii=False)}
 
 Check:
-- Does the verdict (real / mixed / early / hype) match what the summary and sources actually show?
-- Are there sources, and do they look like real research or expert bodies? If there are none, return it.
+- Read every abstract. Does each source actually show what its "supports" line says? If a source is off-topic
+  or says something weaker or different, return the verdict.
+- Does the verdict (real / mixed / early / hype) match what the abstracts show, as a whole?
+- Were the studies done in people like our reader? Note it if the evidence is mostly in older adults, men or patients.
 - Is the summary accurate, plain and short enough for our reader (2 to 3 sentences)? If you can say it better
   without changing its meaning or strength, put your version in "evidence".
 - Does anything read as personal medical advice?
@@ -236,7 +240,12 @@ def review_verdicts(client, topic):
         print("  no pending verdicts for this topic")
     for cid in pending:
         v, c = data["claims"][cid], claims.get(cid, {})
-        verdict = {k: v.get(k) for k in ("verdict", "evidence", "confidence", "caveats", "sources")}
+        if not v.get("citations_ok"):
+            print(f"  skipping {cid}: sources not verified")
+            continue
+        verdict = {k: v.get(k) for k in ("verdict", "evidence", "confidence", "caveats")}
+        verdict["sources"] = [{k: src.get(k) for k in ("title", "publisher", "year", "type", "url", "supports", "abstract")}
+                              for src in v.get("sources", []) if src.get("verified")]
         print(f"  reviewing {cid}", flush=True)
         r = call(client, REVIEW_SYSTEM, review_prompt(c.get("trend", cid), c.get("says", ""), verdict), REVIEW_SCHEMA, "high")
         today = dt.date.today().isoformat()

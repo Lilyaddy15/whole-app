@@ -212,7 +212,7 @@ button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px so
 .hype{border-top:1px solid var(--line);padding-top:16px;display:flex;flex-direction:column;gap:10px;position:relative}
 .hype h5{margin:0;font-family:var(--display);font-style:italic;font-weight:600;font-size:24px;line-height:1.05;padding-right:74px;min-height:62px}
 .hype .stamp{top:12px;right:0;width:64px;height:64px;font-size:10px}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.two{display:grid;grid-template-columns:1fr;gap:8px}
 .two > div{background:var(--paper-2);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:4px;font-size:13.5px}
 .two .mono{color:var(--muted);font-size:9.5px}
 .legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted)}
@@ -458,6 +458,17 @@ button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px so
 .note-actions button,.note-actions a{border:1.5px solid var(--ink);border-radius:99px;padding:8px 14px;font-weight:700;font-size:13px;color:var(--ink);text-decoration:none}
 
 /* ---------- evidence agent ---------- */
+.study{display:flex;flex-direction:column;gap:3px;border-left:3px solid var(--custom-hi);padding:4px 0 4px 12px;color:inherit;text-decoration:none}
+.study .mono{color:var(--custom-hi);font-size:10px}
+.study b{font-size:14px;line-height:1.3;font-weight:600;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.study span:last-child{font-size:12px;color:var(--muted)}
+.source{display:flex;flex-direction:column;gap:4px;border:1px solid var(--line);border-radius:14px;padding:12px 14px;color:inherit;text-decoration:none;background:var(--chip)}
+.source b{font-size:14.5px;line-height:1.3}
+.src-type{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--custom-hi)}
+.src-meta{font-size:12.5px;color:var(--muted)}
+.src-why{font-size:13px}
+.src-ok{font-size:11.5px;font-weight:700}
+.src-ok.yes{color:var(--up)} .src-ok.no{color:var(--warn)}
 .agent{border-radius:14px;padding:10px 12px;background:color-mix(in srgb,var(--custom) 45%,transparent);display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:12.5px;text-align:left;width:100%}
 .agent .who{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;font-weight:500;display:flex;align-items:center;gap:6px}
 .agent .who::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--custom-hi)}
@@ -803,12 +814,13 @@ function openIssue(id, startKey){
     ${eyebrow(c,'Real or hype?')}
     <h2>This issue’s trends, checked</h2>
     <div class="legend"><span class="v-real"><i></i>Real</span><span class="v-mixed"><i></i>Mixed</span><span class="v-early"><i></i>Too early</span><span class="v-hype"><i></i>Hype</span></div>
-    <div class="runbar"><span><b>Checked by the WHOLE Evidence Agent</b><span>Searches medical research, then the Editor Agent reviews it.</span></span><button data-run="${id}">Re-check</button></div>
+    <div class="runbar"><span><b>Checked by the WHOLE Evidence Agent</b><span>Every verdict links to verified studies, then the Editor Agent reviews it.</span></span><button data-run="${id}">Re-check</button></div>
     ${c.hype.map(h=>{const e=evidenceFor(h);return `<div class="hype">
       ${stampFor(h)}
       <h5>${esc(h.t)}</h5>
       <div class="two"><div><span class="mono">What people say</span>${esc(h.says)}</div><div><span class="mono">What the evidence says</span>${esc(e.evidence)}</div></div>
-      <button class="agent" data-ev="${h.id}"><span class="who">Evidence Agent</span><span>${esc(cap(e.confidence))} confidence</span><span>${esc((e.source_types||[]).join(' · '))}</span><span class="rev ${e.review.status==='approved'?'rev-approved':'rev-pending'}">${e.review.status==='approved'?'Editor Agent approved':'With the Editor Agent'}</span><span class="more">How it was checked</span></button>
+      ${(()=>{const vs=(e.sources||[]).filter(x=>x.verified);return vs.length?`<a class="study" href="${esc(vs[0].url)}" target="_blank" rel="noopener"><span class="mono">Read the study</span><b>${esc(vs[0].title)}</b><span>${esc(vs[0].publisher)} · ${esc(vs[0].year)} · ${esc(vs[0].type)}</span></a>`:''})()}
+      <button class="agent" data-ev="${h.id}"><span class="who">Evidence Agent</span><span>${esc(cap(e.confidence))} confidence</span><span>${(e.sources||[]).filter(x=>x.verified).length?`${(e.sources||[]).filter(x=>x.verified).length} verified studies`:esc((e.source_types||[]).join(' · '))}</span><span class="rev ${e.review.status==='approved'?'rev-approved':'rev-pending'}">${e.review.status==='approved'?(e.review.editor==='Editor Agent'?'Editor Agent approved':'Sources verified'):e.review.status==='needs_sources'?'Finding sources':'With the Editor Agent'}</span><span class="more">All sources</span></button>
     </div>`}).join('')}
     <p class="hint">General information from published research and what people share. Not medical advice.</p>
   </section>`;
@@ -1159,7 +1171,7 @@ function stampFor(h){
   if(e.review.status!=='approved') return `<span class="stamp v-early">Being checked</span>`;
   return `<span class="stamp ${VERDICT[e.verdict][1]}">${VERDICT[e.verdict][0]}</span>`;
 }
-const AGENT_STEPS = [['Reads the claim','What people say, from the Discourse pipeline'],['Searches research','PubMed, Cochrane, NIH and medical societies only'],['Reads the sources','Reviews and guidelines first, then trials'],['Grades the evidence','Real, Mixed, Too early or Hype, with confidence'],['Sends to the Editor Agent','It checks the verdict and the wording before anything is published']];
+const AGENT_STEPS = [['Reads the claim','What people say, from the Discourse pipeline'],['Searches research','PubMed, Cochrane, NIH and medical societies only'],['Reads the sources','Reviews and guidelines first, then trials'],['Grades the evidence','Real, Mixed, Too early or Hype, with confidence'],['Checks every citation','Each study is looked up in PubMed or Crossref'],['Sends to the Editor Agent','It checks the verdict and the wording before anything is published']];
 function openEvidence(topicId, hid){
   const h = TOPICS[topicId].hype.find(x=>x.id===hid), e = evidenceFor(h);
   const v = VERDICT[e.verdict];
@@ -1168,10 +1180,10 @@ function openEvidence(topicId, hid){
       <div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start"><span><span class="mono" style="color:var(--muted)">${esc(TOPICS[topicId].name)} · Real or hype?</span><h3 style="font-family:var(--display);font-style:italic;font-size:26px;margin:4px 0 0;line-height:1.05">${esc(h.t)}</h3></span>
         <span class="stamp ${v[1]}" style="position:static;flex:0 0 auto">${v[0]}</span></div>
       <p style="margin:0">${esc(e.evidence)}</p>
-      <dl class="brief"><dt>Confidence</dt><dd>${esc(cap(e.confidence))}</dd><dt>Evidence</dt><dd>${esc((e.source_types||[]).join(', '))}</dd><dt>Checked</dt><dd>${esc(e.checked_at)} · ${esc(e.model)}</dd><dt>Review</dt><dd>${e.review.status==='approved'?'Approved by the '+esc(e.review.editor||'Editor Agent'):e.review.status==='returned'?'Sent back for re-checking':'Waiting for the Editor Agent'}${e.review.notes?' · '+esc(e.review.notes):''}</dd>${e.caveats?`<dt>Caveats</dt><dd>${esc(e.caveats)}</dd>`:''}</dl>
-      <div class="group"><span class="mono">Sources</span>
-        ${(e.sources||[]).length?`<div class="list">${e.sources.map(x=>`<a class="dupe-line" href="${esc(x.url)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none"><span>${esc(x.title)}<br><small style="color:var(--muted)">${esc(x.publisher)} · ${esc(x.year)} · ${esc(x.type)}</small></span><b>↗</b></a>`).join('')}</div>`
-          :`<p class="hint">Sample output. Sources with links are filled in when the Evidence Agent runs on live data.</p>`}
+      <dl class="brief"><dt>Confidence</dt><dd>${esc(cap(e.confidence))}</dd><dt>Evidence</dt><dd>${esc((e.source_types||[]).join(', '))}</dd><dt>Checked</dt><dd>${esc(e.checked_at)} · ${esc(e.model)}</dd><dt>Review</dt><dd>${e.review.status==='approved'?(e.review.editor==='Editor Agent'?'Approved by the Editor Agent':'Approved in prototype review'):e.review.status==='returned'?'Sent back for re-checking':e.review.status==='needs_sources'?'Held back until verified sources are found':'Waiting for the Editor Agent'}${e.review.notes?' · '+esc(e.review.notes):''}</dd>${e.caveats?`<dt>Caveats</dt><dd>${esc(e.caveats)}</dd>`:''}</dl>
+      <div class="group"><span class="mono">The research</span>
+        ${(e.sources||[]).length?`<div class="list">${e.sources.map(x=>`<a class="source" href="${esc(x.url)}" target="_blank" rel="noopener"><span class="src-type">${esc(x.type)}</span><b>${esc(x.title)}</b><span class="src-meta">${esc(x.publisher)} · ${esc(x.year)}</span>${x.supports?`<span class="src-why">${esc(x.supports)}</span>`:''}<span class="src-ok ${x.verified?'yes':'no'}">${x.verified?'✓ Checked in '+esc(x.verified_via||'PubMed')+(x.verified_at?' · '+esc(x.verified_at):''):'Not yet verified'}</span></a>`).join('')}</div>`
+          :`<p class="hint">No sources yet. Verdicts without at least two verified studies aren’t published.</p>`}
       </div>
       <div class="group trace"><span class="mono">What the agent did</span><div class="steps">${AGENT_STEPS.map(st=>`<div class="step done"><span class="ic">✓</span><span><b>${st[0]}</b><span class="mono" style="font-size:10px;color:var(--muted)">${st[1]}</span></span><span></span></div>`).join('')}</div></div>
       <p class="hint">General information, not medical advice.</p>
@@ -1229,7 +1241,8 @@ function openAbout(){
       <section><h3>Real or hype?</h3>
         <p>The pipelines tell us what people say. The <b>Evidence Agent</b> adds what the research says. It is built on Claude, searches only trusted medical sources (PubMed, Cochrane, NIH, medical societies), reads the strongest evidence, and grades each trend:</p>
         <div class="legend" style="font-size:13px"><span class="v-real"><i></i>Real: good human studies support it</span><span class="v-mixed"><i></i>Mixed: some support, smaller than claimed</span><span class="v-early"><i></i>Too early: not enough research yet</span><span class="v-hype"><i></i>Hype: evidence doesn’t support it</span></div>
-        <p>Every verdict then goes to the <b>Editor Agent</b>, which checks that the grade matches the sources and that the wording is accurate and plain. It can approve, tighten the wording, or send it back to be re-checked. WHOLE gives general information, not medical advice.</p></section>
+        <p><b>Every verdict links to the studies behind it.</b> Each study is looked up in PubMed or Crossref, the official records of published research, and its title and year must match. A verdict needs at least two verified studies, and “Real” or “Hype” needs at least one review, guideline or expert-body statement. If the sources aren’t there, the verdict isn’t published.</p>
+        <p>Then the <b>Editor Agent</b> reads each study’s abstract to confirm it says what the verdict claims, and checks the wording is accurate and plain. It can approve, tighten the wording, or send it back. WHOLE gives general information, not medical advice.</p></section>
 
       <section><h3>Shopping</h3>
         <p>Each issue’s Shop page lists products people actually back, with what they love, their complaints, cost per use and a cheaper pick. Products are ranked by what people say, never by commission. WHOLE may earn a commission when you buy through a link, and every Shop page says so.</p></section>
@@ -1243,8 +1256,9 @@ function openAbout(){
       <section><h3>What’s real in this prototype</h3>
         <dl class="status-table">
           <dt class="st-built">Built</dt><dd>Every screen and flow: intro, home, issues, threads, shop, saved, new cards, customizing.</dd>
-          <dt class="st-code">Code ready</dt><dd>The Evidence Agent and the Editor Agent (Python, Claude Opus 5.5). They aren’t running live; the copy and verdicts here are sample output.</dd>
-          <dt class="st-sample">Sample</dt><dd>All numbers, quotes, products and prices. Written to look like pipeline output for US women 25–40. Not real data.</dd>
+          <dt class="st-code">Code ready</dt><dd>The Evidence Agent and the Editor Agent (Python, Claude Opus 5.5). They aren’t running live yet; the issue copy here is sample output.</dd>
+          <dt class="st-built">Real</dt><dd>The Real or hype verdicts and every study they link to. Each study was found in published research and checked against PubMed or Crossref.</dd>
+          <dt class="st-sample">Sample</dt><dd>All other numbers, quotes, products and prices. Written to look like pipeline output for US women 25–40. Not real data.</dd>
           <dt class="st-not">Not built</dt><dd>Live pipeline runs, accounts, notifications and real retailer links.</dd>
         </dl>
         <p class="muted">Code and docs: <a href="${REPO}" target="_blank" rel="noopener">${REPO.replace('https://','')}</a></p></section>

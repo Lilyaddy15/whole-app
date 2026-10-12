@@ -1,290 +1,906 @@
 {
-  "generated_by": "scripts/export_claims.mjs --seed",
-  "sample": true,
+  "generated_by": "Evidence research, 2026-10-11",
   "claims": {
-    "nutrition-fibermaxxing": {
-      "verdict": "real",
-      "evidence": "Most US adults eat well under the recommended 25–34 grams a day. Higher fiber intake is linked to lower heart disease risk. Build up slowly.",
-      "confidence": "high",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Systematic review",
-        "Clinical guideline"
-      ],
-      "checked_at": "2026-10-09",
-      "model": "claude-opus-5-5",
-      "sample": true,
-      "review": {
-        "status": "approved",
-        "editor": "Editor Agent"
-      }
-    },
-    "nutrition-vinegar-shots-before-meals": {
-      "verdict": "mixed",
-      "evidence": "Small studies show a modest dip in blood sugar after meals. It is not a weight-loss tool on its own, and undiluted vinegar can wear down tooth enamel.",
-      "confidence": "medium",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Randomized trial",
-        "Systematic review"
-      ],
-      "checked_at": "2026-10-09",
-      "model": "claude-opus-5-5",
-      "sample": true,
-      "review": {
-        "status": "approved",
-        "editor": "Editor Agent"
-      }
-    },
-    "nutrition-wearing-a-cgm-without-diabetes": {
-      "verdict": "early",
-      "evidence": "Useful as a short experiment. There is little research yet on long-term benefit for people without diabetes.",
-      "confidence": "low",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Small trials"
-      ],
-      "checked_at": "2026-10-09",
-      "model": "claude-opus-5-5",
-      "sample": true,
-      "review": {
-        "status": "approved",
-        "editor": "Editor Agent"
-      }
-    },
-    "nutrition-seed-oils-are-toxic": {
-      "verdict": "hype",
-      "evidence": "Major reviews do not support this. Swapping unsaturated oils for butter is not linked to better heart health.",
-      "confidence": "medium",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Systematic review",
-        "Expert body"
-      ],
-      "checked_at": "2026-10-09",
-      "model": "claude-opus-5-5",
-      "sample": true,
-      "review": {
-        "status": "approved",
-        "editor": "Editor Agent"
-      }
-    },
     "beauty-barrier-repair": {
       "verdict": "real",
-      "evidence": "Ceramides and gentle routines are well supported for irritated, over-exfoliated skin.",
-      "confidence": "high",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Systematic review",
-        "Clinical guideline"
+      "evidence": "Dermatologists warn that over-exfoliating can leave skin red and irritated, so cutting back is a sensible first step. Studies show moisturizers, including ones with ceramides, help dry and irritated skin recover. No single moisturizer has been shown to work clearly better than the rest.",
+      "confidence": "medium",
+      "caveats": "No trials test 'stop nightly acids' head to head. The support comes from expert guidance plus moisturizer trials, which were mostly done in people with eczema. Ceramide products beat other moisturizers on some measures but not on others. Two weeks is an anecdote, not a tested timeline.",
+      "sources": [
+        {
+          "title": "How to safely exfoliate at home",
+          "publisher": "American Academy of Dermatology",
+          "year": "",
+          "type": "Expert body",
+          "url": "https://www.aad.org/public/skin-hair-nails/skin-care/exfoliation",
+          "pmid": "",
+          "doi": "",
+          "supports": "AAD warns that over-exfoliating can make skin red and irritated, says to moisturize after exfoliating, and notes that retinoids and retinol can make skin more sensitive.",
+          "verified": true,
+          "verified_via": "HTTP 200",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Clinical significance of the water retention and barrier function-improving capabilities of ceramide-containing formulations: A qualitative review",
+          "publisher": "The Journal of dermatology",
+          "year": "2021",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34596254/",
+          "pmid": "34596254",
+          "doi": "10.1111/1346-8138.16175",
+          "supports": "Twelve controlled studies showed ceramide products improve dry skin and barrier function, mainly in atopic dermatitis, and the authors call for larger blinded trials.",
+          "abstract": "1. J Dermatol. 2021 Dec;48(12):1807-1816. doi: 10.1111/1346-8138.16175. Epub 2021\n Oct 1.\n\nClinical significance of the water retention and barrier function-improving \ncapabilities of ceramide-containing formulations: A qualitative review.\n\nKono T(1), Miyachi Y(2)(3)(4), Kawashima M(2)(5).\n\nAuthor information:\n(1)Department of Dermatology, Aidu Chuo Hospital, Fukushima, Japan.\n(2)Non-Profit Organization Health Institute Research of Skin, Tokyo, Japan.\n(3)Shizuoka Graduate University of Public Health, Shizuoka, Japan.\n(4)Kyoto University, Kyoto, Japan.\n(5)Tokyo Women's Medical University, Tokyo, Japan.\n\nComment in\n    J Dermatol. 2022 Mar;49(3):e121-e123. doi: 10.1111/1346-8138.16262.\n\nA decrease in the ceramide content of the stratum corneum is known to cause dry \nand barrier-disrupted skin. In this literature review, the clinical usefulness \nof preparations containing natural or synthetic ceramides for water retention \nand barrier functions was evaluated. The PubMed, Cochrane Library, and Igaku \nChuo Zasshi databases were searched using keywords such as \"ceramide\", \"skincare \nproducts\", \"barrier + hydration + moisture + skin\", and \"randomized trial\". All \ndatabase searches were conducted in February 2019. Forty-one reports were \nselected based on the following criterion: comparative control studies that \nevaluated the effects of ceramide-containing formulations based on statistical \nevidence. Among the 41 reports, 12 were selected using the patient, \nintervention, comparison, and outcome approach. These 12 reports showed that \nexternal ceramide-containing preparations can improve dry skin and barrier \nfunction in patients with atopic dermatitis. However, a double-blinded \ncomparative study with a large sample size is warranted for appropriate clinical \nuse.\n\n© 2021 The Authors. The Journal of Dermatology published by John Wiley & Sons \nAustralia, Ltd on behalf of Japanese Dermatological Association.\n\nDOI: 10.1111/1346-8138.16175\nPMCID: PMC9293121\nPMID: 34596254 [Indexed for MEDLINE]\n\nConflict of interest statement: None declared.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Emollients and moisturisers for eczema",
+          "publisher": "The Cochrane database of systematic reviews",
+          "year": "2017",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28166390/",
+          "pmid": "28166390",
+          "doi": "10.1002/14651858.CD012119.pub2",
+          "supports": "Across 77 trials, most moisturizers helped (fewer flares, less steroid needed), but there was no reliable evidence that any one moisturizer is better than another.",
+          "abstract": "1. Cochrane Database Syst Rev. 2017 Feb 6;2(2):CD012119. doi: \n10.1002/14651858.CD012119.pub2.\n\nEmollients and moisturisers for eczema.\n\nvan Zuuren EJ(1), Fedorowicz Z(2), Christensen R(3), Lavrijsen A(1), Arents \nBWM(4).\n\nAuthor information:\n(1)Department of Dermatology, Leiden University Medical Center, PO Box 9600, \nB1-Q, Leiden, Netherlands, 2300 RC.\n(2)Bahrain Branch, Cochrane, Box 25438, Awali, Bahrain.\n(3)Musculoskeletal Statistics Unit, The Parker Institute, Copenhagen University \nHospital, Bispebjerg og Frederiksberg, Nordre Fasanvej 57, Copenhagen, Denmark, \nDK-2000.\n(4)Dutch Association for People with Atopic Dermatitis (VMCE: Vereniging voor \nMensen met Constitutioneel Eczeem), PO Box 26, Nijkerk, Netherlands, NL-3860AA.\n\nComment in\n    Dermatology. 2022;238(3):594-596. doi: 10.1159/000518773.\n\nBACKGROUND: Eczema is a chronic skin disease characterised by dry skin, intense \nitching, inflammatory skin lesions, and a considerable impact on quality of \nlife. Moisturisation is an integral part of treatment, but it is unclear if \nmoisturisers are effective.\nOBJECTIVES: To assess the effects of moisturisers for eczema.\nSEARCH METHODS: We searched the following databases to December 2015: Cochrane \nSkin Specialised Register, CENTRAL, MEDLINE, Embase, LILACS, the GREAT database. \nWe searched five trials registers and checked references of included and \nexcluded studies for further relevant trials.\nSELECTION CRITERIA: Randomised controlled trials in people with eczema.\nDATA COLLECTION AND ANALYSIS: We used standard Cochrane methodological \nprocedures.\nMAIN RESULTS: We included 77 studies (6603 participants, mean age: 18.6 years, \nmean duration: 6.7 weeks). We assessed 36 studies as at a high risk of bias, 34 \nat unclear risk, and seven at low risk. Twenty-four studies assessed our primary \noutcome 'participant-assessed disease severity', 13 assessed 'satisfaction', and \n41 assessed 'adverse events'. Secondary outcomes included investigator-assessed \ndisease severity (addressed in 65 studies), skin barrier function (29), flare \nprevention (16), quality of life (10), and corticosteroid use (eight). Adverse \nevents reporting was limited (smarting, stinging, pruritus, erythema, \nfolliculitis).Six studies evaluated moisturiser versus no moisturiser. \n'Participant-assessed disease severity' and 'satisfaction' were not assessed. \nMoisturiser use yielded lower SCORAD than no moisturiser (three studies, 276 \nparticipants, mean difference (MD) -2.42, 95% confidence interval (CI) -4.55 to \n-0.28), but the minimal important difference (MID) (8.7) was unmet. There were \nfewer flares with moisturisers (two studies, 87 participants, RR 0.40, 95% CI \n0.23 to 0.70), time to flare was prolonged (median: 180 versus 30 days), and \nless topical corticosteroids were needed (two studies, 222 participants, MD \n-9.30 g, 95% CI -15.3 to -3.27). There was no statistically significant \ndifference in adverse events (one study, 173 participants, risk ratio (RR) \n15.34, 95%",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
       ],
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-11",
       "model": "claude-opus-5-5",
-      "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Editor Agent"
-      }
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
     },
     "beauty-at-home-led-masks": {
       "verdict": "mixed",
-      "evidence": "There is some evidence for red light on mild acne and fine lines. Home devices are weaker than clinic ones and need near-daily use.",
+      "evidence": "Red and blue light have some trial support for mild acne, and red light for fine lines. Evidence that LED light reduces facial redness or rosacea is thin, with only a few small studies. Most studies are small and use clinic devices, so results from home masks are less certain.",
       "confidence": "medium",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Randomized trial",
-        "Systematic review"
+      "caveats": "The 2018 review rated most skin uses beyond acne, cold sores and wound healing as weak (grade C or D). The rosacea review is narrative and says more studies are needed. LED looks low-risk, but 'the only thing that helped my redness' is not backed by trials.",
+      "sources": [
+        {
+          "title": "Light-emitting diodes in dermatology: A systematic review of randomized controlled trials",
+          "publisher": "Lasers in surgery and medicine",
+          "year": "2018",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29356026/",
+          "pmid": "29356026",
+          "doi": "10.1002/lsm.22791",
+          "supports": "Of 31 RCTs, only acne, herpes infections and acute wound healing got a grade B recommendation; other uses got C or D, and many trials were small, unblinded or lacked a sham control.",
+          "abstract": "1. Lasers Surg Med. 2018 Jan 22;50(6):613-28. doi: 10.1002/lsm.22791. Online\nahead  of print.\n\nLight-emitting diodes in dermatology: A systematic review of randomized \ncontrolled trials.\n\nJagdeo J(1)(2)(3), Austin E(1)(2), Mamalis A(3), Wong C(2), Ho D(1)(2), Siegel \nDM(3).\n\nAuthor information:\n(1)Department of Dermatology, University of California at Davis, Sacramento, \nCalifornia.\n(2)Dermatology Service, Sacramento VA Medical Center, Mather, California.\n(3)Department of Dermatology, Downstate Medical Center, State University of New \nYork, Brooklyn, New York.\n\nOBJECTIVE: In dermatology, patient and physician adoption of light-emitting \ndiode (LED) medical technology continues to grow as research indicates that LEDs \nmay be used to treat skin conditions. The goal of this systematic review is to \ncritically analyze published randomized controlled trials (RCTs) and provide \nevidence-based recommendations on the therapeutic uses of LEDs in dermatology \nbased on published efficacy and safety data.\nMETHODS: A systematic review of the published literature on the use of LED \ntreatments for skin conditions was performed on September 13th 2017.\nRESULTS: Thirty-one original RCTs were suitable for review.\nCONCLUSIONS: LEDs represent an emerging modality to alter skin biology and \nchange the paradigm of managing skin conditions. Acne vulgaris, herpes simplex \nand zoster, and acute wound healing received grade of recommendation B. Other \nskin conditions received grade of recommendation C or D. Limitations of some \nstudies include small patient sample sizes (n < 20), absent blinding, no sham \nplacebo, and varied treatment parameters. Due to few incidences of adverse \nevents, affordability, and encouraging clinical results, we recommend that \nphysicians use LEDs in clinical practice and researchers continue to explore the \nuse of LEDs to treat skin conditions. Lasers Surg. Med. 9999:1-16, 2018. © 2018 \nThe Authors. Lasers in Surgery and Medicine Published by Wiley Periodicals, Inc.\n\n© 2018 The Authors. Lasers in Surgery and Medicine Published by Wiley \nPeriodicals, Inc.\n\nDOI: 10.1002/lsm.22791\nPMCID: PMC6099480\nPMID: 29356026",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "A controlled trial to determine the efficacy of red and near-infrared light treatment in patient satisfaction, reduction of fine lines, wrinkles, skin roughness, and intradermal collagen density increase",
+          "publisher": "Photomedicine and laser surgery",
+          "year": "2014",
+          "type": "Randomized trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24286286/",
+          "pmid": "24286286",
+          "doi": "10.1089/pho.2013.3616",
+          "supports": "In 136 volunteers, 30 sessions of red light given twice a week on a large-area device improved skin roughness, collagen density and blinded photo ratings compared with controls.",
+          "abstract": "1. Photomed Laser Surg. 2014 Feb;32(2):93-100. doi: 10.1089/pho.2013.3616. Epub \n2013 Nov 28.\n\nA controlled trial to determine the efficacy of red and near-infrared light \ntreatment in patient satisfaction, reduction of fine lines, wrinkles, skin \nroughness, and intradermal collagen density increase.\n\nWunsch A(1), Matuschka K.\n\nAuthor information:\n(1)1 Medical Light Consulting , Heidelberg, Germany .\n\nOBJECTIVE: The purpose of this study was to investigate the safety and efficacy \nof two novel light sources for large area and full body application, providing \npolychromatic, non-thermal photobiomodulation (PBM) for improving skin feeling \nand appearance.\nBACKGROUND DATA: For non-thermal photorejuvenation, laser and LED light sources \nhave been demonstrated to be safe and effective. However, lasers and LEDs may \noffer some disadvantages because of dot-shaped (punctiform) emission \ncharacteristics and their narrow spectral bandwidths. Because the action spectra \nfor tissue regeneration and repair consist of more than one wavelength, we \ninvestigated if it is favorable to apply a polychromatic spectrum covering a \nbroader spectral region for skin rejuvenation and repair.\nMATERIALS AND METHODS: A total of 136 volunteers participated in this \nprospective, randomized, and controlled study. Of these volunteers, 113 subjects \nrandomly assigned into four treatment groups were treated twice a week with \neither 611-650 or 570-850 nm polychromatic light (normalized to ∼ 9 J/cm(2) in \nthe range of 611-650 nm) and were compared with controls (n=23). Irradiances and \ntreatment durations varied in all treatment groups. The data collected at \nbaseline and after 30 sessions included blinded evaluations of clinical \nphotography, ultrasonographic collagen density measurements, computerized \ndigital profilometry, and an assessment of patient satisfaction.\nRESULTS: The treated subjects experienced significantly improved skin complexion \nand skin feeling, profilometrically assessed skin roughness, and \nultrasonographically measured collagen density. The blinded clinical evaluation \nof photographs confirmed significant improvement in the intervention groups \ncompared with the control.\nCONCLUSIONS: Broadband polychromatic PBM showed no advantage over the \nred-light-only spectrum. However, both novel light sources that have not been \npreviously used for PBM have demonstrated efficacy and safety for skin \nrejuvenation and intradermal collagen increase when compared with controls.\n\nDOI: 10.1089/pho.2013.3616\nPMCID: PMC3926176\nPMID: 24286286 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Could photobiomodulation be used for treatment of rosacea?",
+          "publisher": "Lasers in medical science",
+          "year": "2025",
+          "type": "Other",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40439755/",
+          "pmid": "40439755",
+          "doi": "10.1007/s10103-025-04503-x",
+          "supports": "This narrative review finds early signs that light therapy may reduce rosacea inflammation, but says few studies exist and more clinical research is needed.",
+          "abstract": "1. Lasers Med Sci. 2025 May 29;40(1):250. doi: 10.1007/s10103-025-04503-x.\n\nCould photobiomodulation be used for treatment of rosacea?\n\nBoaretto Netto JC(1), Cardoso Borges AJ(2), Gomes Farias T(2), de Souza da \nFonseca A(3)(4)(5).\n\nAuthor information:\n(1)Centro Universitário Serra dos Órgãos, Teresópolis, Brazil.\n(2)Universidade do Estado do Rio de Janeiro, Rio de Janeiro, Brazil.\n(3)Centro Universitário Serra dos Órgãos, Teresópolis, Brazil. \nadnfonseca@yahoo.com.br.\n(4)Universidade do Estado do Rio de Janeiro, Rio de Janeiro, Brazil. \nadnfonseca@yahoo.com.br.\n(5)Universidade Federal do Estado do Rio de Janeiro, Rio de Janeiro, Brazil. \nadnfonseca@yahoo.com.br.\n\nRosacea is a chronic inflammatory disease characterized by facial skin lesions, \nincluding flushing, persistent erythema, papules, telangiectasia, and phymatous \nchanges, affecting 5.5% of the world's population. Rosacea causes disfigurement \nand emotional ramifications and affects quality of life. The pathophysiology of \nthis disease has yet to be understood, and new therapies are necessary. \nPhotobiomodulation has been used to treat dermatological diseases and various \nconditions, such as inflammatory processes and pain relief. Thus, this study \naimed to review studies on PBM for rosacea treatment, summarizing the radiation \nsources and subject features and reporting the main results. Scientific articles \nwere accessed by PubMed, using keywords related to rosacea and \nphotobiomodulation. Data on irradiation conditions, patient features, \nexperimental models, and results obtained were assessed. The data analysis \nallowed to list the conditions for applying photobiomodulation that could lead \nto therapeutic effects, safety, and efficacy in treating the rosacea. Based on \nclinical and experimental studies accessed, photobiomodulation could decrease \nrosacea hallmarks and symptoms by decreasing of pro-inflammatory factor \nexpression, inflammatory infiltration and immune cells, and promoting \nextracellular matrix remodeling. However, due to few studies available on the \napplication of photobiomodulation in the treatment of rosacea, studies based on \nexperimental and clinical models are necessary to better understand the \nmechanisms of action of this therapy, efficacy, and validation in the treatment \nof rosacea.\n\n© 2025. The Author(s), under exclusive licence to Springer-Verlag London Ltd., \npart of Springer Nature.\n\nDOI: 10.1007/s10103-025-04503-x\nPMID: 40439755 [Indexed for MEDLINE]\n\nConflict of interest statement: Declarations. Ethical approval: Not applicable. \nCompeting interests: The authors declare no competing interests.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
       ],
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-11",
       "model": "claude-opus-5-5",
-      "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Editor Agent"
-      }
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
     },
     "beauty-pdrn-salmon-dna-serums": {
       "verdict": "early",
-      "evidence": "Clinic injections have some studies behind them. Serums you apply to the skin have very little published evidence yet.",
-      "confidence": "low",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Small trials"
+      "evidence": "Small studies of PDRN and related injections show modest improvements in wrinkles, texture and healing, but the reviews rate them low to moderate quality. Serums you put on the skin have almost no human trials. No study has compared PDRN to retinol.",
+      "confidence": "medium",
+      "caveats": "Most studies involve injections, not creams, and some review authors have industry ties. Topical evidence is mostly lab work and case reports. The 'new retinol' framing is unsupported.",
+      "sources": [
+        {
+          "title": "The Effectiveness of Polynucleotides in Esthetic Medicine: A Systematic Review",
+          "publisher": "Journal of cosmetic dermatology",
+          "year": "2025",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39645667/",
+          "pmid": "39645667",
+          "doi": "10.1111/jocd.16721",
+          "supports": "Nine low- to moderate-quality studies (219 patients) found that polynucleotide injections improved wrinkles, texture and elasticity, and the authors call for rigorous trials.",
+          "abstract": "1. J Cosmet Dermatol. 2025 Feb;24(2):e16721. doi: 10.1111/jocd.16721. Epub 2024\nDec  8.\n\nThe Effectiveness of Polynucleotides in Esthetic Medicine: A Systematic Review.\n\nLampridou S(1), Bassett S(2), Cavallini M(3), Christopoulos G(4)(5).\n\nAuthor information:\n(1)Department of Surgery and Cancer, Imperial College London, London, UK.\n(2)Sian Aesthetics, Highgate, London, UK.\n(3)Dermatology and Dermatologic Surgery, Centro Diagnostico Italiano, Milan, \nItaly.\n(4)The Ghanem Clinic, London, UK.\n(5)College of Medicine and Dentistry, Ulster University, Coleraine, UK.\n\nBACKGROUND: Polynucleotides (PN), popular in biorevitalization, show promise in \nthe current sphere of esthetic medicine due to their regenerative properties, \npreviously used in wound healing. Currently, research investigates their use in \nesthetic medicine. The aim of this review was to synthesize the existing \nliterature, focusing on the effectiveness of PN in esthetic medicine, which is \nconcentrated on skin rejuvenation by providing patients with multiple benefits \nand the least side effects.\nMETHODS: A systematic electronic search was conducted in Embase, Medline, and \nCochrane to identify primary research studies evaluating the effectiveness of \npolynucleotides in esthetic medicine, published in English between January 01, \n2010, and January 01, 2024. A narrative synthesis was reported according to the \nPreferred Reporting Items for Systematic Reviews and Meta-Analyses statement. \nThe quality of evidence was assessed using the Critical Appraisal Skills \nProgramme checklists. PROSPERO Registration: CRD42024588712.\nRESULTS: Nine studies, of low and moderate quality, were included in this \nreview, describing a population of 219 patients receiving PN treatment. A \nvariation was present regarding procedural characteristics, such as injection \nareas and techniques. Polynucleotide injections have shown promising outcomes in \nreducing wrinkles, improving skin texture, and enhancing elasticity, with \nstatistically significant results in several studies. While side effects are \ngenerally mild and transient, patient satisfaction is moderate to high, \nsuggesting PN treatment as a well-tolerated and effective cosmetic intervention.\nCONCLUSION: Polynucleotides offer promising potential in esthetic medicine; \nhowever, there is limited consensus regarding their optimal use. Rigorous, \nhigh-quality studies are essential to validate the effectiveness and safety of \nPN.\n\n© 2024 The Author(s). Journal of Cosmetic Dermatology published by Wiley \nPeriodicals LLC.\n\nDOI: 10.1111/jocd.16721\nPMCID: PMC11845969\nPMID: 39645667 [Indexed for MEDLINE]\n\nConflict of interest statement: S.L. has no conflicts of interest to declare. \nS.B. is the owner of Sian Aesthetics. M.C. is a Research and Development (R&D) \nsteering board member and a tutor in continuous medical education activities for \nMastelli Srl (Sanremo, Italy). M.C. is employed by Centro Diagnostico Italiano. \nG.C. is employed by the Ghanem Clinic and he ",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Polynucleotides and Polydeoxyribonucleotides for Skin Rejuvenation, Postoperative Scar Prevention, and Wound Healing: A Systematic Review of Randomized Clinical Trials",
+          "publisher": "Cureus",
+          "year": "2026",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42572627/",
+          "pmid": "42572627",
+          "doi": "10.7759/cureus.112403",
+          "supports": "Only seven randomized trials (183 people) exist; benefits were most consistent for wound healing, and the evidence is limited by small samples and mixed protocols.",
+          "abstract": "1. Cureus. 2026 Jul 10;18(7):e112403. doi: 10.7759/cureus.112403. eCollection\n2026  Jul.\n\nPolynucleotides and Polydeoxyribonucleotides for Skin Rejuvenation, \nPostoperative Scar Prevention, and Wound Healing: A Systematic Review of \nRandomized Clinical Trials.\n\nAlhussain AM(1), Turki M Albusayys S(1), Alfhadi MA(2), Bu Mozah SA(3), \nAlShammari SSS(1), Alanazi HAM(1), Adil Alqazanli S(1), Nouruldeen Alabdullah \nA(3), M ALrashidi N(1), Almazrou AA(4), Alshehri AF(5).\n\nAuthor information:\n(1)College of Medicine, Almaarefa University, Riyadh, SAU.\n(2)College of Medicine, Najran University, Najran, SAU.\n(3)College of Medicine, King Faisal University, Al-Ahsa, SAU.\n(4)Department of Ophthalmology, Imam Mohammad ibn Saud Islamic University, \nRiyadh, SAU.\n(5)Clinical Research, Independent Research, Riyadh, SAU.\n\nPolynucleotides (PNs) and polydeoxyribonucleotides (PDRNs) are increasingly used \nin regenerative dermatology; however, randomized evidence across skin \nrejuvenation, scar prevention, and wound healing has not been comprehensively \nsynthesized. This systematic review evaluated randomized clinical trials \ninvestigating PN- and PDRN-based interventions in these indications. PubMed, \nEmbase, and the Cochrane Central Register of Controlled Trials (CENTRAL) were \nsearched through January 2026. Seven randomized trials involving 183 \nparticipants met the inclusion criteria. Four studies evaluated skin \nrejuvenation, one postoperative scar prevention, and two wound-healing \napplications. Across studies, PN and PDRN therapies improved wrinkle-related \noutcomes, scar quality, wound-healing metrics, and patient-reported \nsatisfaction. The most consistent benefits were observed in wound-healing \nsettings, where PDRN accelerated re-epithelialization and shortened healing time \ncompared with controls. No serious treatment-related adverse events were \nreported. Although findings support the regenerative potential of PN- and \nPDRN-based therapies across multiple dermatologic applications, the evidence \nbase remains limited by small sample sizes, heterogeneous treatment protocols, \nand variable outcome measures. Larger, adequately powered randomized trials are \nneeded to establish optimal clinical indications and treatment strategies.\n\nCopyright © 2026, Alhussain et al.\n\nDOI: 10.7759/cureus.112403\nPMCID: PMC13453133\nPMID: 42572627\n\nConflict of interest statement: Conflicts of interest: In compliance with the \nICMJE uniform disclosure form, all authors declare the following: \nPayment/services info: All authors have declared that no financial support was \nreceived from any organization for the submitted work. Financial relationships: \nAll authors have declared that they have no financial relationships at present \nor within the previous three years with any organizations that might have an \ninterest in the submitted work. Other relationships: All authors have declared \nthat there are no other relationships or activities that could appear to have \ninfluenced the submi",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
       ],
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-11",
       "model": "claude-opus-5-5",
-      "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Editor Agent"
-      }
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
     },
     "beauty-beef-tallow-moisturizer": {
       "verdict": "hype",
-      "evidence": "There is no evidence it beats ordinary moisturizers, and it can clog pores on acne-prone skin.",
+      "evidence": "Almost no research has tested tallow on human skin, and none shows it works better than ordinary moisturizers. Most of the online claims about tallow cite no evidence, and many come from people who sell it. Whether it clogs pores has not been properly studied.",
       "confidence": "medium",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Systematic review",
-        "Expert body"
+      "caveats": "Direct evidence is lacking in both directions. Tallow likely works as a basic occlusive moisturizer. The pore-clogging worry comes from dermatologist opinion, not studies. The Cochrane source is about moisturizers in general, not tallow.",
+      "sources": [
+        {
+          "title": "Tallow, Rendered Animal Fat, and Its Biocompatibility With Skin: A Scoping Review",
+          "publisher": "Cureus",
+          "year": "2024",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38910727/",
+          "pmid": "38910727",
+          "doi": "10.7759/cureus.60981",
+          "supports": "Nineteen mostly basic-science, animal and comparative studies were found; research on tallow as a cosmetic in humans is lacking, and evidence on side effects is inconsistent.",
+          "abstract": "1. Cureus. 2024 May 24;16(5):e60981. doi: 10.7759/cureus.60981. eCollection 2024 \nMay.\n\nTallow, Rendered Animal Fat, and Its Biocompatibility With Skin: A Scoping \nReview.\n\nRussell MF(1), Sandhu M(1), Vail M(1), Haran C(1), Batool U(1), Leo J(2).\n\nAuthor information:\n(1)Dermatology, Alabama College of Osteopathic Medicine, Dothan, USA.\n(2)Anatomical Sciences, Alabama College of Osteopathic Medicine, Dothan, USA.\n\nThere is a surge in the skincare industry marketing the use of natural \ningredients as efficacious agents. Although this has been popular in the Eastern \nhemisphere for a while, Western countries are starting to put more emphasis on \nnaturally derived products. This paper chose to analyze the current research \navailable on tallow, which is a solid fat derived from animals. Tallow has long \nbeen used as a neutral cooking fat, ingredient in soaps, biofuel product, and \nnow ingredient in skincare products. The purpose of this scoping review was to \nlook at the current research pertaining to the therapeutic benefits of tallow on \nthe skin. Using the PRISMA Extension for Scoping Reviews (PRISMA-ScR) \nguidelines, a scoping review was conducted using two databases: EMBASE and \nPubMed as sources of evidence. The searches for studies were conducted using the \nfollowing key terms: (tallow) AND (skin or dermatology or dermatitis or emulsion \nor cosmetics or eczema). Papers were excluded if they were not in English, if \nthey did not mention the effects of tallow on the skin, and if they did not use \ntallow rendered from an animal. Date ranges and geographical locations for \narticles were not part of our inclusion or exclusion criteria. We focused on the \nfollowing five research questions: Does the composition of tallow make it better \nsuitable for use on skin? What is the benefit of using tallow on skin? Does \ntallow have therapeutic properties for skin conditions? What side effects does \ntallow have on the skin? Is tallow reef-safe? While there is much evidence \nsupporting the use of tallow as an ingredient in animal feed, cooking, soaps, \nand biofuels, there are significant research gaps in how it can be used on human \nskin. Our search on PubMed and EMBASE resulted in a total of 147 studies being \nscreened with 19 fitting our specific criteria. Of the 19 studies, there were \ncomparative studies, basic science studies, and animal studies. After reviewing \nthe studies to answer the objectives in this paper, we were able to find \ninformation that supported the first three objectives; however, more research is \nstill needed. Specifically, more research is needed that is geared towards \ntallow as a cosmetic product in humans. The fourth objective, which was to \nanswer the side effects of topical tallow, had the most discrepancies between \nthe sources. The fifth objective also found supporting information; however, \nonly two sources were found. Overall, there needs to be more research with \ncontrolled variables on the side effects of topical tallow. Dif",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Beef Tallow-Based Skincare Claims in Social Media: A Cross-Sectional Analysis",
+          "publisher": "Journal of cosmetic dermatology",
+          "year": "2025",
+          "type": "Observational study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41312576/",
+          "pmid": "41312576",
+          "doi": "10.1111/jocd.70544",
+          "supports": "Social media claims that tallow helps acne, eczema and psoriasis mostly lacked cited evidence, often showed financial bias, and the authors conclude the evidence is insufficient.",
+          "abstract": "1. J Cosmet Dermatol. 2025 Dec;24(12):e70544. doi: 10.1111/jocd.70544.\n\nBeef Tallow-Based Skincare Claims in Social Media: A Cross-Sectional Analysis.\n\nAlmatroud L(1), Choi S(1), Libson K(2), Ashack K(1)(3).\n\nAuthor information:\n(1)College of Human Medicine, Michigan State University, East Lansing, Michigan, \nUSA.\n(2)Transitional Year Residency, Corewell Health/Michigan State University, Grand \nRapids, Michigan, USA.\n(3)Dermatology Associates of West Michigan, Kentwood, Michigan, USA.\n\nBACKGROUND: Beef tallow, or \"tallow\", is a solid fat derived from animals with a \nhigh content of triglycerides and essential fatty acids. Tallow has gained \npopularity as a skincare product on social media in recent years, driven by the \nincreasing demand for natural and sustainable beauty solutions. There are few \nstudies investigating tallow as a skincare ingredient and its effects on \ndermatological conditions.\nAIMS: To promote responsible use of tallow by characterizing information about \ntallow on social media platforms, examining the quality of claims made in the \ncontext of available evidence, and evaluating areas of financial bias.\nMETHODS: Social media posts from various platforms (YouTube, Instagram, and \nTikTok) were evaluated in a cross-sectional analysis to assess claims about \ntallow-related skin care, the quality of information provided, and potential \nfinancial biases.\nRESULTS: Claims of efficacy for acne, atopic dermatitis, and psoriasis were \nprevalent but largely lacked cited evidence. The majority of the posts promoting \nbeef tallow across platforms demonstrated financial bias and were uploaded by \nindividuals lacking credentials in healthcare. Additionally, most existing \nevidence for tallow use is based on studies examining its ingredients.\nCONCLUSION: Despite growing anecdotal claims that beef tallow benefits skincare \nand dermatologic conditions, evidence remains insufficient to support these \nclaims. Many promotions of beef tallow for skin care are associated with \nfinancial bias. Further research is needed to evaluate its long-term effects, \nideal formulations, and suitability for different skin conditions.\n\n© 2025 The Author(s). Journal of Cosmetic Dermatology published by Wiley \nPeriodicals LLC.\n\nDOI: 10.1111/jocd.70544\nPMCID: PMC12661468\nPMID: 41312576 [Indexed for MEDLINE]\n\nConflict of interest statement: The authors declare no conflicts of interest.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Emollients and moisturisers for eczema",
+          "publisher": "The Cochrane database of systematic reviews",
+          "year": "2017",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28166390/",
+          "pmid": "28166390",
+          "doi": "10.1002/14651858.CD012119.pub2",
+          "supports": "Moisturizers in general help, but there was no reliable evidence that any one moisturizer beats another, which gives no basis for calling tallow superior.",
+          "abstract": "1. Cochrane Database Syst Rev. 2017 Feb 6;2(2):CD012119. doi: \n10.1002/14651858.CD012119.pub2.\n\nEmollients and moisturisers for eczema.\n\nvan Zuuren EJ(1), Fedorowicz Z(2), Christensen R(3), Lavrijsen A(1), Arents \nBWM(4).\n\nAuthor information:\n(1)Department of Dermatology, Leiden University Medical Center, PO Box 9600, \nB1-Q, Leiden, Netherlands, 2300 RC.\n(2)Bahrain Branch, Cochrane, Box 25438, Awali, Bahrain.\n(3)Musculoskeletal Statistics Unit, The Parker Institute, Copenhagen University \nHospital, Bispebjerg og Frederiksberg, Nordre Fasanvej 57, Copenhagen, Denmark, \nDK-2000.\n(4)Dutch Association for People with Atopic Dermatitis (VMCE: Vereniging voor \nMensen met Constitutioneel Eczeem), PO Box 26, Nijkerk, Netherlands, NL-3860AA.\n\nComment in\n    Dermatology. 2022;238(3):594-596. doi: 10.1159/000518773.\n\nBACKGROUND: Eczema is a chronic skin disease characterised by dry skin, intense \nitching, inflammatory skin lesions, and a considerable impact on quality of \nlife. Moisturisation is an integral part of treatment, but it is unclear if \nmoisturisers are effective.\nOBJECTIVES: To assess the effects of moisturisers for eczema.\nSEARCH METHODS: We searched the following databases to December 2015: Cochrane \nSkin Specialised Register, CENTRAL, MEDLINE, Embase, LILACS, the GREAT database. \nWe searched five trials registers and checked references of included and \nexcluded studies for further relevant trials.\nSELECTION CRITERIA: Randomised controlled trials in people with eczema.\nDATA COLLECTION AND ANALYSIS: We used standard Cochrane methodological \nprocedures.\nMAIN RESULTS: We included 77 studies (6603 participants, mean age: 18.6 years, \nmean duration: 6.7 weeks). We assessed 36 studies as at a high risk of bias, 34 \nat unclear risk, and seven at low risk. Twenty-four studies assessed our primary \noutcome 'participant-assessed disease severity', 13 assessed 'satisfaction', and \n41 assessed 'adverse events'. Secondary outcomes included investigator-assessed \ndisease severity (addressed in 65 studies), skin barrier function (29), flare \nprevention (16), quality of life (10), and corticosteroid use (eight). Adverse \nevents reporting was limited (smarting, stinging, pruritus, erythema, \nfolliculitis).Six studies evaluated moisturiser versus no moisturiser. \n'Participant-assessed disease severity' and 'satisfaction' were not assessed. \nMoisturiser use yielded lower SCORAD than no moisturiser (three studies, 276 \nparticipants, mean difference (MD) -2.42, 95% confidence interval (CI) -4.55 to \n-0.28), but the minimal important difference (MID) (8.7) was unmet. There were \nfewer flares with moisturisers (two studies, 87 participants, RR 0.40, 95% CI \n0.23 to 0.70), time to flare was prolonged (median: 180 versus 30 days), and \nless topical corticosteroids were needed (two studies, 222 participants, MD \n-9.30 g, 95% CI -15.3 to -3.27). There was no statistically significant \ndifference in adverse events (one study, 173 participants, risk ratio (RR) \n15.34, 95%",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
       ],
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-11",
       "model": "claude-opus-5-5",
-      "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Editor Agent"
-      }
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
     },
     "exercise-lifting-heavy": {
       "verdict": "real",
-      "evidence": "Strength training supports muscle and bone density, and both matter more with every decade.",
+      "evidence": "Strength training builds muscle and strength at any age, and heavier weights build the most maximal strength. Lighter weights done close to failure can build similar muscle size. In trials of women after menopause, heavy lifting and impact training raised bone density slightly, while results in younger women are less clear.",
       "confidence": "high",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Systematic review",
-        "Clinical guideline"
+      "caveats": "Heavy loads beat light loads for max strength but not for muscle size. Bone density gains in women are small and mostly shown after menopause; a 2026 meta-analysis found no significant effect in premenopausal women (only 2 trials). LIFTMOR was supervised, so it shows heavy lifting was safe with coaching. The 'strong at 70' outcome is not tested directly in trials.",
+      "sources": [
+        {
+          "title": "Strength and Hypertrophy Adaptations Between Low- vs. High-Load Resistance Training: A Systematic Review and Meta-analysis",
+          "publisher": "Journal of strength and conditioning research",
+          "year": "2017",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28834797/",
+          "pmid": "28834797",
+          "doi": "10.1519/JSC.0000000000002200",
+          "supports": "Across 21 studies, heavy loads gave greater max strength gains, but muscle growth was similar for heavy and light loads taken to failure.",
+          "abstract": "1. J Strength Cond Res. 2017 Dec;31(12):3508-3523. doi: \n10.1519/JSC.0000000000002200.\n\nStrength and Hypertrophy Adaptations Between Low- vs. High-Load Resistance \nTraining: A Systematic Review and Meta-analysis.\n\nSchoenfeld BJ(1), Grgic J(2), Ogborn D(3), Krieger JW(4).\n\nAuthor information:\n(1)Department of Health Science, Lehman College, Bronx, New York.\n(2)Institute of Sport, Exercise and Active Living (ISEAL), Victoria University, \nMelbourne, Australia.\n(3)Ogborn Research & Consulting, Winnipeg, Manitoba, Canada.\n(4)Weightology, LLC, Issaquah, Washington.\n\nSchoenfeld, BJ, Grgic, J, Ogborn, D, and Krieger, JW. Strength and hypertrophy \nadaptations between low- vs. high-load resistance training: a systematic review \nand meta-analysis. J Strength Cond Res 31(12): 3508-3523, 2017-The purpose of \nthis article was to conduct a systematic review of the current body of \nliterature and a meta-analysis to compare changes in strength and hypertrophy \nbetween low- vs. high-load resistance training protocols. Searches of \nPubMed/MEDLINE, Cochrane Library, and Scopus were conducted for studies that met \nthe following criteria: (a) an experimental trial involving both low-load \ntraining [≤60% 1 repetition maximum (1RM)] and high-load training (>60% 1RM); \n(b) with all sets in the training protocols being performed to momentary \nmuscular failure; (c) at least one method of estimating changes in muscle mass \nor dynamic, isometric, or isokinetic strength was used; (d) the training \nprotocol lasted for a minimum of 6 weeks; (e) the study involved participants \nwith no known medical conditions or injuries impairing training capacity. A \ntotal of 21 studies were ultimately included for analysis. Gains in 1RM strength \nwere significantly greater in favor of high- vs. low-load training, whereas no \nsignificant differences were found for isometric strength between conditions. \nChanges in measures of muscle hypertrophy were similar between conditions. The \nfindings indicate that maximal strength benefits are obtained from the use of \nheavy loads while muscle hypertrophy can be equally achieved across a spectrum \nof loading ranges.\n\nDOI: 10.1519/JSC.0000000000002200\nPMID: 28834797 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "High-Intensity Resistance and Impact Training Improves Bone Mineral Density and Physical Function in Postmenopausal Women With Osteopenia and Osteoporosis: The LIFTMOR Randomized Controlled Trial",
+          "publisher": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+          "year": "2018",
+          "type": "Randomized trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28975661/",
+          "pmid": "28975661",
+          "doi": "10.1002/jbmr.3284",
+          "supports": "In 101 postmenopausal women with low bone mass, 8 months of supervised heavy lifting improved spine and hip bone density and function compared with low-intensity exercise, with no serious adverse events.",
+          "abstract": "1. J Bone Miner Res. 2018 Feb;33(2):211-220. doi: 10.1002/jbmr.3284. Epub 2017\nOct  4.\n\nHigh-Intensity Resistance and Impact Training Improves Bone Mineral Density and \nPhysical Function in Postmenopausal Women With Osteopenia and Osteoporosis: The \nLIFTMOR Randomized Controlled Trial.\n\nWatson SL(1)(2), Weeks BK(1)(2), Weis LJ(3), Harding AT(1)(2), Horan SA(1)(2), \nBeck BR(1)(2)(3).\n\nAuthor information:\n(1)School of Allied Health Sciences, Griffith University, Gold Coast, \nQueensland, Australia.\n(2)Menzies Health Institute Queensland, Gold Coast, Queensland, Australia.\n(3)The Bone Clinic, Brisbane, Queensland, Australia.\n\nErratum in\n    J Bone Miner Res. 2019 Mar;34(3):572. doi: 10.1002/jbmr.3659.\n\nComment in\n    Nat Rev Endocrinol. 2018 Jan;14(1):6-8. doi: 10.1038/nrendo.2017.148.\n\nOptimal osteogenic mechanical loading requires the application of high-magnitude \nstrains at high rates. High-intensity resistance and impact training (HiRIT) \napplies such loads but is not traditionally recommended for individuals with \nosteoporosis because of a perceived high risk of fracture. The purpose of the \nLIFTMOR trial was to determine the efficacy and to monitor adverse events of \nHiRIT to reduce parameters of risk for fracture in postmenopausal women with low \nbone mass. Postmenopausal women with low bone mass (T-score < -1.0, screened for \nconditions and medications that influence bone and physical function) were \nrecruited and randomized to either 8 months of twice-weekly, 30-minute, \nsupervised HiRIT (5 sets of 5 repetitions, >85% 1 repetition maximum) or a \nhome-based, low-intensity exercise program (CON). Pre- and post-intervention \ntesting included lumbar spine and proximal femur bone mineral density (BMD) and \nmeasures of functional performance (timed up-and-go, functional reach, 5 times \nsit-to-stand, back and leg strength). A total of 101 women (aged 65 ± 5 years, \n161.8 ± 5.9 cm, 63.1 ± 10.4 kg) participated in the trial. HiRIT (n = 49) \neffects were superior to CON (n = 52) for lumbar spine (LS) BMD (2.9 ± 2.8% \nversus -1.2 ± 2.8%, p < 0.001), femoral neck (FN) BMD (0.3 ± 2.6% versus \n-1.9 ± 2.6%, p = 0.004), FN cortical thickness (13.6 ± 16.6% versus 6.3 ± 16.6%, \np = 0.014), height (0.2 ± 0.5 cm versus -0.2 ± 0.5 cm, p = 0.004), and all \nfunctional performance measures (p < 0.001). Compliance was high (HiRIT \n92 ± 11%; CON 85 ± 24%) in both groups, with only one adverse event reported \n(HiRIT: minor lower back spasm, 2/70 missed training sessions). Our novel, brief \nHiRIT program enhances indices of bone strength and functional performance in \npostmenopausal women with low bone mass. Contrary to current opinion, HiRIT was \nefficacious and induced no adverse events under highly supervised conditions for \nour sample of otherwise healthy postmenopausal women with low to very low bone \nmass. © 2017 American Society for Bone and Mineral Research.\n\n© 2017 American Society for Bone and Mineral Research.\n\nDOI: 10.1002/jbmr.3284\nPMID: 28975661 [Indexed",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "A systematic review and meta-analysis of the effects of high-intensity, impact, and strength training on bone mineral density in premenopausal and postmenopausal women",
+          "publisher": "Menopause (New York, N.Y.)",
+          "year": "2026",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42578477/",
+          "pmid": "42578477",
+          "doi": "10.1097/GME.0000000000002839",
+          "supports": "Eight RCTs: high-intensity, impact and strength training gave small but significant bone density gains in postmenopausal women but not premenopausal women.",
+          "abstract": "1. Menopause. 2026 Aug 11. doi: 10.1097/GME.0000000000002839. Online ahead of \nprint.\n\nA systematic review and meta-analysis of the effects of high-intensity, impact, \nand strength training on bone mineral density in premenopausal and \npostmenopausal women.\n\nJones E(1), Starrs P, Hunter B.\n\nAuthor information:\n(1)School of Human Sciences, London Metropolitan University, London, UK.\n\nIMPORTANCE: Menopausal estrogen decline is the leading cause of osteoporosis, \nleaving bones vulnerable to fractures. Of the interventions available for \npreserving bone density, exercise is potentially the most accessible. However, \nthe ideal type, intensity, and age of initiation of exercise interventions \nremain under debate.\nOBJECTIVE: This systematic review and meta-analysis set out to summarize recent \nevidence on the effects of high-intensity, impact, and strength training on bone \nmineral density in postmenopausal women, and to compare this evidence to \nequivalent data in premenopausal women.\nEVIDENCE REVIEW: PubMed and the Cochrane Central Register of Controlled Trials \nwere searched on July 17, 2025, for randomized controlled trials published on or \nafter March 1, 2018. Search terms were structured around menopause-related, \nexercise-related, and bone-related terms. Studies were eligible if they included \neither premenopausal or postmenopausal women, at least one intervention arm \ncompleting either high-intensity, impact or strength training, a control arm, \nand bone mineral density as an outcome. Following identification of eligible \nstudies, participant and study characteristics were tabulated, and studies were \nassessed for quality using the Physiotherapy Evidence Database scale and risk of \nbias using the RoB 2 tool. Outcomes data were extracted, and a meta-analysis was \nperformed.\nFINDINGS: Eight randomized controlled trials incorporating 379 participants met \nthe inclusion criteria; six (n=267) in postmenopausal and two (n=112) in \npremenopausal women. Meta-analysis of pooled intervention types revealed small \nbut significant effects of high-intensity, impact, and strength training at the \nfemoral neck (0.47, t[3]=5.22, P=0.014; n=141) and lumbar spine (0.36, \nt[4]=4.36, P=0.012; n=182) in postmenopausal but not premenopausal women.\nCONCLUSIONS AND RELEVANCE: High-intensity, impact, and strength training (pooled \nanalysis) appeared to be effective at increasing bone mineral density in \npostmenopausal women, though the small effect sizes and methodological \nlimitations identified should be considered. Further studies are required to \ndetermine whether more robust protocols would have generated stronger effects in \npremenopausal women, or whether there are different osteogenic responses to \nexercise in the two populations.\n\nCopyright © 2026 by The Menopause Society.\n\nDOI: 10.1097/GME.0000000000002839\nPMID: 42578477\n\nConflict of interest statement: Financial disclosure/Conflicts of interest: None \nreported.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
       ],
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-11",
       "model": "claude-opus-5-5",
-      "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Editor Agent"
-      }
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
     },
     "exercise-creatine-for-women": {
       "verdict": "real",
-      "evidence": "One of the most studied supplements. It supports strength and muscle, with research on women growing.",
-      "confidence": "high",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Systematic review",
-        "Clinical guideline"
+      "evidence": "Creatine is one of the most studied supplements, and with strength training it helps build strength. Studies in women are fewer, and gains in women tend to be small, with clearer effects on strength than on muscle size. It has not been shown to boost everyday energy.",
+      "confidence": "medium",
+      "caveats": "Strong overall evidence comes mostly from men or mixed groups. Women-specific meta-analyses are small: strength gains are consistent, muscle-mass gains small or inconsistent, bone effects unclear. Benefits appear mainly when about 5 g/day is combined with resistance training. Several reviews disclose creatine-industry ties.",
+      "sources": [
+        {
+          "title": "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine",
+          "publisher": "Journal of the International Society of Sports Nutrition",
+          "year": "2017",
+          "type": "Expert body",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28615996/",
+          "pmid": "28615996",
+          "doi": "10.1186/s12970-017-0173-z",
+          "supports": "Expert position stand concluding creatine monohydrate is an effective and safe supplement for improving high-intensity exercise capacity and training adaptations.",
+          "abstract": "1. J Int Soc Sports Nutr. 2017 Jun 13;14:18. doi: 10.1186/s12970-017-0173-z. \neCollection 2017.\n\nInternational Society of Sports Nutrition position stand: safety and efficacy of \ncreatine supplementation in exercise, sport, and medicine.\n\nKreider RB(1), Kalman DS(2), Antonio J(3), Ziegenfuss TN(4), Wildman R(5), \nCollins R(6), Candow DG(7), Kleiner SM(8), Almada AL(9), Lopez HL(4)(10).\n\nAuthor information:\n(1)Exercise & Sport Nutrition Lab, Human Clinical Research Facility, Department \nof Health & Kinesiology, Texas A&M University, College Station, TX 77843-4243 \nUSA.\n(2)Nutrition Research Unit, QPS, 6141 Sunset Drive Suite 301, Miami, FL 33143 \nUSA.\n(3)Department of Health and Human Performance, Nova Southeastern University, \nDavie, FL 33328 USA.\n(4)The Center for Applied Health Sciences, 4302 Allen Road, STE 120, Stow, OH \n44224 USA.\n(5)Post Active Nutrition, 111 Leslie St, Dallas, TX 75208 USA.\n(6)Collins Gann McCloskey & Barry, PLLC, 138 Mineola Blvd., Mineola, NY 11501 \nUSA.\n(7)Faculty of Kinesiology and Health Studies, University of Regina, Regina, SK \nS4S 0A2 Canada.\n(8)High Performance Nutrition, LLC, Mercer Island, WA 98040 USA.\n(9)Vitargo Global Sciences, Inc., Dana Point, CA 92629 USA.\n(10)Supplement Safety Solutions, LLC, Bedford, MA 01730 USA.\n\nCreatine is one of the most popular nutritional ergogenic aids for athletes. \nStudies have consistently shown that creatine supplementation increases \nintramuscular creatine concentrations which may help explain the observed \nimprovements in high intensity exercise performance leading to greater training \nadaptations. In addition to athletic and exercise improvement, research has \nshown that creatine supplementation may enhance post-exercise recovery, injury \nprevention, thermoregulation, rehabilitation, and concussion and/or spinal cord \nneuroprotection. Additionally, a number of clinical applications of creatine \nsupplementation have been studied involving neurodegenerative diseases (e.g., \nmuscular dystrophy, Parkinson's, Huntington's disease), diabetes, \nosteoarthritis, fibromyalgia, aging, brain and heart ischemia, adolescent \ndepression, and pregnancy. These studies provide a large body of evidence that \ncreatine can not only improve exercise performance, but can play a role in \npreventing and/or reducing the severity of injury, enhancing rehabilitation from \ninjuries, and helping athletes tolerate heavy training loads. Additionally, \nresearchers have identified a number of potentially beneficial clinical uses of \ncreatine supplementation. These studies show that short and long-term \nsupplementation (up to 30 g/day for 5 years) is safe and well-tolerated in \nhealthy individuals and in a number of patient populations ranging from infants \nto the elderly. Moreover, significant health benefits may be provided by \nensuring habitual low dietary creatine ingestion (e.g., 3 g/day) throughout the \nlifespan. The purpose of this review is to provide an update to the current \nliterature regarding t",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Creatine monohydrate for lean mass, strength, and bone density in postmenopausal women: a systematic review and meta-analysis",
+          "publisher": "Journal of the International Society of Sports Nutrition",
+          "year": "2026",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42141930/",
+          "pmid": "42141930",
+          "doi": "10.1080/15502783.2026.2668435",
+          "supports": "Seven RCTs in postmenopausal women: creatine with resistance training gave small gains in lean mass and leg-press strength, no change in bone density, and no evidence of harm.",
+          "abstract": "1. J Int Soc Sports Nutr. 2026 Dec 31;23(1):2668435. doi: \n10.1080/15502783.2026.2668435. Epub 2026 May 16.\n\nCreatine monohydrate for lean mass, strength, and bone density in postmenopausal \nwomen: a systematic review and meta-analysis.\n\nNaddafha S(1), Antonio J(2), Kreider RB(3), Stout JR(4).\n\nAuthor information:\n(1)School of Medical and Health Sciences, Edith Cowan University, Joondalup, WA, \nAustralia.\n(2)College of Osteopathic Medicine, Nova Southeastern University, Davie, FL, \nUSA.\n(3)Exercise and Sport Nutrition Laboratory, Department of Kinesiology and Sports \nManagement, Texas A&M University, College Station, TX, USA.\n(4)School of Kinesiology and Physical Therapy, University of Central Florida, \nOrlando, FL, USA.\n\nBACKGROUND: Menopause is accompanied by accelerated losses in muscle mass and \nstrength and declining bone density. Whether creatine monohydrate benefits \npostmenopausal women are uncertain.\nMETHODS: We systematically reviewed randomized, placebo-controlled trials \nexamining creatine supplementation, with or without resistance training (RT), in \npostmenopausal women. MEDLINE, Embase, Scopus, Web of Science, SPORTDiscus, and \nCochrane CENTRAL were searched from 2000 to August 2025, supplemented by trial \nregistries and reference-list screening. Eligible studies included \npostmenopausal women aged ≥40-45 years, intervention durations ≥6 weeks for \nprimary analyses, and outcomes including DXA-derived lean mass, one-repetition \nmaximum (1RM) strength, bone mineral density, physical function, and safety. \nDual screening, duplicate extraction, and Cochrane RoB 2 assessment were \nperformed. Random-effects meta-analysis used the Paule-Mandel estimator for τ² \nwith Hartung-Knapp-Sidik-Jonkman adjustment. Heterogeneity (τ², I²), 95% \nprediction intervals, subgroup analyses by RT status, exploratory dose/duration \nmeta-regression, small-study effects, and GRADE certainty were assessed.\nRESULTS: Seven RCTs (n = 608 randomized; duration 12-104 weeks, median 38 weeks) \nenrolled postmenopausal women (mean age ≈ 62 y). Lean mass (k = 5; n = 338) \nfavored creatine: mean difference (MD) + 0.37 kg (95% CI + 0.05 to + 0.69; \nI² = 25%; τ² = 0.01; 95% PI -0.10 to + 0.84). Leg-press 1RM (k = 3; n = 111) \nimproved with creatine: MD + 7.5 kg (95% CI + 2.2 to + 12.8; I² = 0%). Benefits \nwere evident when creatine ≥ 5 g·day⁻¹ was combined with RT; trials \nusing ≤ 3 g·day⁻¹ without RT showed no measurable effect. Bone density was \nunchanged overall. Adverse events were mild and similar to placebo; renal \nindices were unchanged. Risk of bias was mostly \"some concerns;\" one large, \npreregistered, double-blind RCT was at low risk.\nCONCLUSIONS: In postmenopausal women, creatine, particularly ≥ 5 g·day⁻¹ with \nRT, yields small but meaningful gains in lean mass and strength without evidence \nof harm. Effects on bone density remain unclear.Registration: This review was \nnot prospectively registered. De-identified data and supplementary materials \nwere deposited o",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Efficacy of Creatine Supplementation Combined with Resistance Training on Muscle Strength and Muscle Mass in Older Females: A Systematic Review and Meta-Analysis",
+          "publisher": "Nutrients",
+          "year": "2021",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34836013/",
+          "pmid": "34836013",
+          "doi": "10.3390/nu13113757",
+          "supports": "Ten RCTs in older women: creatine plus training increased upper-body strength but not muscle mass overall, with stronger effects in trials of 24 weeks or more.",
+          "abstract": "1. Nutrients. 2021 Oct 24;13(11):3757. doi: 10.3390/nu13113757.\n\nEfficacy of Creatine Supplementation Combined with Resistance Training on Muscle \nStrength and Muscle Mass in Older Females: A Systematic Review and \nMeta-Analysis.\n\nDos Santos EEP(1), de Araújo RC(2), Candow DG(3), Forbes SC(4), Guijo JA(1), de \nAlmeida Santana CC(5), Prado WLD(6), Botero JP(7).\n\nAuthor information:\n(1)Post-Graduate Program in Human Movement Sciences and Rehabilitation, Federal \nUniversity of São Paulo (UNIFESP) Campus Baixada Santista, Santos 11015-020, \nBrazil.\n(2)Department of Physical Therapy, University of Pernambuco, Petrolina \n56328-900, Brazil.\n(3)Faculty of Kinesiology and Health Studies, University of Regina, Regina, SK \nS4SOA2, Canada.\n(4)Department of Physical Education Studies, Brandon University, Brandon, MB \nR7A6A9, Canada.\n(5)Agricultural College Dom Agostinho Ikas, Rural Federal University of \nPernambuco-Recife, Recife 52171-900, Brazil.\n(6)Department of Kinesiology, California State University San Bernardino, San \nBernardino, CA 92407, USA.\n(7)Department of Human Movement Sciences and Rehabilitation, Federal University \nof São Paulo (UNIFESP) Campus Baixada Santista, Santos 11015-020, Brazil.\n\nSarcopenia refers to the age-related loss of muscle strength and muscle mass, \nwhich is associated with a reduced quality of life, particularly in older \nfemales. Resistance training (RT) is well established to be an effective \nintervention to counter indices of sarcopenia. Accumulating research indicates \nthat the addition of creatine supplementation (Cr) to RT augments gains in \nmuscle strength and muscle mass, compared to RT alone. However, some evidence \nindicates that sex differences may alter the effectiveness of Cr. Therefore, we \nsystematically reviewed randomized controlled trials (RCTs) investigating the \nefficacy of Cr + RT on measures of upper- and lower-body strength and muscle \nmass in older females. A systematic literature search was performed in nine \nelectronic databases. Ten RCTs (N = 211 participants) were included the review. \nOverall, Cr significantly increased measures of upper-body strength (7 studies, \nn = 142, p = 0.04), with no effect on lower-body strength or measures of muscle \nmass. Sub-analyses revealed that both upper-body (4 studies, n = 97, p = 0.05) \nand lower-body strength (4 studies, n = 100, p = 0.03) were increased by Cr, \ncompared to placebo in studies ≥ 24 weeks in duration. In conclusion, older \nfemales supplementing with Cr experience significant gains in muscle strength, \nespecially when RT lasts for at least 24 weeks in duration. However, given the \nlevel of evidence, future high-quality studies are needed to confirm these \nfindings.\n\nDOI: 10.3390/nu13113757\nPMCID: PMC8619193\nPMID: 34836013 [Indexed for MEDLINE]\n\nConflict of interest statement: D.G.C. has conducted industry sponsored research \ninvolving creatine supplementation, received creatine donation for scientific \nstudies and travel support for presentations",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
       ],
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-11",
       "model": "claude-opus-5-5",
-      "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Editor Agent"
-      }
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
     },
     "exercise-cycle-synced-workouts": {
       "verdict": "early",
-      "evidence": "Research on training by cycle phase is small and mixed. Adjusting to how you feel is reasonable; strict phase plans are not proven.",
-      "confidence": "low",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Small trials"
+      "evidence": "Studies find that cycle phase has at most a tiny effect on performance on average, and much of the research is low quality. There is no good evidence that strict phase-based training plans build more strength or muscle. Adjusting a workout to how you feel on a given day is reasonable.",
+      "confidence": "medium",
+      "caveats": "The research on acute performance points toward little or no average effect. Very few trials test phase-based programs over time. Reviews recommend an individual approach because responses vary. Findings apply to naturally cycling women, not those on hormonal contraception.",
+      "sources": [
+        {
+          "title": "The Effects of Menstrual Cycle Phase on Exercise Performance in Eumenorrheic Women: A Systematic Review and Meta-Analysis",
+          "publisher": "Sports medicine (Auckland, N.Z.)",
+          "year": "2020",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32661839/",
+          "pmid": "32661839",
+          "doi": "10.1007/s40279-020-01319-3",
+          "supports": "Across 78 studies, performance might be trivially lower in the early follicular phase, but evidence quality was low and general phase-based guidelines could not be formed; a personalized approach was recommended.",
+          "abstract": "1. Sports Med. 2020 Oct;50(10):1813-1827. doi: 10.1007/s40279-020-01319-3.\n\nThe Effects of Menstrual Cycle Phase on Exercise Performance in Eumenorrheic \nWomen: A Systematic Review and Meta-Analysis.\n\nMcNulty KL(#)(1), Elliott-Sale KJ(#)(2), Dolan E(3), Swinton PA(4), Ansdell \nP(1), Goodall S(1), Thomas K(1), Hicks KM(1).\n\nAuthor information:\n(1)Department of Sport, Exercise and Rehabilitation, Faculty of Health and Life \nSciences, Northumbria University, Newcastle-upon-Tyne, UK.\n(2)Department of Sport Science, Sport, Health and Performance Enhancement \n(SHAPE) Research Centre, Nottingham Trent University, Nottingham, UK. \nkirsty.elliottsale@ntu.ac.uk.\n(3)Applied Physiology and Nutrition Research Group, Escola de Educação Física e \nEsporte, Faculdade de Medicina FMUSP, Universidade de São Paulo, São Paulo, \nBrazil.\n(4)School of Health Sciences, Robert Gordon University, Aberdeen, Scotland, UK.\n(#)Contributed equally\n\nComment in\n    Sports Med. 2021 May;51(5):1111-1113. doi: 10.1007/s40279-020-01383-9.\n    Sports Med. 2021 May;51(5):1107-1109. doi: 10.1007/s40279-020-01384-8.\n\nBACKGROUND: Concentrations of endogenous sex hormones fluctuate across the \nmenstrual cycle (MC), which could have implications for exercise performance in \nwomen. At present, data are conflicting, with no consensus on whether exercise \nperformance is affected by MC phase.\nOBJECTIVE: To determine the effects of the MC on exercise performance and \nprovide evidence-based, practical, performance recommendations to eumenorrheic \nwomen.\nMETHODS: This review followed the Preferred Reporting Items for Systematic \nReviews and Meta-Analyses (PRISMA) guidelines. Four databases were searched for \npublished experimental studies that investigated the effects of the MC on \nexercise performance, which included at least one outcome measure taken in two \nor more defined MC phases. All data were meta-analysed using multilevel models \ngrounded in Bayesian principles. The initial meta-analysis pooled pairwise \neffect sizes comparing exercise performance during the early follicular phase \nwith all other phases (late follicular, ovulation, early luteal, mid-luteal and \nlate luteal) amalgamated. A more comprehensive analysis was then conducted, \ncomparing exercise performance between all phases with direct and indirect \npairwise effect sizes through a network meta-analysis. Results from the network \nmeta-analysis were summarised by calculating the Surface Under the Cumulative \nRanking curve (SUCRA). Study quality was assessed using a modified Downs and \nBlack checklist and a strategy based on the recommendations of the Grading of \nRecommendations Assessment Development and Evaluation (GRADE) working group.\nRESULTS: Of the 78 included studies, data from 51 studies were eligible for \ninclusion in the initial pairwise meta-analysis. The three-level hierarchical \nmodel indicated a trivial effect for both endurance- and strength-based \noutcomes, with reduced exercise performance observed in the early f",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Current evidence shows no influence of women's menstrual cycle phase on acute strength performance or adaptations to resistance exercise training",
+          "publisher": "Frontiers in sports and active living",
+          "year": "2023",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37033884/",
+          "pmid": "37033884",
+          "doi": "10.3389/fspor.2023.1054542",
+          "supports": "Umbrella review found highly variable, methodologically weak findings and concluded it is premature to say cycle phase meaningfully affects strength performance or training gains.",
+          "abstract": "1. Front Sports Act Living. 2023 Mar 23;5:1054542. doi:\n10.3389/fspor.2023.1054542.  eCollection 2023.\n\nCurrent evidence shows no influence of women's menstrual cycle phase on acute \nstrength performance or adaptations to resistance exercise training.\n\nColenso-Semple LM(1), D'Souza AC(1), Elliott-Sale KJ(2), Phillips SM(1).\n\nAuthor information:\n(1)Department of Kinesiology, McMaster University, Hamilton, ON, Canada.\n(2)Institute of Sport, Manchester Metropolitan University, Manchester, United \nKingdom.\n\nINTRODUCTION: The bias towards excluding women from exercise science research is \noften due to the assumption that cyclical fluctuations in reproductive hormones \ninfluence resistance exercise performance and exercise-induced adaptations.\nMETHODS: Hence, the purpose of this umbrella review was to examine and \ncritically evaluate the evidence from meta-analyses and systematic reviews on \nthe influence of menstrual cycle phase on acute performance and chronic \nadaptations to resistance exercise training (RET).\nRESULTS: We observed highly variable findings among the published reviews on the \nostensible effects of female sex hormones on relevant RET-induced outcomes, \nincluding strength, exercise performance, and hypertrophy.\nDISCUSSION: We highlight the importance of comprehensive menstrual cycle \nverification methods, as we noted a pattern of poor and inconsistent \nmethodological practices in the literature. In our opinion, it is premature to \nconclude that short-term fluctuations in reproductive hormones appreciably \ninfluence acute exercise performance or longer-term strength or hypertrophic \nadaptations to RET.\n\n© 2023 Colenso-Semple, D'souza, Elliott-Sale and Phillips.\n\nDOI: 10.3389/fspor.2023.1054542\nPMCID: PMC10076834\nPMID: 37033884\n\nConflict of interest statement: The authors declare that the research was \nconducted in the absence of any commercial or financial relationships that could \nbe construed as a potential conflict of interest.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
       ],
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-11",
       "model": "claude-opus-5-5",
-      "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Editor Agent"
-      }
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
     },
     "exercise-cold-plunges-for-fat-loss": {
       "verdict": "hype",
-      "evidence": "They may help you feel better after hard training. There is no good evidence for fat loss, and a plunge right after lifting can blunt muscle gains.",
-      "confidence": "medium",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Systematic review",
-        "Expert body"
+      "evidence": "Cold exposure makes the body burn a little more energy, but no good trials show that cold plunges lead to fat loss. Some people use them to feel better after hard training. Taking a cold plunge right after lifting may reduce muscle gains over time.",
+      "confidence": "high",
+      "caveats": "Lab studies show cold raises energy use and activates brown fat, mostly with hours of mild cold air, not short plunges. The muscle-blunting evidence is suggestive, not conclusive: the 2024 meta-analysis included 8 studies and the key trial studied men. Blunting applies to plunging right after strength training.",
+      "sources": [
+        {
+          "title": "Throwing cold water on muscle growth: A systematic review with meta‐analysis of the effects of postexercise cold water immersion on resistance training‐induced hypertrophy",
+          "publisher": "European Journal of Sport Science",
+          "year": "2024",
+          "type": "Meta-analysis",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11235606/",
+          "pmid": "",
+          "doi": "10.1002/ejsc.12074",
+          "supports": "Across 8 studies, cold water immersion right after resistance training may reduce muscle growth compared with training alone.",
+          "abstract": "abstract the purpose of this paper was to systematically review the literature and perform a meta analysis of the existing data on the effects of postexercise cold water immersion cwi coupled with resistance training rt on gains in measures of muscle growth to locate relevant studies we comprehensively searched the pubmed medline scopus and web of science databases a total of 8 studies met the inclusion criteria all investigated cwi as the means of cold application preliminary analyses conducted on noncontrolled effect sizes provided strong evidence of hypertrophic adaptations with rt that were likely to be at least small in magnitude smd 0 5 0 36 95 cri 0 10 0 61 p 0 0 995 p 0 1 0 977 in contrast noncontrolled effect sizes provided some evidence of hypertrophic adaptations with cwi rt that were likely to be small to negligible in magnitude smd 0 5 0 14 95 cri 0 08 0 36 p 0 0 906 p 0 1 0 68 the primary analysis conducted on comparative effect sizes provided some evidence of greater relative hypertrophic adaptations with rt compared to cwi rt csmd 0 5 0 22 95 cri 0 47 to 0 04 with differences likely to be greater than zero p 0 0 957 and of at least a small magnitude of effect p 0 1 0 834 meta regression did not indicate a potential moderation effect of training status 0 10 95 cri 0 65 to 0 43 p 0 0 653 in conclusion based on the current data the application of cwi immediately following bouts of rt may attenuate hypertrophic changes given the overall relatively fair to poor quality of the studies examined the results of the current study should be interpreted with some caution",
+          "verified": true,
+          "verified_via": "Crossref",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Post-exercise cold water immersion attenuates acute anabolic signalling and long-term adaptations in muscle to strength training",
+          "publisher": "The Journal of physiology",
+          "year": "2015",
+          "type": "Randomized trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26174323/",
+          "pmid": "26174323",
+          "doi": "10.1113/JP270570",
+          "supports": "Over 12 weeks, men who did 10 minutes of cold water immersion after each session gained less strength and muscle than men who did active recovery.",
+          "abstract": "1. J Physiol. 2015 Sep 15;593(18):4285-301. doi: 10.1113/JP270570. Epub 2015 Aug \n13.\n\nPost-exercise cold water immersion attenuates acute anabolic signalling and \nlong-term adaptations in muscle to strength training.\n\nRoberts LA(1)(2), Raastad T(3), Markworth JF(4), Figueiredo VC(4), Egner IM(5), \nShield A(6), Cameron-Smith D(4), Coombes JS(1), Peake JM(2)(7).\n\nAuthor information:\n(1)University of Queensland, School of Human Movement Studies and Nutrition \nSciences, Brisbane, Australia.\n(2)Centre of Excellence for Applied Sport Science Research, Queensland Academy \nof Sport, Brisbane, Australia.\n(3)Norwegian School of Sport Sciences, Oslo, Norway.\n(4)Liggins Institute, University of Auckland, Auckland, New Zealand.\n(5)Department of Biosciences, University of Oslo, Oslo, Norway.\n(6)School of Exercise and Nutrition Sciences, Queensland University of \nTechnology, Brisbane, Australia.\n(7)School of Biomedical Sciences and Institute of Health and Biomedical \nInnovation, Queensland University of Technology, Brisbane, Australia.\n\nWe investigated functional, morphological and molecular adaptations to strength \ntraining exercise and cold water immersion (CWI) through two separate studies. \nIn one study, 21 physically active men strength trained for 12 weeks (2 days per \nweek), with either 10 min of CWI or active recovery (ACT) after each training \nsession. Strength and muscle mass increased more in the ACT group than in the \nCWI group (P < 0.05). Isokinetic work (19%), type II muscle fibre \ncross-sectional area (17%) and the number of myonuclei per fibre (26%) increased \nin the ACT group (all P < 0.05), but not the CWI group. In another study, nine \nactive men performed a bout of single-leg strength exercises on separate days, \nfollowed by CWI or ACT. Muscle biopsies were collected before and 2, 24 and 48 h \nafter exercise. The number of satellite cells expressing neural cell adhesion \nmolecule (NCAM) (10-30%) and paired box protein (Pax7) (20-50%) increased 24-48 \nh after exercise with ACT. The number of NCAM(+) satellite cells increased 48 h \nafter exercise with CWI. NCAM(+) - and Pax7(+) -positive satellite cell numbers \nwere greater after ACT than after CWI (P < 0.05). Phosphorylation of p70S6 \nkinase(Thr421/Ser424) increased after exercise in both conditions but was \ngreater after ACT (P < 0.05). These data suggest that CWI attenuates the acute \nchanges in satellite cell numbers and activity of kinases that regulate muscle \nhypertrophy, which may translate to smaller long-term training gains in muscle \nstrength and hypertrophy. The use of CWI as a regular post-exercise recovery \nstrategy should be reconsidered.\n\n© 2015 The Authors. The Journal of Physiology © 2015 The Physiological Society.\n\nDOI: 10.1113/JP270570\nPMCID: PMC4594298\nPMID: 26174323 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Effect of Acute Cold Exposure on Energy Metabolism and Activity of Brown Adipose Tissue in Humans: A Systematic Review and Meta-Analysis",
+          "publisher": "Frontiers in physiology",
+          "year": "2022",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35837014/",
+          "pmid": "35837014",
+          "doi": "10.3389/fphys.2022.917084",
+          "supports": "Short-term mild cold exposure raised daily energy use by about 188 kcal and increased brown fat activity. It measured energy burn, not fat loss, and used cold air rather than plunges.",
+          "abstract": "1. Front Physiol. 2022 Jun 28;13:917084. doi: 10.3389/fphys.2022.917084. \neCollection 2022.\n\nEffect of Acute Cold Exposure on Energy Metabolism and Activity of Brown Adipose \nTissue in Humans: A Systematic Review and Meta-Analysis.\n\nHuo C(1), Song Z(2), Yin J(1), Zhu Y(1), Miao X(1), Qian H(1), Wang J(1), Ye \nL(1), Zhou L(1).\n\nAuthor information:\n(1)Department of Occupational and Environmental Health, School of Public Health, \nJilin University, Changchun, China.\n(2)Department of Cardiology, the First Hospital of Jilin University, Changchun, \nChina.\n\nBackground: The benefit of cold exposure for humans against obesity has brought \nthe energy metabolism and activity of brown adipose tissue (BAT) induced by cold \ninto focus. But the results are inconsistent. This review is aimed to \nsystematically explore the effect of cold exposure on the activity of BAT and \nenergy metabolism in humans. Methods: We searched relevant papers that were \npublished from 1990 to 2021 and were cited in PubMed Central, Web of science, \nEmbase and Cochrane Library databases to conduct this systematic review and \nmeta-analysis. Energy metabolism, BAT volume, BAT activity and non-esterified \nfatty acids (NEFA) data reported in eligible researches were extracted. \nMeta-analysis was applied to combine the mean difference or standard mean \ndifference with their 95% confidence intervals (95%CI). RevMan 5.3 software was \nused for meta-analysis and evaluating the risk of bias. Stata 16.0 was used for \nevaluating the publication bias. Results: Ten randomized controlled trials were \nincluded in meta-analysis. Compared with human exposed in room temperature at \n24°C, the energy expenditure (EE) was increased after acute cold exposure at \n16∼19°C (Z = 7.58, p < 0.05, mean different = 188.43kal/d, 95% CI = \n139.73-237.13); BAT volume (Z = 2.62, p < 0.05; standard mean different = 0.41, \n95% CI = 0.10-0.73); BAT activity (Z = 2.05, p = 0.04, standard mean difference \n= 1.61, 95% CI = 0.07-3.14) and the intake of BAT NEFA (Z = 2.85, p < 0.05; \nstandard mean different = 0.53, 95% CI = 0.17-0.90) also increased. Conclusion: \nAcute cold exposure could improve the energy expenditure and BAT activity in \nadults, which is beneficial for human against obesity.\n\nCopyright © 2022 Huo, Song, Yin, Zhu, Miao, Qian, Wang, Ye and Zhou.\n\nDOI: 10.3389/fphys.2022.917084\nPMCID: PMC9273773\nPMID: 35837014\n\nConflict of interest statement: The authors declare that the research was \nconducted in the absence of any commercial or financial relationships that could \nbe construed as a potential conflict of interest.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
       ],
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-11",
       "model": "claude-opus-5-5",
-      "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Editor Agent"
-      }
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
+    },
+    "nutrition-fibermaxxing": {
+      "verdict": "real",
+      "evidence": "People who eat more fiber, around 25 to 30 grams a day or more, have lower rates of heart disease, type 2 diabetes and colon cancer. Trials show fiber helps with constipation. The effect on appetite and cravings is less consistent, and adding fiber gradually helps limit gas and bloating.",
+      "confidence": "high",
+      "caveats": "'Real' applies to digestion and long-term health. The cravings part of the claim is weaker: a systematic review found most fiber types did not reduce appetite or food intake in short-term studies. The disease-risk findings come mostly from observational studies, though trials do show lower body weight, blood pressure and cholesterol. The constipation evidence is from people with chronic constipation.",
+      "sources": [
+        {
+          "title": "Carbohydrate quality and human health: a series of systematic reviews and meta-analyses",
+          "publisher": "Lancet (London, England)",
+          "year": "2019",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30638909/",
+          "pmid": "30638909",
+          "doi": "10.1016/S0140-6736(18)31809-9",
+          "supports": "Across 185 cohort studies and 58 trials, people with the highest fiber intake had 15 to 30% lower mortality, heart disease, stroke, type 2 diabetes and colorectal cancer, with the most benefit at 25 to 29 g/day.",
+          "abstract": "1. Lancet. 2019 Feb 2;393(10170):434-445. doi: 10.1016/S0140-6736(18)31809-9.\nEpub  2019 Jan 10.\n\nCarbohydrate quality and human health: a series of systematic reviews and \nmeta-analyses.\n\nReynolds A(1), Mann J(2), Cummings J(3), Winter N(4), Mete E(4), Te Morenga \nL(5).\n\nAuthor information:\n(1)Department of Medicine, University of Otago, Dunedin, Otago, New Zealand; \nDepartment of Human Nutrition, University of Otago, Dunedin, Otago, New Zealand; \nEdgar National Centre for Diabetes and Obesity Research, University of Otago, \nDunedin, Otago, New Zealand.\n(2)Department of Medicine, University of Otago, Dunedin, Otago, New Zealand; \nDepartment of Human Nutrition, University of Otago, Dunedin, Otago, New Zealand; \nEdgar National Centre for Diabetes and Obesity Research, University of Otago, \nDunedin, Otago, New Zealand; Department of Medicine, Riddet Centre of Research \nExcellence, New Zealand; Healthier Lives National Science Challenge, New \nZealand. Electronic address: jim.mann@otago.ac.nz.\n(3)School of Medicine, University of Dundee, Dundee, Scotland.\n(4)Department of Human Nutrition, University of Otago, Dunedin, Otago, New \nZealand.\n(5)Department of Human Nutrition, University of Otago, Dunedin, Otago, New \nZealand; Edgar National Centre for Diabetes and Obesity Research, University of \nOtago, Dunedin, Otago, New Zealand; Department of Medicine, Riddet Centre of \nResearch Excellence, New Zealand.\n\nErratum in\n    Lancet. 2019 Feb 2;393(10170):406. doi: 10.1016/S0140-6736(19)30119-9.\n\nComment in\n    Lancet. 2019 Feb 2;393(10170):384-386. doi: 10.1016/S0140-6736(18)32468-1.\n    Nat Rev Endocrinol. 2019 May;15(5):257-258. doi: 10.1038/s41574-019-0190-x.\n\nBACKGROUND: Previous systematic reviews and meta-analyses explaining the \nrelationship between carbohydrate quality and health have usually examined a \nsingle marker and a limited number of clinical outcomes. We aimed to more \nprecisely quantify the predictive potential of several markers, to determine \nwhich markers are most useful, and to establish an evidence base for \nquantitative recommendations for intakes of dietary fibre.\nMETHODS: We did a series of systematic reviews and meta-analyses of prospective \nstudies published from database inception to April 30, 2017, and randomised \ncontrolled trials published from database inception to Feb 28, 2018, which \nreported on indicators of carbohydrate quality and non-communicable disease \nincidence, mortality, and risk factors. Studies were identified by searches in \nPubMed, Ovid MEDLINE, Embase, and the Cochrane Central Register of Controlled \nTrials, and by hand searching of previous publications. We excluded prospective \nstudies and trials reporting on participants with a chronic disease, and weight \nloss trials or trials involving supplements. Searches, data extraction, and bias \nassessment were duplicated independently. Robustness of pooled estimates from \nrandom-effects models was considered with sensitivity analyses, meta-regression, \ndose-respo",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "The Effect of Fiber Supplementation on Chronic Constipation in Adults: An Updated Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+          "publisher": "The American journal of clinical nutrition",
+          "year": "2022",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35816465/",
+          "pmid": "35816465",
+          "doi": "10.1093/ajcn/nqac184",
+          "supports": "In 16 trials, fiber improved constipation and stool consistency, especially psyllium at more than 10 g/day for 4 weeks or longer, but it also increased flatulence.",
+          "abstract": "1. Am J Clin Nutr. 2022 Oct 6;116(4):953-969. doi: 10.1093/ajcn/nqac184.\n\nThe Effect of Fiber Supplementation on Chronic Constipation in Adults: An \nUpdated Systematic Review and Meta-Analysis of Randomized Controlled Trials.\n\nvan der Schoot A(1), Drysdale C(1), Whelan K(1), Dimidi E(1).\n\nAuthor information:\n(1)Department of Nutritional Sciences, King's College London, London, United \nKingdom.\n\nBACKGROUND: Chronic constipation is a prevalent disorder that remains \nchallenging to treat. Studies suggest increasing fiber intake may improve \nsymptoms, although recommendations on the fiber type, dose, and treatment \nduration are unclear.\nOBJECTIVES: We investigated the effects of fiber supplementation on stool \noutput, gut transit time, symptoms, and quality of life in adults with chronic \nconstipation via a systematic review and meta-analysis of randomized controlled \ntrials (RCTs).\nMETHODS: Studies were identified using electronic databases, backward citation, \nand hand searches of abstracts. RCTs reporting administration of fiber \nsupplementation in adults with chronic constipation were included. Risks of bias \n(RoB) was assessed with the Cochrane RoB 2.0 tool. Results were synthesized \nusing risk ratios (RRs), mean differences, or standardized mean differences \n(SMDs) and 95% CIs using a random-effects model.\nRESULTS: Sixteen RCTs with 1251 participants were included. Overall, 311 of 473 \n(66%) participants responded to fiber treatment and 134 of 329 (41%) responded \nto control treatment [RR: 1.48 (95% CI: 1.17, 1.88; P = 0.001); I2 = 57% \n(P = 0.007)], with psyllium and pectin having significant effects. A higher \nresponse to treatment was apparent in fiber groups compared to control groups \nirrespective of the treatment duration, but only with higher fiber doses \n(>10 g/d). Fiber increased stool frequency [SMD: 0.72 (95% CI: 0.36, 1.08; \nP = 0.0001); I2 = 86% (P < 0.00001)]; psyllium and pectin had significant \neffects, and improvement was apparent only with higher fiber doses and greater \ntreatment durations (≥4 weeks). Fiber improved stool consistency (SMD: 0.32; 95% \nCI: 0.18, 0.46; P < 0.0001), particularly with higher fiber doses. Flatulence \nwas higher in fiber groups compared to control groups(SMD: 0.80; 95% CI: 0.47, \n1.13; P < 0.00001).\nCONCLUSIONS: Fiber supplementation is effective at improving constipation. \nParticularly, psyllium, doses >10 g/d and treatment durations of at least 4 \nweeks appear optimal, though caution is needed when interpreting the results due \nto considerable heterogeneity. These findings provide promising evidence on the \noptimal type and regime of fiber supplementation, which could be used to \nstandardize recommendations to patients. The protocol for this review is \nregistered at PROSPERO as CRD42020191404.\n\n© The Author(s) 2022. Published by Oxford University Press on behalf of the \nAmerican Society for Nutrition.\n\nDOI: 10.1093/ajcn/nqac184\nPMCID: PMC9535527\nPMID: 35816465 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "The effect of fiber on satiety and food intake: a systematic review",
+          "publisher": "Journal of the American College of Nutrition",
+          "year": "2013",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23885994/",
+          "pmid": "23885994",
+          "doi": "10.1080/07315724.2013.791194",
+          "supports": "Most short-term fiber treatments did not reduce appetite (61%) or food intake (78%), so the evidence on cravings is limited.",
+          "abstract": "1. J Am Coll Nutr. 2013;32(3):200-11. doi: 10.1080/07315724.2013.791194.\n\nThe effect of fiber on satiety and food intake: a systematic review.\n\nClark MJ(1), Slavin JL.\n\nAuthor information:\n(1)Department of Food Science and Nutrition, University of Minnesota, Saint \nPaul, Minnesota 55108, USA.\n\nEpidemiologic studies have shown that fiber intake is associated with a lower \nbody weight. Satiety and energy intake are possible explanations for this \neffect. The purpose of this study was to recommend fiber types and doses that \nare effective in reducing appetite and energy intake. A systematic review was \nconducted using the American Dietetic Association's evidence analysis process as \na guide. Studies were identified from PubMed and bibliographies of review \narticles. Studies measuring appetite, food and/or energy intake with a treatment \nperiod of ≤24 hours, a reported fiber type and amount, a low- or no-fiber \ncontrol, and healthy human participants were included. Forty-four publications \nwere identified, from which 107 treatments were analyzed. Thirty-eight fiber \nsources were identified. The percentage of treatments that significantly reduced \nsubjective appetite rating compared with the control was 39%. The percentage \nthat significantly reduced food or energy intake was 22%. The satiety-enhancing \neffects of β-glucan, lupin kernel fiber, rye bran, whole grain rye, or a mixed \nhigh-fiber diet were supported in more than one publication. Most fibers do not \nreduce appetite or energy intake in acute study designs. KEY TEACHING POINTS: • \nDietary fiber intake is associated with lower body weight in epidemiologic \nstudies. • Most acute fiber treatments (61%) did not enhance satiety. • Most \nacute fiber treatments (78%) did not reduce food intake. • Neither fiber type \nnor fiber dose were related to satiety response or food intake.\n\nDOI: 10.1080/07315724.2013.791194\nPMID: 23885994 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
+      ],
+      "checked_at": "2026-10-11",
+      "model": "claude-opus-5-5",
+      "review": {
+        "status": "approved",
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
+    },
+    "nutrition-vinegar-shots-before-meals": {
+      "verdict": "mixed",
+      "evidence": "Pooled clinical trials show that vinegar taken with a meal can modestly lower the rise in blood sugar afterward. The studies are small and vary a lot, and there is not good evidence that it causes weight loss. Vinegar is acidic and can wear down tooth enamel, so it is usually diluted.",
+      "confidence": "medium",
+      "caveats": "The meta-analysis covered small, varied trials with a moderate pooled effect. The 2020 systematic review rated the overall evidence for apple vinegar's effects on blood sugar and weight as insufficient. The enamel evidence is a lab study on extracted teeth, not trials.",
+      "sources": [
+        {
+          "title": "Vinegar consumption can attenuate postprandial glucose and insulin responses; a systematic review and meta-analysis of clinical trials",
+          "publisher": "Diabetes research and clinical practice",
+          "year": "2017",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28292654/",
+          "pmid": "28292654",
+          "doi": "10.1016/j.diabres.2017.01.021",
+          "supports": "Vinegar with a meal significantly lowered post-meal glucose and insulin compared with control.",
+          "abstract": "1. Diabetes Res Clin Pract. 2017 May;127:1-9. doi: 10.1016/j.diabres.2017.01.021.\n Epub 2017 Mar 2.\n\nVinegar consumption can attenuate postprandial glucose and insulin responses; a \nsystematic review and meta-analysis of clinical trials.\n\nShishehbor F(1), Mansoori A(2), Shirani F(1).\n\nAuthor information:\n(1)Nutrition and Metabolic Diseases Research Center, Ahvaz Jundishapur \nUniversity of Medical Sciences, Ahvaz, Iran.\n(2)Nutrition and Metabolic Diseases Research Center, Ahvaz Jundishapur \nUniversity of Medical Sciences, Ahvaz, Iran. Electronic address: \nMansoori_anahita@yahoo.com.\n\nOBJECTIVE: Postprandial hyperglycemia plays a decisive role in the development \nof chronic metabolic disorders. The effect of vinegar intake with a meal on \npostprandial glucose has been studied in several trials with conflicting \nresults.\nRESEARCH METHODS AND PROCEDURES: The purpose of the current study was to \nsystematically review control trials that report on the effect of vinegar intake \non postprandial glucose response. Postprandial insulin response was considered \nas secondary outcome.\nRESULTS: The pooled analysis of studies revealed a significant mean glucose and \ninsulin area under the curve (AUC) reduction in participants who consumed \nvinegar compared with the control group (standard mean difference=-0.60, 95%CI \n-1.08 to -0.11, p=0.01 and -1.30, 95%CI -1.98 to -0.62, p<0.001, respectively).\nCONCLUSIONS: The findings suggest that vinegar can be effective in reducing \npostprandial glucose and insulin levels, indicating it could be considered as an \nadjunctive tool for improving glycemic control.\n\nCopyright © 2017 Elsevier B.V. All rights reserved.\n\nDOI: 10.1016/j.diabres.2017.01.021\nPMID: 28292654 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Safety and side effects of apple vinegar intake and its effect on metabolic parameters and body weight: a systematic review",
+          "publisher": "European journal of nutrition",
+          "year": "2020",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32170375/",
+          "pmid": "32170375",
+          "doi": "10.1007/s00394-020-02214-3",
+          "supports": "The evidence for apple vinegar's effects on blood sugar and body weight is insufficient because high-quality research is lacking, and side effects look minor at recommended amounts.",
+          "abstract": "1. Eur J Nutr. 2020 Sep;59(6):2273-2289. doi: 10.1007/s00394-020-02214-3. Epub\n2020  Mar 13.\n\nSafety and side effects of apple vinegar intake and its effect on metabolic \nparameters and body weight: a systematic review.\n\nLaunholt TL(1), Kristiansen CB(2), Hjorth P(3)(4)(5).\n\nAuthor information:\n(1)Nursing Education, UCL University College, Vejle, Denmark. tlla@ucl.dk.\n(2)Psychiatric Department Odense - University Function, Mental Health Services, \nRegion of Southern Denmark, Odense, Denmark.\n(3)Department of Psychiatry, University of Southern Denmark, Vejle, Denmark.\n(4)Institute of Regional Health, University of Southern Denmark, Odense, \nDenmark.\n(5)Centre for Psychiatric Nursing and Health Care Research, Region of Southern \nDenmark, Odense, Denmark.\n\nINTRODUCTION: Apple vinegar (AV) has been proclaimed to have different health \nbenefits, such as a weight loss, the ability to lower blood glucose levels, and \nreducing the risk of heart diseases. Studies on animals have demonstrated \neffects of AV consumption, deepening our knowledge of the beneficial effects and \nside effects.\nAIM: The aims of this study were to evaluate the evidence of the effect of AV on \nmetabolic parameters and body weight in humans, furthermore, to evaluate the \nsafety and side effects of ingesting AV, and additionally to evaluate the \nevidence of the effect of AV on metabolic parameters, safety, and side effects \nof AV from studies performed on animals (mammals).\nMETHODS: A systematic literature search was performed. The databases PubMed \n(MEDLINE), PsycInfo (Ebsco), CINAHL (Ebsco), and Embase (Ovid) were searched for \nrelevant articles. Primary outcomes were glycated hemoglobin, postprandial \nglucose, and synonyms for blood glucose. Secondary outcomes were waist \ncircumference, visceral fat, high-density lipoprotein, low-density lipoprotein, \ntriglycerides, and total cholesterol. Studies performed on humans and animals \nwere included. The included studies performed on humans were quality assessed \nfor risk of bias using a version of the Cochrane Collaboration's tool.\nRESULTS: A total of 487 papers were identified in the literature search. Of \nthese, 13 studies performed on humans and 12 studies performed on animals were \nincluded. There may be beneficial health effects from the consumption of AV. The \nrisk of side effects when ingested in recommended quantities and in recommended \nways seems inconsiderable.\nCONCLUSION: Due to inadequate research of high quality, the evidence for the \nhealth effects of AV is insufficient. Therefore, more large-scale, long-term \nclinical studies with a low risk of bias are needed before definitive \nconclusions can be made.\n\nDOI: 10.1007/s00394-020-02214-3\nPMID: 32170375 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "In vitro study on dental erosion caused by different vinegar varieties using an electron microprobe",
+          "publisher": "Clinical laboratory",
+          "year": "2014",
+          "type": "Other",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24839821/",
+          "pmid": "24839821",
+          "doi": "10.7754/clin.lab.2013.130528",
+          "supports": "Several vinegars dissolved minerals from human enamel in the lab, with up to about 20% loss depending on the type of vinegar and exposure time.",
+          "abstract": "1. Clin Lab. 2014;60(5):783-90. doi: 10.7754/clin.lab.2013.130528.\n\nIn vitro study on dental erosion caused by different vinegar varieties using an \nelectron microprobe.\n\nWillershausen I, Weyer V, Schulte D, Lampe F, Buhre S, Willershausen B.\n\nBACKGROUND: Among health-conscious individuals, including vegetarians, salads \ndressed with vinegar are frequently consumed. Dental erosion can also be caused \nby an acidic diet, and occurs with increasing tendency. The aim of this study \nwas to analyze the erosive potential of vinegar varieties on human enamel \nsamples.\nMETHODS: A total of 30 vinegar varieties were selected. Enamel samples were \nprepared from human wisdom teeth, and the specially prepared enamel slices were \nincubated with 5 selected vinegars (Bio vinegar, pH = 3.1; raspberry vinegar, pH \n= 2.7; Condimento Balsamico, pH = 3.95; Ortalli Bianco Modena, pH = 2.7; \nVinaigre de Jerez, pH = 2.9) for up to 8 hours. Controls were incubated with a \n0.9% sodium chloride solution. The quantitative analysis of CaO, P2O5, F, MgO, \nCl, and O in the enamel samples (incubation: 4, 8 hours) in various depths \nranging from 7.5 - 105 microm was carried out using an electron probe \nmicro-analyser (Jeol JXA 8900RL). Linear mixed models were fitted to analyze \nstatistically relevant differences between the different vinegars at various \ndepth levels.\nRESULTS: Incubating the enamel slices with the selected vinegars caused a \nrelease of minerals, which was dependent on time and type of vinegar. The \nvinegar Ortalli Bianco Modena led to a slight loss (1%) of the mineral CaO in a \ndepth up to 20 microm, while the loss of minerals caused by raspberry vinegar in \na depth of up to 30 microm was about 20% (4 hours). The greatest loss of the \nminerals was detected for the Bio Vinegar. After 8 hours incubation, a loss of \nminerals of about 20% in a depth of 45 microm and in a depth of 60 microm of 16% \ncould be observed. Both, the Bio Vinegar and the raspberry vinegar led to a \nsignificantly higher loss of minerals (p < 0.0001) than all other tested \nvinegars.\nCONCLUSIONS: In this in vitro study, the erosive potential of different vinegar \nvarieties on human enamel samples could be demonstrated. However, it must be \nconsidered that numerous modifying factors influence the enamel surface in vivo; \ntherefore, a direct translation to in vitro conditions can only be done with \ncaution.\n\nDOI: 10.7754/clin.lab.2013.130528\nPMID: 24839821 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
+      ],
+      "checked_at": "2026-10-11",
+      "model": "claude-opus-5-5",
+      "review": {
+        "status": "approved",
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
+    },
+    "nutrition-wearing-a-cgm-without-diabetes": {
+      "verdict": "early",
+      "evidence": "Research on glucose monitors in people without diabetes is still small and low in certainty. One trial found people ate fewer high-sugar carbs when the monitor came with nutrition coaching, but lasting benefits from the monitor alone have not been shown. In healthy people blood sugar stays in the normal range almost all day, so short rises after meals are expected.",
+      "confidence": "medium",
+      "caveats": "The 2026 systematic review included 12 studies and rated certainty low for diet changes and very low for everything else. It could not establish psychological benefit or rule out harm. The 2025 review says there is too little data to know the effect on heart outcomes.",
+      "sources": [
+        {
+          "title": "Behavioral and Psychosocial Effects of Participant-Visible Continuous Glucose Monitoring in Adults Without Diabetes: A Systematic Review",
+          "publisher": "Medicina (Kaunas, Lithuania)",
+          "year": "2026",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42796420/",
+          "pmid": "42796420",
+          "doi": "10.3390/medicina62091814",
+          "supports": "Glucose monitoring may help some diet changes when it is part of structured education, but large, lasting or stand-alone benefits are not established.",
+          "abstract": "1. Medicina (Kaunas). 2026 Sep 20;62(9):1814. doi: 10.3390/medicina62091814.\n\nBehavioral and Psychosocial Effects of Participant-Visible Continuous Glucose \nMonitoring in Adults Without Diabetes: A Systematic Review.\n\nMakkena HB(1), Nimmagadda Y(2), Boinapelly N(3), George A(4), Daruvuri N(5), \nSunar RR(6), Guda S(7).\n\nAuthor information:\n(1)Katuri Medical College & Hospital, Guntur 522019, Andhra Pradesh, India.\n(2)Department of Internal Medicine, Malla Reddy Institute of Medical Sciences, \nHyderabad 500055, Telangana, India.\n(3)Mamata Medical College, Khammam 507002, Telangana, India.\n(4)Department of Internal Medicine, Amala Institute of Medical Sciences, \nThrissur 680555, Kerala, India.\n(5)Kasturba Medical College, Manipal 576104, Karnataka, India.\n(6)Internal Medicine, Al Hana Modern Medical Center, Dubai P.O. Box 24824, \nUnited Arab Emirates.\n(7)Department of Internal Medicine, Hackensack Meridian Health Palisades Medical \nCenter, North Bergen, NJ 07047, USA.\n\nBackground and Objectives: Continuous glucose monitoring (CGM) is increasingly \nused beyond diabetes care, but whether participant-visible feedback changes \nbehavior or psychosocial outcomes in adults without diabetes remains uncertain. \nWe evaluated dietary behavior/adherence, physical activity, psychosocial \noutcomes, and device burden. Materials and Methods: This PROSPERO-registered \nsystematic review (CRD420261356163) searched seven bibliographic databases and \ntwo trial registries, followed by citation searching. Randomized and \nnonrandomized intervention studies and qualitative/mixed-methods evidence were \neligible. RoB 2, ROBINS-I, MMAT 2018, and GRADE were applied. Clinical and \nmethodological heterogeneity precluded meta-analysis. Results: Searches yielded \n6265 database/registry records; 2627 unique records were screened. Citation \nsearching added 431 new records and two eligible studies, giving 12 studies. Two \nrandomized dietary comparisons suggested selected improvements; one 8-week trial \ncomparing CGM plus low-glycemic-index/load education with education alone \nreported between-group reductions in carbohydrate intake (-15.2 g; 95% CI -20.9 \nto -9.5), glycemic index (-10.0; 95% CI -13.1 to -6.9), and glycemic load \n(-19.9; 95% CI -29.0 to -10.7). Physical activity showed no clear difference \n(-28.5 MET-min/week; 95% CI -171.9 to 114.8). Psychosocial evidence was \ninsufficient to establish benefit or exclude harm; device burden evidence was \nsparse. Certainty was low for dietary outcomes and very low for the other \ndomains. Conclusions: Participant-visible CGM may support selected dietary \nchanges as a biofeedback adjunct within structured education or lifestyle \ninterventions, but large, durable benefits and stand-alone efficacy are not \nestablished.\n\nDOI: 10.3390/medicina62091814\nPMCID: PMC13609687\nPMID: 42796420 [Indexed for MEDLINE]\n\nConflict of interest statement: The authors declare no conflicts of interest.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Non-Invasive Continuous Glucose Monitoring in Patients Without Diabetes: Use in Cardiovascular Prevention-A Systematic Review",
+          "publisher": "Sensors (Basel, Switzerland)",
+          "year": "2025",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39796978/",
+          "pmid": "39796978",
+          "doi": "10.3390/s25010187",
+          "supports": "Data on glucose monitoring in people without diabetes are scarce, and its effect on heart outcomes is unclear.",
+          "abstract": "1. Sensors (Basel). 2025 Jan 1;25(1):187. doi: 10.3390/s25010187.\n\nNon-Invasive Continuous Glucose Monitoring in Patients Without Diabetes: Use in \nCardiovascular Prevention-A Systematic Review.\n\nWilczek F(1)(2), van der Stouwe JG(3), Petrasch G(4), Niederseer D(4)(5)(6).\n\nAuthor information:\n(1)Institute of Emergency Medicine, Stadtspital Zürich Waid, 8037 Zurich, \nSwitzerland.\n(2)GP Practice, Sanacare Gruppenpraxis Zürich Stadelhofen, Gottfried \nKeller-Strasse 7, 8001 Zurich, Switzerland.\n(3)Department of Cardiology and Cardiovascular Research Institute Basel, \nUniversity Hospital Basel, University of Basel, 4031 Basel, Switzerland.\n(4)Hochgebirgsklinik, Medicine Campus Davos, Herman-Burchard-Strasse 1, 7270 \nDavos, Switzerland.\n(5)Department of Cardiology, Center of Translational and Experimental Cardiology \n(CTEC), University Heart Center Zurich, University Hospital Zurich, University \nof Zurich, 8006 Zurich, Switzerland.\n(6)Christine Kuehne Center for Allergy Research and Education (CK-CARE), \nMedicine Campus Davos, 7265 Davos, Switzerland.\n\nContinuous glucose monitoring (CGM) might provide immediate feedback regarding \nlifestyle choices such as diet and physical activity (PA). The impact of dietary \nhabits and physical activity can be demonstrated in real time by providing \ncontinuous data on glucose levels and enhancing patient engagement and adherence \nto lifestyle modifications. Originally developed for diabetic patients, its use \nhas recently been extended to a non-diabetic population to improve \ncardiovascular health. However, since data in this population are scarce, the \neffect on cardiovascular outcomes is unclear. CGM may offer potential benefits \nfor cardiovascular prevention in healthy individuals without diabetes. The aim \nof this systematic review is to evaluate the use of CGM in healthy non-diabetic \nindividuals, focusing on its potential to guide lifestyle interventions in the \ncontext of cardiovascular prevention, which may ultimately reduce cardiovascular \nrisk.\n\nDOI: 10.3390/s25010187\nPMCID: PMC11722592\nPMID: 39796978 [Indexed for MEDLINE]\n\nConflict of interest statement: The authors declare no conflict of interest.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Continuous Glucose Monitoring Profiles in Healthy Nondiabetic Participants: A Multicenter Prospective Study",
+          "publisher": "The Journal of clinical endocrinology and metabolism",
+          "year": "2019",
+          "type": "Observational study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31127824/",
+          "pmid": "31127824",
+          "doi": "10.1210/jc.2018-02763",
+          "supports": "Healthy people without diabetes spent a median 96% of the day between 70 and 140 mg/dL and only about 2% above 140, which sets a baseline for normal readings.",
+          "abstract": "1. J Clin Endocrinol Metab. 2019 Oct 1;104(10):4356-4364. doi: \n10.1210/jc.2018-02763.\n\nContinuous Glucose Monitoring Profiles in Healthy Nondiabetic Participants: A \nMulticenter Prospective Study.\n\nShah VN(1), DuBose SN(2), Li Z(2), Beck RW(2), Peters AL(3), Weinstock RS(4), \nKruger D(5), Tansey M(6), Sparling D(7), Woerner S(8), Vendrame F(9), Bergenstal \nR(10), Tamborlane WV(11), Watson SE(12), Sherr J(11).\n\nAuthor information:\n(1)Barbara Davis Center for Diabetes, Aurora, Colorado.\n(2)Jaeb Center for Health Research, Tampa, Florida.\n(3)Keck School of Medicine of the University of Southern California, Los \nAngeles, California.\n(4)SUNY Upstate Medical University, Syracuse, New York.\n(5)Henry Ford Medical Center, Detroit, Michigan.\n(6)University of Iowa, Iowa City, Iowa.\n(7)University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma.\n(8)Indiana University School of Medicine, Indianapolis, Indiana.\n(9)University of Miami, Miami, Florida.\n(10)International Diabetes Center Park Nicollet, Minneapolis, Minnesota.\n(11)Yale School of Medicine, New Haven, Connecticut.\n(12)University of Louisville, Louisville, Kentucky.\n\nErratum in\n    J Clin Endocrinol Metab. 2022 Mar 24;107(4):e1775-e1776. doi: \n10.1210/clinem/dgab837.\n\nCONTEXT: Use of continuous glucose monitoring (CGM) is increasing for \ninsulin-requiring patients with diabetes. Although data on glycemic profiles of \nhealthy, nondiabetic individuals exist for older sensors, assessment of glycemic \nmetrics with new-generation CGM devices is lacking.\nOBJECTIVE: To establish reference sensor glucose ranges in healthy, nondiabetic \nindividuals across different age groups using a current generation CGM sensor.\nDESIGN: Multicenter, prospective study.\nSETTING: Twelve centers within the T1D Exchange Clinic Network.\nPATIENTS OR PARTICIPANTS: Nonpregnant, healthy, nondiabetic children and adults \n(age ≥6 years) with nonobese body mass index.\nINTERVENTION: Each participant wore a blinded Dexcom G6 CGM, with once-daily \ncalibration, for up to 10 days.\nMAIN OUTCOME MEASURES: CGM metrics of mean glucose, hyperglycemia, hypoglycemia, \nand glycemic variability.\nRESULTS: A total of 153 participants (age 7 to 80 years) were included in the \nanalyses. Mean average glucose was 98 to 99 mg/dL (5.4 to 5.5 mmol/L) for all \nage groups except those over 60 years, in whom mean average glucose was 104 \nmg/dL (5.8 mmol/L). The median time between 70 to 140 mg/dL (3.9 to 7.8 mmol/L) \nwas 96% (interquartile range, 93 to 98). Mean within-individual coefficient of \nvariation was 17 ± 3%. Median time spent with glucose levels >140 mg/dL was 2.1% \n(30 min/d), and median time spent with glucose levels <70 mg/dL (3.9 mmol/L) was \n1.1% (15 min/d).\nCONCLUSION: By assessing across age groups in a healthy, nondiabetic population, \nnormative sensor glucose data have been derived and will be useful as a \nbenchmark for future research studies.\n\nCopyright © 2019 Endocrine Society.\n\nDOI: 10.1210/jc.2018-02763\nPMCID: PMC7296129\nPMID: ",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
+      ],
+      "checked_at": "2026-10-11",
+      "model": "claude-opus-5-5",
+      "review": {
+        "status": "approved",
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
+    },
+    "nutrition-seed-oils-are-toxic": {
+      "verdict": "hype",
+      "evidence": "Major reviews do not support the idea that seed oils are toxic. People who eat more linoleic acid, the main fat in most seed oils, have lower heart disease risk. Replacing saturated fats like butter with unsaturated oils lowers LDL cholesterol and is linked to fewer heart problems.",
+      "confidence": "high",
+      "caveats": "The 2025–2030 Dietary Guidelines prioritize oils like olive oil and list butter or beef tallow as other options, while still capping saturated fat at 10% of calories; they do not call seed oils harmful. The 2020 Cochrane review found cutting saturated fat lowered cardiovascular events by 17% but did not significantly change deaths. The linoleic acid meta-analysis is observational.",
+      "sources": [
+        {
+          "title": "Dietary Fats and Cardiovascular Disease: A Presidential Advisory From the American Heart Association",
+          "publisher": "Circulation",
+          "year": "2017",
+          "type": "Expert body",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28620111/",
+          "pmid": "28620111",
+          "doi": "10.1161/CIR.0000000000000510",
+          "supports": "In trials, replacing saturated fat with polyunsaturated vegetable oil cut cardiovascular disease by about 30%, and the AHA concludes this swap lowers heart disease.",
+          "abstract": "1. Circulation. 2017 Jul 18;136(3):e1-e23. doi: 10.1161/CIR.0000000000000510.\nEpub  2017 Jun 15.\n\nDietary Fats and Cardiovascular Disease: A Presidential Advisory From the \nAmerican Heart Association.\n\nSacks FM, Lichtenstein AH, Wu JHY, Appel LJ, Creager MA, Kris-Etherton PM, \nMiller M, Rimm EB, Rudel LL, Robinson JG, Stone NJ, Van Horn LV; American Heart \nAssociation.\n\nErratum in\n    Circulation. 2017 Sep 5;136(10):e195. doi: 10.1161/CIR.0000000000000529.\n\nCardiovascular disease (CVD) is the leading global cause of death, accounting \nfor 17.3 million deaths per year. Preventive treatment that reduces CVD by even \na small percentage can substantially reduce, nationally and globally, the number \nof people who develop CVD and the costs of caring for them. This American Heart \nAssociation presidential advisory on dietary fats and CVD reviews and discusses \nthe scientific evidence, including the most recent studies, on the effects of \ndietary saturated fat intake and its replacement by other types of fats and \ncarbohydrates on CVD. In summary, randomized controlled trials that lowered \nintake of dietary saturated fat and replaced it with polyunsaturated vegetable \noil reduced CVD by ≈30%, similar to the reduction achieved by statin treatment. \nProspective observational studies in many populations showed that lower intake \nof saturated fat coupled with higher intake of polyunsaturated and \nmonounsaturated fat is associated with lower rates of CVD and of other major \ncauses of death and all-cause mortality. In contrast, replacement of saturated \nfat with mostly refined carbohydrates and sugars is not associated with lower \nrates of CVD and did not reduce CVD in clinical trials. Replacement of saturated \nwith unsaturated fats lowers low-density lipoprotein cholesterol, a cause of \natherosclerosis, linking biological evidence with incidence of CVD in \npopulations and in clinical trials. Taking into consideration the totality of \nthe scientific evidence, satisfying rigorous criteria for causality, we conclude \nstrongly that lowering intake of saturated fat and replacing it with unsaturated \nfats, especially polyunsaturated fats, will lower the incidence of CVD. This \nrecommended shift from saturated to unsaturated fats should occur simultaneously \nin an overall healthful dietary pattern such as DASH (Dietary Approaches to Stop \nHypertension) or the Mediterranean diet as emphasized by the 2013 American Heart \nAssociation/American College of Cardiology lifestyle guidelines and the 2015 to \n2020 Dietary Guidelines for Americans.\n\n© 2017 American Heart Association, Inc.\n\nDOI: 10.1161/CIR.0000000000000510\nPMID: 28620111 [Indexed for MEDLINE]\n\nConflict of interest statement: The American Heart Association makes every \neffort to avoid any actual or potential conflicts of interest that may arise as \na result of an outside relationship or a personal, professional, or business \ninterest of a member of the writing panel. Specifically, all members of the \nwriting gro",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Reduction in saturated fat intake for cardiovascular disease",
+          "publisher": "The Cochrane database of systematic reviews",
+          "year": "2020",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32827219/",
+          "pmid": "32827219",
+          "doi": "10.1002/14651858.CD011737.pub3",
+          "supports": "In 15 long-term trials, cutting saturated fat lowered combined cardiovascular events by 17% (moderate-quality evidence) with no sign of harm.",
+          "abstract": "1. Cochrane Database Syst Rev. 2020 Aug 21;8(8):CD011737. doi: \n10.1002/14651858.CD011737.pub3.\n\nReduction in saturated fat intake for cardiovascular disease.\n\nHooper L(1), Martin N(2), Jimoh OF(1), Kirk C(1), Foster E(1), Abdelhamid AS(1).\n\nAuthor information:\n(1)Norwich Medical School, University of East Anglia, Norwich, UK.\n(2)Institute of Health Informatics Research, University College London, London, \nUK.\n\nUpdate of\n    Cochrane Database Syst Rev. 2020 May 19;5:CD011737. doi: \n10.1002/14651858.CD011737.pub2.\n\nBACKGROUND: Reducing saturated fat reduces serum cholesterol, but effects on \nother intermediate outcomes may be less clear. Additionally, it is unclear \nwhether the energy from saturated fats eliminated from the diet are more \nhelpfully replaced by polyunsaturated fats, monounsaturated fats, carbohydrate \nor protein.\nOBJECTIVES: To assess the effect of reducing saturated fat intake and replacing \nit with carbohydrate (CHO), polyunsaturated (PUFA), monounsaturated fat (MUFA) \nand/or protein on mortality and cardiovascular morbidity, using all available \nrandomised clinical trials.\nSEARCH METHODS: We updated our searches of the Cochrane Central Register of \nControlled Trials (CENTRAL), MEDLINE (Ovid) and Embase (Ovid) on 15 October \n2019, and searched Clinicaltrials.gov and WHO International Clinical Trials \nRegistry Platform (ICTRP) on 17 October 2019.\nSELECTION CRITERIA: Included trials fulfilled the following criteria: 1) \nrandomised; 2) intention to reduce saturated fat intake OR intention to alter \ndietary fats and achieving a reduction in saturated fat; 3) compared with higher \nsaturated fat intake or usual diet; 4) not multifactorial; 5) in adult humans \nwith or without cardiovascular disease (but not acutely ill, pregnant or \nbreastfeeding); 6) intervention duration at least 24 months; 7) mortality or \ncardiovascular morbidity data available.\nDATA COLLECTION AND ANALYSIS: Two review authors independently assessed \ninclusion, extracted study data and assessed risk of bias. We performed \nrandom-effects meta-analyses, meta-regression, subgrouping, sensitivity \nanalyses, funnel plots and GRADE assessment.\nMAIN RESULTS: We included 15 randomised controlled trials (RCTs) (16 \ncomparisons, 56,675 participants), that used a variety of interventions from \nproviding all food to advice on reducing saturated fat. The included long-term \ntrials suggested that reducing dietary saturated fat reduced the risk of \ncombined cardiovascular events by 17% (risk ratio (RR) 0.83; 95% confidence \ninterval (CI) 0.70 to 0.98, 12 trials, 53,758 participants of whom 8% had a \ncardiovascular event, I² = 67%, GRADE moderate-quality evidence). \nMeta-regression suggested that greater reductions in saturated fat (reflected in \ngreater reductions in serum cholesterol) resulted in greater reductions in risk \nof CVD events, explaining most heterogeneity between trials. The number needed \nto treat for an additional beneficial outcome (NNTB) was 56 in primary \npreven",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Dietary linoleic acid and risk of coronary heart disease: a systematic review and meta-analysis of prospective cohort studies",
+          "publisher": "Circulation",
+          "year": "2014",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25161045/",
+          "pmid": "25161045",
+          "doi": "10.1161/CIRCULATIONAHA.114.010236",
+          "supports": "Higher linoleic acid intake was linked to 15% fewer coronary events and 21% fewer coronary deaths, with benefit when it replaced saturated fat.",
+          "abstract": "1. Circulation. 2014 Oct 28;130(18):1568-78. doi: \n10.1161/CIRCULATIONAHA.114.010236. Epub 2014 Aug 26.\n\nDietary linoleic acid and risk of coronary heart disease: a systematic review \nand meta-analysis of prospective cohort studies.\n\nFarvid MS(1), Ding M(1), Pan A(1), Sun Q(1), Chiuve SE(1), Steffen LM(1), \nWillett WC(1), Hu FB(2).\n\nAuthor information:\n(1)From the Departments of Nutrition (M.S.F., M.D., Q.S., S.E.C., W.C.W., \nF.B.H.) and Epidemiology (W.C.W., F.B.H.), Harvard School of Public Health, \nBoston, MA; Department of Community Nutrition (M.S.F.), Faculty of Nutrition \nSciences and Food Technology, Shahid Beheshti University of Medical Sciences, \nTehran, Iran; Saw Swee Hock School of Public Health and Yong Loo Lin School of \nMedicine (A.P.), National University of Singapore and National University Health \nSystem, Republic of Singapore; Channing Division of Network Medicine, Department \nof Medicine (Q.S., W.C.W., F.B.H.) and Division of Preventive Medicine, \nDepartment of Medicine (S.E.C.), Brigham and Women's Hospital and Harvard \nMedical School, Boston, MA; and Division of Epidemiology and Community Health \n(L.M.S.), University of Minnesota School of Public Health, Minnesota, MN.\n(2)From the Departments of Nutrition (M.S.F., M.D., Q.S., S.E.C., W.C.W., \nF.B.H.) and Epidemiology (W.C.W., F.B.H.), Harvard School of Public Health, \nBoston, MA; Department of Community Nutrition (M.S.F.), Faculty of Nutrition \nSciences and Food Technology, Shahid Beheshti University of Medical Sciences, \nTehran, Iran; Saw Swee Hock School of Public Health and Yong Loo Lin School of \nMedicine (A.P.), National University of Singapore and National University Health \nSystem, Republic of Singapore; Channing Division of Network Medicine, Department \nof Medicine (Q.S., W.C.W., F.B.H.) and Division of Preventive Medicine, \nDepartment of Medicine (S.E.C.), Brigham and Women's Hospital and Harvard \nMedical School, Boston, MA; and Division of Epidemiology and Community Health \n(L.M.S.), University of Minnesota School of Public Health, Minnesota, MN. \nnhbfh@channing.harvard.edu.\n\nComment in\n    Circulation. 2014 Oct 28;130(18):1562-4. doi: \n10.1161/CIRCULATIONAHA.114.012534.\n    Circulation. 2015 Jul 21;132(3):e20. doi: 10.1161/CIRCULATIONAHA.114.014510.\n    Circulation. 2015 Jul 21;132(3):e21. doi: 10.1161/CIRCULATIONAHA.114.013446.\n\nBACKGROUND: Previous studies on intake of linoleic acid (LA), the predominant \nn-6 fatty acid, and coronary heart disease (CHD) risk have generated \ninconsistent results. We performed a systematic review and meta-analysis of \nprospective cohort studies to summarize the evidence regarding the relation of \ndietary LA intake and CHD risk.\nMETHODS AND RESULTS: We searched MEDLINE and EMBASE databases through June 2013 \nfor prospective cohort studies that reported the association between dietary LA \nand CHD events. In addition, we used unpublished data from cohort studies in a \nprevious pooling project. We pooled the multivariate-adjusted relat",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
+      ],
+      "checked_at": "2026-10-11",
+      "model": "claude-opus-5-5",
+      "review": {
+        "status": "approved",
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
     },
     "sleep-a-consistent-wake-up-time": {
       "verdict": "real",
-      "evidence": "A regular sleep schedule is one of the best-supported habits for better sleep, and it is part of standard insomnia treatment.",
+      "evidence": "A regular sleep schedule is one of the best-supported habits for better sleep. Getting up at the same time every morning is a core step in the leading talk-and-habit therapy for insomnia, and sleep experts agree that consistent sleep timing matters for health.",
       "confidence": "high",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Systematic review",
-        "Clinical guideline"
+      "caveats": "No trial tests a fixed wake time completely on its own. The support comes from it being part of stimulus control and CBT-I, which work well, and from mostly observational regularity research. The AASM gives stimulus control by itself a conditional recommendation, and multicomponent CBT-I a strong one. The NSF panel also says catch-up sleep on weekends may help when weekday sleep is short, so 'weekends too' is ideal but not absolute.",
+      "sources": [
+        {
+          "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline",
+          "publisher": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+          "year": "2021",
+          "type": "Clinical guideline",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33164742/",
+          "pmid": "33164742",
+          "doi": "10.5664/jcsm.8986",
+          "supports": "Strongly recommends multicomponent CBT-I and conditionally recommends stimulus control, which the full text defines as including waking at the same time every morning to establish a consistent wake time.",
+          "abstract": "1. J Clin Sleep Med. 2021 Feb 1;17(2):255-262. doi: 10.5664/jcsm.8986.\n\nBehavioral and psychological treatments for chronic insomnia disorder in adults: \nan American Academy of Sleep Medicine clinical practice guideline.\n\nEdinger JD(1)(2), Arnedt JT(3), Bertisch SM(4), Carney CE(5), Harrington JJ(6), \nLichstein KL(7), Sateia MJ(8), Troxel WM(9), Zhou ES(10), Kazmi U(11), Heald \nJL(11), Martin JL(12)(13).\n\nAuthor information:\n(1)National Jewish Health, Denver, Colorado.\n(2)Duke University Medical Center, Durham, North Carolina.\n(3)Michigan Medicine, University of Michigan, Ann Arbor, Michigan.\n(4)Brigham and Women's Hospital, Harvard Medical School, Boston, Massachusetts.\n(5)Ryerson University, Toronto, Canada.\n(6)University of Nebraska Medical Center, Omaha, Nebraska.\n(7)University of Alabama, Tuscaloosa, Alabama.\n(8)Geisel School of Medicine at Dartmouth, Hanover, New Hampshire.\n(9)RAND Corporation, Pittsburgh, Pennsylvania.\n(10)Harvard Medical School, Dana-Farber Cancer Institute, Boston Children's \nHospital, Boston, Massachusetts.\n(11)American Academy of Sleep Medicine, Darien, Illinois.\n(12)David Geffen School of Medicine at the University of California Los Angeles, \nLos Angeles, California.\n(13)VA Greater Los Angeles Healthcare System, Geriatric Research, Education and \nClinical Center, Los Angeles, California.\n\nComment in\n    Am Fam Physician. 2022 Jan 1;105(1):97-98.\n\nINTRODUCTION: This guideline establishes clinical practice recommendations for \nthe use of behavioral and psychological treatments for chronic insomnia disorder \nin adults.\nMETHODS: The American Academy of Sleep Medicine (AASM) commissioned a task force \nof experts in sleep medicine and sleep psychology to develop recommendations and \nassign strengths based on a systematic review of the literature and an \nassessment of the evidence using Grading of Recommendations Assessment, \nDevelopment and Evaluation (GRADE) methodology. The task force evaluated a \nsummary of the relevant literature and the quality of evidence, the balance of \nclinically relevant benefits and harms, patient values and preferences, and \nresource use considerations that underpin the recommendations. The AASM Board of \nDirectors approved the final recommendations.\nRECOMMENDATIONS: The following recommendations are intended as a guide for \nclinicians in choosing a specific behavioral and psychological therapy for the \ntreatment of chronic insomnia disorder in adult patients. Each recommendation \nstatement is assigned a strength (\"strong\" or \"conditional\"). A \"strong\" \nrecommendation (ie, \"We recommend…\") is one that clinicians should follow under \nmost circumstances. A \"conditional\" recommendation is one that requires that the \nclinician use clinical knowledge and experience, and to strongly consider the \npatient's values and preferences to determine the best course of action. 1. We \nrecommend that clinicians use multicomponent cognitive behavioral therapy for \ninsomnia for the treatment of chronic insomnia di",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "The importance of sleep regularity: a consensus statement of the National Sleep Foundation sleep timing and variability panel",
+          "publisher": "Sleep health",
+          "year": "2023",
+          "type": "Expert body",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37684151/",
+          "pmid": "37684151",
+          "doi": "10.1016/j.sleh.2023.07.016",
+          "supports": "An expert panel, drawing on a systematic review of 63 publications, concluded that consistent sleep onset and offset timing is important for health, safety and performance.",
+          "abstract": "1. Sleep Health. 2023 Dec;9(6):801-820. doi: 10.1016/j.sleh.2023.07.016. Epub\n2023  Sep 7.\n\nThe importance of sleep regularity: a consensus statement of the National Sleep \nFoundation sleep timing and variability panel.\n\nSletten TL(1), Weaver MD(2), Foster RG(3), Gozal D(4), Klerman EB(5), Rajaratnam \nSMW(6), Roenneberg T(7), Takahashi JS(8), Turek FW(9), Vitiello MV(10), Young \nMW(11), Czeisler CA(12).\n\nAuthor information:\n(1)Turner Institute for Brain and Mental Health, School of Psychological \nSciences, Monash University, Clayton, Victoria, Australia.\n(2)Division of Sleep and Circadian Disorders, Departments of Medicine and \nNeurology, Brigham and Women's Hospital, Boston, Massachusetts, USA; Division of \nSleep Medicine, Harvard Medical School, Boston, Massachusetts, USA.\n(3)Sleep & Circadian Neuroscience Institute, Nuffield Department of Clinical \nNeurosciences, University of Oxford, Oxford, UK.\n(4)Joan C. Edwards School of Medicine, Marshall University, Huntington, West \nVirginia, USA.\n(5)Division of Sleep and Circadian Disorders, Departments of Medicine and \nNeurology, Brigham and Women's Hospital, Boston, Massachusetts, USA; Division of \nSleep Medicine, Harvard Medical School, Boston, Massachusetts, USA; Department \nof Neurology, Massachusetts General Hospital, Boston, Massachusetts, USA.\n(6)Turner Institute for Brain and Mental Health, School of Psychological \nSciences, Monash University, Clayton, Victoria, Australia; Division of Sleep and \nCircadian Disorders, Departments of Medicine and Neurology, Brigham and Women's \nHospital, Boston, Massachusetts, USA; Division of Sleep Medicine, Harvard \nMedical School, Boston, Massachusetts, USA.\n(7)Institutes for Occupational, Social, and Environmental Medicine and Medical \nPsychology, LMU Munich, Munich, Germany.\n(8)Department of Neuroscience, The University of Texas Southwestern Medical \nCenter, Dallas, Texas, USA; Howard Hughes Medical Institute, The University of \nTexas Southwestern Medical Center, Dallas, Texas, USA.\n(9)Center for Sleep and Circadian Biology, Department of Neurobiology, \nNorthwestern University, Evanston, Illinois, USA.\n(10)Department of Psychiatry and Behavioral Sciences, University of Washington, \nSeattle, Washington, USA.\n(11)Laboratory of Genetics, The Rockefeller University, New York City, New York, \nUSA.\n(12)Division of Sleep and Circadian Disorders, Departments of Medicine and \nNeurology, Brigham and Women's Hospital, Boston, Massachusetts, USA; Division of \nSleep Medicine, Harvard Medical School, Boston, Massachusetts, USA. Electronic \naddress: charles_czeisler@hms.harvard.edu.\n\nOBJECTIVE: To develop and present consensus findings of the National Sleep \nFoundation sleep timing and variability panel regarding the impact of sleep \ntiming variability on health and performance.\nMETHODS: The National Sleep Foundation assembled a panel of sleep and circadian \nexperts to evaluate the scientific evidence and conduct a formal consensus and \nvoting procedure. A systematic liter",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
       ],
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-11",
       "model": "claude-opus-5-5",
-      "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Editor Agent"
-      }
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
     },
     "sleep-magnesium-before-bed": {
       "verdict": "mixed",
-      "evidence": "Small studies suggest a modest benefit, mostly in older adults or people low in magnesium. It is generally safe at label doses but is not a strong sleep aid.",
-      "confidence": "medium",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Randomized trial",
-        "Systematic review"
+      "evidence": "A few small studies suggest magnesium may help people fall asleep a little faster or feel slightly less sleepless, mostly people who already sleep poorly or get little magnesium from food. The effects are modest, the research is low quality overall, and it is not a strong sleep aid.",
+      "confidence": "high",
+      "caveats": "The 2021 meta-analysis covered only 3 small trials (151 older adults) at moderate to high risk of bias, with about 17 minutes faster sleep onset and no significant change in total sleep. The 2025 glycinate trial (155 adults aged 18 to 65) found a small benefit (effect size 0.2) on self-reported insomnia only, with no objective sleep measures, and one author has nutraceutical-industry ties.",
+      "sources": [
+        {
+          "title": "Oral magnesium supplementation for insomnia in older adults: a Systematic Review & Meta-Analysis",
+          "publisher": "BMC complementary medicine and therapies",
+          "year": "2021",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33865376/",
+          "pmid": "33865376",
+          "doi": "10.1186/s12906-021-03297-z",
+          "supports": "Pooled 3 small trials: magnesium shortened time to fall asleep by about 17 minutes versus placebo, but total sleep time did not change significantly and the evidence was rated low to very low quality.",
+          "abstract": "1. BMC Complement Med Ther. 2021 Apr 17;21(1):125. doi:\n10.1186/s12906-021-03297-z.\n\nOral magnesium supplementation for insomnia in older adults: a Systematic Review \n& Meta-Analysis.\n\nMah J(1), Pitre T(2)(3).\n\nAuthor information:\n(1)Department of Medicine, Dalhousie University, Halifax, NS, Canada. \njmah@dal.ca.\n(2)Division of Internal Medicine, McMaster University, Hamilton, ON, Canada.\n(3)Michael G. DeGroote School of Medicine (Waterloo Regional Campus), McMaster \nUniversity, Hamilton, ON, Canada.\n\nErratum in\n    BMC Complement Med Ther. 2024 Dec 19;24(1):418. doi: \n10.1186/s12906-024-04721-w.\n\nBACKGROUND: Magnesium supplementation is often purported to improve sleep; \nhowever, as both an over-the-counter sleep aid and a complementary and \nalternative medicine, there is limited evidence to support this assertion. The \naim was to assess the effectiveness and safety of magnesium supplementation for \nolder adults with insomnia.\nMETHODS: A search was conducted in MEDLINE, EMBASE, Allied and Complementary \nMedicine, clinicaltrials.gov and two grey literature databases comparing \nmagnesium supplementation to placebo or no treatment. Outcomes were sleep \nquality, quantity, and adverse events. Risk of bias and quality of evidence \nassessments were carried out using the RoB 2.0 and Grading of Recommendations \nAssessment, Development and Evaluation (GRADE) approaches. Data was pooled and \ntreatment effects were quantified using mean differences. For remaining \noutcomes, a modified effects direction plot was used for data synthesis.\nRESULTS: Three randomized control trials (RCT) were identified comparing oral \nmagnesium to placebo in 151 older adults in three countries. Pooled analysis \nshowed that post-intervention sleep onset latency time was 17.36 min less after \nmagnesium supplementation compared to placebo (95% CI - 27.27 to - 7.44, \np = 0.0006). Total sleep time improved by 16.06 min in the magnesium \nsupplementation group but was statistically insignificant. All trials were at \nmoderate-to-high risk of bias and outcomes were supported by low to very low \nquality of evidence.\nCONCLUSION: This review confirms that the quality of literature is substandard \nfor physicians to make well-informed recommendations on usage of oral magnesium \nfor older adults with insomnia. However, given that oral magnesium is very cheap \nand widely available, RCT evidence may support oral magnesium supplements (less \nthan 1 g quantities given up to three times a day) for insomnia symptoms.\n\nDOI: 10.1186/s12906-021-03297-z\nPMCID: PMC8053283\nPMID: 33865376 [Indexed for MEDLINE]\n\nConflict of interest statement: None declared.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Magnesium Bisglycinate Supplementation in Healthy Adults Reporting Poor Sleep: A Randomized, Placebo-Controlled Trial",
+          "publisher": "Nature and science of sleep",
+          "year": "2025",
+          "type": "Randomized trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40918053/",
+          "pmid": "40918053",
+          "doi": "10.2147/NSS.S524348",
+          "supports": "In 155 adults with poor sleep, 4 weeks of magnesium bisglycinate improved insomnia scores slightly more than placebo (small effect), with possibly larger gains in people with low dietary magnesium.",
+          "abstract": "1. Nat Sci Sleep. 2025 Aug 30;17:2027-2040. doi: 10.2147/NSS.S524348. eCollection\n 2025.\n\nMagnesium Bisglycinate Supplementation in Healthy Adults Reporting Poor Sleep: A \nRandomized, Placebo-Controlled Trial.\n\nSchuster J(#)(1), Cycelskij I(#)(1), Lopresti A(2), Hahn A(1).\n\nAuthor information:\n(1)Institute of Food and One Health, Leibniz University Hannover, Hanover, Lower \nSaxony, Germany.\n(2)College of Science, Health, Engineering and Education, Murdoch University, \nPerth, Australia.\n(#)Contributed equally\n\nPURPOSE: To assess the effects of magnesium bisglycinate supplementation on \ninsomnia symptoms in healthy adults reporting poor sleep quality.\nPATIENTS AND METHODS: This randomized, double-blind, placebo-controlled trial \nenrolled 155 adults aged 18-65 years with self-reported poor sleep quality. \nParticipants were randomly assigned to either magnesium bisglycinate \nsupplementation (250 mg elemental magnesium, daily) or placebo capsules. Sleep \nquality was assessed using the Insomnia Severity Index (ISI) and additional \npsychological questionnaires at baseline and multiple time points throughout the \nstudy. Generalized linear mixed models (GLMM) adjusted for baseline ISI scores, \nage, sex, body mass index, and occupation were applied.\nRESULTS: The magnesium bisglycinate group showed a significantly greater \nreduction in ISI scores compared to the placebo group from baseline to Week 4 \n(-3.9 [95% CI: -5.8 to -2.0] vs -2.3 [95% CI: -4.1 to -0.4], respectively; p = \n0.049). The effect size was small (Cohen's d = 0.2), indicating a modest \nbenefit. Exploratory analyses suggested notably greater improvements among \nparticipants reporting lower baseline dietary magnesium intake, potentially \nindicating a subgroup of high responders. No significant differences were \nobserved in other psychological outcomes.\nCONCLUSION: Magnesium bisglycinate supplementation modestly improved insomnia \nseverity in adults reporting poor sleep quality. Future research should include \nobjective sleep assessments, longer intervention periods, and better \ncharacterization of potential high responders by systematically assessing \nbaseline dietary magnesium intake and status.\nCLINICAL TRIAL REGISTRATION NAME: Effect of magnesium bisglycinate \nsupplementation on sleep and fatigue parameters in healthy adults reporting poor \nsleep quality; https://drks.de/search/en/trial/DRKS00031494 DRKS-ID: \nDRKS00031494.\n\n© 2025 Schuster et al.\n\nDOI: 10.2147/NSS.S524348\nPMCID: PMC12412596\nPMID: 40918053\n\nConflict of interest statement: Adrian Lopresti is the managing director of \nClinical Research Australia, a contract research organization that receives \nresearch funding from nutraceutical companies. Adrian Lopresti has also received \npresentation honoraria from nutraceutical companies. The other authors have no \nconflicts of interest to disclose.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "The Role of Magnesium in Sleep Health: a Systematic Review of Available Literature",
+          "publisher": "Biological trace element research",
+          "year": "2023",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35184264/",
+          "pmid": "35184264",
+          "doi": "10.1007/s12011-022-03162-1",
+          "supports": "Observational studies linked magnesium status to sleep quality, but randomized trials gave contradictory results, leaving the benefit of supplements uncertain.",
+          "abstract": "1. Biol Trace Elem Res. 2023 Jan;201(1):121-128. doi: 10.1007/s12011-022-03162-1.\n Epub 2022 Feb 19.\n\nThe Role of Magnesium in Sleep Health: a Systematic Review of Available \nLiterature.\n\nArab A(1), Rafie N(2), Amani R(2), Shirani F(3).\n\nAuthor information:\n(1)Department of Community Nutrition, School of Nutrition and Food Science, Food \nSecurity Research Center, Isfahan University of Medical Sciences, Isfahan, Iran.\n(2)Department of Clinical Nutrition, School of Nutrition and Food Science, Food \nSecurity Research Center, Isfahan University of Medical Sciences, Isfahan, Iran.\n(3)Food Security Research Center, Isfahan University of Medical Sciences, Hezar \nJarib St., 8174673461, Isfahan, Iran. shirani_ir@yahoo.com.\n\nTo date, no study has critically reviewed the current literature on the \nassociation between magnesium (Mg) and sleep health. Therefore, we carried out a \nsystematic review to assess the association between Mg and sleep patterns in \nadults' population through observational and interventional studies. We searched \nfor relevant studies through PubMed ( http://www.ncbi.nlm.nih.gov/pubmed ), \nScopus ( http://www.scopus.com ), and ISI Web of Science ( \nhttp://www.webofscience.com ) from the earliest available date until November \n2021. Eligibility criteria for study selection were guided by the following \ncomponents identified using the PI(E)CO (Population, Intervention (Exposure), \nComparison, Outcome) framework: P (adult population), I(E) (high dietary intake \nor supplementation of Mg), C (low dietary intake of Mg or placebo group), and O \n(sleep pattern including sleep duration, sleep-onset latency, night awakenings, \nsleep stages, and sleep phases). The present study involved 7,582 subjects from \n9 published cross-sectional, cohort, and RCT systematically reviewed the \npossible links between Mg and sleep quality (daytime falling asleep, sleepiness, \nsnoring, and sleep duration) in an adult population. Observational studies \nsuggested an association between Mg statuses and sleep quality, while the RCTs \nreported contradictory findings. This systematic review revealed an association \nbetween magnesium status and sleep quality (daytime falling asleep, sleepiness, \nsnoring, and sleep duration) according to the observational studies, while the \nrandomized clinical trials showed an uncertain association between magnesium \nsupplementation and sleep disorders. The association between dietary \nmagnesium and sleep patterns needs well-designed randomized clinical trials with \na larger sample size and longer follow-up time (more than 12 weeks) to further \nclarify the relationship.\n\n© 2022. The Author(s), under exclusive licence to Springer Science+Business \nMedia, LLC, part of Springer Nature.\n\nDOI: 10.1007/s12011-022-03162-1\nPMID: 35184264 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
       ],
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-11",
       "model": "claude-opus-5-5",
-      "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Editor Agent"
-      }
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
     },
     "sleep-sleepy-girl-mocktail": {
       "verdict": "early",
-      "evidence": "Tart cherry juice has a few small studies with modest effects. The drink is unlikely to hurt, but the hype is far ahead of the research.",
-      "confidence": "low",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Small trials"
+      "evidence": "No studies have tested the mocktail itself. Tart cherry juice has a handful of small, short trials with mixed and mostly modest results, and magnesium's sleep effects are also small. The drink is plausible but the hype is far ahead of the research.",
+      "confidence": "medium",
+      "caveats": "The 2025 systematic review found only 7 studies, and only 3 showed sleep improvements, with very different doses and populations. The positive trials are tiny pilots in older adults with insomnia (8 and 15 completers), and one used a proprietary juice blend. None involve the 25 to 40 year old women this trend targets.",
+      "sources": [
+        {
+          "title": "The Effect of Tart Cherry on Sleep Quality and Sleep Disorders: A Systematic Review",
+          "publisher": "Food science & nutrition",
+          "year": "2025",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40964149/",
+          "pmid": "40964149",
+          "doi": "10.1002/fsn3.70923",
+          "supports": "Of 7 studies, 3 reported improved sleep measures, but the authors call the evidence limited and inconsistent and say high-quality trials are needed.",
+          "abstract": "1. Food Sci Nutr. 2025 Sep 16;13(9):e70923. doi: 10.1002/fsn3.70923. eCollection \n2025 Sep.\n\nThe Effect of Tart Cherry on Sleep Quality and Sleep Disorders: A Systematic \nReview.\n\nBarforoush F(1), Ebrahimi S(2), Abdar MK(3), Khademi S(3), Morshedzadeh N(1).\n\nAuthor information:\n(1)Student Research Committee Kerman University of Medical Sciences Kerman Iran.\n(2)Institute for Physical Activity and Nutrition, School of Exercise and \nNutrition Sciences Deakin University Geelong Australia.\n(3)Department of Nutrition, Faculty of Public Health Kerman University of \nMedical Science Kerman Iran.\n\nThis systematic review examined the association between tart cherry consumption \nand sleep disorders. Tart cherries contain active compounds such as melatonin \nand anthocyanins that may be effective in improving sleep quality. The aim of \nthis study was to investigate the effect of tart cherry consumption on sleep \nquality and duration, sleep efficiency, melatonin levels, inflammation, and \noxidative stress. A systematic review was conducted in PubMed, Google Scholar, \nScienceDirect, Scopus, and EMBASE databases in January 2025 without time \nrestrictions. English-language interventional studies that examined the effect \nof tart cherry consumption on sleep, inflammation, and neurotransmitter \nsynthesis were included, and studies related to other chronic diseases were \nexcluded. In total, seven interventional studies were included in the review. \nThree studies reported significant improvements in sleep indicators such as \nsleep duration, sleep efficiency, or sleep onset time. Three studies also \nreported an increase in melatonin levels after tart cherry consumption. Two \nstudies also reported a decrease in inflammatory markers such as CRP and MDA. \nHowever, there were large differences in dose, duration of intervention, and \ncharacteristics of the participating populations. Although tart cherry \nconsumption may be effective in improving sleep quality, reducing inflammation, \nand increasing antioxidant capacity, the available evidence is still limited and \nheterogeneous. To demonstrate clinical efficacy and clarify the mechanisms of \naction, high-quality, carefully designed clinical trial studies in diverse \npopulations are essential.\n\n© 2025 The Author(s). Food Science & Nutrition published by Wiley Periodicals \nLLC.\n\nDOI: 10.1002/fsn3.70923\nPMCID: PMC12438961\nPMID: 40964149\n\nConflict of interest statement: The authors declare no conflicts of interest.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Effects of a tart cherry juice beverage on the sleep of older adults with insomnia: a pilot study",
+          "publisher": "Journal of medicinal food",
+          "year": "2010",
+          "type": "Randomized trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20438325/",
+          "pmid": "20438325",
+          "doi": "10.1089/jmf.2009.0096",
+          "supports": "In 15 older adults, tart cherry juice reduced time awake at night versus placebo but did not improve time to fall asleep, total sleep or sleep efficiency, and the effects were modest.",
+          "abstract": "1. J Med Food. 2010 Jun;13(3):579-83. doi: 10.1089/jmf.2009.0096.\n\nEffects of a tart cherry juice beverage on the sleep of older adults with \ninsomnia: a pilot study.\n\nPigeon WR(1), Carr M, Gorman C, Perlis ML.\n\nAuthor information:\n(1)Sleep & Neurophysiology Research Laboratory, Department of Psychiatry, \nUniversity of Rochester Medical Center, Rochester, New York 14642, USA. \nwilfred_pigeon@urmc.rochester.edu\n\nThis study ascertained whether a proprietary tart cherry juice blend \n(CherryPharm, Inc., Geneva, NY, USA) associated with anecdotal reports of sleep \nenhancement improves subjective reports of insomnia compared to a placebo \nbeverage. The pilot study used a randomized, double-blind, crossover design \nwhere each participant received both treatment and placebo for 2 weeks with an \nintervening 2-week washout period. Sleep continuity (sleep onset, wake after \nsleep onset, total sleep time, and sleep efficiency) was assessed by 2-week mean \nvalues from daily sleep diaries and disease severity by the Insomnia Severity \nIndex in a cohort of 15 older adults with chronic insomnia who were otherwise \nhealthy. The tart cherry juice beverage was associated with statistically \nsignificant pre- to post-treatment improvements on all sleep variables. When \ncompared to placebo, the study beverage produced significant reductions in \ninsomnia severity (minutes awake after sleep onset); no such improvements were \nobserved for sleep latency, total sleep time, or sleep efficiency compared to \nplacebo. Effect sizes were moderate and in some cases negligible. The results of \nthis pilot study suggest that CherryPharm, a tart cherry juice blend, has modest \nbeneficial effects on sleep in older adults with insomnia with effect sizes \nequal to or exceeding those observed in studies of valerian and in some, but not \nall, studies of melatonin, the two most studied natural products for insomnia. \nThese effects, however, were considerably less than those for evidence-based \ntreatments of insomnia: hypnotic agents and cognitive-behavioral therapies for \ninsomnia.\n\nDOI: 10.1089/jmf.2009.0096\nPMCID: PMC3133468\nPMID: 20438325 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Pilot Study of the Tart Cherry Juice for the Treatment of Insomnia and Investigation of Mechanisms",
+          "publisher": "American journal of therapeutics",
+          "year": "2018",
+          "type": "Randomized trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28901958/",
+          "pmid": "28901958",
+          "doi": "10.1097/MJT.0000000000000584",
+          "supports": "In a crossover pilot with 8 completers over age 50 with insomnia, cherry juice increased sleep time measured in a sleep lab, though most questionnaires showed no difference.",
+          "abstract": "1. Am J Ther. 2018 Mar/Apr;25(2):e194-e201. doi: 10.1097/MJT.0000000000000584.\n\nPilot Study of the Tart Cherry Juice for the Treatment of Insomnia and \nInvestigation of Mechanisms.\n\nLosso JN(1), Finley JW(1), Karki N(1), Liu AG(2), Prudente A(3), Tipton R(2), Yu \nY(2), Greenway FL(2).\n\nAuthor information:\n(1)Department of Food Science, Louisiana State University Agricultural Center, \nBaton Rouge, LA.\n(2)Pennington Biomedical Research Center, Louisiana State University System, \nBaton Rouge, LA.\n(3)BASF Corporation San Gabriel, LA.\n\nBACKGROUND: Insomnia is common in the elderly and is associated with chronic \ndisease, but use of hypnotics increases the incidence of falls. Montmorency tart \ncherry juice has improved insomnia by self-report questionnaire.\nSTUDY QUESTION: Is insomnia confirmed by polysomnography and is tryptophan \navailability a potential mechanism for treating insomnia?\nSTUDY DESIGN: A placebo-controlled balanced crossover study with subjects older \nthan 50 years and insomnia were randomized to placebo (2 weeks) or cherry juice \n(2 weeks) (240 mL 2 times/d) separated by a 2-week washout.\nMEASURES AND OUTCOMES: Sleep was evaluated by polysomnography and 5 validated \nquestionnaires. Serum indoleamine 2,3-dioxygenase (IDO), the \nkynurenine-to-tryptophan ratio, and prostaglandin E2 were measured. In vitro, \nCaco-2 cells were stimulated with interferon-gamma, and the ability of cherry \njuice procyanidin to inhibit IDO which degrades tryptophan and stimulates \ninflammation was measured. The content of procyanidin B-2 and other major \nanthocyanins in cherry juice were determined.\nRESULTS: Eleven subjects were randomized; 3 with sleep apnea were excluded and \nreferred. The 8 completers with insomnia increased sleep time by 84 minutes on \npolysomnography (P = 0.0182) and sleep efficiency increased on the Pittsburgh \nSleep Quality Index (P = 0.03). Other questionnaires showed no significant \ndifferences. The serum kynurenine-to-tryptophan ratio decreased, as did the \nlevel of prostaglandin E2 (both P < 0.05). In vitro, cherry juice procyanidin \nB-2 dose-dependently inhibited IDO.\nCONCLUSIONS: Cherry juice increased sleep time and sleep efficiency. Cherry \njuice procyanidin B-2 inhibited IDO, increased tryptophan availability, reduced \ninflammation, and may be partially responsible for improvement in insomnia.\n\nDOI: 10.1097/MJT.0000000000000584\nPMCID: PMC5617749\nPMID: 28901958 [Indexed for MEDLINE]\n\nConflict of interest statement: Conflicts of interest: none",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
       ],
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-11",
       "model": "claude-opus-5-5",
-      "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Editor Agent"
-      }
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
     },
     "sleep-mouth-taping": {
       "verdict": "hype",
-      "evidence": "Reviews find little good evidence of benefit, and doctors warn it can be risky for people with a blocked nose or undiagnosed sleep apnea.",
-      "confidence": "medium",
-      "caveats": "",
-      "sources": [],
-      "source_types": [
-        "Systematic review",
-        "Expert body"
+      "evidence": "Reviews find little good evidence that mouth taping improves sleep, and no research supports claims about jawline changes. A couple of small studies saw some benefit in people with mild sleep apnea, but doctors warn it can be risky for people with a blocked nose or undiagnosed sleep apnea.",
+      "confidence": "high",
+      "caveats": "The 2025 PLOS One review included 10 small studies of poor or variable quality. Two studies showed improved apnea measures in mild obstructive sleep apnea, so 'no benefit for anyone' would be too strong. A 2026 OTO Open meta-analysis found nasal obstruction worsens apnea measures. The jawline claim is untested in every source.",
+      "sources": [
+        {
+          "title": "Breaking social media fads and uncovering the safety and efficacy of mouth taping in patients with mouth breathing, sleep disordered breathing, or obstructive sleep apnea: A systematic review",
+          "publisher": "PloS one",
+          "year": "2025",
+          "type": "Systematic review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12094774/",
+          "pmid": "40397877",
+          "doi": "10.1371/journal.pone.0323643",
+          "supports": "Across 10 small studies, only 2 found improved sleep apnea measures, others found no benefit and flagged risks such as suffocation with nasal obstruction, and the authors warn that indiscriminate use carries a potentially serious risk of harm.",
+          "abstract": "1. PLoS One. 2025 May 21;20(5):e0323643. doi: 10.1371/journal.pone.0323643. \neCollection 2025.\n\nBreaking social media fads and uncovering the safety and efficacy of mouth \ntaping in patients with mouth breathing, sleep disordered breathing, or \nobstructive sleep apnea: A systematic review.\n\nRhee J(1), Iansavitchene A(2), Mannala S(3), Graham ME(1), Rotenberg B(1).\n\nAuthor information:\n(1)Department of Otolaryngology - Head and Neck Surgery, London Health Sciences \nCentre, London, Ontario, Canada.\n(2)Department of Library Services, London Health Sciences Centre, London, \nOntario, Canada.\n(3)University of Saskatchewan College of Medicine, Saskatoon, Saskatchewan, \nCanada.\n\nBACKGROUND: Social media has contributed to a potentially unsafe trend of \nnighttime mouth taping for individuals with mouth breathing, sleep disordered \nbreathing, or sleep apnea as a home remedy to treat these issues. This \nsystematic review is aimed to highlight any potential benefits or harms with \nthis practice.\nMETHODS: A comprehensive librarian-designed literature search was performed \nusing PRISMA guidelines. Using search terms, \"mouth taping, adhesive mouthpiece, \nporous oral patch, surgical tape, breathing mouthpiece, sleep, microsleep, \nbreath, breathing, or mouth breathing\", MEDLINE, Embase, and Google Scholar were \nsearched from February 1999 to February 2024. Covidence software was used for \nscreening and data entry performed into a data collection sheet designed a \npriori.\nRESULTS: Covidence software was utilized to screen 120 articles. After 34 \nduplicates were removed, 86 articles were screened by two independent reviewers. \nSixty-two were excluded. Twenty-four went on to full text review and 10 met \ninclusion criteria with a total of 213 patients. Two studies showed \nstatistically significant improvement in established markers of sleep apnea such \nas apnea-hypopnea index (AHI) or oxygen desaturations. Other studies showed that \nmouth taping offered no differences and even discussed potential risks including \nasphyxiation in the presence of nasal obstruction. Many studies excluded anyone \nwith nasal obstruction or pathology.\nCONCLUSION: The social media trend of mouth taping for individuals with mouth \nbreathing, sleep disordered breathing, or sleep apnea has been reviewed. Based \non the data presented by these 10 different studies, it seems that there is a \npotentially serious risk of harm for individuals indiscriminately practicing \nthis trend. Further studies are required to elucidate any clinical benefit this \npractice may have.\n\nCopyright: © 2025 Rhee et al. This is an open access article distributed under \nthe terms of the Creative Commons Attribution License, which permits \nunrestricted use, distribution, and reproduction in any medium, provided the \noriginal author and source are credited.\n\nDOI: 10.1371/journal.pone.0323643\nPMCID: PMC12094774\nPMID: 40397877 [Indexed for MEDLINE]\n\nConflict of interest statement: The authors have declared that no competing ",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Nocturnal mouth-taping and social media: A scoping review of the evidence",
+          "publisher": "American journal of otolaryngology",
+          "year": "2025",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39662104/",
+          "pmid": "39662104",
+          "doi": "10.1016/j.amjoto.2024.104545",
+          "supports": "Of 9 relevant studies, the evidence was mixed with little agreement on benefits, and most popular TikTok claims about mouth taping had never been tested.",
+          "abstract": "1. Am J Otolaryngol. 2025 Jan-Feb;46(1):104545. doi:\n10.1016/j.amjoto.2024.104545.  Epub 2024 Dec 4.\n\nNocturnal mouth-taping and social media: A scoping review of the evidence.\n\nFangmeyer SK(1), Badger CD(2), Thakkar PG(2).\n\nAuthor information:\n(1)Otolaryngology - Head and Neck Surgery, George Washington University School \nof Medicine and Health Sciences, 2300 M Street NW, 4(th) Floor, Washington, DC \n20037, USA. Electronic address: sfangmeyer@mfa.gwu.edu.\n(2)Otolaryngology - Head and Neck Surgery, George Washington University School \nof Medicine and Health Sciences, 2300 M Street NW, 4(th) Floor, Washington, DC \n20037, USA.\n\nOBJECTIVE: Across social media, nocturnal mouth-taping has been credited with \nbenefits from increased energy and immunity to improved dental health. This \nscoping review summarizes the literature on mouth-taping and prominent social \nmedia claims pertaining to this practice.\nDATA SOURCES: PubMed and Embase were searched using terms related to nocturnal \nmouth-taping. A search of TikTok was performed using the term \"mouth taping.\"\nREVIEW METHODS: Studies yielded by this literature search were reviewed for \nrelevance and excluded if they did not assess mouth-taping during sleep. Study \ncharacteristics were extracted for analysis. TikTok videos discussing \nmouth-taping during sleep were evaluated, and videos lacking spoken or written \nwords were excluded. The first fifty videos meeting inclusion and exclusion \ncriteria were reviewed for claims regarding mouth-taping and presenter type.\nRESULTS: One hundred and seventy-seven unique studies were identified; nine met \ninclusion and exclusion criteria. Two studies found significant improvements in \nobstructive sleep apnea (OSA) metrics, one with mouth-taping alone and one with \nmouth-taping plus a mandibular advancement device. A study of non-OSA patients \nreported improved snoring with mouth-taping combined with other measures. A \nstudy of mouth-taping in asthma found no benefit. However, one study found that \nmouth-taping effectively reduced mouth leak during bilevel ventilation. The most \ncommon proposed advantages of mouth-taping on TikTok were improved sleep and \noral health.\nCONCLUSION: This is the first comprehensive literature review on mouth-taping. \nThe literature on this subject is markedly heterogeneous, and there is little \nconsensus on mouth-taping's benefits. Few TikTok claims regarding the practice \nhave been evaluated. However, some research indicates that mouth-taping may be \nadvantageous in OSA, snoring, and bilevel ventilation. Additional high-quality \nresearch is necessary to elucidate the role and efficacy of this practice.\n\nCopyright © 2024 The Authors. Published by Elsevier Inc. All rights reserved.\n\nDOI: 10.1016/j.amjoto.2024.104545\nPMID: 39662104 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "title": "Impact of Nasal Obstruction and Mouth Taping on Sleep Apnea Indicators: Systematic Review and Meta-Analysis",
+          "publisher": "OTO open",
+          "year": "2026",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42662994/",
+          "pmid": "42662994",
+          "doi": "10.1002/oto2.70294",
+          "supports": "Nasal obstruction clearly worsened sleep apnea measures, while mouth taping data were too limited to pool (2 studies showed some benefit in mild apnea).",
+          "abstract": "1. OTO Open. 2026 Aug 27;10(3):e70294. doi: 10.1002/oto2.70294. eCollection 2026 \nJul-Sep.\n\nImpact of Nasal Obstruction and Mouth Taping on Sleep Apnea Indicators: \nSystematic Review and Meta-Analysis.\n\nAlshehri NA(1), Alsaif NF(1), Abdulrazaq AN(1), Jabor RM(1), Al-Sayed AA(2).\n\nAuthor information:\n(1)College of Medicine King Saud University Riyadh Saudi Arabia.\n(2)Department of Otolaryngology-Head and Neck Surgery, College of Medicine King \nSaud University Riyadh Saudi Arabia.\n\nOBJECTIVE: To assess the impact of nasal obstruction on obstructive sleep apnea \n(OSA) indicators and summarize the limited available data on mouth taping during \nsleep.\nDATA SOURCES: A systematic search was conducted in October 2024, encompassing 5 \nelectronic databases: PubMed, MEDLINE, Web of Science, Cochrane, and CINAHL, to \nevaluate the impact of breathing routes on OSA indicators.\nREVIEW METHODS: Eligible studies included those that induced nasal obstruction \neither non-surgically (eg, experimental studies or postintervention for \nepistaxis) or surgically (eg, postseptoturbinoplasty) and their impact on \nreported sleep apnea indicators, such as Apnea-Hypopnea Index (AHI), Oxygen \nDesaturation Index (ODI), mean and nadir oxygen saturation. A Meta-analysis was \nconducted on studies of nasal obstruction. Due to limited data, no meta-analysis \nwas performed for mouth taping; only 2 studies were narratively reviewed.\nRESULTS: Nasal obstruction was associated with a clinically significant increase \nin AHI (+13.78 events/h) and ODI (+7.45 events/h), alongside a modest \nnonclinically significant decrease in the average (-0.70%) and nadir (-1.75%) \nSpO2. Conversely, a narrative review of two studies on mouth taping found it \nreduced AHI in patients with mild OSA. The heterogeneity among studies limits \nthe generalizability of these data.\nCONCLUSION: Nasal obstruction, whether induced non-surgically or in surgical \nsettings, was associated with worsening of OSA indicators and may precipitate \nOSA-like abnormalities in previously healthy individuals. These findings \nunderscore the importance of nasal breathing and support further investigation \ninto the breathing route as a modifiable factor in sleep-disordered breathing.\n\n© 2026 The Author(s). OTO Open published by Wiley Periodicals LLC on behalf of \nAmerican Academy of Otolaryngology–Head and Neck Surgery Foundation.\n\nDOI: 10.1002/oto2.70294\nPMCID: PMC13521571\nPMID: 42662994\n\nConflict of interest statement: None.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-10-11"
+        }
       ],
-      "checked_at": "2026-10-09",
+      "checked_at": "2026-10-11",
       "model": "claude-opus-5-5",
-      "sample": true,
       "review": {
         "status": "approved",
-        "editor": "Editor Agent"
-      }
+        "editor": "Prototype editorial check",
+        "notes": "Sources verified against PubMed and Crossref. The Editor Agent has not been run live yet.",
+        "reviewed_at": "2026-10-11"
+      },
+      "citations_ok": true
     }
   }
 }

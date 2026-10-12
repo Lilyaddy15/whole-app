@@ -11,10 +11,15 @@ For each claim in claims.json it:
   2. GRADE     — a second call turns the research notes into a structured verdict
                  (real / mixed / early / hype) with a consumer-friendly summary,
                  confidence, source list and caveats,
-  3. QUEUE     — every verdict is written to data/evidence.json with
-                 review.status = "pending". The WHOLE Editor Agent
-                 (agents/editor/editor_agent.py) reviews it next. Nothing is shown
-                 as checked in the app until it is approved.
+  3. VERIFY    — every cited article is looked up in PubMed or Crossref
+                 (agents/citations/verify_sources.py). Titles and years must match
+                 the official record. A verdict needs 2+ verified sources, and
+                 "real" / "hype" need a verified review, guideline or expert body.
+                 If it falls short, the agent researches once more with notes.
+  4. QUEUE     — verdicts that pass go to data/evidence.json as "pending" for the
+                 WHOLE Editor Agent (agents/editor/editor_agent.py), which reads the
+                 abstracts and approves or returns them. Verdicts that still lack
+                 sources are saved as "needs_sources" and never shown as a verdict.
 
 Usage
 -----
@@ -24,7 +29,6 @@ Usage
   python3 agents/evidence_check/evidence_check.py --only nutrition-seed-oils
   python3 agents/evidence_check/evidence_check.py                    # check every claim
   python3 agents/editor/editor_agent.py --topic nutrition --review-only     # Editor Agent review
-  python3 agents/evidence_check/evidence_check.py --approve nutrition-seed-oils --editor "Lily"   # manual override
 
 Each run calls Claude and costs money: roughly one research call (with up to
 8 searches) plus one short grading call per claim.
@@ -38,6 +42,8 @@ import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
+sys.path.insert(0, str(ROOT / "agents" / "citations"))
+from verify_sources import verify_source, publishable  # noqa: E402
 CLAIMS = HERE / "claims.json"
 OUT = ROOT / "data" / "evidence.json"
 
@@ -62,6 +68,8 @@ How to work:
 - Separate what is studied (e.g. clinic injections) from what is sold (e.g. a topical serum).
 - Note who was studied. Evidence in men, older adults or people with a condition may not transfer to healthy women 25 to 40.
 - If the evidence is thin, say so plainly. "Not enough research yet" is a valid finding.
+- Every source you cite must be a real article you opened. Record its PubMed ID (PMID) and/or DOI exactly as
+  shown on the page. Never guess an identifier: each one is checked against PubMed and Crossref.
 - You give general information, never personal medical advice."""
 
 RESEARCH_PROMPT = """Check this trend.
@@ -75,7 +83,7 @@ Find and read the best available evidence, then write research notes covering:
 2. The strongest evidence for and against it, with the source of each point.
 3. How strong and how recent that evidence is, and who it was studied in.
 4. Any safety concerns.
-5. The URLs you actually read."""
+5. For each source you actually read: title, journal, year, type, URL, PMID and DOI."""
 
 GRADE_PROMPT = """Turn these research notes into a WHOLE verdict.
 
@@ -92,7 +100,9 @@ Verdict meanings:
 - hype: the evidence does not support the claim, or contradicts it.
 
 Write "evidence" in WHOLE's voice: plain, specific, two or three short sentences, no medical jargon, no advice to a specific person.
-Only list sources that appear in the research notes, with their real URLs."""
+Only list sources that appear in the research notes, with their real URLs, PMIDs and DOIs (empty string if none).
+List at least two sources. For "real" or "hype", include at least one systematic review, meta-analysis,
+clinical guideline or expert-body statement."""
 
 VERDICT_SCHEMA = {
     "type": "object",
@@ -113,8 +123,11 @@ VERDICT_SCHEMA = {
                         "Systematic review", "Meta-analysis", "Clinical guideline",
                         "Randomized trial", "Observational study", "Expert body", "Other"]},
                     "url": {"type": "string"},
+                    "pmid": {"type": "string"},
+                    "doi": {"type": "string"},
+                    "supports": {"type": "string"},
                 },
-                "required": ["title", "publisher", "year", "type", "url"],
+                "required": ["title", "publisher", "year", "type", "url", "pmid", "doi", "supports"],
                 "additionalProperties": False,
             },
         },
@@ -171,6 +184,14 @@ def grade(client, claim, notes):
     return json.loads(text)
 
 
+def check_citations(verdict):
+    """Look every source up in PubMed / Crossref and apply the publishing rule."""
+    for s in verdict["sources"]:
+        ok, why = verify_source(s)
+        print(f"    {'✓' if ok else '✗'} {s['title'][:60]} ({why})")
+    return publishable(verdict)
+
+
 def load_out():
     if OUT.exists():
         return json.loads(OUT.read_text())
@@ -203,6 +224,13 @@ def run(args):
         try:
             notes = research(client, c)
             verdict = grade(client, c, notes)
+            ok, reason = check_citations(verdict)
+            if not ok:
+                print(f"  citations fell short ({reason}); researching again", flush=True)
+                notes = research(client, {**c, "says": c["says"] + f"\n(Previous attempt was rejected: {reason}. "
+                                         "Find stronger, verifiable sources with exact PMIDs or DOIs.)"})
+                verdict = grade(client, c, notes)
+                ok, reason = check_citations(verdict)
         except (anthropic.APIStatusError, anthropic.APIConnectionError, RuntimeError) as e:
             print(f"  skipped: {e}", file=sys.stderr)
             continue
@@ -210,29 +238,18 @@ def run(args):
             **verdict,
             "checked_at": dt.date.today().isoformat(),
             "model": MODEL,
-            "review": {"status": "pending", "editor": None},
+            "citations_ok": ok,
+            "review": {"status": "pending", "editor": None} if ok else {"status": "needs_sources", "editor": None, "notes": reason},
         }
         save_out(out)
-        print(f"  {verdict['verdict']} ({verdict['confidence']} confidence) — waiting for Editor Agent review")
+        print(f"  {verdict['verdict']} ({verdict['confidence']} confidence) — "
+              + ("sent to the Editor Agent" if ok else f"held back: {reason}"))
     print(f"Wrote {OUT.relative_to(ROOT)}")
-
-
-def approve(args):
-    out = load_out()
-    for cid in args.approve:
-        if cid not in out["claims"]:
-            sys.exit(f"No checked claim with id {cid}")
-        out["claims"][cid]["review"] = {"status": "approved", "editor": args.editor,
-                                        "reviewed_at": dt.date.today().isoformat()}
-        print(f"Approved {cid}")
-    save_out(out)
 
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--only", nargs="+", help="claim ids to check")
     p.add_argument("--dry-run", action="store_true", help="print prompts without calling the API")
-    p.add_argument("--approve", nargs="+", help="manually approve checked claim ids (overrides the Editor Agent)")
-    p.add_argument("--editor", default="editor", help="name recorded on approval")
     a = p.parse_args()
-    approve(a) if a.approve else run(a)
+    run(a)
