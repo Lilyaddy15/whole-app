@@ -8,6 +8,9 @@ A clickable prototype of a phone app: a weekly health and beauty magazine for wo
 
 ## What's in the app
 
+- **Today**: a short daily edition (what moved, a new study, a private question, who's talking) that ends when you're caught up; a Real or hype of the day guessing game; updates on everything you follow; a mock morning notification.
+- **Search**: a quick answer in seconds from WHOLE's issues and verified research, plus the search agent's plan (which Anthropologic tools, with what inputs, at what cost) and a simulated deep dive. Five example searches have full sample answers.
+- **Follow anything**: trends, verdicts, products and questions; changes show up in Today.
 - **Intro and setup**: pick your cards, tune your angle (age, goals, budget, values), hormone lens, privacy.
 - **Home**: your weekly "quilt" summary, your issue cards, threads that connect topics, Real or hype?, Asking not posting, Where are they now?
 - **Issues** (Nutrition, Beauty, Exercise, Sleep): nine swipeable pages, each mapped to a pipeline.
@@ -69,6 +72,15 @@ node scripts/apply_drafts.mjs nutrition                                  # publi
 
 Input is `agents/editor/pipeline/<topic>.json` (a sample for Nutrition is included). Drafts and their fact-check log go to `data/drafts/<topic>.json`; only drafts that pass the fact-check are applied. Products, brands and Real or hype claims are kept as they are.
 
+## The search agent
+
+`agents/search/search_planner.py` plans how to answer a reader's search: it classifies the question (is it real, what are people saying, is it worth it, where is it heading, why, who), picks the smallest set of Anthropologic tools, fills in their inputs from the reader's angle, reuses recent runs, and always includes the Evidence Agent for health claims. The planning call works today (`--plan`); running the pipelines is a stub until the Anthropologic API is integrated, and the app simulates it.
+
+```bash
+python3 agents/search/search_planner.py --dry-run "Is creatine safe for women?"
+python3 agents/search/search_planner.py --plan "Why is everyone doing Pilates?"   # calls Claude; no pipelines run
+```
+
 ## How the pieces fit
 
 ```
@@ -82,10 +94,12 @@ Anthropologic pipelines ──► Editor Agent (write + fact-check) ──► da
 ```
 index.html                      the app (no build step)
 data/issues.js                  all issue content (sample)
+data/daily.js                   Today edition, follow updates, search examples (sample)
 data/evidence.json              verdicts + verified studies the app reads
 agents/citations/               citation checker (PubMed / Crossref)
 agents/evidence_check/          the Evidence Agent and its claims list
 agents/editor/                  the Editor Agent and sample pipeline input
+agents/search/                  the search planning agent
 scripts/export_claims.mjs       exports claims for the Evidence Agent
 scripts/apply_drafts.mjs        publishes Editor Agent drafts into the app
 ```
@@ -94,4 +108,4 @@ Run locally: `python3 -m http.server` in this folder, then open http://localhost
 
 ## Not built yet
 
-Live Anthropologic pipeline runs, accounts, notifications, real retailer and affiliate links.
+Live Anthropologic pipeline runs and search deep dives, accounts, real push notifications, real retailer and affiliate links.

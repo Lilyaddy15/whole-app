@@ -457,6 +457,102 @@ button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px so
 .note-actions{display:flex;gap:8px;flex-wrap:wrap}
 .note-actions button,.note-actions a{border:1.5px solid var(--ink);border-radius:99px;padding:8px 14px;font-weight:700;font-size:13px;color:var(--ink);text-decoration:none}
 
+/* ---------- today ---------- */
+.today-top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
+.today-top h2{font-family:var(--display);font-weight:900;font-size:56px;line-height:.85;margin:0;letter-spacing:-.03em}
+.today-top .mono{color:var(--muted)}
+.fakesearch{display:flex;align-items:center;gap:10px;border:1.5px solid var(--ink);border-radius:99px;padding:12px 16px;background:var(--chip);color:var(--muted);font-size:15px;text-align:left;width:100%}
+.fakesearch svg{width:18px;height:18px;color:var(--ink)}
+.edition-bar{display:flex;flex-direction:column;gap:8px}
+.edition-bar .row{display:flex;justify-content:space-between;align-items:baseline}
+.edition-bar b{font-family:var(--display);font-size:24px}
+.ticks{display:flex;gap:4px}
+.ticks i{flex:1;height:4px;border-radius:4px;background:var(--line)}
+.ticks i.on{background:var(--ink)}
+.story.tap{cursor:pointer}
+.story{border-radius:20px;overflow:hidden;background:var(--paper-2);display:flex;flex-direction:column;text-align:left;width:100%;position:relative}
+.story .band{height:8px}
+.story .in{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px}
+.story .k{display:flex;justify-content:space-between;align-items:center;color:var(--muted)}
+.story h4{margin:0;font-family:var(--display);font-weight:800;font-size:25px;line-height:1.02;letter-spacing:-.01em}
+.story p{margin:0;font-size:14.5px}
+.story .bigstat{display:flex;align-items:baseline;gap:10px}
+.story .bigstat b{font-family:var(--display);font-weight:900;font-size:44px;line-height:.9}
+.story .bigstat span{font-size:12.5px;color:var(--muted)}
+.story q{font-family:var(--display);font-style:italic;font-size:22px;line-height:1.1;quotes:"\201C" "\201D"}
+.story .foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:2px}
+.story .open{font-weight:700;font-size:13.5px;display:flex;align-items:center;gap:6px}
+.story .open svg{width:14px;height:14px}
+.story.read{opacity:.7}
+.story .readmark{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--up)}
+.followbtn{border:1.5px solid currentColor;border-radius:99px;padding:5px 11px;font-size:12px;font-weight:700;white-space:nowrap}
+.followbtn[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.game{background:var(--ink);color:var(--paper)}
+.game .k{color:color-mix(in srgb,var(--paper) 65%,transparent)}
+.game .says{font-family:var(--display);font-style:italic;font-size:19px;line-height:1.15;opacity:.9}
+.guess{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.guess button{border:1.5px solid color-mix(in srgb,var(--paper) 45%,transparent);border-radius:14px;padding:11px;font-weight:700;font-size:14px;color:var(--paper)}
+.guess button:hover{background:color-mix(in srgb,var(--paper) 10%,transparent)}
+.reveal{display:flex;flex-direction:column;gap:10px}
+.reveal .res{display:flex;align-items:center;gap:12px}
+.reveal .stamp{position:static;transform:rotate(-8deg);flex:0 0 auto;width:64px;height:64px}
+.reveal .res b{font-size:16px;line-height:1.25}
+.game .v-real{color:#5BE0AE}.game .v-mixed{color:#F5BE5B}.game .v-early{color:#C3AEFF}.game .v-hype{color:#FF8A70}
+.game .study{border-left-color:#C3AEFF}.game .study .mono{color:#C3AEFF}.game .study span:last-child{color:color-mix(in srgb,var(--paper) 65%,transparent)}
+.game .score{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;opacity:.7}
+.caught{border:2px dashed var(--line);border-radius:20px;padding:22px 18px;text-align:center;display:flex;flex-direction:column;gap:6px;align-items:center}
+.caught b{font-family:var(--display);font-size:28px;line-height:1}
+.caught span{color:var(--muted);font-size:14px}
+.fol{display:grid;grid-template-columns:10px 1fr auto;gap:12px;align-items:center;padding:12px 0;border-top:1px solid var(--line);text-align:left;width:100%}
+.fol b{display:block;font-size:15px;line-height:1.2}
+.fol span.t{font-size:13px;color:var(--muted)}
+.notif{position:absolute;top:calc(10px + env(safe-area-inset-top,0px));left:10px;right:10px;z-index:60;background:color-mix(in srgb,var(--chip) 92%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-radius:20px;padding:12px 14px;display:grid;grid-template-columns:38px 1fr;gap:10px;box-shadow:0 12px 30px -12px rgba(0,0,0,.35);transform:translateY(-140%);transition:transform .45s cubic-bezier(.2,.8,.2,1);text-align:left}
+.notif.show{transform:none}
+.notif .ic{width:38px;height:38px;border-radius:10px;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-family:var(--display);font-weight:900;font-size:22px}
+.notif .h{display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}
+.notif b{display:block;font-size:14px}
+.notif span.t{font-size:13.5px;line-height:1.3}
+
+/* ---------- search ---------- */
+.searchform{display:flex;gap:8px;align-items:center;border:1.5px solid var(--ink);border-radius:99px;padding:5px 5px 5px 16px;background:var(--chip)}
+.searchform input{flex:1;border:0;background:none;font:inherit;font-size:16px;color:var(--ink);outline:none;min-width:0}
+.searchform button{width:38px;height:38px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center}
+.searchform svg{width:16px;height:16px}
+.qline{font-family:var(--display);font-style:italic;font-size:28px;line-height:1.05;margin:0}
+.panel{border-radius:20px;padding:16px;display:flex;flex-direction:column;gap:10px;background:var(--paper-2)}
+.panel.dark{background:var(--ink);color:var(--paper)}
+.panel h5{margin:0;font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;display:flex;justify-content:space-between;gap:8px}
+.panel p{margin:0;font-size:15px}
+.related{display:flex;flex-direction:column;gap:8px}
+.rel{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;background:var(--chip);border:1px solid var(--line);border-radius:14px;padding:10px 12px;text-align:left;width:100%}
+.rel .stamp{position:static;width:44px;height:44px;font-size:8px;transform:rotate(-8deg)}
+.rel b{font-size:14px;line-height:1.25}
+.rel small{display:block;font-size:12px;color:var(--muted)}
+.intent{align-self:flex-start;background:var(--custom);color:var(--custom-ink);border-radius:99px;padding:4px 10px;font-weight:700;font-size:12px}
+.tool{border-top:1px solid color-mix(in srgb,var(--paper) 16%,transparent);padding-top:10px;display:flex;flex-direction:column;gap:6px}
+.tool .top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.tool b{font-size:15px}
+.tool .cost{font-family:var(--mono);font-size:10.5px;opacity:.7;white-space:nowrap}
+.tool .why{font-size:13px;opacity:.8}
+.tool .inputs{display:flex;flex-wrap:wrap;gap:4px}
+.tool .inputs i{font-style:normal;font-family:var(--mono);font-size:10px;border:1px solid color-mix(in srgb,var(--paper) 30%,transparent);border-radius:99px;padding:3px 8px}
+.tool .reuse{font-size:12px;color:#5BE0AE}
+.tool .st{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase}
+.planfoot{display:flex;flex-direction:column;gap:8px;border-top:1px solid color-mix(in srgb,var(--paper) 16%,transparent);padding-top:12px}
+.planfoot .sum{font-size:13px;opacity:.85}
+.planfoot .primary{background:var(--paper);color:var(--ink)}
+.planfoot .ghost{border-color:color-mix(in srgb,var(--paper) 60%,transparent);color:var(--paper)}
+.pbar{height:4px;border-radius:4px;background:color-mix(in srgb,var(--paper) 18%,transparent);overflow:hidden}
+.pbar i{display:block;height:100%;background:#C3AEFF;transition:width .5s}
+.skel{height:12px;border-radius:6px;background:color-mix(in srgb,var(--ink) 9%,transparent)}
+.resultsec{display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--line);padding-top:12px}
+.resultsec .mono{color:var(--muted)}
+.resultsec b{font-size:15px}
+.resultsec p{margin:0;font-size:14px;color:var(--muted)}
+.hist{display:flex;flex-direction:column}
+.hist button{display:flex;justify-content:space-between;gap:10px;padding:11px 0;border-top:1px solid var(--line);text-align:left;font-size:15px}
+.hist button span{color:var(--muted);font-size:12.5px;white-space:nowrap}
+
 /* ---------- evidence agent ---------- */
 .study{display:flex;flex-direction:column;gap:3px;border-left:3px solid var(--custom-hi);padding:4px 0 4px 12px;color:inherit;text-decoration:none}
 .study .mono{color:var(--custom-hi);font-size:10px}
@@ -507,13 +603,17 @@ button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px so
   </aside>
 
   <div class="device"><div class="screen" id="screen">
-    <main class="home" id="home"></main>
+    <main class="home" id="today"></main>
+    <main class="home" id="home" hidden></main>
+    <main class="home" id="searchView" hidden></main>
+    <button class="notif" id="notif" type="button" aria-live="polite"></button>
 
     <nav class="tabbar" aria-label="Main">
-      <button class="on" type="button" id="tabHome"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg>Issues</button>
+      <button type="button" data-tab="today"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>Today</button>
+      <button type="button" data-tab="issues"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg>Issues</button>
+      <button type="button" data-tab="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Search</button>
       <button type="button" id="tabSaved"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8a3 3 0 016 0"/></svg>Saved<span class="badge" id="savedBadge" hidden></span></button>
-      <button type="button" id="tabNew"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>New card</button>
-      <button type="button" id="tabTune"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>Customize</button>
+      <button type="button" id="tabTune"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0116 0"/></svg>You</button>
     </nav>
 
     <section class="issue" id="issue" aria-modal="true" role="dialog" aria-label="Issue"></section>
@@ -526,6 +626,7 @@ button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px so
 </div>
 
 <script src="data/issues.js"></script>
+<script src="data/daily.js"></script>
 <script>
 /* ===================== DATA (data/issues.js) ===================== */
 const {TOPICS, THREADS, QUILT} = window.WHOLE_DATA;
@@ -546,11 +647,13 @@ const STATUS = {rising:['Rising','s-rising','var(--up)'], sticking:['Sticking','
 /* ===================== STATE ===================== */
 const DEFAULT = {order:['nutrition','beauty','exercise'], off:[], custom:[], saved:[], angle:{age:'25–40', goals:['Feel stronger','Better skin'], budget:'Mix it up', values:['Science-backed'], hormones:true}};
 let S;
-try{ S = JSON.parse(localStorage.getItem('whole-proto-v3')||'null') }catch(e){}
+try{ S = JSON.parse(localStorage.getItem('whole-proto-v4')||'null') }catch(e){}
 if(!S || !S.order) S = structuredClone(DEFAULT);
 S.saved = S.saved||[]; if(S.angle.hormones===undefined) S.angle.hormones = true;
+S.follows = S.follows||[]; S.searches = S.searches||[]; S.read = S.read||{}; S.game = S.game||{}; S.notify = S.notify||{on:true, time:'7:00 AM'}; S.tab = S.tab||'today';
+const {EDITION, FOLLOW_UPDATES, TRENDING_SEARCHES, SEARCH_SAMPLES} = window.WHOLE_DAILY;
 const REPO = 'https://github.com/Lilyaddy15/whole-app';
-function save(){ try{ localStorage.setItem('whole-proto-v3', JSON.stringify(S)) }catch(e){} }
+function save(){ try{ localStorage.setItem('whole-proto-v4', JSON.stringify(S)) }catch(e){} }
 
 const $ = (s,el=document)=>el.querySelector(s);
 const esc = s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -562,6 +665,7 @@ const ICON = {
   grip:'<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="9" cy="6" r="1.6"/><circle cx="15" cy="6" r="1.6"/><circle cx="9" cy="12" r="1.6"/><circle cx="15" cy="12" r="1.6"/><circle cx="9" cy="18" r="1.6"/><circle cx="15" cy="18" r="1.6"/></svg>',
   send:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 19V5M6 11l6-6 6 6"/></svg>',
   heart:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"/></svg>',
+  search:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>',
   lock:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/></svg>'
 };
 function fitSize(name, max){ const w = Math.min(document.querySelector('.screen').clientWidth, 400) - 44; return Math.round(Math.min(max, w/(name.length*0.62))) }
@@ -688,6 +792,7 @@ function renderHome(){
   $('#home').querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>go(b.dataset.go));
   $('#home').querySelectorAll('[data-custom]').forEach(b=>b.onclick=()=>openWorking(b.dataset.custom));
   $('#addCard').onclick = ()=>openSheet('create');
+  wireFollow($('#home'));
   $('#tuneBtn').onclick = ()=>openSheet('tune');
   $('#aboutBtn').onclick = openAbout;
   $('#editBtn').onclick = ()=>openSheet('cards');
@@ -719,6 +824,7 @@ function openPager({pages, names, theme, startKey}){
   $('#segs').querySelectorAll('button').forEach(b=>b.onclick=()=>goPage(+b.dataset.p));
   pager.onscroll = ()=>{ const p = Math.round(pager.scrollLeft/pager.clientWidth); if(p!==curPage){curPage=p; syncPager()} };
   wireHow(el);
+  wireFollow(el);
   el.querySelectorAll('[data-prod]').forEach(b=>b.onclick=e=>{ if(e.target.closest('.savebtn,.shopbtn')) return; openProduct(b.dataset.prod) });
   el.querySelectorAll('.shopbtn').forEach(b=>b.onclick=e=>{ e.stopPropagation(); openProduct(b.dataset.key) });
   el.querySelectorAll('.savebtn').forEach(b=>b.onclick=e=>{ e.stopPropagation(); toggleSave(b.dataset.key); b.setAttribute('aria-pressed', S.saved.includes(b.dataset.key)) });
@@ -820,6 +926,7 @@ function openIssue(id, startKey){
       <h5>${esc(h.t)}</h5>
       <div class="two"><div><span class="mono">What people say</span>${esc(h.says)}</div><div><span class="mono">What the evidence says</span>${esc(e.evidence)}</div></div>
       ${(()=>{const vs=(e.sources||[]).filter(x=>x.verified);return vs.length?`<a class="study" href="${esc(vs[0].url)}" target="_blank" rel="noopener"><span class="mono">Read the study</span><b>${esc(vs[0].title)}</b><span>${esc(vs[0].publisher)} · ${esc(vs[0].year)} · ${esc(vs[0].type)}</span></a>`:''})()}
+      <div style="display:flex;justify-content:flex-end">${followBtn('claim:'+h.id)}</div>
       <button class="agent" data-ev="${h.id}"><span class="who">Evidence Agent</span><span>${esc(cap(e.confidence))} confidence</span><span>${(e.sources||[]).filter(x=>x.verified).length?`${(e.sources||[]).filter(x=>x.verified).length} verified studies`:esc((e.source_types||[]).join(' · '))}</span><span class="rev ${e.review.status==='approved'?'rev-approved':'rev-pending'}">${e.review.status==='approved'?(e.review.editor==='Editor Agent'?'Editor Agent approved':'Sources verified'):e.review.status==='needs_sources'?'Finding sources':'With the Editor Agent'}</span><span class="more">All sources</span></button>
     </div>`}).join('')}
     <p class="hint">General information from published research and what people share. Not medical advice.</p>
@@ -851,7 +958,7 @@ function openIssue(id, startKey){
     <p class="lede">We keep checking trends after the hype. Here’s where this issue’s past trends landed.</p>
     <div class="legend">${Object.values(STATUS).map(s=>`<span style="color:${s[2]}"><i></i>${s[0]}</span>`).join('')}</div>
     ${c.life.map(l=>`<div class="life-big">
-      <div class="row"><h5>${esc(l.t)}</h5><span class="status ${STATUS[l.s][1]}">${STATUS[l.s][0]}</span></div>
+      <div class="row"><h5>${esc(l.t)}</h5><span style="display:flex;gap:6px;align-items:center"><span class="status ${STATUS[l.s][1]}">${STATUS[l.s][0]}</span>${followBtn('trend:'+id+':'+l.t)}</span></div>
       ${spark(l.pts, STATUS[l.s][2], 300, 46)}
       <p>${esc(l.since)}</p>
     </div>`).join('')}
@@ -961,7 +1068,7 @@ function openSheet(tab){
   if(tab==='saved') return drawSaved();
   sheetTab = tab; drawCustomize();
 }
-function closeSheet(){ $('#sheet').classList.remove('open'); $('#scrim').classList.remove('open'); if(!pagerState) renderHome(); updateBadge() }
+function closeSheet(){ $('#sheet').classList.remove('open'); $('#scrim').classList.remove('open'); if(!pagerState) renderAll(); updateBadge() }
 $('#scrim').onclick = closeSheet;
 
 function sheetHead(title, btn='Done'){ return `<div class="sheet-head"><span class="grab"></span><div class="row"><h3>${title}</h3><button class="done" id="doneBtn">${btn}</button></div>` }
@@ -1070,12 +1177,18 @@ function drawCustomize(){
       <div class="toggle-row"><span><b>Hormone lens</b><span>Show how your cycle and perimenopause connect to each issue</span></span>
         <button class="switch" id="hormoneSw" role="switch" aria-checked="${A.hormones}" aria-label="Hormone lens"></button></div>
       <div class="banner" id="angleBanner" hidden><span>↻</span><span><b>Your issues will re-run with this angle</b>In the live app, pipelines use it as the cohort and angle.</span></div>
+      <div class="group"><div class="toggle-row"><span><b>Morning edition</b><span>One notification a day when Today is ready. Never more.</span></span>
+        <button class="switch" id="notifSw" role="switch" aria-checked="${S.notify.on}" aria-label="Morning edition notification"></button></div>
+        ${S.notify.on?`<div class="chips">${['6:00 AM','7:00 AM','8:00 AM','9:00 AM'].map(t=>`<button class="chip ${S.notify.time===t?'on':''}" data-time="${t}">${t}</button>`).join('')}</div><button class="ghost" id="previewNotif" style="align-self:flex-start;padding:8px 14px;font-size:13px">Preview the notification</button>`:''}</div>
       <div class="privacy">${ICON.lock}<span><b>Private by default</b>Your angle and saved items stay on this phone. WHOLE never asks for health data, cycle dates or symptoms.</span></div>`;
     body.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>{
       const k=b.dataset.k, v=b.dataset.v;
       if(b.dataset.m==='1'){ A[k] = A[k].includes(v)? A[k].filter(x=>x!==v) : [...A[k],v] } else A[k]=v;
       save(); drawCustomize(); $('#angleBanner').hidden=false });
     $('#hormoneSw').onclick = ()=>{ A.hormones=!A.hormones; save(); drawCustomize(); toast(A.hormones?'Hormone lens on':'Hormone lens off') };
+    $('#notifSw').onclick = ()=>{ S.notify.on=!S.notify.on; save(); drawCustomize() };
+    body.querySelectorAll('[data-time]').forEach(b=>b.onclick=()=>{ S.notify.time=b.dataset.time; save(); drawCustomize() });
+    const pv = $('#previewNotif'); if(pv) pv.onclick = ()=>{ $('#sheet').classList.remove('open'); $('#scrim').classList.remove('open'); setTimeout(()=>showNotif(true),350) };
   }
 }
 
@@ -1147,9 +1260,8 @@ setInterval(()=>{
   });
 },1000);
 
-$('#tabHome').onclick = ()=>{ closeIssue(); closeSheet(); $('#home').scrollTo({top:0,behavior:'smooth'}) };
+document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
 $('#tabSaved').onclick = ()=>openSheet('saved');
-$('#tabNew').onclick = ()=>openSheet('create');
 $('#tabTune').onclick = ()=>openSheet('tune');
 document.addEventListener('keydown', e=>{
   if(e.key==='Escape'){ if($('#sheet').classList.contains('open')) closeSheet(); else closeIssue(); return }
@@ -1157,6 +1269,295 @@ document.addEventListener('keydown', e=>{
   if(e.key==='ArrowRight' && curPage<pagerState.count-1) goPage(curPage+1);
   if(e.key==='ArrowLeft' && curPage>0) goPage(curPage-1);
 });
+
+/* ===================== TABS ===================== */
+const VIEWS = {today:'#today', issues:'#home', search:'#searchView'};
+function setTab(t){
+  S.tab = t; save(); closeIssue();
+  Object.entries(VIEWS).forEach(([k,sel])=>{ $(sel).hidden = k!==t });
+  document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('on', b.dataset.tab===t));
+  renderAll();
+}
+function renderAll(){ if(S.tab==='today') renderToday(); else if(S.tab==='search') renderSearch(); else renderHome() }
+
+/* ===================== FOLLOW ===================== */
+function followLabel(id){
+  const [kind, a, ...rest] = id.split(':'); const b = rest.join(':');
+  if(kind==='trend') return {name:b, sub:(TOPICS[a]?.name||'')+' trend', color:colorOf(a)};
+  if(kind==='claim'){ const t=id.split('-')[0].replace('claim:',''); const h=Object.values(TOPICS).flatMap(x=>x.hype).find(x=>x.id===a); return {name:h?h.t:a, sub:'Real or hype?', color:colorOf(a.split('-')[0])} }
+  if(kind==='product'){ const p=TOPICS[a]?.products[+b]; return {name:p?p.name:'Product', sub:p?p.brand:'', color:colorOf(a)} }
+  if(kind==='search') return {name:id.slice(7), sub:'Your question', color:'var(--custom-hi)'};
+  return {name:id, sub:'', color:'var(--muted)'};
+}
+function isFollowing(id){ return S.follows.includes(id) }
+function followBtn(id, light){ return `<button class="followbtn" data-follow="${esc(id)}" aria-pressed="${isFollowing(id)}" ${light?'style="color:inherit"':''}>${isFollowing(id)?'Following':'+ Follow'}</button>` }
+function toggleFollow(id){
+  S.follows = isFollowing(id) ? S.follows.filter(x=>x!==id) : [...S.follows, id]; save();
+  toast(isFollowing(id) ? `Following. We’ll tell you when it changes.` : 'Unfollowed');
+  document.querySelectorAll(`[data-follow="${CSS.escape(id)}"]`).forEach(b=>{ b.setAttribute('aria-pressed', isFollowing(id)); b.textContent = isFollowing(id)?'Following':'+ Follow' });
+}
+function wireFollow(root){ root.querySelectorAll('[data-follow]').forEach(b=>b.onclick=e=>{ e.stopPropagation(); toggleFollow(b.dataset.follow) }) }
+function followUpdate(id){
+  if(FOLLOW_UPDATES[id]) return FOLLOW_UPDATES[id];
+  if(id.startsWith('search:')) return {status:'watch', text:'Watching for new posts and studies.'};
+  return {status:'quiet', text:'No change this week.'};
+}
+const FSTATUS = {rising:['Rising','s-rising'], peaked:['Peaked','s-peaked'], study:['New study','s-sticking'], price:['Price','s-rising'], ready:['Ready','s-rising'], watch:['Watching','s-faded'], quiet:['Quiet','s-faded']};
+
+/* ===================== TODAY ===================== */
+const TODAY_KEY = 'oct12';
+function todayStories(){
+  const vis = visibleTopics();
+  return EDITION.stories.filter(st=> st.thread ? THREADS[st.thread].topics.filter(x=>vis.includes(x)).length>=2 : vis.includes(st.topic)).slice(0,5);
+}
+function storyHTML(st, i, read){
+  const c = st.topic ? TOPICS[st.topic] : null;
+  const band = st.thread ? THREADS[st.thread].grad : c.bg;
+  const tag = st.thread ? 'Thread' : c.name;
+  if(st.kind==='game') return gameHTML(st, i);
+  return `<div class="story tap ${read?'read':''}" role="button" tabindex="0" data-story="${i}" data-go="${st.open}">
+    <span class="band" style="background:${band}"></span>
+    <span class="in">
+      <span class="k mono"><span>${esc(st.kicker)} · ${esc(tag)}</span>${read?'<span class="readmark">✓ Read</span>':''}</span>
+      <h4>${esc(st.title)}</h4>
+      ${st.kind==='moved'?`<span class="bigstat"><b>${esc(st.stat)}</b><span>${esc(st.statLabel)}</span></span>`:''}
+      ${st.kind==='asking'?`<span class="bigstat"><b>${esc(st.mult)}</b><span>more searched than posted</span></span>`:''}
+      ${st.quote?`<q>${esc(st.quote)}</q>`:''}
+      <p>${esc(st.body)}</p>
+      <span class="foot"><span class="open">${st.thread?'Open the thread':'Read more in '+esc(tag)} ${ICON.arrow}</span>${st.follow?followBtn(st.follow):st.claim?followBtn('claim:'+st.claim):''}</span>
+    </span>
+  </div>`;
+}
+function gameHTML(st, i){
+  const h = TOPICS[st.topic].hype.find(x=>x.id===st.claim), e = evidenceFor(h), pick = S.game[TODAY_KEY];
+  const right = pick && pick===e.verdict;
+  const vs = (e.sources||[]).filter(x=>x.verified);
+  return `<div class="story game" data-story="${i}">
+    <span class="band" style="background:linear-gradient(90deg,var(--beauty),var(--custom-hi),var(--exercise))"></span>
+    <span class="in">
+      <span class="k mono"><span>Real or hype of the day · ${esc(TOPICS[st.topic].name)}</span><span>Day 12</span></span>
+      <h4>${esc(h.t)}</h4>
+      <span class="says">${esc(h.says)}</span>
+      ${!pick?`<span class="mono" style="opacity:.7">Your call?</span><div class="guess">${['real','mixed','early','hype'].map(v=>`<button data-guess="${v}">${VERDICT[v][0]}</button>`).join('')}</div>`
+      :`<div class="reveal">
+        <div class="res"><span class="stamp ${VERDICT[e.verdict][1]}">${VERDICT[e.verdict][0]}</span><b>${right?'You called it.':`You said ${VERDICT[pick][0]}. The research says ${VERDICT[e.verdict][0]}.`}</b></div>
+        <p>${esc(e.evidence)}</p>
+        ${vs.length?`<a class="study" href="${esc(vs[0].url)}" target="_blank" rel="noopener"><span class="mono">Read the study</span><b>${esc(vs[0].title)}</b><span>${esc(vs[0].publisher)} · ${esc(vs[0].year)}</span></a>`:''}
+        <span class="score">This week: ${3+(right?1:0)} of 5 right · new claim tomorrow</span>
+      </div>`}
+    </span>
+  </div>`;
+}
+function renderToday(){
+  const stories = todayStories();
+  const read = S.read[TODAY_KEY] || [];
+  const done = stories.filter((st,i)=> st.kind==='game' ? !!S.game[TODAY_KEY] : read.includes(i)).length;
+  const fols = [...S.follows, ...S.saved.map(k=>'product:'+k)].filter((x,i,a)=>a.indexOf(x)===i);
+  $('#today').innerHTML = `
+    <header class="today-top">
+      <div><span class="mono" style="color:var(--muted)">${esc(EDITION.date)} · Morning edition</span><h2>Today</h2></div>
+      <span style="display:flex;gap:8px"><button class="iconbtn" id="tAbout" aria-label="About WHOLE"><span style="font-family:var(--display);font-style:italic;font-weight:800;font-size:19px">i</span></button></span>
+    </header>
+    <button class="fakesearch" id="tSearch">${ICON.search}<span>Ask WHOLE anything…</span></button>
+    <section class="edition-bar">
+      <div class="row"><b>${done>=stories.length?'All caught up':`${stories.length} stories · 3 min`}</b><span class="mono" style="color:var(--muted)">${done} of ${stories.length} read</span></div>
+      <div class="ticks">${stories.map((st,i)=>`<i class="${(st.kind==='game'?!!S.game[TODAY_KEY]:read.includes(i))?'on':''}"></i>`).join('')}</div>
+    </section>
+    ${stories.map((st,i)=>storyHTML(st,i,read.includes(i))).join('')}
+    <div class="caught"><b>${done>=stories.length?'You’re all caught up':'That’s today’s edition'}</b><span>Tuesday’s edition lands at ${esc(S.notify.time)}.${done<stories.length?' Tap a story to mark it read.':''}</span></div>
+    <section class="block">
+      <div class="sechead"><h4>Following</h4><button type="button" id="tFolMgr">${fols.length?'Manage':''}</button></div>
+      ${fols.length?`<div>${fols.map(id=>{const L=followLabel(id), u=followUpdate(id), st=FSTATUS[u.status]||FSTATUS.quiet;return `<button class="fol" data-folgo="${esc(id)}"><i class="dot" style="background:${L.color}"></i><span><b>${esc(L.name)}</b><span class="t">${esc(u.text)}</span></span><span class="status ${st[1]}">${st[0]}</span></button>`}).join('')}</div>`
+        :`<p class="hint">Follow a trend, a verdict, a product or a question, and changes show up here each morning.</p>`}
+    </section>
+    <section class="block"><div class="sechead"><h4>This week’s issues</h4><button type="button" id="tIssues">Open</button></div>
+      <div class="rail">${visibleTopics().map(id=>`<button class="thread-card" style="background:${TOPICS[id].bg};color:${TOPICS[id].ink};min-height:120px;width:170px" data-go="issue:${id}"><span class="mono" style="opacity:.8">Issue 42</span><span><span class="t" style="font-size:28px">${TOPICS[id].name}</span><span class="l" style="display:block;margin-top:4px">${esc(TOPICS[id].cover[0][0])}</span></span></button>`).join('')}</div>
+    </section>`;
+  const el = $('#today');
+  el.querySelectorAll('.story.tap').forEach(b=>{ const open=e=>{ if(e.target.closest('[data-follow]')) return; markRead(+b.dataset.story); go(b.dataset.go) }; b.onclick=open; b.onkeydown=e=>{ if(e.key==='Enter') open(e) } });
+  el.querySelectorAll('[data-guess]').forEach(b=>b.onclick=()=>{ S.game[TODAY_KEY]=b.dataset.guess; save(); renderToday() });
+  el.querySelectorAll('.thread-card[data-go]').forEach(b=>b.onclick=()=>go(b.dataset.go));
+  el.querySelectorAll('[data-folgo]').forEach(b=>b.onclick=()=>openFollow(b.dataset.folgo));
+  wireFollow(el);
+  $('#tSearch').onclick = ()=>{ setTab('search'); setTimeout(()=>$('#q')?.focus(),50) };
+  $('#tAbout').onclick = openAbout;
+  $('#tIssues').onclick = ()=>setTab('issues');
+  const fm=$('#tFolMgr'); if(fm) fm.onclick = drawFollowing;
+}
+function markRead(i){ const r = S.read[TODAY_KEY] || []; if(!r.includes(i)){ S.read[TODAY_KEY]=[...r,i]; save() } }
+function openFollow(id){
+  const [kind,a,...rest]=id.split(':');
+  if(kind==='trend') return openIssue(a,'life');
+  if(kind==='claim') return openIssue(a.split('-')[0],'hype');
+  if(kind==='product') return openProduct(a+':'+rest[0]);
+  if(kind==='search'){ setTab('search'); runSearch(id.slice(7)) }
+}
+function drawFollowing(){
+  const sh = showSheet(`${sheetHead('Following')}</div><div class="sheet-body">
+    <p class="hint">WHOLE re-checks these and tells you in Today when something changes.</p>
+    <div class="list">${S.follows.map(id=>{const L=followLabel(id);return `<div class="row-item" style="grid-template-columns:14px 1fr auto"><i class="sw" style="background:${L.color}"></i><span class="nm">${esc(L.name)}<small>${esc(L.sub)}</small></span>${followBtn(id)}</div>`}).join('')||'<p class="hint">Nothing followed yet.</p>'}</div>
+    <p class="hint">Saved products are followed for price changes automatically.</p></div>`);
+  wireFollow(sh); $('#doneBtn').onclick = closeSheet;
+}
+let notifShown = false;
+function showNotif(force){
+  if(!S.notify.on || (notifShown && !force) || !$('#onb').hidden) return;
+  notifShown = true;
+  const st = todayStories()[0], g = EDITION.stories.find(x=>x.kind==='game');
+  const h = g && TOPICS[g.topic] ? TOPICS[g.topic].hype.find(x=>x.id===g.claim) : null;
+  const n = $('#notif');
+  n.innerHTML = `<span class="ic">W</span><span><span class="h"><span>WHOLE</span><span>${esc(S.notify.time)}</span></span><b>Your Monday edition is here</b><span class="t">${esc(st?st.title:'Today’s stories are ready')}${h?`, plus is ${esc(h.t.toLowerCase())} real or hype?`:''}</span></span>`;
+  n.classList.add('show'); n.onclick = ()=>{ n.classList.remove('show'); setTab('today') };
+  setTimeout(()=>n.classList.remove('show'), 5200);
+}
+
+/* ===================== SEARCH ===================== */
+const TOOLS = {
+  'Trends':{credits:'10 cr (est.)', mins:'~5 min', what:'Is it growing, and how fast?'},
+  'Discourse':{credits:'10 cr', mins:'~16 min', what:'What people say, and what they search but don’t post'},
+  'Digital Segmentation':{credits:'20 cr (est.)', mins:'~10 min', what:'Who is in the conversation'},
+  'Brand Performance':{credits:'20 cr (est.)', mins:'~8 min', what:'Which brands and products people back'},
+  'Foresight Simulator':{credits:'200 cr', mins:'~4 min', what:'Where it is heading'},
+  'Ask an Anthropologist':{credits:'5 cr (est.)', mins:'~2 min', what:'The cultural reason behind it'},
+  'Cultural Semiotics':{credits:'30 cr (est.)', mins:'~8 min', what:'The codes and status signals around it'},
+  'Evidence Agent':{credits:'WHOLE', mins:'~3 min', what:'What published research says, with linked studies'}
+};
+const INTENTS = {
+  real:{label:'Is it real?', tools:['Discourse','Evidence Agent','Trends']},
+  talk:{label:'What are people saying?', tools:['Discourse','Trends','Digital Segmentation']},
+  worth:{label:'Is it worth it?', tools:['Brand Performance','Discourse']},
+  future:{label:'Where is it heading?', tools:['Foresight Simulator','Trends']},
+  why:{label:'Why is it happening?', tools:['Ask an Anthropologist','Cultural Semiotics','Discourse']},
+  who:{label:'Who is into it?', tools:['Digital Segmentation','Discourse']}
+};
+const HEALTH = /\b(creatine|supplements?|vitamins?|magnesium|retinol|diet|fiber|protein|ozempic|glp-?1s?|hormones?|period|menopause|perimenopause|acne|safe|cancer|weight loss|fasting|keto|melatonin|collagen|vinegar|peptides?|cold plunges?|mouth taping|tallow)\b/i;
+// Mock of agents/search/search_planner.py: in the live app Claude makes this plan.
+function planSearch(q){
+  const s = q.toLowerCase();
+  let intent = /worth|good for you|should i (buy|try)|\bvs\.?\b|dupe|review/.test(s) ? 'worth'
+    : /^why\b/.test(s) ? 'why'
+    : /heading|future|next year|going to|will .* last/.test(s) ? 'future'
+    : /^who\b|who('s| is) (into|buying)/.test(s) ? 'who'
+    : /^(is|are|does|do|can|will|should)\b.*(safe|work|real|help|bad|healthy|toxic|effective|cause|true)/.test(s) || /real or hype/.test(s) ? 'real'
+    : 'talk';
+  const topic = q.replace(/\?/g,'').replace(/^(is|are|does|do|can|will|should|what are people saying about|what's|whats|where is|why is everyone|why are people|who is into|who's into|what is)\s+/i,'')
+    .replace(/\b(actually|really|good for you|worth it|safe|heading|real|doing|for women|help|helps|work|works|your|my|you|me|good|bad|the|for)\b/gi,'').replace(/\s+/g,' ').trim() || q;
+  const known = Object.keys(TOPICS).find(k=> new RegExp(TOPICS[k].name,'i').test(q) || TOPICS[k].themes.some(t=>s.includes(t.h.toLowerCase().split(' ')[0].toLowerCase())));
+  const sample = SEARCH_SAMPLES.find(x=>x.q.toLowerCase()===s);
+  const topicKey = sample?.topic || known;
+  const health = HEALTH.test(q);
+  let tools = [...INTENTS[intent].tools];
+  if(health && !tools.includes('Evidence Agent')) tools.push('Evidence Agent');
+  const inputs = (t)=> t==='Foresight Simulator' ? [`Category: ${topic}`, 'Horizon: 2030', 'Depth: Quick']
+    : t==='Evidence Agent' ? [`Claim: ${q}`, 'Sources: PubMed, Cochrane, NIH, medical societies']
+    : [`Topic: ${topic}`, `Cohort: women ${S.angle.age}`, 'Market: US', 'Window: last 3 months', `Angle: ${S.angle.values[0]||'go broad'}`];
+  const plan = tools.map(t=>({tool:t, ...TOOLS[t], inputs:inputs(t),
+    reuse: topicKey && (t==='Trends'||(t==='Discourse'&&intent!=='real')) ? `Reuses this week’s ${TOPICS[topicKey].name} run, so it’s instant and free.` : ''}));
+  return {q, intent, label:INTENTS[intent].label, topic, health, plan, sample};
+}
+let searchState = null;
+function renderSearch(){
+  const v = $('#searchView');
+  if(!searchState){
+    v.innerHTML = `
+      <header class="today-top"><div><span class="mono" style="color:var(--muted)">Ask anything about health and beauty</span><h2>Search</h2></div></header>
+      <form class="searchform" id="sForm"><label for="q" style="position:absolute;left:-9999px">Search</label><input id="q" placeholder="Is creatine safe for women?" autocomplete="off" enterkeyhint="search"><button aria-label="Search">${ICON.search}</button></form>
+      <section class="block"><div class="sechead"><h4>Trending searches</h4></div><div class="chips">${TRENDING_SEARCHES.map(t=>`<button class="chip" data-q="${esc(t)}">${esc(t)}</button>`).join('')}</div></section>
+      ${S.follows.some(f=>f.startsWith('search:'))?`<section class="block"><div class="sechead"><h4>Questions you follow</h4></div><div class="hist">${S.follows.filter(f=>f.startsWith('search:')).map(f=>`<button data-q="${esc(f.slice(7))}">${esc(f.slice(7))}<span>${esc(followUpdate(f).text)}</span></button>`).join('')}</div></section>`:''}
+      ${S.searches.length?`<section class="block"><div class="sechead"><h4>Recent</h4><button type="button" id="clearHist">Clear</button></div><div class="hist">${S.searches.slice(0,6).map(t=>`<button data-q="${esc(t)}">${esc(t)}<span>↗</span></button>`).join('')}</div></section>`:''}
+      <section class="panel"><h5><span>How search works</span></h5><p style="font-size:14px">You get a quick answer right away from WHOLE’s issues and verified research. For more, the search agent picks the right Anthropologic research tools and runs a deep dive, ready in minutes.</p><span class="mono" style="color:var(--muted);font-size:10px">Prototype: answers are samples and runs are simulated</span></section>`;
+    $('#sForm').onsubmit = e=>{ e.preventDefault(); const q=$('#q').value.trim(); if(q) runSearch(q) };
+    v.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>runSearch(b.dataset.q));
+    const ch=$('#clearHist'); if(ch) ch.onclick=()=>{ S.searches=[]; save(); renderSearch() };
+    return;
+  }
+  const P = searchState.plan, sample = P.sample;
+  const quick = quickAnswer(P);
+  const rs = searchState.run;
+  const total = P.plan.length, doneN = rs ? rs.step : 0, finished = rs && rs.step>=total;
+  v.innerHTML = `
+    <button class="onb-back" id="sBack" style="align-self:flex-start">← New search</button>
+    <p class="qline">${esc(P.q)}</p>
+    <span class="intent">${esc(P.label)}</span>
+    <section class="panel"><h5><span>Quick answer</span><span style="color:var(--muted)">From WHOLE · seconds</span></h5>
+      <p>${esc(quick.text)}</p>
+      ${quick.links.length?`<div class="related">${quick.links.map(relHTML).join('')}</div>`:''}
+      ${P.health?`<span class="hint">Health answers link to published studies. General information, not medical advice.</span>`:''}
+    </section>
+    <section class="panel dark"><h5><span>Search agent’s plan</span><span style="opacity:.7">${total} tools</span></h5>
+      <p style="font-size:14px;opacity:.9">To answer “${esc(P.label.toLowerCase().replace('?',''))}” about <b>${esc(P.topic)}</b>, I’ll run:</p>
+      ${P.plan.map((t,i)=>`<div class="tool"><div class="top"><b>${esc(t.tool)}</b><span class="cost">${t.reuse?'cached':esc(t.credits)+' · '+esc(t.mins)}</span></div>
+        <span class="why">${esc(t.what)}</span>
+        <span class="inputs">${t.inputs.map(x=>`<i>${esc(x)}</i>`).join('')}</span>
+        ${t.reuse?`<span class="reuse">${esc(t.reuse)}</span>`:''}
+        ${rs?`<span class="st" style="color:${i<doneN?'#5BE0AE':i===doneN?'#C3AEFF':'inherit'};opacity:${i<=doneN?1:.5}">${i<doneN?'✓ Done':i===doneN?'Running…':'Queued'}</span>`:''}
+      </div>`).join('')}
+      <div class="planfoot">
+        ${rs?`<div class="pbar"><i style="width:${Math.round(doneN/total*100)}%"></i></div><span class="sum">${finished?'Deep dive ready. The Editor Agent wrote it up below.':'Running. We’ll notify you when it’s ready, so you can leave this screen.'}</span>`
+        :`<span class="sum">Estimated ${esc(P.plan.some(t=>t.tool==='Discourse'&&!t.reuse)?'~16 min':'~5 min')} · ${P.plan.filter(t=>!t.reuse&&t.credits.includes('cr')).length} new runs. The Editor Agent writes up the results.</span>
+        <button class="primary" id="runDeep">Run the deep dive</button>`}
+        ${followBtn('search:'+P.q, true)}
+      </div>
+    </section>
+    ${finished?resultHTML(P):''}`;
+  $('#sBack').onclick = ()=>{ clearInterval(runTimer); searchState=null; renderSearch() };
+  const rd=$('#runDeep'); if(rd) rd.onclick = startRun;
+  v.querySelectorAll('[data-rel]').forEach(b=>b.onclick=()=>go(b.dataset.rel));
+  wireFollow(v);
+}
+function relHTML(l){
+  if(l.type==='claim'){ const t=l.id.split('-')[0], h=TOPICS[t]?.hype.find(x=>x.id===l.id); if(!h) return ''; const e=evidenceFor(h);
+    return `<button class="rel" data-rel="issue:${t}:hype"><span class="stamp ${VERDICT[e.verdict][1]}">${VERDICT[e.verdict][0]}</span><span><b>${esc(h.t)}</b><small>${(e.sources||[]).filter(x=>x.verified).length} verified studies · ${TOPICS[t].name}</small></span>${ICON.arrow}</button>` }
+  const c=TOPICS[l.topic]; if(!c) return '';
+  const name = (ISSUE_PAGES.find(p=>p[0]===l.page)||['','Issue'])[1];
+  return `<button class="rel" data-rel="issue:${l.topic}:${l.page}"><span class="thumb" style="width:44px;height:44px;font-size:18px;border-radius:12px;background:${c.bg};color:${c.ink}">${c.name[0]}</span><span><b>${esc(name)}</b><small>${c.name} issue</small></span>${ICON.arrow}</button>`;
+}
+function quickAnswer(P){
+  if(P.sample) return {text:P.sample.instant, links:P.sample.links};
+  const STOP = /^(does|that|this|with|your|help|helps|work|works|good|safe|really|actually|people|women|skin|body|what|about|saying|everyone|should|worth|real|hype|from|they|have|more)$/;
+  const words = P.q.toLowerCase().split(/\W+/).filter(w=>w.length>3 && !STOP.test(w));
+  const hits = Object.values(TOPICS).flatMap(t=>t.hype).filter(h=>words.some(w=>h.t.toLowerCase().includes(w)));
+  if(hits.length){ const e=evidenceFor(hits[0]); return {text:e.evidence, links:hits.slice(0,2).map(h=>({type:'claim', id:h.id}))} }
+  for(const [k,t] of Object.entries(TOPICS)){ const l=t.life.find(x=>words.some(w=>x.t.toLowerCase().includes(w)));
+    if(l) return {text:`${l.t.replace(/[“”]/g,'')}: ${STATUS[l.s][0].toLowerCase()} in your ${t.name} issue (${l.since.toLowerCase()}).`, links:[{type:'issue', topic:k, page:'life'}]} }
+  const tk = Object.keys(TOPICS).find(k=>words.some(w=>(TOPICS[k].name+' '+TOPICS[k].themes.map(t=>t.h).join(' ')).toLowerCase().includes(w)));
+  if(tk) return {text:`This comes up in your ${TOPICS[tk].name} issue. ${TOPICS[tk].answer}`, links:[{type:'issue', topic:tk, page:'conversation'}]};
+  return {text:'WHOLE hasn’t covered this yet. Run the deep dive and the search agent will research it from scratch.', links:[]};
+}
+function resultHTML(P){
+  const r = P.sample?.result;
+  const tag = `<span class="mono" style="color:var(--muted);font-size:10px">Sample deep dive · Editor Agent</span>`;
+  if(!r) return `<section class="panel"><h5><span>Deep dive</span><span style="color:var(--muted)">Sample layout</span></h5>
+    <p style="font-family:var(--display);font-style:italic;font-size:22px;line-height:1.1">The headline answer about ${esc(P.topic)} appears here.</p>
+    ${P.plan.map(t=>`<div class="resultsec"><span class="mono">From ${esc(t.tool)}</span><div class="skel" style="width:92%"></div><div class="skel" style="width:70%"></div></div>`).join('')}
+    <p class="hint">Real results appear here once the Anthropologic pipelines are connected.</p></section>`;
+  const claim = P.sample.links.find(l=>l.type==='claim');
+  return `<section class="panel"><h5><span>Deep dive</span><span style="color:var(--muted)">Ready</span></h5>
+    <p style="font-family:var(--display);font-style:italic;font-size:23px;line-height:1.1">${esc(r.headline)}</p>
+    <div class="resultsec"><span class="mono">What people are saying · Discourse</span>${r.themes.map(t=>`<b>${esc(t[0])}</b><p>${esc(t[1])}</p>`).join('')}</div>
+    ${claim?`<div class="resultsec"><span class="mono">What the research says · Evidence Agent</span>${relHTML(claim)}</div>`:''}
+    <div class="resultsec"><span class="mono">Who’s talking · Digital Segmentation</span>${r.who.map(w=>`<b>${esc(w[0])}</b><p>“${esc(w[1])}”</p>`).join('')}</div>
+    <div class="resultsec"><span class="mono">What’s next</span><p>${esc(r.next)}</p></div>
+    ${tag}</section>`;
+}
+let runTimer = null;
+function runSearch(q){
+  S.searches = [q, ...S.searches.filter(x=>x!==q)].slice(0,10); save();
+  clearInterval(runTimer);
+  searchState = {plan: planSearch(q), run: null};
+  if(S.tab!=='search') setTab('search'); else renderSearch();
+  $('#searchView').scrollTop = 0;
+}
+function startRun(){
+  const total = searchState.plan.plan.length;
+  searchState.run = {step: 0}; renderSearch();
+  runTimer = setInterval(()=>{
+    if(!searchState?.run) return clearInterval(runTimer);
+    searchState.run.step++;
+    if(searchState.run.step>=total){ clearInterval(runTimer); if(S.tab!=='search') toast('Your deep dive is ready'); }
+    if(S.tab==='search') renderSearch();
+  }, 1300);
+}
 
 /* ===================== EVIDENCE AGENT ===================== */
 const cap = s=>String(s||'').charAt(0).toUpperCase()+String(s||'').slice(1);
@@ -1229,7 +1630,19 @@ function openAbout(){
         <div class="pagelist">${pages.map((p,i)=>`<div><span>${i+1}</span><span><b>${p[0]}</b><small>${p[2]}</small><em>${p[1]}</em></span></div>`).join('')}</div>
         <p class="muted">Every section has a <b>How we know</b> tag showing the pipeline, how many posts and searches it read, and the time window.</p></section>
 
-      <section><h3>On your home screen</h3>
+      <section><h3>Every morning: Today</h3>
+        <div class="pagelist">
+          <div><span>◆</span><span><b>The daily edition</b><small>Five short stories from your cards: what moved, a new study, a private question, who’s talking. It ends when you’re caught up.</small></span></div>
+          <div><span>◆</span><span><b>Real or hype of the day</b><small>Guess the verdict on one trending claim, then see the study behind it.</small></span></div>
+          <div><span>◆</span><span><b>Following</b><small>Follow a trend, a verdict, a product or a question. WHOLE tells you here when it changes.</small></span></div>
+          <div><span>◆</span><span><b>Morning notification</b><small>One a day, at the time you choose. Never more.</small></span></div>
+        </div></section>
+
+      <section><h3>Search: ask anything</h3>
+        <p>You get a quick answer in seconds from WHOLE’s issues and verified research. For more, the <b>search agent</b> reads your question, decides what kind it is (is it real, what are people saying, is it worth it, where is it heading, why, who) and picks the right Anthropologic tools, filled in with your angle. Health questions always include the Evidence Agent. It reuses recent research when it can, and the Editor Agent writes up the deep dive.</p>
+        <p class="muted">Prototype: quick answers and deep dives are samples, and runs are simulated until the Anthropologic pipelines are connected.</p></section>
+
+      <section><h3>Your weekly issues</h3>
         <div class="pagelist">
           <div><span>◆</span><span><b>Your quilt</b><small>Three things worth knowing this week, across all your cards.</small></span></div>
           <div><span>◆</span><span><b>Threads</b><small>Stories that run through several cards at once, like GLP-1s, hormones and recovery.</small></span></div>
@@ -1256,10 +1669,10 @@ function openAbout(){
       <section><h3>What’s real in this prototype</h3>
         <dl class="status-table">
           <dt class="st-built">Built</dt><dd>Every screen and flow: intro, home, issues, threads, shop, saved, new cards, customizing.</dd>
-          <dt class="st-code">Code ready</dt><dd>The Evidence Agent and the Editor Agent (Python, Claude Opus 5.5). They aren’t running live yet; the issue copy here is sample output.</dd>
+          <dt class="st-code">Code ready</dt><dd>The Evidence Agent, the Editor Agent and the search planning agent (Python, Claude Opus 5.5). They aren’t running live yet; the issue copy here is sample output.</dd>
           <dt class="st-built">Real</dt><dd>The Real or hype verdicts and every study they link to. Each study was found in published research and checked against PubMed or Crossref.</dd>
           <dt class="st-sample">Sample</dt><dd>All other numbers, quotes, products and prices. Written to look like pipeline output for US women 25–40. Not real data.</dd>
-          <dt class="st-not">Not built</dt><dd>Live pipeline runs, accounts, notifications and real retailer links.</dd>
+          <dt class="st-not">Not built</dt><dd>Live pipeline runs, real search deep dives, accounts, real push notifications and retailer links.</dd>
         </dl>
         <p class="muted">Code and docs: <a href="${REPO}" target="_blank" rel="noopener">${REPO.replace('https://','')}</a></p></section>
 
@@ -1341,9 +1754,12 @@ function finishOnboarding(skipped){
     S.off = S.order.filter(k=>!OB.picks.includes(k));
     S.custom = [];
   }
-  S.onboarded = true; save();
+  S.onboarded = true;
+  if(!S.follows.length){ if(S.order.includes('nutrition')&&!S.off.includes('nutrition')) S.follows.push('trend:nutrition:Fibermaxxing'); if(S.order.includes('exercise')&&!S.off.includes('exercise')) S.follows.push('claim:exercise-creatine-for-women') }
+  S.tab = 'today'; save();
   if(!skipped) OB.extra.forEach(x=>addCustom(x, true));
-  renderHome();
+  setTab('today');
+  setTimeout(()=>showNotif(), 1600);
   const o = $('#onb'); o.classList.add('gone'); setTimeout(()=>{ o.hidden = true }, 400);
   if(!skipped) setTimeout(()=>toast('Your issues are ready'), 450);
 }
@@ -1352,9 +1768,9 @@ $('#noteAbout').onclick = openAbout;
 $('#noteIntro').onclick = startOnboarding;
 
 /* ===================== INIT ===================== */
-fetch('data/evidence.json').then(r=>r.ok?r.json():null).then(j=>{ if(j&&j.claims){ EVIDENCE = j.claims; if(!pagerState) renderHome() } }).catch(()=>{});
-renderHome();
-if(!S.onboarded) startOnboarding();
+fetch('data/evidence.json').then(r=>r.ok?r.json():null).then(j=>{ if(j&&j.claims){ EVIDENCE = j.claims; if(!pagerState) renderAll() } }).catch(()=>{});
+setTab(S.tab||'today');
+if(!S.onboarded) startOnboarding(); else setTimeout(()=>showNotif(), 900);
 </script>
 </body>
 </html>
