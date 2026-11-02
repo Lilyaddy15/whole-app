@@ -901,6 +901,265 @@
         "reviewed_at": "2026-10-11"
       },
       "citations_ok": true
+    },
+    "beauty-glass-skin-over-exfoliation": {
+      "verdict": "mixed",
+      "evidence": "Dermatologists agree that over-exfoliating, and stacking several strong actives at once, can leave skin red, stinging and irritated. Acids like glycolic and lactic acid are useful at the right strength but can burn and itch at higher doses. What hasn't been studied is whether layering them causes lasting, long-term damage; the evidence is about short-term irritation that usually settles when you cut back.",
+      "confidence": "medium",
+      "caveats": "No trial has tested a multi-acid 'glass skin' routine. Support comes from expert guidance and reviews of acid ingredients, not head-to-head studies. 'Wrecks your barrier long term' goes further than the evidence: irritation is well documented, permanent harm is not.",
+      "sources": [
+        {
+          "title": "How to safely exfoliate at home",
+          "publisher": "American Academy of Dermatology",
+          "year": "",
+          "type": "Expert body",
+          "url": "https://www.aad.org/public/skin-hair-nails/skin-care/exfoliation",
+          "pmid": "",
+          "doi": "",
+          "supports": "AAD warns that over-exfoliating can leave skin red and irritated, and says to match the method to your skin type and moisturize afterward.",
+          "verified": true,
+          "verified_via": "HTTP 200",
+          "verified_at": "2026-11-01"
+        },
+        {
+          "title": "How to maximize results from anti-aging skin care products",
+          "publisher": "American Academy of Dermatology",
+          "year": "",
+          "type": "Expert body",
+          "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/maximize-anti-aging-products",
+          "pmid": "",
+          "doi": "",
+          "supports": "AAD advises starting with one product and warns that using several anti-aging products at the same time can irritate skin.",
+          "verified": true,
+          "verified_via": "HTTP 200",
+          "verified_at": "2026-11-01"
+        },
+        {
+          "title": "Dual Effects of Alpha-Hydroxy Acids on the Skin",
+          "publisher": "Molecules (Basel, Switzerland)",
+          "year": "2018",
+          "type": "Review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29642579/",
+          "pmid": "29642579",
+          "doi": "10.3390/molecules23040863",
+          "supports": "Review notes AHAs can cause swelling, burning and itching, and concludes whether they help or harm skin depends on concentration.",
+          "abstract": "1. Molecules. 2018 Apr 10;23(4):863. doi: 10.3390/molecules23040863.\n\nDual Effects of Alpha-Hydroxy Acids on the Skin.\n\nTang SC(1)(2), Yang JH(3)(4).\n\nAuthor information:\n(1)Department of Biochemistry, School of Medicine, Tzu Chi University, Hualien \n97004, Taiwan. s6160051@gms.tcu.edu.tw.\n(2)Department of Medical Research, Buddhist Tzu Chi General Hospital, Hualien \n97004, Taiwan. s6160051@gms.tcu.edu.tw.\n(3)Department of Biochemistry, School of Medicine, Tzu Chi University, Hualien \n97004, Taiwan. jh.med.edu@gms.tcu.edu.tw.\n(4)Department of Dermatology, Buddhist Tzu Chi General Hospital, Hualien 97004, \nTaiwan. jh.med.edu@gms.tcu.edu.tw.\n\nAHAs are organic acids with one hydroxyl group attached to the alpha position of \nthe acid. AHAs including glycolic acid, lactic acid, malic acid, tartaric acid, \nand citric acid are often used extensively in cosmetic formulations. AHAs have \nbeen used as superficial peeling agents as well as to ameliorate the appearance \nof keratoses and acne in dermatology. However, caution should be exercised in \nrelation to certain adverse reactions among patients using products with AHAs, \nincluding swelling, burning, and pruritus. Whether AHAs enhance or decrease \nphoto damage of the skin remains unclear, compelling us to ask the question, is \nAHA a friend or a foe of the skin? The aim of this manuscript is to review the \nvarious biological effects and mechanisms of AHAs on human keratinocytes and in \nan animal model. We conclude that whether AHA is a friend or foe of human skin \ndepends on its concentration. These mechanisms of AHAs are currently well \nunderstood, aiding the development of novel approaches for the prevention of \nUV-induced skin damage.\n\nDOI: 10.3390/molecules23040863\nPMCID: PMC6017965\nPMID: 29642579 [Indexed for MEDLINE]\n\nConflict of interest statement: The founding sponsors had no role in the design \nof the study; in the collection, analyses, or interpretation of data; in the \nwriting of the manuscript, and in the decision to publish the results.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-11-01"
+        },
+        {
+          "title": "Evaluating the Efficacy and Safety of Alpha-Hydroxy Acids in Dermatological Practice: A Comprehensive Clinical and Legal Review",
+          "publisher": "Clinical, cosmetic and investigational dermatology",
+          "year": "2024",
+          "type": "Review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39050562/",
+          "pmid": "39050562",
+          "doi": "10.2147/CCID.S453243",
+          "supports": "Review finds AHAs improve texture and tone, but the best concentrations for benefit with minimal irritation are not yet defined; regulators limit strength and pH to reduce irritation.",
+          "abstract": "1. Clin Cosmet Investig Dermatol. 2024 Jul 16;17:1661-1685. doi: \n10.2147/CCID.S453243. eCollection 2024.\n\nEvaluating the Efficacy and Safety of Alpha-Hydroxy Acids in Dermatological \nPractice: A Comprehensive Clinical and Legal Review.\n\nAlmeman AA(1).\n\nAuthor information:\n(1)Department of Pharmacology, College of Medicine, Qassim University, Burydah, \nQassim, Saudi Arabia.\n\nErratum in\n    Clin Cosmet Investig Dermatol. 2024 Aug 30;17:1973-1974. doi: \n10.2147/CCID.S493491.\n\nThe global market for alpha-hydroxy acids (AHAs) is undergoing significant \nexpansion, propelled by increasing demand for skincare products that address \naging and environmental damage. This review focuses on the dermatological \napplications of AHAs, particularly in cosmetic formulations like chemical peels. \nWe have identified that AHAs, such as glycolic and lactic acids, enhance skin \nrejuvenation by promoting apoptosis in skin cells, boosting collagen and elastin \nsynthesis, and improving skin texture and luminosity. Our comprehensive analysis \nreveals a nuanced understanding of AHAs' effectiveness across various skin types \nand conditions, demonstrating their broad utility in treating conditions like \nacne, hyperpigmentation, and photoaging. However, the optimal concentrations for \ntherapeutic efficacy with minimal side effects are yet to be precisely defined, \nnecessitating further research. Regulatory compliance is underscored as \nessential for the safe application of AHAs in cosmetics, with international \nguidelines recommending specific concentrations and pH levels to minimize \npotential skin irritation. In Conclusion, the review highlights the \neffectiveness of AHAs in cosmetic dermatology, emphasizing the necessity for \ncontinued research and rigorous regulatory adherence to maximize their safe and \nbeneficial application worldwide.\n\n© 2024 Almeman.\n\nDOI: 10.2147/CCID.S453243\nPMCID: PMC11268769\nPMID: 39050562\n\nConflict of interest statement: The author declares no competing interests in \nthis work.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-11-01"
+        }
+      ],
+      "checked_at": "2026-11-01",
+      "model": "claude-opus-5-5",
+      "review": {
+        "status": "approved",
+        "editor": "Editor (Claude, manual)",
+        "notes": "Approved. 'Mixed' is right: irritation is well documented, lasting damage is not.",
+        "reviewed_at": "2026-11-01"
+      },
+      "citations_ok": true
+    },
+    "beauty-fragrance-free": {
+      "verdict": "mixed",
+      "evidence": "Fragrance is one of the most common causes of skin allergy, and dermatologists consistently advise fragrance-free products for sensitive skin. But fragrance allergy affects a minority of people, and head-to-head testing is thin: one randomized trial in people with sensitive skin found a mild cleanser with a carefully chosen fragrance was tolerated as well as a fragrance-free one. The advice is a sensible precaution more than a proven rule for everyone.",
+      "confidence": "medium",
+      "caveats": "The trial was small, short (3 weeks) and funded by the cleanser's maker. 'Unscented' is not the same as fragrance-free: it can contain masking fragrance. Allergy rates come from patch-testing studies in European general populations.",
+      "sources": [
+        {
+          "title": "Skin care tips for men",
+          "publisher": "American Academy of Dermatology",
+          "year": "",
+          "type": "Expert body",
+          "url": "https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-for-men",
+          "pmid": "",
+          "doi": "",
+          "supports": "AAD recommends mild 'fragrance free' products for sensitive skin and warns that 'unscented' products can still contain masking fragrance that irritates.",
+          "verified": true,
+          "verified_via": "HTTP 200",
+          "verified_at": "2026-11-01"
+        },
+        {
+          "title": "Prevalence of contact allergy in the general population: A systematic review and meta-analysis",
+          "publisher": "Contact dermatitis",
+          "year": "2019",
+          "type": "Meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30370565/",
+          "pmid": "30370565",
+          "doi": "10.1111/cod.13119",
+          "supports": "Across 28 studies (20,107 people), about 20% had a contact allergy, more often women (28%). Fragrance mix I was the second most common allergen after nickel, at about 3.5%.",
+          "abstract": "1. Contact Dermatitis. 2019 Feb;80(2):77-85. doi: 10.1111/cod.13119. Epub 2018\nOct  29.\n\nPrevalence of contact allergy in the general population: A systematic review and \nmeta-analysis.\n\nAlinaghi F(1), Bennike NH(1), Egeberg A(1), Thyssen JP(1), Johansen JD(1).\n\nAuthor information:\n(1)National Allergy Research Centre, Department of Dermatology and Allergy, \nCopenhagen University Hospital Herlev-Gentofte, Hellerup, Denmark.\n\nBACKGROUND: Contact allergy and allergic contact dermatitis are frequent \nconditions in the general population.\nOBJECTIVES: To provide an updated estimate of the prevalence of contact allergy \nin the general population based on data from our previous review combined with \nnew data from an updated search for relevant studies published between 2007 and \n2017.\nMETHODS: Two authors independently searched PubMed for studies reporting on the \nprevalence of contact allergy in samples of the general population. Proportion \nmeta-analyses were performed to calculate the pooled prevalence estimates of \ncontact allergy.\nRESULTS: A total of 28 studies were included in the analysis, covering 20 107 \npatch tested individuals from the general population. Overall, the pooled \nprevalence of contact allergy was 20.1% (95% confidence interval [CI]: \n16.8%-23.7%). In children and adolescents (<18 years), the prevalence was 16.5% \n(95%CI: 13.6%-19.7%). The prevalence was significantly higher in women (27.9% \n[95%CI: 21.7%-34.5%]) than in men (13.2% [95%CI: 9.3%-17.6%]). The most common \nallergen was nickel (11.4% [95%CI: 9.4%-13.5%]), followed by fragrance mix I \n(3.5% [95%CI: 2.1%-5.4%]), cobalt (2.7% [95%CI: 2.1%-3.4%]), Myroxylon pereirae \n(1.8% [95%CI: 1.0%-2.7%]), chromium (1.8% [95%CI: 1.3%-2.6%]), \np-phenylenediamine (1.5% [95%CI: 1.0%-2.1%]), \nmethylchloroisothiazolinone/methylisothiazolinone (1.5% [95%CI: 0.8%-2.5%]), and \ncolophonium (1.3% [95%CI: 1.0%-1.6%]).\nCONCLUSIONS: This meta-analysis confirmed that at least 20% of the general \npopulation are contact-allergic to common environmental allergens. It highlights \nthe need for more effective preventive strategies for common allergens in \nconsumer goods, cosmetics, and the workplace.\n\n© 2018 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd.\n\nDOI: 10.1111/cod.13119\nPMID: 30370565 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-11-01"
+        },
+        {
+          "title": "Tolerance of fragranced and fragrance-free facial cleansers in adults with clinically sensitive skin",
+          "publisher": "Cutis",
+          "year": "2015",
+          "type": "RCT",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26682289/",
+          "pmid": "26682289",
+          "doi": "",
+          "supports": "In a 3-week double-blind randomized trial of 153 adults with sensitive skin, a gentle foaming cleanser with an allergen-screened fragrance was as well tolerated as a fragrance-free benchmark cleanser.",
+          "abstract": "1. Cutis. 2015 Oct;96(4):269-74.\n\nTolerance of fragranced and fragrance-free facial cleansers in adults with \nclinically sensitive skin.\n\nDraelos ZD(1), Fowler J(2), Larsen WG(3), Hornby S(4), Walters RM(4), Appa Y(4).\n\nAuthor information:\n(1)Dermatology Consulting Services, High Point, North Carolina, USA.\n(2)Dermatology Specialists, PSC, Louisville, Kentucky, USA.\n(3)Portland Dermatology Clinic, Oregon, USA.\n(4)Johnson & Johnson Consumer Inc, Skillman, New Jersey, USA.\n\nAlthough mild, fragrance-free, nonfoaming cleansers generally are recommended \nfor individuals with sensitive skin, many consumers choose fragranced foaming \ncleansers. The addition of hydrophobically modified polymers (HMPs) to mild \nfacial cleansers has been shown to improve product tolerability in individuals \nwith sensitive skin while facilitating foaming. The objective of the 2 studies \nreported here was to assess the tolerability of a mild, HMP-containing, foaming \nfacial cleanser with a fragrance that was free of common allergens and \nirritating essential oils in patients with sensitive skin. In the first study, 8 \nparticipants with clinically diagnosed fragrance sensitivity used a gentle \nfoaming HMP-containing facial cleanser with or without fragrance for 3 weeks. \nBoth cleansers improved global disease severity, irritation, and erythema with \nsimilar cleansing effectiveness. The second study was a 3-week, prospective, \ndouble-blind, randomized, 2-center study of 153 participants with clinically \ndiagnosed sensitive skin. In this study, the fragranced gentle foaming cleanser \nwith HMP was as well tolerated as a benchmark gentle, fragrance-free, nonfoaming \ncleanser. Itching, irritation, and desquamation were most improved from baseline \nin both groups. The participant-rated effectiveness of the cleanser with HMP was \nsimilar or better than the benchmark cleanser after 3 weeks of use. In \nconclusion, the gentle facial cleanser with HMPs and a fragrance offers a new \noption for adults with sensitive skin who may prefer, and commonly use, a \nfragranced and foaming product.\n\nPMID: 26682289 [Indexed for MEDLINE]",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-11-01"
+        }
+      ],
+      "checked_at": "2026-11-01",
+      "model": "claude-opus-5-5",
+      "review": {
+        "status": "approved",
+        "editor": "Editor (Claude, manual)",
+        "notes": "Approved after removing an off-topic source (AAD teen routine release). Three verified sources remain.",
+        "reviewed_at": "2026-11-01"
+      },
+      "citations_ok": true
+    },
+    "beauty-ai-skin-scans": {
+      "verdict": "mixed",
+      "evidence": "In small studies, app-based face scans roughly matched a dermatologist's ratings for visible things like redness, wrinkles and pores, but did worse on moisture, texture and firmness. No study shows a scan can tell you which products your skin needs. Apps that check moles for skin cancer have been tested more, and reviews found they miss too many cancers to be relied on.",
+      "confidence": "medium",
+      "caveats": "The cosmetic-scan studies are small, used controlled lighting, and some were run by the app developers; one was in Korean adults only. The skin-cancer app reviews test a different use and are a few years old. Accuracy can differ across skin tones and phone cameras.",
+      "sources": [
+        {
+          "title": "Skin Parameter Scoring Using Artificial Intelligence: A Case Series",
+          "publisher": "Dermatology and therapy",
+          "year": "2026",
+          "type": "Other",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42911358/",
+          "pmid": "42911358",
+          "doi": "10.1007/s13555-026-01966-w",
+          "supports": "In 46 clinical photos, an app-based AI agreed well with a dermatologist on redness, eye bags and wrinkles, but less well on texture, age spots, moisture and firmness (65-78%).",
+          "abstract": "1. Dermatol Ther (Heidelb). 2026 Oct 22. doi: 10.1007/s13555-026-01966-w. Online \nahead of print.\n\nSkin Parameter Scoring Using Artificial Intelligence: A Case Series.\n\nHuang CA(1), Buttar BA(2), Moran SK(2), McGrath L(2), Taylor S(3), Feldman \nSR(2)(3)(4)(5).\n\nAuthor information:\n(1)Center for Dermatology Research, Department of Dermatology, Wake Forest \nUniversity School of Medicine, Winston-Salem, NC, USA. chenan@live.com.\n(2)Center for Dermatology Research, Department of Dermatology, Wake Forest \nUniversity School of Medicine, Winston-Salem, NC, USA.\n(3)Department of Dermatology, Wake Forest University School of Medicine, \nWinston-Salem, NC, 27104, USA.\n(4)Department of Pathology, Wake Forest University School of Medicine, \nWinston-Salem, NC, USA.\n(5)Department of Social Sciences and Health Policy, Wake Forest University \nSchool of Medicine, Winston-Salem, NC, USA.\n\nINTRODUCTION: Evaluation of facial skin parameters is important for accurate \ndiagnosis and computerized systems can reduce subjectivity. We evaluated the \nfeasibility of an application-based facial analysis artificial intelligence (AI) \nsystem by comparing its output to a human dermatologist evaluator.\nMETHODS: Both an application-based AI and human dermatologist assessed the \nseverity of 14 parameters (age spots, eye bags, moisture, oiliness, redness, \ntexture, wrinkles, acne, droopy lower eyelid, droopy upper eyelid, firmness, \ndark circles, radiance, pores). The AI generated a raw score between 0 and 100 \n(100 = flawless) that was converted to match the human rating between 0 and 4 (4 \n= very severe). Differences in ratings were calculated to determine the degree \nof agreement. A 0-point difference is defined as complete agreement, a 1-point \ndifference is good, a 2-point difference is poor, a 3-point difference is very \npoor, and a 4-point difference is worst.\nRESULTS: In total, 46 facial clinical photos (13 male, 33 female) taken indoors \nunder fluorescent lighting with and without flash were assessed. Parameters with \nhigh rates (> 90%) of complete or good agreement were redness (100%), eye bags \n(96%), and wrinkles (96%). Parameters with moderate rates (80-90%) of agreement \nwere radiance (89%), dark circles (84%), droopy lower eyelid (82%), oiliness \n(80%), acne (80%), and pores (80%). Parameters with low rates (< 80%) of \nagreement were texture (78%), age spots (78%), droopy upper eyelid (77%), \nmoisture (72%), and firmness (65%).\nCONCLUSIONS: In a preliminary study of one neural-network AI, its evaluation of \nskin parameters had an 83% overall complete or good agreement with a human \nrater. While software-based AI facial analysis systems may lack hardware \noptimization, they are simple to use and convenient to implement on a variety of \nhand-held devices. Low start-up costs, rapid data collection, and easy use can \nbe advantages over higher cost, desktop-based facial analysis devices.\n\n© 2026. The Author(s).\n\nDOI: 10.1007/s13555-026-01966-w\nPMID: 42911358\n\nConflict of i",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-11-01"
+        },
+        {
+          "title": "Artificial Intelligence Based Skin Analysis Models for Predicting Visual Grades and Device Measured Physiological Values From Facial Images",
+          "publisher": "Skin research and technology : official journal of International Society for Bioengineering and the Skin (ISBS) [and] International Society for Digital Imaging of Skin (ISDIS) [and] International Society for Skin Imaging (ISSI)",
+          "year": "2026",
+          "type": "Other",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42675871/",
+          "pmid": "42675871",
+          "doi": "10.1111/srt.70375",
+          "supports": "In 1,099 Korean adults, an AI model hit the exact dermatologist grade about half the time (93% within one grade); hydration and elasticity predictions were only moderately correlated with device measurements.",
+          "abstract": "1. Skin Res Technol. 2026 Sep;32(9):e70375. doi: 10.1111/srt.70375.\n\nArtificial Intelligence Based Skin Analysis Models for Predicting Visual Grades \nand Device Measured Physiological Values From Facial Images.\n\nLee E(1), Lee J(2), Kim N(1), Na J(3), Park B(4), Choi SI(2).\n\nAuthor information:\n(1)Institut d'Expertise Clinique (IEC) Korea, Suwon, South Korea.\n(2)Department of Computer Engineering, Dankook University, Yongin, Gyeonggi-do, \nSouth Korea.\n(3)Kailoslab Co., Ltd, Seoul, South Korea.\n(4)Department of Dermatology, Dankook University, Cheonan, Chungcheongnam-do, \nSouth Korea.\n\nOBJECTIVE: This study aimed to develop and validate an artificial intelligence \n(AI)-based skin assessment framework capable of predicting both \ndermatologist-assigned visual grades and device-derived physiological \nmeasurements from facial images. In addition, we evaluated the impact of \nimage-acquisition modality (DSLR, tablet, or smartphone) on model performance.\nMETHODS: A total of 1,099 Korean participants aged 14-69 years were enrolled. \nHigh-resolution facial images were obtained from seven standardized angles using \na DSLR camera, and a subset of additional images was collected using a tablet \nand participant-owned smartphones. Five board-certified dermatologists graded \neight facial signs, and physiological parameters were measured using \nnon-invasive skin assessment devices. CoAtNet-4 served as the backbone \narchitecture for both classification (visual grading) and regression \n(physiological prediction). Model performance was assessed using mean absolute \nerror and correlation analyses.\nRESULTS: When evaluated using DSLR images, the model achieved a mean exact-grade \naccuracy of 51.4%, with an average of 93.3% of predictions falling within ± 1 \ngrade across facial signs. High correlations were observed for wrinkles, \npigmentation, pores, and sagging, whereas lip dryness demonstrated comparatively \nlower correlations. For physiological metrics, strong correlations were observed \nfor pigmentation spot count, cheek pore visibility, and wrinkle severity, \nwhereas hydration and elasticity showed moderate correlations. Performance on \nmobile-device images remained high and showed strong agreement with DSLR-based \npredictions, although a noticeable decline in pigmentation-related accuracy was \nobserved.\nCONCLUSION: The proposed AI framework reliably approximates dermatologist visual \ngrading and multiple device-based physiological measurements, offering a \ncomprehensive, image-driven approach to skin aging assessment. However, model \nperformance varies across facial attributes and remains sensitive to image \nquality, emphasizing the need for domain adaptation and image enhancement \nstrategies to ensure robust application in consumer environments.\n\n© 2026 The Author(s). Skin Research and Technology published by John Wiley & \nSons Ltd.\n\nDOI: 10.1111/srt.70375\nPMCID: PMC13530381\nPMID: 42675871 [Indexed for MEDLINE]\n\nConflict of interest statement: The authors declare",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-11-01"
+        },
+        {
+          "title": "Algorithm based smartphone apps to assess risk of skin cancer in adults: systematic review of diagnostic accuracy studies",
+          "publisher": "BMJ (Clinical research ed.)",
+          "year": "2020",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32041693/",
+          "pmid": "32041693",
+          "doi": "10.1136/bmj.m127",
+          "supports": "Nine small, poor-quality studies of six apps; the authors conclude current algorithm-based apps cannot be relied on to detect all skin cancers and real-world performance is likely worse.",
+          "abstract": "1. BMJ. 2020 Feb 10;368:m127. doi: 10.1136/bmj.m127.\n\nAlgorithm based smartphone apps to assess risk of skin cancer in adults: \nsystematic review of diagnostic accuracy studies.\n\nFreeman K(1)(2), Dinnes J(1)(3), Chuchu N(1)(4), Takwoingi Y(1)(3), Bayliss \nSE(1), Matin RN(5), Jain A(6)(7), Walter FM(8), Williams HC(9), Deeks JJ(10)(3).\n\nAuthor information:\n(1)Institute of Applied Health Research, University of Birmingham, Edgbaston, \nBirmingham B15 2TT, UK.\n(2)Warwick Medical School, University of Warwick, Coventry, UK.\n(3)NIHR Birmingham Biomedical Research Centre, University Hospitals Birmingham \nNHS Foundation Trust and University of Birmingham, Birmingham, UK.\n(4)London School of Hygiene and Tropical Medicine, London, UK.\n(5)Department of Dermatology, Churchill Hospital, Oxford, UK.\n(6)Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal \nSciences, University of Oxford, Oxford, UK.\n(7)Department of Plastic and Reconstructive Surgery, Imperial College Healthcare \nNHS Trust, St Mary's Hospital, London, UK.\n(8)Department of Public Health and Primary Care, University of Cambridge, \nCambridge, UK.\n(9)Centre of Evidence Based Dermatology, University of Nottingham, Nottingham, \nUK.\n(10)Institute of Applied Health Research, University of Birmingham, Edgbaston, \nBirmingham B15 2TT, UK j.deeks@bham.ac.uk.\n\nErratum in\n    BMJ. 2020 Feb 25;368:m645. doi: 10.1136/bmj.m645.\n\nComment in\n    BMJ. 2020 Feb 10;368:m428. doi: 10.1136/bmj.m428.\n    Br J Dermatol. 2021 Apr;184(4):638-639. doi: 10.1111/bjd.19502.\n\nOBJECTIVE: To examine the validity and findings of studies that examine the \naccuracy of algorithm based smartphone applications (\"apps\") to assess risk of \nskin cancer in suspicious skin lesions.\nDESIGN: Systematic review of diagnostic accuracy studies.\nDATA SOURCES: Cochrane Central Register of Controlled Trials, MEDLINE, Embase, \nCINAHL, CPCI, Zetoc, Science Citation Index, and online trial registers (from \ndatabase inception to 10 April 2019).\nELIGIBILITY CRITERIA FOR SELECTING STUDIES: Studies of any design that evaluated \nalgorithm based smartphone apps to assess images of skin lesions suspicious for \nskin cancer. Reference standards included histological diagnosis or follow-up, \nand expert recommendation for further investigation or intervention. Two authors \nindependently extracted data and assessed validity using QUADAS-2 (Quality \nAssessment of Diagnostic Accuracy Studies 2 tool). Estimates of sensitivity and \nspecificity were reported for each app.\nRESULTS: Nine studies that evaluated six different identifiable smartphone apps \nwere included. Six verified results by using histology or follow-up (n=725 \nlesions), and three verified results by using expert recommendations (n=407 \nlesions). Studies were small and of poor methodological quality, with selective \nrecruitment, high rates of unevaluable images, and differential verification. \nLesion selection and image acquisition were performed by clinicians rather than \nsmartphone us",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-11-01"
+        },
+        {
+          "title": "Smartphone applications for triaging adults with skin lesions that are suspicious for melanoma",
+          "publisher": "The Cochrane database of systematic reviews",
+          "year": "2018",
+          "type": "Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30521685/",
+          "pmid": "30521685",
+          "doi": "10.1002/14651858.CD013192",
+          "supports": "Cochrane review found too little, poor-quality data to recommend smartphone apps for ruling out melanoma.",
+          "abstract": "1. Cochrane Database Syst Rev. 2018 Dec 4;12(12):CD013192. doi: \n10.1002/14651858.CD013192.\n\nSmartphone applications for triaging adults with skin lesions that are \nsuspicious for melanoma.\n\nChuchu N(1), Takwoingi Y, Dinnes J, Matin RN, Bassett O, Moreau JF, Bayliss SE, \nDavenport C, Godfrey K, O'Connell S, Jain A, Walter FM, Deeks JJ, Williams HC; \nCochrane Skin Cancer Diagnostic Test Accuracy Group.\n\nAuthor information:\n(1)Institute of Applied Health Research, University of Birmingham, Birmingham, \nUK, B15 2TT.\n\nBACKGROUND: Melanoma accounts for a small proportion of all skin cancer cases \nbut is responsible for most skin cancer-related deaths. Early detection and \ntreatment can improve survival. Smartphone applications are readily accessible \nand potentially offer an instant risk assessment of the likelihood of malignancy \nso that the right people seek further medical attention from a clinician for \nmore detailed assessment of the lesion. There is, however, a risk that melanomas \nwill be missed and treatment delayed if the application reassures the user that \ntheir lesion is low risk.\nOBJECTIVES: To assess the diagnostic accuracy of smartphone applications to rule \nout cutaneous invasive melanoma and atypical intraepidermal melanocytic variants \nin adults with concerns about suspicious skin lesions.\nSEARCH METHODS: We undertook a comprehensive search of the following databases \nfrom inception to August 2016: Cochrane Central Register of Controlled Trials; \nMEDLINE; Embase; CINAHL; CPCI; Zetoc; Science Citation Index; US National \nInstitutes of Health Ongoing Trials Register; NIHR Clinical Research Network \nPortfolio Database; and the World Health Organization International Clinical \nTrials Registry Platform. We studied reference lists and published systematic \nreview articles.\nSELECTION CRITERIA: Studies of any design evaluating smartphone applications \nintended for use by individuals in a community setting who have lesions that \nmight be suspicious for melanoma or atypical intraepidermal melanocytic variants \nversus a reference standard of histological confirmation or clinical follow-up \nand expert opinion.\nDATA COLLECTION AND ANALYSIS: Two review authors independently extracted all \ndata using a standardised data extraction and quality assessment form (based on \nQUADAS-2). Due to scarcity of data and poor quality of studies, we did not \nperform a meta-analysis for this review. For illustrative purposes, we plotted \nestimates of sensitivity and specificity on coupled forest plots for each \napplication under consideration.\nMAIN RESULTS: This review reports on two cohorts of lesions published in two \nstudies. Both studies were at high risk of bias from selective participant \nrecruitment and high rates of non-evaluable images. Concerns about applicability \nof findings were high due to inclusion only of lesions already selected for \nexcision in a dermatology clinic setting, and image acquisition by clinicians \nrather than by smartphone app users.",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-11-01"
+        }
+      ],
+      "checked_at": "2026-11-01",
+      "model": "claude-opus-5-5",
+      "review": {
+        "status": "approved",
+        "editor": "Editor (Claude, manual)",
+        "notes": "Approved as mixed. The skin-cancer app reviews are a different use; caveats say so.",
+        "reviewed_at": "2026-11-01"
+      },
+      "citations_ok": true
+    },
+    "beauty-fewer-products": {
+      "verdict": "early",
+      "evidence": "Dermatologists generally recommend a short routine built around cleansing, any treatment you need, moisturizer and sunscreen, and say consistency matters more than a 10-step routine. They also warn that stacking several active products can irritate skin. But no study has directly compared a three- or four-product routine with a ten-step one, so 'works just as well' is reasonable expert advice rather than a tested result.",
+      "confidence": "low",
+      "caveats": "Support is expert opinion. The AAD news piece was written for tweens and teens, and the four-step consensus came from a dermatologist panel organized by a skincare company and focused on acne, rosacea, eczema and sensitive skin.",
+      "sources": [
+        {
+          "title": "A dermatologist’s guide to skincare from growing up to glowing up",
+          "publisher": "American Academy of Dermatology",
+          "year": "2025",
+          "type": "Expert body",
+          "url": "https://www.aad.org/news/dermatologist-guide-skincare",
+          "pmid": "",
+          "doi": "",
+          "supports": "AAD news release (written for tweens and teens) says it is better to focus on fewer products used consistently, that consistency matters more than a 10-step routine, and to introduce one new product at a time. It also says fragrance-free products are best because added scents can cause irritation or allergic reactions.",
+          "verified": true,
+          "verified_via": "HTTP 200",
+          "verified_at": "2026-11-01"
+        },
+        {
+          "title": "How to maximize results from anti-aging skin care products",
+          "publisher": "American Academy of Dermatology",
+          "year": "",
+          "type": "Expert body",
+          "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/maximize-anti-aging-products",
+          "pmid": "",
+          "doi": "",
+          "supports": "AAD advises starting with one product and warns that using several anti-aging products at the same time can irritate skin.",
+          "verified": true,
+          "verified_via": "HTTP 200",
+          "verified_at": "2026-11-01"
+        },
+        {
+          "title": "Challenges and real-world solutions for adoption of holistic skincare routine (cleansing, treatment, moisturization, and photoprotection) in acne, rosacea, atopic dermatitis, and sensitive skin: An expert consensus",
+          "publisher": "Journal of cosmetic dermatology",
+          "year": "2024",
+          "type": "Other",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38853652/",
+          "pmid": "38853652",
+          "doi": "10.1111/jocd.16396",
+          "supports": "A Delphi panel of nine dermatologists named cleansing, treatment, moisturizing and sun protection as the four core parts of a skincare routine for common skin conditions.",
+          "abstract": "1. J Cosmet Dermatol. 2024 Aug;23(8):2516-2523. doi: 10.1111/jocd.16396. Epub\n2024  Jun 10.\n\nChallenges and real-world solutions for adoption of holistic skincare routine \n(cleansing, treatment, moisturization, and photoprotection) in acne, rosacea, \natopic dermatitis, and sensitive skin: An expert consensus.\n\nGoh CL(1), Wu Y(2), Welsh B(3), Abad-Casintahan MF(4), Tseng CJ(5), Sharad J(6), \nJung S(7), Puangpet P(8), Chan HNK(9), Kon K(10).\n\nAuthor information:\n(1)National Skin Centre, Singapore.\n(2)Department of Dermatology, Peking University First Hospital, Beijing, China.\n(3)Complete Skin Specialists Melbourne, Richmond, Victoria, Australia.\n(4)Department of Dermatology, Jose R. Reyes Memorial Medical Center, Manila, \nPhilippines.\n(5)Dr Tseng' Dermatological Clinic, Taipei, Taiwan.\n(6)Skinfinitii Aesthetic Skin and Laser Clinic, Mumbai, India.\n(7)Doctors Dermatology Clinic, Jamsil, Seoul, South Korea.\n(8)Institute of Dermatology, Bangkok, Thailand.\n(9)The Hospital Authority, Hong Kong, SAR, China.\n(10)Department of Medical Affairs, Galderma Japan and Asia-Pacific, Sydney, \nAustralia.\n\nBACKGROUND: While treatment is a definitive therapeutic component in the \nmanagement of inflammatory skin conditions, adjunctive skin care comprising of \nappropriate cleansing, moisturization, and photoprotection are just as \nimportant. Cleansing, treatment, moisturization, and photoprotection (CTMP) \nconstitute the four major components of holistic skincare routine for \ndermatological conditions. However, inadequate patient understanding of the \ncondition, limited resources for physicians, and insufficient time for patient \neducation during busy dermatological consultations are the main obstacles to \nestablishing a holistic skincare routine in the real world.\nAIMS: This study aimed to identify key challenges in the implementation of a \nholistic skincare routine, and offer practical guidance to physicians to improve \nadoption in the management of acne, atopic dermatitis, rosacea, and sensitive \nskin syndrome.\nMETHODS: An expert panel comprising of nine dermatologists from Australia, \nChina, Hong Kong, Taiwan, India, Philippines, Singapore, South Korea, and \nThailand convened to develop consensus statements to stimulate real-world \nadoption of holistic skincare routine in acne, rosacea, atopic dermatitis, and \nsensitive skin syndrome using the Delphi approach.\nRESULTS: Consensus was defined as ≥80% of panel rating statement as ≥8 or median \nrating of ≥8. The final statements were collated to develop consensus \nrecommendations to encourage adoption of holistic skincare routine.\nCONCLUSION: Promoting patient education on the skin condition, training support \nstaff in patient counseling, and offering physician training opportunities are \nthe key strategies to encourage real-world adoption of CTMP as a holistic \nskincare routine. The consensus recommendations presented here should be \nconsidered in all dermatology patients to accomplish the ultimate goals of \nimproved ",
+          "verified": true,
+          "verified_via": "PubMed",
+          "verified_at": "2026-11-01"
+        }
+      ],
+      "checked_at": "2026-11-01",
+      "model": "claude-opus-5-5",
+      "review": {
+        "status": "approved",
+        "editor": "Editor (Claude, manual)",
+        "notes": "Approved as early. Expert opinion only; caveats flag the teen-focused AAD piece and the industry-organized panel.",
+        "reviewed_at": "2026-11-01"
+      },
+      "citations_ok": true
     }
   }
 }

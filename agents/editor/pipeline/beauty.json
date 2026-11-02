@@ -1,0 +1,2982 @@
+{
+  "topic": "Beauty",
+  "cohort": "US women aged 25-40",
+  "market": "United States",
+  "window": "Last 3 months",
+  "collected_at": "2026-10-28",
+  "runs": [
+    {
+      "pipeline": "discourse",
+      "title": "Beauty · Discourse · broad",
+      "inputs": {
+        "topic": "skincare and beauty routines",
+        "cohort": "US women aged 25-40",
+        "country": "United States",
+        "date_range": "Last 3 months",
+        "focus": "Go broad — scan everything"
+      },
+      "run_id": "6ae261f2e4a2eb3a59fcdc6c",
+      "output": {
+        "unattributed_pct": 0,
+        "diversity": {
+          "mean_cosine": 0.444,
+          "collapsed": false,
+          "closest_pair": [
+            "Women managing routines keep quitting before results arrive",
+            "Perfection-fatigued women find status in restraint and imperfection"
+          ],
+          "closest_cosine": 0.58
+        },
+        "cultural_insight": "US women treating skincare as a self-improvement project have built the category's growth logic on a specific promise: that effort, applied consistently and correctly, produces visible results. When the routine collapses under cost or complexity, the failure lands as a personal one, not a product one. That is why the trust conversation is so loud. Women turning to Reddit strangers are looking for someone who has no financial reason to tell them the routine worked, not merely a cheaper recommendation. The Tate McRae backlash was about someone collecting payment for effort she visibly did not perform, which is the one thing this category cannot forgive.\n\nThe child protection conversation is the place where that same logic turns into a values claim a brand cannot negotiate with. The parent saying 'gentle cleanser, fragrance-free moisturizer, sunscreen' is drawing a line between skincare as earned adult practice and skincare as something imposed on a child who has not chosen it. A brand that markets complexity as aspiration now has to answer for what aspiration looks like on a twelve-year-old's bathroom shelf. The move available is to make simplicity the proof of expertise rather than the consolation prize for women who could not manage more. That works here because the category's own peer-review culture, barrier repair search volume, and capsule-routine TikToks have already done the argument. The brand just has to be the one that says it out loud first.",
+        "reading": "The category is arguing loudest about trust, and women are searching hardest for something else entirely. Coverage splits almost evenly across routine failure, peer review, and child protection, three conversations about who to believe and who to blame. Barrier repair draws less than a quarter of the attention those three receive, yet it pulls nearly half of all search demand. Women are looking for a specific fix, and the category is busy having a different conversation.\n\nAlmost every conversation here stays inside the logic of skincare, optimising the routine, finding a better source, protecting a child from the wrong products. The exits are small. Barrier-first rejection and deliberate imperfection together account for less than a fifth of coverage, and the imperfection position is the thinnest of all at 6.5%. The dominant posture is not refusal, it is navigation. Women are moving through the category with more friction and more skepticism, but they are still moving through it. A brand reading this as a crisis of belief misreads it. The friction is about execution and cost and information quality, not about whether skincare is worth doing.\n\nThe child protection conversation is the largest single piece of coverage, and it sits almost entirely outside the frame of personal routine. That placement is the consequence a brand cannot argue with. The woman drawing a line between her serum and her daughter's bathroom shelf is making a values claim about the category, and she is making it loudly enough to dominate the conversation. Any brand that markets complexity as aspiration now has to answer for what complexity looks like when a twelve-year-old is following the same steps. The category's growth logic and its most vocal protective instinct are pulling in opposite directions, and the search volume on barrier repair suggests women have already started resolving that tension on their own terms.",
+        "lane_divergence": [
+          {
+            "theme": "Barrier-first converts reject glass skin glow as long-term damage",
+            "press_pct": 10.8,
+            "search_pct": 49.9,
+            "monthly_volume": 24300,
+            "clips": 0,
+            "verdict": "under_served",
+            "gap_points": 39.1
+          },
+          {
+            "theme": "Skeptical shoppers trust Reddit strangers over paid endorsers",
+            "press_pct": 25.5,
+            "search_pct": 0.4,
+            "monthly_volume": 200,
+            "clips": 0,
+            "verdict": "press_only",
+            "gap_points": 25.1
+          }
+        ],
+        "axes": {
+          "x_axis": {
+            "label": "Who the woman holds responsible for her skin outcomes",
+            "low_end": "She holds the beauty industry, brands, or influencers responsible: they set the standard, sold the routine, and caused the problem",
+            "high_end": "She holds herself responsible: her choices, her consistency, her willingness to hand over data or draw a boundary",
+            "low_label": "industry set the terms",
+            "high_label": "her call to make"
+          },
+          "y_axis": {
+            "label": "Whether the position accepts skincare culture as the arena or tries to exit it",
+            "low_end": "She is working inside skincare culture, optimising steps, chasing results, or choosing better products within the same frame",
+            "high_end": "She is stepping outside the frame entirely, refusing the goal, the category, or the logic that produced it",
+            "low_label": "optimising inside the system",
+            "high_label": "refusing the system's premise"
+          },
+          "quadrants": [
+            {
+              "position": "high_x_high_y",
+              "title": "her call to make, refusing the system's premise",
+              "description": "Women who take personal ownership and use it to draw a hard boundary around what skincare culture is allowed to touch or sell."
+            },
+            {
+              "position": "high_x_low_y",
+              "title": "her call to make, optimising inside the system",
+              "description": "Women who accept personal responsibility and use it to make smarter choices within skincare culture, picking fewer products or better information sources."
+            },
+            {
+              "position": "low_x_high_y",
+              "title": "industry set the terms, refusing the system's premise",
+              "description": "Women who name the industry as the source of harm and reject the aspirational standard it built, not just the products it sold."
+            },
+            {
+              "position": "low_x_low_y",
+              "title": "industry set the terms, optimising inside the system",
+              "description": "Women who feel pushed around by cost, complexity, or commercial pressure but keep trying to find a routine that works within the same system."
+            }
+          ],
+          "positions": [
+            {
+              "theme": "Women managing routines keep quitting before results arrive",
+              "x": 0.2,
+              "y": 0.15,
+              "rationale": "Cost and complexity are blamed on the industry's recommendations, and the response is a trimmed routine, still inside skincare culture's logic of visible results."
+            },
+            {
+              "theme": "Barrier-first converts reject glass skin glow as long-term damage",
+              "x": 0.35,
+              "y": 0.72,
+              "rationale": "Women name glass skin culture as the source of damage, then exit its aspirational standard entirely, replacing it with a finish that the old system would not have counted as a goal."
+            },
+            {
+              "theme": "Skeptical shoppers trust Reddit strangers over paid endorsers",
+              "x": 0.6,
+              "y": 0.25,
+              "rationale": "Women take personal responsibility for vetting information, but the goal remains finding the right product, so they stay inside skincare culture's frame."
+            },
+            {
+              "theme": "Perfection-fatigued women find status in restraint and imperfection",
+              "x": 0.78,
+              "y": 0.88,
+              "rationale": "Women claim the decision as their own and use it to refuse the premise that every flaw needs a product, performing exit from the category as the position itself."
+            },
+            {
+              "theme": "Overwhelmed decision-makers want AI to choose but fear what it sees",
+              "x": 0.82,
+              "y": 0.2,
+              "rationale": "Women are making a personal choice about which tool to trust, but the goal is still routine simplification within skincare culture, not a rejection of it."
+            },
+            {
+              "theme": "Parents draw a hard line between kids' hygiene and adult skincare culture",
+              "x": 0.55,
+              "y": 0.92,
+              "rationale": "Parents draw the boundary themselves and locate the harm in the industry's expansion into childhood, refusing the category's premise for their children rather than negotiating with it."
+            }
+          ],
+          "basis": "interpretive"
+        },
+        "unified_narrative": "",
+        "geometry": {},
+        "themes": [
+          {
+            "name": "Women managing routines keep quitting before results arrive",
+            "who": "Women managing routines",
+            "agrees_on": "A good routine should deliver visible results without wasting money or time.",
+            "pushes_back": "Cost, too many steps, and unclear results make routines collapse before they work.",
+            "arguing_with": "Themselves",
+            "narrative": "External (survey) Haut.AI data shows 45% of US women cite cost as the reason they abandon routines, 36% cite too many steps, and 32% cite no visible results. On TikTok, women film capsule routines with three or four BYOMA or CeraVe products, framing minimalism as the fix.",
+            "whats_shifting": "Dermatologists and beauty editors tell women that a consistent routine is the only path to visible skin changes. The products they recommend cost enough to force cuts, and the multi-step sequences collapse before results appear.",
+            "brand_relevance": "Build starter kits around three to four products with a visible tracking mechanism, a photo prompt or progress calendar. Frame the value as completion rate, not ingredient count.",
+            "share": {
+              "pct_of_corpus": 25.3,
+              "pct_of_search": 34.8
+            },
+            "verbatims": [
+              {
+                "quote": "Here we go you're gonna start with double cleansing",
+                "speaker": "A creator showing skincare products",
+                "stance": "held",
+                "source": "This is your step by step night routine under $100 at Ulta @Ulta Beaut",
+                "url": "https://www.tiktok.com/@mysistersskin/video/7699655536047951118?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f69j29bmf083bc&share_item_id=7699655536047951118&source=h5_m"
+              },
+              {
+                "quote": "The problem… is knowing which deserve their time and money.",
+                "speaker": "A statement in the article summarizing consumer frustration",
+                "stance": "held",
+                "source": "Beauty Lovers Are Leaning On AI for Body Care Advice | Happi"
+              },
+              {
+                "quote": "When breakouts, dryness, or sensitivity appear, many respond by dialing back products rather than adding more, prioritizing the skin's recovery and barrier health.",
+                "speaker": "A consumer behavior pattern described in the article",
+                "stance": "held",
+                "source": "Why your 10 step skincare routine may be causing breakouts"
+              }
+            ],
+            "brand_moves": [
+              {
+                "brand": "Curology",
+                "move": "Curology partnered with Dove Cameron to launch a new line of non-prescription skincare products in October 2026, focusing on making hydration and skincare an easy daily habit.",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL03TedNbw-Ue1_UXvQJgArwz4d_tAmPjPM_qPbYGt9ikC4j_JA-dJxAJkPmpWeSkVVq0aGycARwOK9XiK_neyJThDLMYk2itXk12NE1TpkkP2HJvMJk3hcG9TXmRL7rYLIAJgjifDCDocvJvRX-KksjtvZ6mXgb4W8UQ9Vi680Dfx028wCxbpBHsLW23IpexD6Vs2CU8XR6BeBc47Uo5pepvS45APeqeI8td57DAICSjGbrst"
+              },
+              {
+                "brand": "Humanrace",
+                "move": "Pharrell Williams' Humanrace expanded its skincare lineup in October 2026 with the Dermal Rejuvenating Face Mask, designed as a 10-minute skincare reset to fit into busy routines without requiring a long process.",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAXnwMswG7v0tUF0wpvJ_Yq3TJ3tFoQTa0WgpfDw85b3fUNQ8jt6-L4j4fVQ9ANnnrMG0Ga-QQ564epgsXCTAFsHreLQJ-g3UlcQkmbdl9WisQYgKmSTf0Kb5W2ko5XNo8cZ5C5x07oWIoOBnK4wdANoEG7b06kp70fCoYCOBsiVw3la7q36lKvRLC"
+              },
+              {
+                "brand": "Sofie Pavitt Face",
+                "move": "Sofie Pavitt Face, founded by esthetician Sofie Pavitt, emphasizes intentional, streamlined formulations and encourages patience and consistency for lasting results, moving away from quick fixes (February 2025).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9yf3QHXkMHnxrvT8gj8DGobLsueNoYosk8eX-PDeoUUPSuQpiXXhgRCGV3UN6GeENmHht16niOfp7v3yS6D36bKX4Vvim7TKlhsG21LnyhenVPFoCLVCTSU8IFK2Sy4i7qP_Y-quJd17O9-_US4-4S3gWxTdwYZHs2hkWtg_a-keqZ1W_CIqW2VAZVL83UpT0emcea_cfbLPtbQ=="
+              },
+              {
+                "brand": "Jeyancie Beauty",
+                "move": "Jeyancie Beauty focuses on ingredient integrity, gentle performance, and everyday usability, aligning with a shift towards intentional and simplified skincare routines for long-term skin health (February 2026).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxQFq-vz8IpY3VZYqG-Y0Q7KWepdKo9QAgE27iJFnNEk3Dw5i6uJOAwBVjYSRYeIAZUuHun1d3pe1-eEd_IDRtH7q18iUAQv6VRe9lL4x6zynLNfQEksWlRwDsGzmVvM5oHwC1lEOvksBty3OKMZHZM39uFRRlQtau0RN9BHf3kjq548_GZZ_m_7tkDjwnal8="
+              }
+            ],
+            "brand_gap": "",
+            "cultural_read": "Skincare has been sold as a project of self-making, where discipline produces visible proof. When the proof costs too much or takes too long, quitting reads as personal failure, so women reframe minimalism as a smarter method rather than admit the original promise was oversold.",
+            "unsayable": "The routine was always designed to sell the next product, not to finish.",
+            "evidence": [
+              {
+                "title": "Beauty Lovers Are Leaning On AI for Body Care Advice",
+                "url": "https://www.happi.com/breaking-news/beauty-lovers-are-leaning-on-ai-for-body-care-advice/",
+                "signal": ""
+              },
+              {
+                "title": "How to Build a Simple Skin-Care Routine",
+                "url": "https://www.allure.com/story/simplified-skincare-routine",
+                "signal": ""
+              },
+              {
+                "title": "Why your 10 step skincare routine may be causing breakouts",
+                "url": "https://rollingout.com/2026/08/26/why-10-step-skincare-routine-breakouts/",
+                "signal": ""
+              },
+              {
+                "title": "Best microcurrent device for beginners with no skincare routine",
+                "url": "https://www.beautydevicelab.com/best-microcurrent-device-for-beginners-with-no",
+                "signal": ""
+              },
+              {
+                "title": "The Best At-Home Skincare Tools in 2026",
+                "url": "https://www.thehypemagazine.com/2026/10/25/the-best-at-home-skincare-tools-in-2026/",
+                "signal": ""
+              }
+            ],
+            "origin": "",
+            "origin_detail": "",
+            "search_volume": {
+              "entities": [
+                "simple skincare routine",
+                "skincare routine order",
+                "CeraVe routine",
+                "how many products"
+              ],
+              "entities_en": [
+                "simple skincare routine",
+                "skincare routine order",
+                "CeraVe routine",
+                "how many products"
+              ],
+              "results": [
+                {
+                  "keyword": "simple skincare routine",
+                  "volume": 1700,
+                  "trend_direction": "declining",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 2900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 2900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 2900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 1600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 1600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 1600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 1300
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 1300
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 1600
+                    }
+                  ]
+                },
+                {
+                  "keyword": "skincare routine order",
+                  "volume": 15000,
+                  "trend_direction": "declining",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 18100
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 22200
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 27100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 33100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 22200
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 27100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 22200
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 22200
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 22200
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 22200
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 18100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 14800
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 18100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 22200
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 14800
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 18100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 14800
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 14800
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 12100
+                    }
+                  ]
+                },
+                {
+                  "keyword": "CeraVe routine",
+                  "volume": 160,
+                  "trend_direction": "emerging",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 390
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 320
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 140
+                    }
+                  ]
+                },
+                {
+                  "keyword": "how many products",
+                  "volume": 100,
+                  "trend_direction": "emerging",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 40
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 40
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 210
+                    }
+                  ]
+                }
+              ]
+            },
+            "embedded_examples": [],
+            "social_proof": [
+              {
+                "video_url": "https://www.tiktok.com/@mysistersskin/video/7699655536047951118?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f69j29bmf083bc&share_item_id=7699655536047951118&source=h5_m",
+                "url": "https://www.tiktok.com/@mysistersskin/video/7699655536047951118?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f69j29bmf083bc&share_item_id=7699655536047951118&source=h5_m",
+                "caption": "This is your step by step night routine under $100 at Ulta @Ulta Beauty  1. Skin1004 Double Cleansing Duo @SKIN1004 US  2. Exfoliator The Ordinary 7% Glycolic acid. Use 1-2 nights a week @The Ordinary",
+                "hashtags": [
+                  "skincareroutine",
+                  "nightroutine",
+                  "retinolskincare",
+                  "glowyskin",
+                  "creatorsearchinsights"
+                ],
+                "engagement": {
+                  "plays": 835856,
+                  "likes": 61710,
+                  "comments": 615,
+                  "shares": 6376
+                },
+                "platform": "tiktok",
+                "scores": {
+                  "topic_fit": 0.5,
+                  "country_fit": 1,
+                  "authenticity": 0.5,
+                  "quote": "Here we go you're gonna start with double cleansing",
+                  "speaker": "A creator showing skincare products",
+                  "reasoning": "The video shows a creator discussing a night routine with specific products, which is relevant to the topic of routines. It is set in Ulta, a US retailer, and the creator's accent is American, indicating a US context. The content appears to be from an influencer, fitting the authenticity score.",
+                  "recency": 0.8,
+                  "composite_score": 0.68
+                },
+                "quote": "Here we go you're gonna start with double cleansing",
+                "speaker": "A creator showing skincare products"
+              },
+              {
+                "video_url": "https://www.tiktok.com/@mysistersskin/video/7590597089399196941?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f69mc94d078dd1&share_item_id=7590597089399196941&source=h5_m",
+                "url": "https://www.tiktok.com/@mysistersskin/video/7590597089399196941?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f69mc94d078dd1&share_item_id=7590597089399196941&source=h5_m",
+                "caption": "Let’s start the new year with a skincare routine you can stick to! Here are steps of a simplified morning routine at @target step 1: cleanse your skin @Prequelskin the Gleanser. Step 2: Vitmin C serum",
+                "hashtags": [
+                  "estheticiansoftiktok",
+                  "matureskincare",
+                  "skincareroutine",
+                  "glassskin",
+                  "creatorsearchinsights"
+                ],
+                "engagement": {
+                  "plays": 1142157,
+                  "likes": 68696,
+                  "comments": 1077,
+                  "shares": 6579
+                },
+                "platform": "tiktok",
+                "scores": {
+                  "topic_fit": 0.5,
+                  "country_fit": 1,
+                  "authenticity": 0.5,
+                  "quote": "And a perfect start to a new YOU for 2026!",
+                  "speaker": "A creator on TikTok",
+                  "reasoning": "The video discusses a simplified morning skincare routine and mentions starting the new year with a routine you can stick to, which aligns with the insight about routines being quit before results arrive. The content is filmed in a Target store, indicating it's from the US. The creator appears to be an influencer, hence the moderate authenticity score.",
+                  "recency": 0.8,
+                  "composite_score": 0.68
+                },
+                "quote": "And a perfect start to a new YOU for 2026!",
+                "speaker": "A creator on TikTok"
+              },
+              {
+                "video_url": "https://www.tiktok.com/@kristynhoffman96/video/7592439281117941022?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f69m08m1k8ef8j&share_item_id=7592439281117941022&source=h5_m",
+                "url": "https://www.tiktok.com/@kristynhoffman96/video/7592439281117941022?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f69m08m1k8ef8j&share_item_id=7592439281117941022&source=h5_m",
+                "caption": "A 2026 update!! My best of the best under $20 skincare picks 🫧✨ @Prequelskin pre gleanse  @byoma  • foaming rice cleanser  • balancing face mist  • redness relief soothing toner mist  • phyto mucin gl",
+                "hashtags": [
+                  "affordableskincare",
+                  "bestofthebest",
+                  "skincareroutine",
+                  "esthetician",
+                  "skincare"
+                ],
+                "engagement": {
+                  "plays": 1098495,
+                  "likes": 89374,
+                  "comments": 574,
+                  "shares": 3144
+                },
+                "platform": "tiktok",
+                "scores": {
+                  "topic_fit": 0.5,
+                  "country_fit": 1,
+                  "authenticity": 0.5,
+                  "quote": "2026 best of the best affordable skincare under $20",
+                  "speaker": "A creator on TikTok",
+                  "reasoning": "The video discusses affordable skincare products under $20, which is relevant to the insight about cost being a factor in routine adherence. The creator is likely in the US based on product availability and accent. It appears to be influencer content, which is acceptable for this analysis.",
+                  "recency": 0.8,
+                  "composite_score": 0.68
+                },
+                "quote": "2026 best of the best affordable skincare under $20",
+                "speaker": "A creator on TikTok"
+              }
+            ],
+            "analytics": null,
+            "sub_themes": [
+              {
+                "name": "Routine maintenance fails when cost, complexity, or results disappoint",
+                "narrative": "US women abandon skincare and bodycare routines for three main reasons: cost (45% cite it as a barrier), too many steps to follow (36%), or not seeing visible results (32%). They struggle to know which products address their specific concerns, leaving them unable to justify the time and money spent on their routines."
+              },
+              {
+                "name": "Simple routines beat complicated ones",
+                "narrative": "A consistent, minimal routine with a few well-chosen products delivers better results than an elaborate multi-step regimen. US women aged 25-40 value efficiency and consistency over product volume, believing that complexity leads to irritation, cost waste, and abandonment rather than better skin."
+              },
+              {
+                "name": "Simpler skincare routines protect skin better than complex ones",
+                "narrative": "US consumers increasingly believe that fewer products and fewer active ingredients produce better results and healthier skin than multi-step routines. They see the trend toward skinimalism and skin cycling as a practical correction to social media hype, and feel relief when they reduce their regimen rather than expand it."
+              },
+              {
+                "name": "Consistency and simplicity beat expensive miracle products",
+                "narrative": ""
+              }
+            ],
+            "thin": false
+          },
+          {
+            "name": "Barrier-first converts reject glass skin glow as long-term damage",
+            "who": "Barrier-first converts",
+            "agrees_on": "Skin health means keeping the barrier intact and functioning over decades.",
+            "pushes_back": "Glass skin trends and stacked actives that trade long-term barrier health for short-term glow.",
+            "arguing_with": "Trend culture",
+            "narrative": "Women over 30 describe switching from aggressive exfoliation to ceramide-heavy barrier repair after perioral dermatitis or persistent stinging. Cloud skin and bloom skin replace glass skin as aspirational finishes: diffused, hydrated, livable in office lighting and humid commutes. Dermatologists observe patients requesting calming routines rather than asking how to add more actives.",
+            "whats_shifting": "Dermatologists and barrier-focused estheticians warn that stacked actives damage the skin over time. The glass skin routines their patients follow strip the barrier to achieve a short-term glow, then require more products to repair the irritation left behind.",
+            "brand_relevance": "Lead with barrier-repair claims backed by TEWL or ceramide-level data. Position fragrance-free formulation as a performance feature, not a limitation.",
+            "share": {
+              "pct_of_corpus": 10.8,
+              "pct_of_search": 49.9
+            },
+            "verbatims": [
+              {
+                "quote": "A faint prickling warmth creeps across the jawline...dry, stinging sandpaper texture of a compromised lipid barrier.",
+                "speaker": "A consumer describing real-world reaction to fragrance-heavy products",
+                "stance": "held",
+                "source": "Sydney Sweeney skincare regimens spark massive consumer backlash over hidden synthetic fragrance allergens"
+              }
+            ],
+            "brand_moves": [
+              {
+                "brand": "Alchemy 21/12",
+                "move": "Alchemy 21/12 introduced Oleotide™, a modular biotechnology platform built around coordinating biological signals and supporting skin renewal with a barrier-first philosophy (October 2026).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhUXqWxau0L7Ph73UhVDeFjwW6xTzBmidY_-OwElY-X2yzJ8aOTQa7HMfw5Z2DDGHWv5ob4Bi9EOlRVD9HevupATKvo-s1oCSXwHLAw6vxOx4MksyZPCTW7hHehMj2l50PNJ2ko2uSNKGBua3hsSGiRp2pOPscFjuApzY_gf1Pkv-YzuM18T4NI1-99gJrUSrj5_KSag_dyR_1e8FFeUnEZHT5n3sIQeWS776tOKIxjJbsKkWPceUk6VHSfcw5SYAiczVvKHL2WtEPz9yhDHlDu8wSxrctMthHzv8d7Q=="
+              },
+              {
+                "brand": "Prequel Skin",
+                "move": "Prequel Skin, founded by dermatologist Dr. Sam Ellis, launched with a focus on optimizing skin health and enhancing the skin barrier (February 2025).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9yf3QHXkMHnxrvT8gj8DGobLsueNoYosk8eX-PDeoUUPSuQpiXXhgRCGV3UN6GeENmHht16niOfp7v3yS6D36bKX4Vvim7TKlhsG21LnyhenVPFoCLVCTSU8IFK2Sy4i7qP_Y-quJd17O9-_US4-4S3gWxTdwYZHs2hkWtg_a-keqZ1W_CIqW2VAZVL83UpT0emcea_cfbLPtbQ=="
+              },
+              {
+                "brand": "Veriphy Skincare",
+                "move": "Veriphy Skincare has built its brand around a barrier-first approach, focusing on supporting the skin's natural repair systems with fragrance-free formulas and peptides for gradual firmness (February 2026).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmOmjd57C9fgnttt8jltvrz3daCRaj2Nwb81W-ZOiYWtLmaX7MS4VBcFJhlLp5lw_lOaxTdEUviGHsJz0NyvB31jclwwwh15G-stijxbFeWHabZ0pUI08I-zY1hJUTy47_kMLDE_q3Z1I1Tao7QmtXY91cO2aluTsgl0ksoPNafa0_iPwhalgCDxy4Cc4tNGalDS36ikE6Jg6evWniXgnbaIhvON6od_wdZfIndYGNfPbUFA=="
+              },
+              {
+                "brand": "YOU Skincare",
+                "move": "YOU Skincare is formulated for reactive or sensitized acne-prone skin, with a barrier-first approach that aims to restore hydration and lipid balance before targeting symptoms (undated).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXTbBbnYgb7inqETjzbI-sX8dvl-YNkLIkz5H7n25CSJu9nF6kC3oVtrF_Nay_ULYLwt2ZL-yZGA8fcPco7RsIRax6ZIbuzJeUBYN74m3kNtXIZ95knjDdKQpwfjhhXyhxSLTX-tkhav9Rx7hyZw=="
+              }
+            ],
+            "brand_gap": "",
+            "cultural_read": "Glass skin required women to treat their faces as raw material to be processed into a result. The switch to barrier repair is a rejection of that logic: the skin is something to be maintained, not transformed, and the body's existing state becomes the starting point rather than the problem.",
+            "unsayable": "",
+            "evidence": [
+              {
+                "title": "Fall Skincare Trends 2026, According to a Dermatologist",
+                "url": "https://www.cosmopolitan.com/style-beauty/beauty/a73781108/fall-skincare-trends-2026/",
+                "signal": ""
+              },
+              {
+                "title": "Bloom skin vs. glass skin: which one is actually better for your skin in 2026?",
+                "url": "https://www.nuvane.com/article/bloom-skin-vs-glass-skin-which-one-is-actually-better-for-your-skin-in-2026",
+                "signal": ""
+              },
+              {
+                "title": "Say Goodbye to Glass Skin: 2026's Cloud Skin Trend Explained",
+                "url": "https://seoulkoreaasia.com/cloud-skin-trend-2026/",
+                "signal": ""
+              },
+              {
+                "title": "Sydney Sweeney skincare regimens spark massive consumer backlash over hidden synthetic fragrance allergens",
+                "url": "https://gurubeauty.net/hot-talk/11818-sydney-sweeney-skincare-regimens-spark-massive-consumer-backlash-over-hidden-synthetic-fragrance-allergens/",
+                "signal": ""
+              },
+              {
+                "title": "Comfort Skincare: Why Fall Routines Are Getting Gentler",
+                "url": "https://breannabeauty.com/comfort-skincare-fall-routines/",
+                "signal": ""
+              }
+            ],
+            "origin": "",
+            "origin_detail": "",
+            "search_volume": {
+              "entities": [
+                "skin barrier repair",
+                "ceramide moisturizer",
+                "fragrance free skincare",
+                "cloud skin routine"
+              ],
+              "entities_en": [
+                "skin barrier repair",
+                "ceramide moisturizer",
+                "fragrance free skincare",
+                "cloud skin routine"
+              ],
+              "results": [
+                {
+                  "keyword": "skin barrier repair",
+                  "volume": 5500,
+                  "trend_direction": "emerging",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 5400
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 6600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 6600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 3600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 6600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 5400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 8100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 6600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 5400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 5400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 5400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 5400
+                    }
+                  ]
+                },
+                {
+                  "keyword": "ceramide moisturizer",
+                  "volume": 13200,
+                  "trend_direction": "peaking",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 6600
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 6600
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 6600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 8100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 6600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 9900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 9900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 9900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 9900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 9900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 14800
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 18100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 22200
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 9900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 8100
+                    }
+                  ]
+                },
+                {
+                  "keyword": "fragrance free skincare",
+                  "volume": 5600,
+                  "trend_direction": "emerging",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 720
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 480
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 590
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 880
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 880
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 3600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 6600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 27100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 9900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 6600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 9900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 3600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 3600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 9900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 8100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 3600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 3600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 1300
+                    }
+                  ]
+                },
+                {
+                  "keyword": "cloud skin routine",
+                  "volume": null,
+                  "trend_direction": null,
+                  "monthly": []
+                }
+              ]
+            },
+            "embedded_examples": [],
+            "social_proof": [],
+            "analytics": null,
+            "sub_themes": [
+              {
+                "name": "Longevity and barrier health matter more than anti-aging",
+                "narrative": "US women are shifting from aggressive anti-aging tactics toward protecting and restoring skin function for the long term, prioritizing barrier health, calming ingredients, and non-invasive treatments over injectables or extreme procedures. They believe skin longevity is about keeping skin functioning optimally, not stopping aging, and they want to protect before they tamper."
+              },
+              {
+                "name": "Skincare routines should prioritize barrier repair over actives",
+                "narrative": "US women are moving away from aggressive exfoliation and multi-step routines toward gentler, hydrating formulations that calm and repair the skin barrier first. They believe strong actives should come only after the barrier is healthy, and they distrust overhyped claims in favor of transparent, barrier-friendly ingredients like ceramides and hyaluronic acid."
+              },
+              {
+                "name": "Barrier health matters more than photo glow",
+                "narrative": "US women aged 25-40 increasingly reject glass skin routines that rely on daily chemical exfoliation and stacked actives, viewing them as risky to long-term skin health. They prioritize bloom skin, which emphasizes barrier repair and dermal matrix support over short-term radiance, especially as they age past 30."
+              },
+              {
+                "name": "Cloud skin is more livable than glass skin",
+                "narrative": "US women aged 25-40 are moving away from glass skin's high-maintenance, photo-ready shine toward cloud skin, a softer, diffused glow that works in real office lighting and humid commutes. They value a hydrated finish that reads as healthy rather than styled, with fewer, smarter skincare steps and multitasking products instead of long routines."
+              }
+            ],
+            "thin": false
+          },
+          {
+            "name": "Skeptical shoppers trust Reddit strangers over paid endorsers",
+            "who": "Skeptical shoppers",
+            "agrees_on": "Social media and sales environments are full of people paid to recommend products.",
+            "pushes_back": "Influencer sponsorships, mall sales pressure, and celebrity endorsements that substitute performance for trust.",
+            "arguing_with": "Paid endorsers",
+            "narrative": "Reddit's beauty communities, r/SkincareAddiction and r/MakeupAddiction, function as peer-review boards where women troubleshoot routines without affiliate links. Tate McRae's Neutrogena TikTok drew backlash when viewers noticed she barely applied the product, with commenters calling it 'an ad where she forgot to use the thing.'",
+            "whats_shifting": "Influencer sponsors and mall consultants recommend products for a fee. Women searching for honest reviews turn to Reddit strangers, assuming no paycheck sits behind the post.",
+            "brand_relevance": "Invest in Reddit community presence with non-promotional accounts. Publish ingredient concentrations and third-party test results on product pages. Avoid influencer formats where the creator visibly does not use the product.",
+            "share": {
+              "pct_of_corpus": 25.5,
+              "pct_of_search": 0.4
+            },
+            "verbatims": [
+              {
+                "quote": "you definitely get the vibe that she does not use those makeup wipes on the regular",
+                "speaker": "A social media commenter on Tate McRae's Neutrogena sponsorship",
+                "stance": "held",
+                "source": "Tate McRae's Beauty Secret? Not Necessarily Touching the Products"
+              },
+              {
+                "quote": "I thought I could return it the next day. I didn't realize it was final sale until I looked at the receipt.",
+                "speaker": "A shopper quoted in the NPR investigation",
+                "stance": "held",
+                "source": "How one network of mall skincare stores targeted vulnerable people across the U.S."
+              },
+              {
+                "quote": "I was charged $13,000 for items that were supposed to cost $1,300.",
+                "speaker": "A customer quoted in the NPR investigation",
+                "stance": "held",
+                "source": "How mall skincare stores targeted hundreds of shoppers"
+              }
+            ],
+            "brand_moves": [
+              {
+                "brand": "Sephora",
+                "move": "Sephora produced its first three-hour live 'Ask Me Anything' (AMA) on Reddit in December 2024 with four of its beauty directors, engaging directly with users about holiday gifts and general beauty questions.",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK13QWyqr0rUfa9Vk9jqCBwHjmnBP8au6yP_zcPXNpA7lCsA6jL33ktZvqR0OHn7kAzbdyBF-tNc7T5__ghf7raWm-YqsnzjG-LtB_OOqSOYHyH4azAXcFIIkBT6HVCje9rfNAYisj_VicXDriySemQ5i46coqDHXDwPklQ5kWQV-E0i11UeaxHlPzqOg8oePgw9lOVKB8smsmMnLnqs-btNytX6SuLiEc0zaq_iErB1t69Omhqj2foQ=="
+              },
+              {
+                "brand": "Thayers",
+                "move": "Thayers hosted its second brand-sponsored AMA on Reddit in July 2022 with a dermatologist to coincide with a new product launch, and was the first L'Oréal Group brand to use Reddit's sponsored megathread format.",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz2JrAYwo-7DSdupEKScz01qjNSR-Kdvq9gq_Q4BixtXMDLeclpU-46DxAUprrEXiXUr7N0PDMuNAI7yhB_a-_pJg8CZuWKafVl1xJQtyd6NiuKOXKHHgFSf3_CVaGlGs37aIcd4_Zx32v8pV_gsmG7oucp-bYPUtMJDsPA7hbVg=="
+              },
+              {
+                "brand": "Ulta Beauty",
+                "move": "Ulta Beauty has been active on Reddit, creating five sponsored megathreads throughout 2021.",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz2JrAYwo-7DSdupEKScz01qjNSR-Kdvq9gq_Q4BixtXMDLeclpU-46DxAUprrEXiXUr7N0PDMuNAI7yhB_a-_pJg8CZuWKafVl1xJQtyd6NiuKOXKHHgFSf3_CVaGlGs37aIcd4_Zx32v8pV_gsmG7oucp-bYPUtMJDsPA7hbVg=="
+              },
+              {
+                "brand": "Laneige",
+                "move": "Amorepacific-owned K-beauty brand Laneige debuted on Reddit in 2023, reporting a 50% higher click-through rate than Reddit's beauty vertical benchmark for its campaign.",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK13QWyqr0rUfa9Vk9jqCBwHjmnBP8au6yP_zcPXNpA7lCsA6jL33ktZvqR0OHn7kAzbdyBF-tNc7T5__ghf7raWm-YqsnzjG-LtB_OOqSOYHyH4azAXcFIIkBT6HVCje9rfNAYisj_VicXDriySemQ5i46coqDHXDwPklQ5kWQV-E0i11UeaxHlPzqOg8oePgw9lOVKB8smsmMnLnqs-btNytX6SuLiEc0zaq_iErB1t69Omhqj2foQ=="
+              }
+            ],
+            "brand_gap": "",
+            "cultural_read": "A recommendation only carries weight when the person giving it has nothing to gain. Reddit strangers pass that test because they are visibly unpaid, and in a culture where every expert credential is assumed to be monetized, the absence of a paycheck has become the credential.",
+            "unsayable": "",
+            "evidence": [
+              {
+                "title": "Tate McRae's Beauty Secret? Not Necessarily Touching the Products",
+                "url": "https://dnyuz.com/2026/08/11/tate-mcraes-beauty-secret-not-necessarily-touching-the-products-2/",
+                "signal": ""
+              },
+              {
+                "title": "Reddit Releases First 'Beauty Index' Report",
+                "url": "https://www.happi.com/breaking-news/reddit-releases-beauty-index-report/",
+                "signal": ""
+              },
+              {
+                "title": "How one network of mall skincare stores targeted vulnerable people across the U.S.",
+                "url": "https://www.npr.org/2026/10/14/nx-s1-5992778/how-one-network-of-mall-skincare-stores-targeted-vulnerable-people-across-the-u-s",
+                "signal": ""
+              },
+              {
+                "title": "Reale Actives: The Acne Brand That Sold Out in Under 10...",
+                "url": "https://www.risingtrends.co/blog/reale-actives",
+                "signal": ""
+              },
+              {
+                "title": "According to Reddit's Beauty Study, the 'No-Makeup Makeup' Look Is on the Way Out",
+                "url": "https://www.vanityfair.com/story/reddit-beauty-survey",
+                "signal": ""
+              }
+            ],
+            "origin": "",
+            "origin_detail": "",
+            "search_volume": {
+              "entities": [
+                "skincare reviews Reddit",
+                "is this product worth it",
+                "mall skincare scam",
+                "ingredient list check"
+              ],
+              "entities_en": [
+                "skincare reviews Reddit",
+                "is this product worth it",
+                "mall skincare scam",
+                "ingredient list check"
+              ],
+              "results": [
+                {
+                  "keyword": "skincare reviews Reddit",
+                  "volume": null,
+                  "trend_direction": null,
+                  "monthly": []
+                },
+                {
+                  "keyword": "is this product worth it",
+                  "volume": null,
+                  "trend_direction": null,
+                  "monthly": []
+                },
+                {
+                  "keyword": "mall skincare scam",
+                  "volume": null,
+                  "trend_direction": null,
+                  "monthly": []
+                },
+                {
+                  "keyword": "ingredient list check",
+                  "volume": 200,
+                  "trend_direction": "declining",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 320
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 320
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 260
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 320
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 110
+                    }
+                  ]
+                }
+              ]
+            },
+            "embedded_examples": [],
+            "social_proof": [],
+            "analytics": null,
+            "sub_themes": [
+              {
+                "name": "Influencers must visibly demonstrate actual product use",
+                "narrative": "US consumers expect influencers taking brand deals to genuinely apply and use products on camera, not stage routines where products barely touch skin. When sponsored content appears performative or the results are not visible, viewers feel misled and question both the influencer's credibility and the product's efficacy."
+              },
+              {
+                "name": "Peer reviews on Reddit build purchase confidence more than expert guidance",
+                "narrative": "US consumers trust community-sourced discussions and real user experiences on Reddit over traditional expert reviews or official brand guidance when making skincare and makeup decisions. They value learning from peers about routines, product fit, and personal preferences."
+              },
+              {
+                "name": "High-pressure mall skincare sales exploit vulnerable shoppers",
+                "narrative": "US consumers report feeling manipulated and trapped by aggressive sales tactics in mall skincare stores, where free samples escalate into thousands of dollars in unwanted purchases with no-return policies. They believe these stores deliberately target vulnerable populations and use deceptive practices, and they distrust product claims when lab testing reveals missing ingredients."
+              },
+              {
+                "name": "Free samples are a trap into debt",
+                "narrative": "US shoppers believe that complimentary skincare samples in malls are deliberately designed entry points to coercive sales, where friendly consultants pivot to high-pressure upsells and lock customers into thousands of dollars in non-returnable purchases they never intended to make. The free sample is the mechanism of the trap, not an offer of value."
+              }
+            ],
+            "thin": false
+          },
+          {
+            "name": "Perfection-fatigued women find status in restraint and imperfection",
+            "who": "Perfection-fatigued women",
+            "agrees_on": "Looking put-together matters, and skincare and makeup are worth doing.",
+            "pushes_back": "The pressure to look flawless, buy endlessly, and treat every imperfection as a problem to solve.",
+            "arguing_with": "Beauty marketing",
+            "narrative": "Project Pan videos on TikTok celebrate hitting the bottom of a moisturizer as an achievement. Women frame underconsumption as chic: 'I used the same palette for a year and my looks got better, not worse.'",
+            "whats_shifting": "Beauty brands sell women on the idea that every pore and pigment patch needs fixing. A small number of women are pushing back by wearing smudged lipstick on purpose and finishing a product before buying another.",
+            "brand_relevance": "Celebrate product longevity in marketing, show nearly empty containers and repurchase rates. Launch fewer SKUs with longer shelf narratives. Avoid before-and-after framing that implies the 'before' is a problem.",
+            "share": {
+              "pct_of_corpus": 6.5,
+              "pct_of_search": 11.3
+            },
+            "verbatims": [
+              {
+                "quote": "Products, they're meant to be used… if they're not used, then they will just go to waste.",
+                "speaker": "A beauty creator quoted in the article",
+                "stance": "held",
+                "source": "Project Pan: Why Finishing Products Beats Collecting Them"
+              }
+            ],
+            "brand_moves": [
+              {
+                "brand": "BONJIL",
+                "move": "BONJIL, a luxury skincare brand, integrates neurosensory rituals with advanced formulations and multisensory elements like light, sound, scent, and touch to lower cortisol levels and promote skin recovery, aiming for a mindful ritual rather than a chore (undated).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhWTFJth022Cr-Z4M0PqpvZBmVHXjZXPe4x8HF7vMViphgUGDhWgPggHXU_0boGsq0js2xiaRBQtBsWCoU4s3m1Pyp0YyTYOpeabFUOjZnPWTr6mInOhKNZ3SZ7Evl3ktRT8IOoqH1v23PpuohR05fT_DAgkd-9vWxiHtx"
+              },
+              {
+                "brand": "The Outset",
+                "move": "Scarlett Johansson's skincare brand, The Outset, which specialized in products for sensitive skin and clean ingredients, ceased operations in October 2026 after a four-year run.",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFregFA0jrur-8ye3Jgzf4V1JpXma5rV4cXi_qA4Ld9FxiVmrClDCJ3CbOUV6B08ouv4Qpm1v3LW3BcdqgDh474vaENo1-Bff6bsaEKvlK1IwoLlGuXvNAESgbZna-SqFfVjuk4BMP9Ke8WvJ-vcXMNsnVxr71vFvMdyRuJte86aA=="
+              }
+            ],
+            "brand_gap": "No specific named brands are actively promoting imperfection or restraint as a status symbol in their marketing or product launches within the last 18 months.",
+            "cultural_read": "Finishing a product before buying another gets filmed as an achievement because American consumer culture treats accumulation as the natural direction of travel. Restraint requires justification, so women give it one: using less is framed as a skill, not a limit, which is the only way it earns respect rather than pity.",
+            "unsayable": "For most of these women the restraint is also financial, and the chic framing covers that.",
+            "evidence": [
+              {
+                "title": "From Veneers to AI: Pursuit of Perfection Runs Its Course on TikTok, Instagram",
+                "url": "https://www.bloomberg.com/news/articles/2026-08-13/from-veneers-to-ai-pursuit-of-perfection-runs-its-course-on-tiktok-instagram",
+                "signal": ""
+              },
+              {
+                "title": "What Is Project Pan? Experts Explain the TikTok Beauty Trend",
+                "url": "https://www.goodhousekeeping.com/home/organizing/a73779237/project-pan-tiktok-trend/",
+                "signal": ""
+              },
+              {
+                "title": "It's Almost Pumpkin Spice Season, Y'all: The Fall Makeup Trends Taking Over 2026",
+                "url": "https://blac.media/features/fall-2026-makeup-trends-black-women",
+                "signal": ""
+              },
+              {
+                "title": "The romanticisation of the mundane is not an aesthetic",
+                "url": "https://brandmatters.lentoagency.com/p/the-romanticisation-of-the-mundane-is-not-an-aesthetic",
+                "signal": ""
+              },
+              {
+                "title": "I love my skincare routine. Do I have a body image problem?",
+                "url": "https://theconversation.com/i-love-my-skincare-routine-do-i-have-a-body-image-problem-289299",
+                "signal": ""
+              }
+            ],
+            "origin": "",
+            "origin_detail": "",
+            "search_volume": {
+              "entities": [
+                "project pan",
+                "underconsumption beauty",
+                "perfection fatigue",
+                "lived-in makeup"
+              ],
+              "entities_en": [
+                "project pan",
+                "underconsumption beauty",
+                "perfection fatigue",
+                "lived-in makeup"
+              ],
+              "results": [
+                {
+                  "keyword": "project pan",
+                  "volume": 5500,
+                  "trend_direction": "emerging",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 590
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 1000
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 8100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 18100
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 3600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 3600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 2900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 2900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 6600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 12100
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 14800
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 2900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 2900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 3600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 2900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 3600
+                    }
+                  ]
+                },
+                {
+                  "keyword": "underconsumption beauty",
+                  "volume": null,
+                  "trend_direction": null,
+                  "monthly": []
+                },
+                {
+                  "keyword": "perfection fatigue",
+                  "volume": 10,
+                  "trend_direction": "volatile",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 10
+                    }
+                  ]
+                },
+                {
+                  "keyword": "lived-in makeup",
+                  "volume": null,
+                  "trend_direction": null,
+                  "monthly": []
+                }
+              ]
+            },
+            "embedded_examples": [],
+            "social_proof": [],
+            "analytics": null,
+            "sub_themes": [
+              {
+                "name": "Perfection fatigue drives desire for authentic imperfection",
+                "narrative": "US women feel exhausted by the relentless pursuit of flawless skin and appearance promoted on social media and through cosmetic procedures, and they are pushing back against the pressure to maintain perfectly curated looks. This backlash reflects skepticism about whether perfection is worth the cost, time, and emotional toll, with growing interest in embracing natural aging and authentic self-presentation instead."
+              },
+              {
+                "name": "Finish what you own before buying more",
+                "narrative": "US consumers, particularly women aged 25-40, are rejecting constant product launches and trend-driven purchasing. They embrace underconsumption and project pan, viewing the ability to achieve looks with existing products as a mark of skill and mindfulness rather than needing to buy 12+ new items for each seasonal trend."
+              },
+              {
+                "name": "Finishing products matters more than buying new ones",
+                "narrative": "US consumers believe using up existing products before purchasing new ones reduces waste, saves money, and forces intentional evaluation of what they actually need. Finishing items is framed as satisfying and responsible, countering haul culture and impulse buying."
+              },
+              {
+                "name": "Restraint and ordinary use are now status signals",
+                "narrative": "US consumers increasingly view finishing products, using items for years, and reducing purchases as chic and responsible. They celebrate underconsumption and authenticity over polished aspirational marketing, rejecting haul culture in favor of showing real-world usage and imperfections."
+              }
+            ],
+            "thin": false
+          },
+          {
+            "name": "Overwhelmed decision-makers want AI to choose but fear what it sees",
+            "who": "Overwhelmed decision-makers",
+            "agrees_on": "There is more skincare information available than anyone can process.",
+            "pushes_back": "AI tools that claim to help but may misdiagnose, judge, or replace professional care.",
+            "arguing_with": "Themselves",
+            "narrative": "Haut.AI finds one in three US women have used AI for skincare advice, and 74% believe it could simplify their routines. Women using Sephora and Ulta face scans report discomfort when tools flag conditions that feel medical rather than cosmetic. 'I wanted a moisturizer recommendation, not a diagnosis.'",
+            "whats_shifting": "Beauty editors and dermatology apps tell women to let AI scan their skin and pick their products. The scanner delivers a diagnosis and a pore-by-pore breakdown that many women did not want a machine to see.",
+            "brand_relevance": "Position AI tools as decision filters, not diagnostic instruments. Show the recommendation logic: 'we chose this because of X.' Avoid clinical language or condition-flagging unless the user opts in.",
+            "share": {
+              "pct_of_corpus": 4,
+              "pct_of_search": 3.6
+            },
+            "verbatims": [
+              {
+                "quote": "Seventy-four percent said AI could or might make their skincare or bodycare routines easier or more effective.",
+                "speaker": "A survey respondent cited in the article",
+                "stance": "held",
+                "source": "Beauty Lovers Are Leaning On AI for Body Care Advice"
+              },
+              {
+                "quote": "Consumers do not have an information problem—they have a decision problem.",
+                "speaker": "A survey respondent quoted in the Haut.AI report",
+                "stance": "held",
+                "source": "One in Three U.S. Women Are Already Using AI for Skincare and Bodycare Advice, New Survey Finds"
+              },
+              {
+                "quote": "skincare has always been missing [objective data]",
+                "speaker": "A LinkedIn post by Arpan Dastidar discussing consumer sentiment",
+                "stance": "held",
+                "source": "Arpan Dastidar posted on the topic"
+              }
+            ],
+            "brand_moves": [
+              {
+                "brand": "Ludient",
+                "move": "Ludient, a clinical skincare brand, launched in the U.S. in June 2026, using AI and over 5 million real skin data points to classify skin into 16 distinct types and develop formulas tailored to specific concerns, aiming to make skincare more personal and less trial-and-error.",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVgh2STbaZxmTZDPemXdv5qgQCBvRxKXNEOTUSf6lUyE6YHIorClxSJDGOc-La9i3x0l_kxtLJq0QK6dHmNBmnxQMogiJUO1OfGfQi1AUKIEEteLoidGJfTA7CgiqqNNsF1OvHDYK1wOxEN6oDMMi8OiUy3iaipxMOVrw3NHG5MvnLxsyMgZ-tSg60uqTcZorZimygf-DX_invZvLa2ZFK54_mFHc6"
+              },
+              {
+                "brand": "Olay",
+                "move": "Olay utilizes AI in its Skin Advisor, an online tool that analyzes a user's skin to provide customized product and routine recommendations, and allows users to track progress (undated).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJqk4qguHt4qsy3Rda5I1ZWpzmBdchKBz_FlcdZ-f8Mx1_a8I96BMCqxmftAni05uO1CxFcokCAiZ21qGp4rVYJYowfZ5fEsoQS_kDoppPi-ypI7s45f1xdHcVzJshc-J0"
+              },
+              {
+                "brand": "L'Oréal",
+                "move": "L'Oréal announced a partnership with OpenAI in June 2026 to integrate AI across its value chain, including AI-powered consumer interactions like Maybelline New York offering Makeup Virtual Try-On via ChatGPT.",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv1AQQGuTud6-9uquXEcebTr7o7bbSKkZD6qam3DLcdmQ4DcRnyconEc99Wh0zvxOdTHrH2qdcZOtXAnHPzQpO5YopqYrcBRq70iZs_tofubdqZiY5AH_afXA-SRbW3ujIYoKkbTb8oFior57iDfrKHcg8qxHccr5k-vNWBqQoui0xu7mQHg=="
+              },
+              {
+                "brand": "Neutrogena",
+                "move": "Neutrogena partnered with Nourished to create personalized 3D-printed skincare gummies called Nourished x Neutrogena Skin360 SkinStacks, leveraging the same AI technology used in Neutrogena's Skin360 digital skin assessment (undated).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJqk4qguHt4qsy3Rda5I1ZWpzmBdchKBz_FlcdZ-f8Mx1_a8I96BMCqxmftAni05uO1CxFcokCAiZ21qGp4rVYJYowfZ5fEsoQS_kDoppPi-ypI7s45f1xdHcVzJshc-J0"
+              }
+            ],
+            "brand_gap": "",
+            "cultural_read": "Americans are comfortable outsourcing decisions to tools but expect those tools to confirm what they already want to do. A face scan that returns a medical-sounding verdict crosses from helpful to threatening because it removes the woman's own judgment from the process and replaces it with a verdict she did not consent to receive.",
+            "unsayable": "",
+            "evidence": [
+              {
+                "title": "One in Three U.S. Women Are Already Using AI for Skincare and Bodycare Advice, New Survey Finds",
+                "url": "https://www.prnewswire.com/news-releases/one-in-three-us-women-are-already-using-ai-for-skincare-and-bodycare-advice-new-survey-finds-302858665.html",
+                "signal": ""
+              },
+              {
+                "title": "Beauty Lovers Are Leaning On AI for Body Care Advice",
+                "url": "https://www.happi.com/breaking-news/beauty-lovers-are-leaning-on-ai-for-body-care-advice/",
+                "signal": ""
+              },
+              {
+                "title": "AI Face Scans Raise Questions About Women's Beauty Pressure",
+                "url": "https://womensjournal.com/ai-face-scans-womens-beauty-pressure/",
+                "signal": ""
+              },
+              {
+                "title": "Arpan Dastidar posted on the topic",
+                "url": "https://www.linkedin.com/posts/akdastidar_skincare-artificialintelligence-brandbuilding-activity-7505945947705704448-K5vV",
+                "signal": ""
+              }
+            ],
+            "origin": "",
+            "origin_detail": "",
+            "search_volume": {
+              "entities": [
+                "AI skincare recommendation",
+                "skin analysis app",
+                "skincare quiz",
+                "best products for my skin"
+              ],
+              "entities_en": [
+                "AI skincare recommendation",
+                "skin analysis app",
+                "skincare quiz",
+                "best products for my skin"
+              ],
+              "results": [
+                {
+                  "keyword": "AI skincare recommendation",
+                  "volume": null,
+                  "trend_direction": null,
+                  "monthly": []
+                },
+                {
+                  "keyword": "skin analysis app",
+                  "volume": 130,
+                  "trend_direction": "sustained",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 590
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 880
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 720
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 590
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 110
+                    }
+                  ]
+                },
+                {
+                  "keyword": "skincare quiz",
+                  "volume": 1600,
+                  "trend_direction": "declining",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 3600
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 2900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 3600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 2900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 2900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 2400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 1600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 1900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 1600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 1600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 1300
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 1300
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 1000
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 1000
+                    }
+                  ]
+                },
+                {
+                  "keyword": "best products for my skin",
+                  "volume": 10,
+                  "trend_direction": "sustained",
+                  "monthly": [
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2024,
+                      "month": 10,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2024,
+                      "month": 11,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 0,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 0,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 7,
+                      "volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 8,
+                      "volume": 20
+                    }
+                  ]
+                }
+              ]
+            },
+            "embedded_examples": [],
+            "social_proof": [
+              {
+                "video_url": "https://www.tiktok.com/@dailyglowwithdes/video/7701326854979915039?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01kci8j1blk4k&share_item_id=7701326854979915039&source=h5_m",
+                "url": "https://www.tiktok.com/@dailyglowwithdes/video/7701326854979915039?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01kci8j1blk4k&share_item_id=7701326854979915039&source=h5_m",
+                "caption": "SEPHORA SKINCARE THATS ACTUALLY WORTH $$$ for sensitive + rosacea + acne prone skin  @banu skin chamomile jelly cleanser & deep drench moisturizer @INNBEAUTY PROJECT extreme cleanse  @EADEM cashmere p",
+                "hashtags": [
+                  "sephora",
+                  "sephorasale",
+                  "sephoramusthaves"
+                ],
+                "engagement": {
+                  "plays": 977,
+                  "likes": 87,
+                  "comments": 30,
+                  "shares": 2
+                },
+                "platform": "tiktok",
+                "scores": {
+                  "topic_fit": 0.5,
+                  "country_fit": 1,
+                  "authenticity": 0.5,
+                  "quote": "SEPHORA SKINCARE THATS ACTUALLY WORTH $$$ for sensitive + rosacea + acne prone skin",
+                  "speaker": "A creator on TikTok",
+                  "reasoning": "The video discusses skincare products suitable for sensitive, rosacea, and acne-prone skin, aligning with the consumer's need for AI to make choices due to decision fatigue, but it doesn't directly address the fear of AI's diagnostic capabilities or the need for objective data. The content is clearly from the US, and the creator's presentation suggests it's user-generated influencer content.",
+                  "recency": 0.5,
+                  "composite_score": 0.65
+                },
+                "quote": "SEPHORA SKINCARE THATS ACTUALLY WORTH $$$ for sensitive + rosacea + acne prone skin",
+                "speaker": "A creator on TikTok"
+              }
+            ],
+            "analytics": null,
+            "sub_themes": [
+              {
+                "name": "AI helps navigate decision fatigue and routine complexity",
+                "narrative": "US women are turning to AI to solve skincare confusion and routine overwhelm, with nearly one in three having used AI for skincare advice and 74% believing it could make their routines easier or more effective. They want AI to recommend products, build personalized routines, and identify skin concerns, reflecting frustration with cost, too many steps, and lack of clear guidance."
+              },
+              {
+                "name": "Consumers have a decision problem, not an information problem",
+                "narrative": "US women say they are drowning in product options, reviews, and skincare advice, but the real barrier is not finding information, it is narrowing choices and deciding what to actually use. They want AI to cut through the noise by recommending specific products and explaining why those products fit their skin, not just answering general questions."
+              },
+              {
+                "name": "AI face scans blur the line between cosmetic help and medical diagnosis",
+                "narrative": "US women worry that AI-powered skin analysis tools may misidentify skin issues, substitute for professional dermatology, or make them feel judged by a machine. They want product recommendations and cosmetic guidance, but they do not want tools that claim to diagnose skin conditions or replace a board-certified dermatologist's assessment."
+              },
+              {
+                "name": "Skincare outcomes feel unpredictable without objective data",
+                "narrative": "US women describe their skincare results as mysterious and hard to trace, a breakout could come from a new product, stress, their cycle, or a dirty pillowcase, but they have no way to know. They want skincare tracking tools that work like fitness rings or glucose monitors, giving them real-time, measurable proof of what is actually changing their skin."
+              }
+            ],
+            "thin": false
+          },
+          {
+            "name": "Parents draw a hard line between kids' hygiene and adult skincare culture",
+            "who": "Parents and guardians",
+            "agrees_on": "Children deserve protection from harmful products and predatory marketing.",
+            "pushes_back": "Brands packaging adult actives in children's IP and social media normalizing multi-step routines for kids.",
+            "arguing_with": "Beauty brands",
+            "narrative": "The Sungboon Editor x Toy Story pop-up in SoHo drew sharp criticism from parents who saw peptide serums in Buzz Lightyear packaging as normalizing anti-aging culture for children. 'Gentle cleanser, fragrance-free moisturizer, sunscreen. That is the list.'",
+            "whats_shifting": "Parents draw a firm line between kids' soap and adult skincare. Brands sell peptide serums in cartoon-character packaging, and TikTok routines coach preteens through exfoliants and retinoids.",
+            "brand_relevance": "If entering the children's category, lead with dermatologist co-development and a short ingredient list. Do not license adult-skincare actives into children's IP packaging. Messaging should address parents directly, not market aspiration to children.",
+            "share": {
+              "pct_of_corpus": 27.9,
+              "pct_of_search": null
+            },
+            "verbatims": [
+              {
+                "quote": "Why are they giving peptides to kids?",
+                "speaker": "A pop-up attendee quoted in the article",
+                "stance": "held",
+                "source": "Inside Sungboon Editor's SoHo Pop-Up"
+              },
+              {
+                "quote": "A barrier cream doesn't carry that same immediate cause-and-effect, so it often feels optional or even indulgent.",
+                "speaker": "A consumer perspective described in the article",
+                "stance": "held",
+                "source": "Do Kids Need Skincare? Shay Mitchell's Rini Uses Science to Prove Why - Los Angeles Times"
+              },
+              {
+                "quote": "I will never buy again",
+                "speaker": "A social media user calling for a Neutrogena boycott",
+                "stance": "held",
+                "source": "Neutrogena's stock spirals after Hayden Panettiere's tragic death as fans vow to boycott: 'I will never buy again'"
+              }
+            ],
+            "brand_moves": [
+              {
+                "brand": "Evereden",
+                "move": "Evereden, initially a skincare company for mothers and infants, released a preteen skincare line in 2021, which has become its fastest-growing segment and a driving force behind its annual sales, also selling crayon-shaped lipstick and Barbie-branded moisturizer for young children (January 2026).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGnGefQ7gniqGXSFfzTQ3pQOoJ6pbnzyV8U4yHcqvDKZ2jN2ddRrU7FT2Bmyk9HL9jVELfugpVg25b7cT5zw2lBVBCxFt2AOEkXa1UKrI9DvbR0Uq4d6Tfcd9Kbp-J00Y4jYPoBw4GniLhvG8N4H3Sca4RHw=="
+              },
+              {
+                "brand": "Sincerely Yours",
+                "move": "Sincerely Yours, a new skincare brand for tweens co-founded by a 15-year-old influencer, saw over 80,000 people attend a Sephora pop-up event in September (undated), with products selling out within the first hour (January 2026).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGnGefQ7gniqGXSFfzTQ3pQOoJ6pbnzyV8U4yHcqvDKZ2jN2ddRrU7FT2Bmyk9HL9jVELfugpVg25b7cT5zw2lBVBCxFt2AOEkXa1UKrI9DvbR0Uq4d6Tfcd9Kbp-J00Y4jYPoBw4GniLhvG8N4H3Sca4RHw=="
+              },
+              {
+                "brand": "Rini",
+                "move": "Rini, a skincare brand for children, launched in November (undated), founded by celebrity-entrepreneur Shay Mitchell, with a mission to nurture healthy habits and make thoughtfully crafted daily care essentials accessible (November 2025).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGnGefQ7gniqGXSFfzTQ3pQOoJ6pbnzyV8U4yHcqvDKZ2jN2ddRrU7FT2Bmyk9HL9jVELfugpVg25b7cT5zw2lBVBCxFt2AOEkXa1UKrI9DvbR0Uq4d6Tfcd9Kbp-J00Y4jYPoBw4GniLhvG8N4H3Sca4RHw=="
+              },
+              {
+                "brand": "Spots & Stripes",
+                "move": "Spots & Stripes developed an award-winning skincare range for tweens and teens, catering to specific needs for girls and boys with products like gentle cleansing lotion and exfoliating liquid (March 2026).",
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxSOySSmiNLuaR3IRyBMVA_8wb3WY_Zbeqwt-ABbNMBcRXWY-Geu-u_YEE5DODpqP_G2IjXCrLE7gkoQ8CvYyikyL6_EKOz7-Go30x2JEN7dDtnxqqYq3867FI1vBNq0NFu0OaOLRxex1EpCdyXNbOVbXkU11fsld1kuLDF7vtopQq9_8eu77Jmxka9_Tsc1LDOIIfzycu"
+              }
+            ],
+            "brand_gap": "",
+            "cultural_read": "The anger at peptide serums in cartoon packaging is anger at a timeline being collapsed. Childhood is supposed to be the one period exempt from the obligation to improve the body through purchased effort. Parents are not objecting to skincare, they are objecting to the moment their child gets enrolled in the project of self-making before they are old enough to have chosen it.",
+            "unsayable": "",
+            "evidence": [
+              {
+                "title": "Inside Sungboon Editor's SoHo Pop-Up",
+                "url": "https://beautymatter.com/articles/inside-sungboon-editors-soho-pop-up",
+                "signal": ""
+              },
+              {
+                "title": "Do Kids Need Skincare? Shay Mitchell's Rini Uses Science to Prove Why",
+                "url": "https://www.latimes.com/live-well/body/skin/story/do-kids-need-skincare-body-skin",
+                "signal": ""
+              },
+              {
+                "title": "Why 'Glazed Donut Skin' and Other Viral Beauty Trends Have Experts Concerned About Teens",
+                "url": "https://www.aol.com/articles/why-glazed-donut-skin-other-000000000.html",
+                "signal": ""
+              },
+              {
+                "title": "Building a Skin-care Routine Around TikTok and Instagram Raises the Odds of Skin Issues: Study",
+                "url": "https://www.allure.com/story/social-media-skin-care-routine-study-2026",
+                "signal": ""
+              },
+              {
+                "title": "Neutrogena's stock spirals after Hayden Panettiere's tragic death",
+                "url": "https://commstrader.com/lifestyle/neutrogenas-stock-spirals-after-hayden-panettieres-tragic-death-as-fans-vow-to-boycott-i-will-never-buy-again/",
+                "signal": ""
+              }
+            ],
+            "origin": "",
+            "origin_detail": "",
+            "search_volume": {
+              "entities": [
+                "kids skincare safe",
+                "Sephora kids",
+                "teen skincare routine",
+                "skincare for children"
+              ],
+              "entities_en": [
+                "kids skincare safe",
+                "Sephora kids",
+                "teen skincare routine",
+                "skincare for children"
+              ],
+              "results": [
+                {
+                  "keyword": "kids skincare safe",
+                  "volume": null,
+                  "trend_direction": null,
+                  "monthly": []
+                },
+                {
+                  "keyword": "Sephora kids",
+                  "volume": null,
+                  "trend_direction": "sustained",
+                  "monthly": [
+                    {
+                      "year": 2023,
+                      "month": 5,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2023,
+                      "month": 6,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2023,
+                      "month": 7,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2023,
+                      "month": 8,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2023,
+                      "month": 9,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2023,
+                      "month": 10,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2023,
+                      "month": 11,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2024,
+                      "month": 0,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2024,
+                      "month": 1,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2024,
+                      "month": 2,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2024,
+                      "month": 3,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2024,
+                      "month": 4,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2024,
+                      "month": 5,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2024,
+                      "month": 6,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2024,
+                      "month": 7,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2024,
+                      "month": 8,
+                      "volume": 0
+                    },
+                    {
+                      "year": 2024,
+                      "month": 9,
+                      "volume": 0
+                    }
+                  ]
+                },
+                {
+                  "keyword": "teen skincare routine",
+                  "volume": null,
+                  "trend_direction": null,
+                  "monthly": []
+                },
+                {
+                  "keyword": "skincare for children",
+                  "volume": null,
+                  "trend_direction": null,
+                  "monthly": [
+                    {
+                      "year": 2020,
+                      "month": 10,
+                      "volume": null
+                    },
+                    {
+                      "year": 2020,
+                      "month": 11,
+                      "volume": null
+                    },
+                    {
+                      "year": 2021,
+                      "month": 0,
+                      "volume": null
+                    },
+                    {
+                      "year": 2021,
+                      "month": 1,
+                      "volume": null
+                    },
+                    {
+                      "year": 2021,
+                      "month": 2,
+                      "volume": null
+                    },
+                    {
+                      "year": 2021,
+                      "month": 3,
+                      "volume": null
+                    },
+                    {
+                      "year": 2021,
+                      "month": 4,
+                      "volume": null
+                    },
+                    {
+                      "year": 2021,
+                      "month": 5,
+                      "volume": null
+                    },
+                    {
+                      "year": 2021,
+                      "month": 6,
+                      "volume": null
+                    },
+                    {
+                      "year": 2021,
+                      "month": 7,
+                      "volume": null
+                    },
+                    {
+                      "year": 2021,
+                      "month": 8,
+                      "volume": null
+                    },
+                    {
+                      "year": 2021,
+                      "month": 9,
+                      "volume": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "embedded_examples": [],
+            "social_proof": [],
+            "analytics": null,
+            "sub_themes": [
+              {
+                "name": "Adult skincare ingredients should not be marketed to children",
+                "narrative": "US consumers express strong concern that potent actives like peptides, retinol, and chemical exfoliants are inappropriate for children's skin, and that brands should not use children's entertainment IP to normalize adult beauty routines. The worry centers on both physical safety and the normalization of anti-aging culture at young ages."
+              },
+              {
+                "name": "Basic skincare for children should be minimal and functional",
+                "narrative": "US parents and consumers believe children need only essential, age-appropriate skincare like gentle cleansers, fragrance-free moisturizer, and sunscreen, not multi-step routines or anti-aging products. Barrier care is viewed as a practical necessity, while layered routines feel like unnecessary consumerism or indulgence."
+              },
+              {
+                "name": "Viral skincare trends promise results that don't match reality",
+                "narrative": "US consumers, especially teens and young women, feel pressure to achieve flawless skin through expensive multi-step routines like glass skin and glazed donut skin, but recognize these trends are unaffordable, time-consuming, and often unsafe for their skin type. The gap between social media ideals and what actually works for their skin creates frustration and self-doubt."
+              },
+              {
+                "name": "Social media skincare advice risks skin damage through layering",
+                "narrative": "US consumers worry that TikTok and Instagram skincare routines, especially those layering multiple actives without professional guidance, cause irritation, barrier damage, and acne rather than improve skin. They see influencer content as driven by engagement and paid deals rather than medical accuracy or individual skin needs."
+              }
+            ],
+            "thin": false
+          }
+        ],
+        "summary": "Fewer products now signal competence and women trust strangers to prove it.\n\nForty-five percent of US women abandon routines because of cost, and 36 percent quit because there are too many steps, which means the industry's default move of adding products is the thing driving women away. The women who stay are consolidating around three or four barrier-repair products, CeraVe and BYOMA appearing most often, and they are validating those choices on Reddit rather than through brand channels, precisely because Reddit carries no affiliate links. Cloud skin has replaced glass skin as the finish women over 30 want, and dermatologists report patients asking for calming routines rather than new actives. A brand that pitches complexity now has to argue against the peer consensus that restraint produces better results, and that consensus is not going away.",
+        "metadata": {
+          "exa_results_count": 412,
+          "articles_after_filter": 4344,
+          "verified_videos": [
+            {
+              "url": "https://www.tiktok.com/@leland.d/video/7701051592866401566?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7701051592866401566&source=h5_m",
+              "video_url": "https://www.tiktok.com/@leland.d/video/7701051592866401566?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7701051592866401566&source=h5_m",
+              "engagement": {
+                "plays": 491,
+                "likes": 37
+              },
+              "multimodal": {
+                "video_summary": "A woman with blonde hair, wearing pajamas, performs her morning skincare routine after drinking coffee, applying several products and using a fan to dry her face."
+              }
+            },
+            {
+              "url": "https://www.tiktok.com/@ashley.paiige/video/7696551896999415053?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7696551896999415053&source=h5_m",
+              "video_url": "https://www.tiktok.com/@ashley.paiige/video/7696551896999415053?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7696551896999415053&source=h5_m",
+              "engagement": {
+                "plays": 246514,
+                "likes": 27963
+              },
+              "multimodal": {
+                "video_summary": "A woman shares her elaborate nighttime skincare and haircare routine, including cleansing, applying serums and moisturizers, and styling her hair, while discussing her skin concerns and product preferences."
+              }
+            },
+            {
+              "url": "https://www.tiktok.com/@yurileeeee/video/7665399075247885582?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7665399075247885582&source=h5_m",
+              "video_url": "https://www.tiktok.com/@yurileeeee/video/7665399075247885582?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7665399075247885582&source=h5_m",
+              "engagement": {
+                "plays": 775797,
+                "likes": 78080
+              },
+              "multimodal": {
+                "video_summary": "A woman demonstrates various skincare and beauty practices, including applying products, using facial tools, and consuming a healthy drink, as part of her routine for future self-care."
+              }
+            },
+            {
+              "url": "https://www.tiktok.com/@kait_byh20/video/7662940583811435806?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7662940583811435806&source=h5_m",
+              "video_url": "https://www.tiktok.com/@kait_byh20/video/7662940583811435806?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7662940583811435806&source=h5_m",
+              "engagement": {
+                "plays": 198405,
+                "likes": 21860
+              },
+              "multimodal": {
+                "video_summary": "A young woman demonstrates her nighttime skincare and hair routine, applying various products and brushing her hair before ending with a kiss to the camera."
+              }
+            },
+            {
+              "url": "https://www.tiktok.com/@lexaferrell/video/7694458077117943054?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7694458077117943054&source=h5_m",
+              "video_url": "https://www.tiktok.com/@lexaferrell/video/7694458077117943054?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7694458077117943054&source=h5_m",
+              "engagement": {
+                "plays": 217279,
+                "likes": 481
+              },
+              "multimodal": {
+                "video_summary": "The creator demonstrates a two-step skincare routine using Epionce products, a serum and a facial cream, to achieve a glowing complexion."
+              }
+            },
+            {
+              "url": "https://www.tiktok.com/@macroswithlilly/video/7691691031036808479?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7691691031036808479&source=h5_m",
+              "video_url": "https://www.tiktok.com/@macroswithlilly/video/7691691031036808479?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7691691031036808479&source=h5_m",
+              "engagement": {
+                "plays": 89215,
+                "likes": 8826
+              },
+              "multimodal": {
+                "video_summary": "A woman shares her high-end skincare routine, highlighting several holy grail products and explaining why they are essential for achieving glowing skin."
+              }
+            },
+            {
+              "url": "https://www.tiktok.com/@ellastough/video/7701537074444307743?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7701537074444307743&source=h5_m",
+              "video_url": "https://www.tiktok.com/@ellastough/video/7701537074444307743?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7701537074444307743&source=h5_m",
+              "engagement": {
+                "plays": 17537,
+                "likes": 2130
+              },
+              "multimodal": {
+                "video_summary": "A woman follows her post-shower nighttime skincare routine, applying serum, eye cream, moisturizer, and body oil, before finishing with a facial massage tool."
+              }
+            },
+            {
+              "url": "https://www.tiktok.com/@kristynhoffman96/video/7701499818136423710?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7701499818136423710&source=h5_m",
+              "video_url": "https://www.tiktok.com/@kristynhoffman96/video/7701499818136423710?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7701499818136423710&source=h5_m",
+              "engagement": {
+                "plays": 4430,
+                "likes": 368
+              },
+              "multimodal": {
+                "video_summary": "A woman demonstrates a capsule skincare routine for a glowing skin barrier using BYOMA products, highlighting a cleanser, face mist, toner, serum, moisturizer, and SPF."
+              }
+            },
+            {
+              "url": "https://www.tiktok.com/@ariellelorre/video/7683997978582846750?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7683997978582846750&source=h5_m",
+              "video_url": "https://www.tiktok.com/@ariellelorre/video/7683997978582846750?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7683997978582846750&source=h5_m",
+              "engagement": {
+                "plays": 135264,
+                "likes": 5095
+              },
+              "multimodal": {
+                "video_summary": "A 41-year-old woman shares her nighttime skincare routine for achieving 'glass skin,' detailing the products she uses and her experience with them."
+              }
+            },
+            {
+              "url": "https://www.tiktok.com/@cindyruzi/video/7695814768908684558?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7695814768908684558&source=h5_m",
+              "video_url": "https://www.tiktok.com/@cindyruzi/video/7695814768908684558?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7695814768908684558&source=h5_m",
+              "engagement": {
+                "plays": 40138,
+                "likes": 2305
+              },
+              "multimodal": {
+                "video_summary": "A woman with dry, sensitive skin shares her nighttime skincare routine, featuring makeup removal, cleansing, exfoliation, serums, moisturizer, and lip treatment."
+              }
+            },
+            {
+              "url": "https://www.tiktok.com/@brigettejean/video/7591616176191573278?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7591616176191573278&source=h5_m",
+              "video_url": "https://www.tiktok.com/@brigettejean/video/7591616176191573278?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01jkbhb6h6523&share_item_id=7591616176191573278&source=h5_m",
+              "engagement": {
+                "plays": 0,
+                "likes": 0
+              },
+              "multimodal": {
+                "video_summary": "A woman shares her morning skincare routine, showcasing products that help her achieve glowy, glass-like skin."
+              }
+            },
+            {
+              "url": "https://www.tiktok.com/@cassidybpaige/video/7694470063113424158?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01k563e8d576l&share_item_id=7694470063113424158&source=h5_m",
+              "video_url": "https://www.tiktok.com/@cassidybpaige/video/7694470063113424158?_r=1&u_code=0&preview_pb=0&sharer_language=en&_d=f01k563e8d576l&share_item_id=7694470063113424158&source=h5_m",
+              "engagement": {
+                "plays": 19249,
+                "likes": 2153
+              },
+              "multimodal": {
+                "video_summary": "A person goes through their night-time skincare routine, starting with makeup removal and cleansing, followed by exfoliation, serum application, moisturizing, and finishing with an eyelash serum."
+              }
+            }
+          ],
+          "thin_coverage": false
+        }
+      }
+    }
+  ]
+}

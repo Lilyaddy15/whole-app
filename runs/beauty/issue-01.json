@@ -1,0 +1,475 @@
+{
+  "_editor_note": "Issue No. 01, the Skin Issue. Written by hand (Editor Agent role) from runs/beauty/*.json on 2026-11-01. Angle: the routine is shrinking and trust is moving to strangers. Dropped the off-cohort 'parents vs kids' skincare' theme (27.9% of coverage, no search data). Real or hype keeps only claims present in this quarter's runs. Foresight 'headlines' left out: they are imagined future news naming real companies.",
+  "stat": "1 in 2",
+  "statLine": "skincare searches we tracked were about fixing a damaged skin barrier. Only 1 in 10 articles covered it.",
+  "cover": [
+    [
+      "Fewer, better, proven",
+      "Why women are quitting the ten-step routine"
+    ],
+    [
+      "Real or hype?",
+      "Glass skin, fragrance-free and AI face scans, checked"
+    ],
+    [
+      "Skin on GLP-1s",
+      "37.7% report sagging. What comes next"
+    ]
+  ],
+  "answer": "Fewer products now signal competence, and women trust strangers to prove it.",
+  "lede": "Forty-five percent of US women name cost as a reason they give up on a skincare routine, and 36 percent name too many steps. The women who stay are cutting down to three or four barrier-friendly products, with CeraVe and BYOMA named most often, and checking every choice with strangers on Reddit before they buy. The loudest argument is about who to trust. The quietest is in search: half of it is about repairing skin.",
+  "receipt": {
+    "pipe": "Discourse · Trends · Segmentation",
+    "posts": "992 articles and videos, 10,399 signals",
+    "window": "Last 3 months to Nov 1, 2026"
+  },
+  "themes": [
+    {
+      "h": "Quitting before it works",
+      "p": "Cost, too many steps and slow results make routines collapse. The fix women film: a three- or four-product capsule routine.",
+      "posted": 25,
+      "searched": 35
+    },
+    {
+      "h": "Barrier first, glow second",
+      "p": "Glass skin now reads as long-term damage. Ceramides, fragrance-free formulas and softer “cloud skin” replace stacked actives.",
+      "posted": 11,
+      "searched": 50
+    },
+    {
+      "h": "Reddit over influencers",
+      "p": "Shoppers trust strangers who show their real skin more than paid endorsements. Almost nobody searches it; everybody argues it.",
+      "posted": 26,
+      "searched": 0
+    },
+    {
+      "h": "Restraint is the new flex",
+      "p": "Project pan, finishing what you own and lived-in skin. Using less now reads as status.",
+      "posted": 7,
+      "searched": 11
+    },
+    {
+      "h": "Let AI choose, but not look",
+      "p": "Overwhelmed women want an app to pick their products, and worry about what a face scan sees.",
+      "posted": 4,
+      "searched": 4
+    }
+  ],
+  "hormone": {
+    "b": "Your blood work is showing up in your skincare.",
+    "p": "Women are linking dull skin, breakouts and hair shedding to iron and thyroid levels since Vogue named “ferritin face”. Searches for “low ferritin hair loss” hit their highest point in September. New American Society of Hematology guidelines raise the threshold for diagnosing iron deficiency, which could widen who hears that answer."
+  },
+  "asking": [
+    {
+      "q": "How do I repair my skin barrier?",
+      "mult": "4.6×",
+      "a": "Half of all searches in this conversation, and barely covered. The research backs the basics: stop over-exfoliating and use a plain moisturizer. Ceramides help, but no cream clearly beats the rest."
+    },
+    {
+      "q": "Is this skincare free trial a scam?",
+      "mult": "52×",
+      "a": "21,480 searches a month and almost no coverage. Shoppers describe “free” DTC trials, naming Belle Epoque, Nuavive and Neulift, that enroll them in a monthly charge and take a phone call to cancel."
+    },
+    {
+      "q": "What is the simplest routine that works?",
+      "mult": "1.4×",
+      "a": "The dermatologists’ short list: cleanse, treat if you need to, moisturize, sunscreen. No study has tested ten steps against four."
+    }
+  ],
+  "hype": [
+    {
+      "id": "beauty-barrier-repair",
+      "t": "Barrier repair",
+      "says": "Strip it back to a gentle moisturizer and your skin will heal."
+    },
+    {
+      "id": "beauty-glass-skin-over-exfoliation",
+      "t": "Glass skin layering",
+      "says": "Chasing glass skin with layers of acids and exfoliants wrecks your barrier long term."
+    },
+    {
+      "id": "beauty-fragrance-free",
+      "t": "Fragrance-free",
+      "says": "Fragrance-free products are better for sensitive, irritated skin."
+    },
+    {
+      "id": "beauty-fewer-products",
+      "t": "The 3-product routine",
+      "says": "Three or four products work as well as ten steps."
+    },
+    {
+      "id": "beauty-ai-skin-scans",
+      "t": "AI face scans",
+      "says": "An AI face scan can tell you exactly what your skin needs."
+    },
+    {
+      "id": "beauty-at-home-led-masks",
+      "t": "At-home LED masks",
+      "says": "A red-light mask at home is a clinic treatment for less."
+    }
+  ],
+  "segments": [
+    {
+      "n": "Budget Shoppers",
+      "q": "Good skin shouldn’t cost you — find the shortcut, not the sacrifice.",
+      "share": 24,
+      "trigger": "Affordable products that actually work",
+      "buys": "CeraVe, L’Oréal, Sephora",
+      "pos": {
+        "x": 0.3,
+        "y": 0.1
+      }
+    },
+    {
+      "n": "Barrier Repairers",
+      "q": "Healing skin is slow, communal work — the process itself is the point.",
+      "share": 22,
+      "trigger": "Simple, low-irritation product stacks",
+      "buys": "Aestura, haruharu wonder, Bioderma",
+      "pos": {
+        "x": 0.2,
+        "y": 0.45
+      }
+    },
+    {
+      "n": "Transformation Trackers",
+      "q": "Proof lives in the timeline — public struggle earns the right to claim results.",
+      "share": 18,
+      "trigger": "Products that deliver results over time",
+      "buys": "Pharmacy and drugstore skincare, prescription treatments",
+      "pos": {
+        "x": 0.15,
+        "y": 0.4
+      }
+    },
+    {
+      "n": "Luxury Collectors",
+      "q": "Premium products signal that your skin deserves the best, no justification needed.",
+      "share": 16,
+      "trigger": "Proof that premium products outperform",
+      "buys": "Caudalie, Estée Lauder, Sulwhasoo",
+      "pos": {
+        "x": 0.85,
+        "y": 0.9
+      }
+    },
+    {
+      "n": "Ingredient Researchers",
+      "q": "Science is the authority — knowing the formula earns the outcome.",
+      "share": 13,
+      "trigger": "Ingredient-level product explanations",
+      "buys": "Skinbetter Science, COSRX, Isntree",
+      "pos": {
+        "x": 0.25,
+        "y": 0.5
+      }
+    },
+    {
+      "n": "Routine Simplifiers",
+      "q": "A tight, reliable routine is competence — not laziness, just efficiency.",
+      "share": 7,
+      "trigger": "A short stack of proven staples",
+      "buys": "CeraVe",
+      "pos": {
+        "x": 0.55,
+        "y": 0.45
+      }
+    }
+  ],
+  "brands": [
+    {
+      "b": "CeraVe",
+      "t": "up",
+      "tl": "Most named",
+      "what": "The staple of the three-product routine, and the clearance-aisle find budget shoppers grab first."
+    },
+    {
+      "b": "BYOMA",
+      "t": "up",
+      "tl": "Named often",
+      "what": "Shows up in capsule barrier routines on TikTok next to CeraVe."
+    },
+    {
+      "b": "e.l.f.",
+      "t": "up",
+      "tl": "The dupe",
+      "what": "Its vitamin C serum is called “almost identical in formulation” to SkinCeuticals C E Ferulic."
+    },
+    {
+      "b": "Neutrogena",
+      "t": "down",
+      "tl": "Boycott calls",
+      "what": "Reddit and Threads users vowed never to buy again after it ended an ambassador’s contract, reading it as dropping her during postpartum depression."
+    }
+  ],
+  "products": [
+    {
+      "name": "Moisturizing Cream",
+      "brand": "CeraVe",
+      "mark": "CV",
+      "price": 17.99,
+      "unit": "16 oz jar",
+      "perUse": 0.02,
+      "verdict": "worth",
+      "loved": "The base of the three-product routine, and the clearance-aisle find budget shoppers grab first",
+      "gripes": "A class action alleges its “baby” versions charge more for the same formula",
+      "mentions": "",
+      "dupe": null,
+      "shops": [
+        [
+          "Target",
+          17.99
+        ],
+        [
+          "Ulta",
+          19.99
+        ]
+      ]
+    },
+    {
+      "name": "Moisturizing Gel Cream",
+      "brand": "BYOMA",
+      "mark": "BY",
+      "price": 14.99,
+      "unit": "1.69 oz jar",
+      "perUse": 0.15,
+      "verdict": "try",
+      "loved": "Named with CeraVe in capsule barrier routines, and on “best under $20” lists",
+      "gripes": "Little pushback in this quarter’s data yet",
+      "mentions": "",
+      "dupe": null,
+      "shops": [
+        [
+          "Target",
+          14.99
+        ],
+        [
+          "Ulta",
+          15.99
+        ]
+      ]
+    },
+    {
+      "name": "C E Ferulic",
+      "brand": "SkinCeuticals",
+      "mark": "CE",
+      "price": 185,
+      "unit": "1 oz bottle",
+      "perUse": 1.23,
+      "verdict": "dupe",
+      "loved": "The vitamin C serum every dupe gets measured against",
+      "gripes": "$185, when shoppers call a $17 serum “almost identical in formulation”",
+      "mentions": "",
+      "dupe": {
+        "name": "e.l.f. Bright Icon Vitamin C + E + Ferulic Serum",
+        "price": 17
+      },
+      "shops": [
+        [
+          "Dermstore",
+          185
+        ]
+      ]
+    }
+  ],
+  "life": [
+    {
+      "t": "Bemotrizinol sunscreen",
+      "s": "rising",
+      "since": "40,500 searches in June, when the FDA approved it. Still 18,100 in August",
+      "pts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        7,
+        5
+      ]
+    },
+    {
+      "t": "Low-ferritin hair loss",
+      "s": "rising",
+      "since": "At its highest in September",
+      "pts": [
+        7,
+        5,
+        7,
+        7,
+        7,
+        8,
+        8,
+        12
+      ]
+    },
+    {
+      "t": "At-home chemical peels",
+      "s": "sticking",
+      "since": "6,600 to 9,900 searches a month for over a year",
+      "pts": [
+        10,
+        10,
+        12,
+        8,
+        10,
+        10,
+        12,
+        8
+      ]
+    },
+    {
+      "t": "Paraben-free",
+      "s": "faded",
+      "since": "Down from 390 to 70 searches a month since last fall",
+      "pts": [
+        12,
+        12,
+        10,
+        6,
+        8,
+        3,
+        2,
+        2
+      ]
+    }
+  ],
+  "next": [
+    {
+      "w": "Now",
+      "s": "2026",
+      "h": "Proof is the price of entry",
+      "p": "The FDA approved bemotrizinol, the first new US sunscreen filter in over 25 years, and brands sell “longevity” with clinical data. Shoppers want a number, not a feeling."
+    },
+    {
+      "w": "Next",
+      "s": "2027",
+      "h": "GLP-1 skin becomes a category",
+      "p": "37.7% of GLP-1 users report sagging skin and 29.2% facial volume loss. Expect products built for skin that changes on a drug timeline."
+    },
+    {
+      "w": "Later",
+      "s": "2029",
+      "h": "Collagen from the inside",
+      "p": "Bioengineered collagen that rebuilds skin from within, and a fight over whether it counts as beauty or medicine."
+    }
+  ],
+  "worlds": [
+    [
+      "Beauty becomes medicine",
+      "Skin repair moves behind the pharmacy counter, with prices to match"
+    ],
+    [
+      "Medicine becomes beauty",
+      "A weekly face scan sets your dose, and the dermatologist steps back"
+    ]
+  ],
+  "qa": [
+    {
+      "q": "Is glass skin bad for you?",
+      "a": "Over-exfoliating and stacking strong acids clearly cause redness and stinging. Lasting damage hasn’t been shown, and the irritation usually settles when you cut back."
+    },
+    {
+      "q": "Do I need an expensive serum?",
+      "a": "Shoppers say often not: e.l.f.’s vitamin C serum is called “almost identical in formulation” to SkinCeuticals C E Ferulic. The women who do pay $100 or more want proof it outperforms."
+    },
+    {
+      "q": "What is bemotrizinol?",
+      "a": "A sunscreen filter used for years in Europe and Australia and newly approved in the US, the first new one in over 25 years. Searches hit 40,500 in June."
+    }
+  ],
+  "issueNo": "Issue No. 01",
+  "_prices": "Retailer prices checked 2026-11-01 (Target, Ulta, Dermstore, e.l.f.). Per-use: cream 0.5 g, serum 0.2 ml.",
+  "feed": [
+    {
+      "who": "@ariellelorre",
+      "plays": "135K",
+      "what": "A 41-year-old woman shares her nighttime skincare routine for achieving 'glass skin,' detailing the products she uses and her experience with them.",
+      "url": "https://www.tiktok.com/@ariellelorre/video/7683997978582846750",
+      "cap": "Glass skin at 41: her full night routine"
+    },
+    {
+      "who": "@kristynhoffman96",
+      "plays": "4K",
+      "what": "A woman demonstrates a capsule skincare routine for a glowing skin barrier using BYOMA products, highlighting a cleanser, face mist, toner, serum, moisturizer, and SPF.",
+      "url": "https://www.tiktok.com/@kristynhoffman96/video/7701499818136423710",
+      "cap": "A capsule barrier routine, all BYOMA"
+    },
+    {
+      "who": "@yurileeeee",
+      "plays": "776K",
+      "what": "A woman demonstrates various skincare and beauty practices, including applying products, using facial tools, and consuming a healthy drink, as part of her routine for future self-care.",
+      "url": "https://www.tiktok.com/@yurileeeee/video/7665399075247885582",
+      "cap": "Skincare as care for your future self"
+    },
+    {
+      "who": "@ashley.paiige",
+      "plays": "247K",
+      "what": "A woman shares her elaborate nighttime skincare and haircare routine, including cleansing, applying serums and moisturizers, and styling her hair, while discussing her skin concerns and product preferences.",
+      "url": "https://www.tiktok.com/@ashley.paiige/video/7696551896999415053",
+      "cap": "The long version: a full night routine"
+    }
+  ],
+  "segMap": {
+    "x": [
+      "Earned",
+      "Given"
+    ],
+    "y": [
+      "Budget",
+      "Premium"
+    ],
+    "note": "Earned: good skin is something you work for. Given: something you buy your way into."
+  },
+  "lifeHow": {
+    "line": "Monthly Google searches, last 8 data points",
+    "window": "May 2025 – Sep 2026"
+  },
+  "pricesNote": "Checked on retailer sites, Nov 1, 2026",
+  "issueTitle": "The Skin Issue",
+  "issueDate": "Nov 2026",
+  "visual": {
+    "statShort": "of skincare searches were about fixing a damaged barrier",
+    "statFill": 50,
+    "highlight": [
+      "Fewer products",
+      "strangers"
+    ],
+    "bigStats": [
+      {
+        "n": "45%",
+        "l": "quit a routine over cost"
+      },
+      {
+        "n": "36%",
+        "l": "quit over too many steps"
+      },
+      {
+        "n": "3–4",
+        "l": "products in the routine that lasts"
+      }
+    ],
+    "gapNote": {
+      "row": 1,
+      "text": "half of all searches, barely posted"
+    },
+    "hormoneShort": "“Ferritin face”: women are reading their blood work for answers about skin and hair.",
+    "lifeNote": "FDA approval",
+    "dupe": {
+      "hi": {
+        "name": "SkinCeuticals C E Ferulic",
+        "price": 185
+      },
+      "lo": {
+        "name": "e.l.f. Bright Icon",
+        "price": 17
+      },
+      "quote": "“almost identical in formulation”"
+    },
+    "pull": "The routine was always designed to sell the next product, not to finish.",
+    "lifeBig": {
+      "n": 40500,
+      "l": "searches in June, the month it was approved"
+    }
+  }
+}

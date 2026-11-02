@@ -1,0 +1,90 @@
+{
+  "request": "Beauty",
+  "cohort": "US women aged 25-40",
+  "market": "United States",
+  "window": "Last 3 months",
+  "planned_at": "2026-10-28T16:58:00",
+  "summary": "Skin issue: broad Discourse (Oct 28) + Trends, products Discourse, Segmentation (Nov 1).",
+  "runs": [
+    {
+      "pipeline": "discourse",
+      "title": "Beauty · Discourse · broad",
+      "why": "Test run launched from the web app (Lily's account) on 2026-10-28",
+      "params": {
+        "topic": "skincare and beauty routines",
+        "cohort": "US women aged 25-40",
+        "country": "United States",
+        "date_range": "Last 3 months",
+        "focus": "Go broad — scan everything"
+      },
+      "run_id": "6ae261f2e4a2eb3a59fcdc6c",
+      "status": "completed",
+      "saved": "beauty-discourse-broad.json"
+    },
+    {
+      "pipeline": "segmentation",
+      "title": "Digital Segmentation analysis",
+      "why": "Launched by Lily from the web app, 2026-11-01",
+      "params": {
+        "query": "Digital Segmentation analysis",
+        "category": "skincare",
+        "country": "United States",
+        "client_question": "Who are the distinct audience segments among US women aged 25 to 40 who talk about their skincare routines?",
+        "question": "Digital Segmentation analysis",
+        "research_depth": "quick",
+        "country_code": "US"
+      },
+      "run_id": "6ae780a8fc240c021150a9cc",
+      "status": "completed",
+      "saved": "beauty-segments.json"
+    },
+    {
+      "pipeline": "discourse",
+      "title": "Discourse analysis",
+      "why": "Launched by Lily from the web app, 2026-11-01",
+      "params": {
+        "query": "Discourse analysis",
+        "cohort": "US women aged 25-40",
+        "topic": "skincare products",
+        "country": "United States",
+        "focus": "Brands & discovery — who's winning, DTC vs. traditional retail, influencer-driven brands, indie vs. established",
+        "date_range": "Last 3 months",
+        "country_code": "US"
+      },
+      "run_id": "6ae78066388b139db9ccbcd6",
+      "status": "completed",
+      "saved": "beauty-discourse-products.json"
+    },
+    {
+      "pipeline": "trends",
+      "title": "Trends analysis",
+      "why": "Launched by Lily from the web app, 2026-11-01",
+      "params": {
+        "query": "Trends analysis",
+        "cohort": "US women aged 25-40",
+        "category": "skincare",
+        "country": "United States",
+        "focus": "Go broad — scan everything",
+        "date_range": "Last 3 months",
+        "country_code": "US"
+      },
+      "run_id": "6ae78035fc240c021150a9c6",
+      "status": "completed",
+      "saved": "beauty-trends.json"
+    },
+    {
+      "pipeline": "futures",
+      "title": "Beauty after GLP-1 (Anthropologic Research Thinking)",
+      "why": "Free published Foresight report, used for What's next",
+      "params": {
+        "query": "Foresight Simulator analysis",
+        "category": " Beauty in the age of GLP-1 weight loss drugs",
+        "horizon_depth": "full",
+        "research_depth": "quick"
+      },
+      "run_id": "6a98fa80cb3fa7aac0e585fe",
+      "status": "completed",
+      "saved": "beauty-glp1-foresight.json"
+    }
+  ]
+}

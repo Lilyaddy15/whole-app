@@ -31,13 +31,13 @@ MODEL = "claude-opus-5-5"
 FALLBACK_BETA = "server-side-fallback-2026-07-01"
 
 # The Anthropologic tools the agent can choose from, as listed on anthropologic.quilt.ai.
-# Credit costs marked "est." are placeholders until we have the real price list.
+# Credit costs from the Anthropologic cURL guide; "est." where it has no price.
 TOOLS = {
-    "Trends": {"inputs": ["topic", "market", "window"], "credits": "10 (est.)",
+    "Trends": {"inputs": ["category", "cohort", "market", "window"], "credits": "10",
                "use_for": "Whether something is growing, peaking or fading, with social proof and search patterns."},
     "Discourse": {"inputs": ["topic", "cohort", "market", "window", "angle"], "credits": "10",
                   "use_for": "What people think, say and feel: themes, tensions, and what is searched vs. posted."},
-    "Digital Segmentation": {"inputs": ["topic", "cohort", "market"], "credits": "20 (est.)",
+    "Digital Segmentation": {"inputs": ["category", "market", "question"], "credits": "100",
                              "use_for": "Who is in the conversation: audience groups in their own words."},
     "Brand Performance": {"inputs": ["brand", "market"], "credits": "20 (est.)",
                           "use_for": "How a brand or product performs across social, search and AI answers."},
@@ -146,6 +146,9 @@ if __name__ == "__main__":
         print(SYSTEM, "\n\n---\n", plan_prompt(a.question, reader, cache))
         sys.exit(0)
     import anthropic
+    import pathlib
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
+    import keys; keys.load()  # noqa: E702
     try:
         print(json.dumps(make_plan(anthropic.Anthropic(), a.question, reader, cache), indent=2))
     except (anthropic.APIStatusError, anthropic.APIConnectionError, RuntimeError) as e:

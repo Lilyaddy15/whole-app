@@ -1,0 +1,187 @@
+<title>WHOLE in AI Answers</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Instrument+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single memo column in WHOLE's paper-and-ink palette, with the Nutrition orange as the one accent. */
+:root{
+  --paper:#FFF7F1; --panel:#F6E9E0; --ink:#1C1216; --muted:#6B5A5F; --line:#E6D5CB;
+  --accent:#C2410C; --accent-soft:#FFE6CC; --up:#0F7A55;
+  --display:"Libre Bodoni","Bodoni 72",Didot,Georgia,serif;
+  --body:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
+  --mono:"DM Mono",ui-monospace,"SF Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151012; --panel:#211A1D; --ink:#F6EDE8; --muted:#B4A3A8; --line:#3A2F33;
+  --accent:#FF9A4D; --accent-soft:#3A2414; --up:#4CC79A; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --paper:#151012; --panel:#211A1D; --ink:#F6EDE8; --muted:#B4A3A8; --line:#3A2F33;
+  --accent:#FF9A4D; --accent-soft:#3A2414; --up:#4CC79A; color-scheme:dark }
+
+body{background:var(--paper);color:var(--ink);font:16px/1.6 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:48px 72px}
+main{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:44px}
+h1,h2{font-family:var(--display);font-weight:600;text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(2.2rem,6vw,3.2rem)}
+h2{font-size:1.6rem}
+h3{font-size:1rem;margin:0;font-weight:700}
+p{margin:0}
+section{display:flex;flex-direction:column;gap:14px}
+.label{font:500 .74rem/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px}
+header{display:flex;flex-direction:column;gap:14px;border-bottom:1px solid var(--line);padding-bottom:28px}
+.dek{font-size:1.15rem;color:var(--muted);max-width:60ch}
+.rec{background:var(--accent-soft);border-radius:6px;padding:22px 24px;display:flex;flex-direction:column;gap:10px}
+.rec p{font-size:1.08rem}
+.rec strong{color:var(--accent)}
+ul,ol{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:8px}
+li::marker{color:var(--accent)}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:.92rem}
+th,td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--line)}
+th{font:500 .72rem/1.4 var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--muted);background:var(--panel)}
+tr:last-child td{border-bottom:0}
+td .q{font-style:italic}
+.note{font-size:.88rem;color:var(--muted)}
+.tracks{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.track{border:1px solid var(--line);border-radius:6px;padding:20px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.track .when{font:500 .74rem/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.track h3{font-family:var(--display);font-size:1.3rem;font-weight:600}
+code{font:.86em var(--mono);background:var(--panel);padding:1px 5px;border-radius:3px}
+.finding{display:grid;grid-template-columns:2.2rem 1fr;gap:4px 10px;align-items:baseline}
+.finding .n{font:600 1.4rem/1 var(--display);color:var(--accent)}
+.findings{display:flex;flex-direction:column;gap:16px}
+.ask{counter-reset:a;list-style:none;padding:0;gap:12px}
+.ask li{counter-increment:a;display:grid;grid-template-columns:1.8rem 1fr;gap:10px}
+.ask li::before{content:counter(a);font:600 1.1rem/1.5 var(--display);color:var(--accent)}
+a{color:var(--accent);text-underline-offset:2px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sources{font-size:.85rem;color:var(--muted);gap:4px}
+footer{border-top:1px solid var(--line);padding-top:20px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.stat{border:1px solid var(--line);border-radius:6px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;font-size:.88rem;color:var(--muted)}
+.stat .num{font:600 2rem/1 var(--display);color:var(--ink);font-variant-numeric:tabular-nums}
+.stat .num small{font-size:.9rem;color:var(--muted);margin-left:2px}
+.stat.hi{background:var(--accent-soft);border-color:transparent}
+.stat.hi .num{color:var(--accent)}
+td.none{color:var(--muted);font-style:italic}
+td:first-child{font-weight:600;white-space:nowrap}
+</style>
+
+<main>
+<header>
+  <div class="meta"><span class="label">Strategy draft</span><span class="label">For Anurag · Oct 26, 2026 check-in</span><span class="label">Lily Stone</span></div>
+  <h1>Getting WHOLE into AI answers</h1>
+  <p class="dek">How WHOLE shows up inside ChatGPT and Claude, and how it becomes the source AI answers cite for every health and beauty trend it covers. Fibermaxxing is the test case.</p>
+</header>
+
+<div class="rec">
+  <span class="label">Recommendation</span>
+  <p>Run two tracks. <strong>Start now:</strong> publish a crawlable daily report that AI answers can cite. <strong>Start in November:</strong> put WHOLE inside ChatGPT and Claude as an app. Both tracks use the same content, and that content leads with what only Quilt has: first-hand data on what people are saying, checked against published research.</p>
+</div>
+
+<section>
+  <span class="label">Audit · Oct 24, 2026 · all 16 WHOLE trends</span>
+  <h2>What AI answers say about WHOLE's trends today</h2>
+  <p>I asked ChatGPT and Perplexity the same question for every trend WHOLE has a verdict on: <span class="q">"Is [trend] real or hype? What are people saying about it?"</span> That gave 30 answers: all 16 trends on ChatGPT, and 14 on Perplexity before it asked me to sign in.</p>
+  <div class="stats">
+    <div class="stat"><span class="num">25<small>/30</small></span><span>answers cited hospitals, government health sites or journals</span></div>
+    <div class="stat"><span class="num">21<small>/30</small></span><span>cited news outlets or magazines</span></div>
+    <div class="stat"><span class="num">10<small>/30</small></span><span>used Reddit threads as the "what people are saying" evidence</span></div>
+    <div class="stat hi"><span class="num">1<small>/30</small></span><span>cited measured trend data (Circana, on fibermaxxing)</span></div>
+  </div>
+  <div class="scroll"><table>
+    <thead><tr><th>Trend</th><th>ChatGPT cited</th><th>Perplexity cited</th></tr></thead>
+    <tbody>
+      <tr><td>Fibermaxxing</td><td>Office on Women's Health, AP, SELF, Healthline, Circana, plus product links</td><td>Mayo Clinic, NPR, Cleveland Clinic, UCLA Health</td></tr>
+      <tr><td>Skin barrier repair</td><td>Reddit, PubMed Central</td><td>SELF, Allure, NY Mag, Refinery29, Cleveland Clinic +4</td></tr>
+      <tr><td>At-home LED masks</td><td class="none">No sources cited</td><td>Mayo Clinic, Mass General Brigham, JAMA, Forbes, Reddit +13</td></tr>
+      <tr><td>PDRN salmon DNA serums</td><td>PLOS, Dermatology Times, Allure, PubMed</td><td class="none">Answered; sources required sign-in</td></tr>
+      <tr><td>Beef tallow moisturizer</td><td>PubMed, LA Times, Reddit, Cleveland Clinic, AAD +2</td><td>NBC News, LA Times, NPR, Allure, Reddit +3</td></tr>
+      <tr><td>Creatine for women</td><td>NIH, PubMed, Mayo Clinic</td><td>Women's Health, Cleveland Clinic</td></tr>
+      <tr><td>Lifting heavy</td><td>ACSM, PubMed, AP, CDC</td><td>PubMed, ACSM, Women's Health, Reddit</td></tr>
+      <tr><td>Cycle-synced workouts</td><td>PubMed, Office on Women's Health, Reddit</td><td>BBC</td></tr>
+      <tr><td>Cold plunges for fat loss</td><td>NPR, AP, National Geographic, Guardian, Smithsonian</td><td>PubMed Central, NPR, Phelps Health, National Geographic</td></tr>
+      <tr><td>Vinegar shots before meals</td><td>BMJ, PubMed, Mayo Clinic, American Heart Assn, Harvard +1</td><td>UChicago Medicine, EatingWell, WVU Extension, Reddit</td></tr>
+      <tr><td>CGM without diabetes</td><td>Johns Hopkins, JAMA, PubMed, FDA +2</td><td>Popular Science</td></tr>
+      <tr><td>Seed oils are toxic</td><td>American Heart Assn, Harvard, Johns Hopkins, JACC +1</td><td>Johns Hopkins, NPR, American Heart Assn, Harvard, Stanford</td></tr>
+      <tr><td>Consistent wake-up time</td><td>American Heart Assn, Reddit, PubMed</td><td>Harvard, NHLBI, NYT, Reddit +4</td></tr>
+      <tr><td>Magnesium before bed</td><td>Reddit, Cleveland Clinic, NCCIH, NIH +2</td><td>NCCIH, BBC</td></tr>
+      <tr><td>Sleepy girl mocktail</td><td>Healthline, Cleveland Clinic, Sleep Foundation, CBS</td><td class="none">Not run (sign-in limit)</td></tr>
+      <tr><td>Mouth taping</td><td>PubMed Central, Cleveland Clinic, PubMed</td><td class="none">Not run (sign-in limit)</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Both assistants were used signed out, with one run per prompt. Answers change from run to run, so this is a starting point, not a ranking. Perplexity's full source list needs a sign-in, so for most trends I only captured the sources it showed inline, and its counts are undercounts. Claude, Gemini and Google AI Overviews still need to be checked. Raw results are in <code>strategy/ai-audit-2026-10-24.json</code>.</p>
+</section>
+
+<section>
+  <h2>What this tells us</h2>
+  <div class="findings">
+    <div class="finding"><span class="n">1</span><div><h3>WHOLE can't outrank hospitals and journals on the health question.</h3><p>Medical and government sources back 25 of 30 answers, across all four categories. WHOLE shouldn't compete for that slot.</p></div></div>
+    <div class="finding"><span class="n">2</span><div><h3>The "what people are saying" slot is open on every trend.</h3><p>Every prompt asked what people are saying. The answers built that section from news stories and Reddit threads. Perplexity said outright, on 4 of its 14 answers, that its read was "not a representative poll." Measured trend data showed up once in 30 answers: Circana, for fibermaxxing. Quilt's Discourse and Trends pipelines measure exactly this, and Circana's one citation shows research firms can get cited.</p></div></div>
+    <div class="finding"><span class="n">3</span><div><h3>Both assistants already answer in WHOLE's format.</h3><p>Almost every answer I checked opened with a verdict ("mostly hype," "real, but oversold"). People clearly ask questions shaped like WHOLE's Real or hype section. WHOLE needs to be the source behind those answers.</p></div></div>
+    <div class="finding"><span class="n">4</span><div><h3>AI crawlers can't read WHOLE yet.</h3><p>The live site loads its content with JavaScript, so a crawler sees only the menu labels. It also has no robots.txt or sitemap. All of the issue content and the 16 verified Real or hype verdicts are hidden from AI crawlers today.</p></div></div>
+  </div>
+</section>
+
+<section>
+  <h2>The two tracks</h2>
+  <div class="tracks">
+    <div class="track">
+      <span class="when">Track A · start now</span>
+      <h3>Be the source AI cites</h3>
+      <ul>
+        <li><b>The WHOLE Daily:</b> one short public page a day, with one trend number from an Anthropologic run and one Real or hype verdict with its studies. Each page is dated and has a permanent link.</li>
+        <li><b>A topic page for every trend WHOLE covers</b>, across Nutrition, Beauty, Exercise and Sleep (fibermaxxing, creatine for women, mouth taping, beef tallow and more), updated weekly: what's being posted vs searched, the verdict, who's talking, what's next.</li>
+        <li><b>A format that gets cited:</b> the answer in the first two lines, plus statistics, quotes and citations. Those three changes raised a source's visibility in AI answers by up to 40% in Princeton's GEO study.</li>
+        <li><b>Plain pages AI crawlers can read:</b> static HTML, a sitemap, schema markup, and access for GPTBot, OAI-SearchBot, ClaudeBot and PerplexityBot. Submit the sitemap to Bing and Google Search Console.</li>
+        <li><b>Written by the agents we already have:</b> the Editor Agent writes from pipeline output, and the Evidence Agent checks each verdict.</li>
+      </ul>
+    </div>
+    <div class="track">
+      <span class="when">Track B · November</span>
+      <h3>Be inside the assistant</h3>
+      <ul>
+        <li><b>Precedent:</b> Sephora launched an app inside ChatGPT on Mar 24, 2026 (US pilot). It offers catalog Q&amp;A and links to a Beauty Insider account. Checkout isn't available yet.</li>
+        <li><b>One server, two stores:</b> ChatGPT apps and Claude connectors both run on MCP. ChatGPT has accepted app submissions since Dec 2025, and Claude's connector directory lists 950+ servers.</li>
+        <li><b>Three actions:</b> <code>real_or_hype(claim)</code>, <code>whats_people_saying(topic)</code>, <code>shop_the_trend(topic)</code>. Purchases link out to retailers, with affiliate disclosure.</li>
+        <li><b>The pitch:</b> Sephora's app answers from its own catalog. WHOLE is the neutral alternative, with products ranked by how much people talk about them, not by commission.</li>
+        <li><b>Head start:</b> the verified verdicts and the search agent already exist.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Proposed MVP for end of October</h2>
+  <ul>
+    <li>Crawlable public pages: topic pages for the 16 trends that already have verified verdicts, and the first daily reports, plus robots.txt, a sitemap and schema markup.</li>
+    <li>Public pages show only real data. The prototype's issue numbers are placeholders. Until we have API access, the 16 verified verdicts are the only content that can go live, so pipeline access is needed right after we agree on the strategy.</li>
+    <li>A baseline prompt set covering every topic, not just fibermaxxing: about 20 prompts run weekly in ChatGPT, Claude, Perplexity, Gemini and AI Overviews, logging whether WHOLE is cited.</li>
+    <li>The app prototype stays as the product demo. Track B starts in November.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Questions for Monday</h2>
+  <ol class="ask">
+    <li>Do we agree on Track A now and Track B in November?</li>
+    <li>Daily cadence: which pipelines can run every day, and what does a run cost? Should Trends run daily and Discourse weekly?</li>
+    <li>Where should the pages live? A page under quilt.ai would start with more authority than a new WHOLE domain.</li>
+    <li>Can Brand Performance (LLM) track WHOLE's own visibility in AI answers, so we use Quilt's tool instead of a manual prompt panel?</li>
+    <li>What's the status of API access through Michelle?</li>
+  </ol>
+</section>
+
+<footer>
+  <span class="label">Sources</span>
+  <ul class="sources">
+    <li><a href="https://retaildive.com/news/sephora-chatgpt-app-launch/815751/">Retail Dive: Sephora ChatGPT app launch</a> · <a href="https://beautymatter.com/articles/sephora-enters-the-chat-gpt-beauty-retail-gets-conversational">BeautyMatter</a></li>
+    <li><a href="https://openai.com/index/developers-can-now-submit-apps-to-chatgpt/">OpenAI: developers can now submit apps to ChatGPT</a></li>
+    <li><a href="https://claude.com/blog/bringing-mcp-2026-07-28-to-claude">Anthropic: Bringing MCP 2026-07-28 to Claude</a> · <a href="https://claude.com/docs/connectors">Claude connectors docs</a></li>
+    <li><a href="https://arxiv.org/abs/2311.09735">Aggarwal et al., GEO: Generative Engine Optimization (KDD 2024)</a></li>
+    <li>AI answers: ChatGPT (16 prompts) and Perplexity (14 prompts), signed out, run Oct 24, 2026</li>
+  </ul>
+</footer>
+</main>

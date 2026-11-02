@@ -94,5 +94,29 @@
     "topic": "Sleep",
     "trend": "Mouth taping",
     "says": "Taping my mouth shut changed my sleep and my jawline."
+  },
+  {
+    "id": "beauty-glass-skin-over-exfoliation",
+    "topic": "Beauty",
+    "trend": "Glass skin layering",
+    "says": "Chasing glass skin with layers of acids and exfoliants wrecks your skin barrier long term."
+  },
+  {
+    "id": "beauty-fragrance-free",
+    "topic": "Beauty",
+    "trend": "Fragrance-free skincare",
+    "says": "Fragrance-free products are better for sensitive, irritated skin."
+  },
+  {
+    "id": "beauty-ai-skin-scans",
+    "topic": "Beauty",
+    "trend": "AI skin analysis apps",
+    "says": "An AI face scan can tell you exactly what your skin needs."
+  },
+  {
+    "id": "beauty-fewer-products",
+    "topic": "Beauty",
+    "trend": "The 3-product routine",
+    "says": "A three- or four-product routine works as well as a ten-step one."
   }
 ]

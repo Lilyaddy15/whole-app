@@ -1,0 +1,889 @@
+{
+  "category": "skincare",
+  "market": "United States",
+  "market_code": "US",
+  "question": "Who are the distinct audience segments among US women aged 25 to 40 who talk about their skincare routines?",
+  "cultural_insight": "Skincare splits on whether good skin is something you work for or something you buy your way into — that gap drives every routine, product, and price decision.",
+  "axes": {
+    "x": {
+      "low": "Earned",
+      "high": "Given"
+    },
+    "y": {
+      "low": "Budget",
+      "high": "Premium"
+    }
+  },
+  "segments": [
+    {
+      "name": "Budget Shoppers",
+      "size": 11,
+      "share": 0.2444,
+      "color": "#2f7dc0",
+      "truth": "They want good skin without paying full price for it",
+      "who": "Mostly women in their 20s-30s who treat skincare as a practical habit, not a luxury. They hunt clearance aisles, finish every last drop, and trust drugstore staples over prestige labels. Value and results matter more than brand cachet.",
+      "values": [
+        "Stretch every dollar",
+        "Results over brand names",
+        "Resourcefulness as a skill"
+      ],
+      "needs": [
+        "Affordable products that actually work",
+        "Validation that cheap is smart, not shameful",
+        "Simple routines that don't require a big haul"
+      ],
+      "targetable": {
+        "age": "20-34",
+        "income": "budget",
+        "traits": [
+          "Drugstore beauty shoppers",
+          "Clearance and deal hunters",
+          "TikTok Shop and mass-retail buyers",
+          "Minimalist routine adopters",
+          "Anti-haul and project-pan participants",
+          "Value-driven CPG loyalists"
+        ]
+      },
+      "signature_brands": [
+        "CeraVe",
+        "L'Oreal",
+        "Sephora"
+      ],
+      "cultural": "Good skin shouldn't cost you — find the shortcut, not the sacrifice.",
+      "position": {
+        "x": 0.3,
+        "y": 0.1
+      },
+      "dominant_register": "BELONGING",
+      "register_mix": {
+        "WARMTH": 3,
+        "BELONGING": 6,
+        "EDGE": 1,
+        "PLAY": 1
+      },
+      "motivations": [
+        "price-value",
+        "effort-convenience"
+      ],
+      "exemplars": [
+        {
+          "url": "https://m.tiktok.com/v/7676487428319874334.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a9lb114f0g6c&share_item_id=7676487428319874334&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7676487428319874334.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a9lb114f0g6c&share_item_id=7676487428319874334&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "NEW CLEARANCE FINDS AT WALGREENS! 👀 And you’re NOT gonna believe what I found! Best believe anytime I see CeraVe on clearance, I’m picking it UP! 🙌🏼 It’s one of my absolute favorit",
+          "creator": "@nicolethecouponplug",
+          "platform": "tiktok"
+        },
+        {
+          "url": "https://m.tiktok.com/v/7690739153041902862.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a7g0chm22m5d&share_item_id=7690739153041902862&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7690739153041902862.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a7g0chm22m5d&share_item_id=7690739153041902862&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "Cheap sh*t that actually works! These products are all under $20 and have genuinely changed my lifeee if you know you know  @essence.cosmetics @loréal paris usa @Prequel @Vanicream",
+          "creator": "@sarahpalmyra",
+          "platform": "tiktok"
+        },
+        {
+          "url": "https://m.tiktok.com/v/7673975068493384991.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6aa0615lkk740&share_item_id=7673975068493384991&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7673975068493384991.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6aa0615lkk740&share_item_id=7673975068493384991&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "The dermatologist samples are THAT GIRL #Projectpan #empties #sustainable",
+          "creator": "@reneesrecs",
+          "platform": "tiktok"
+        }
+      ],
+      "market": {
+        "takeaway": "Make budget skincare a badge of smart self-care, not a compromise",
+        "category": [
+          {
+            "what": "e.l.f. SKIN's 'Divine Skintervention' campaign explicitly frames affordable skincare as salvation from expensive, complex regimens, positioning budget choices as aspirational and intelligent.",
+            "sources": [
+              {
+                "title": "e.l.f. SKIN Is Salvation to Skincare Shame in Satirical...",
+                "url": "https://www.elfbeauty.com/articles/divine-skintervention",
+                "signal": ""
+              }
+            ]
+          }
+        ],
+        "cross_category": [
+          {
+            "what": "El Car Wash partnered with Peach Slices to bundle free beauty products with affordable car washes, merging everyday utility with accessible self-care for value-driven consumers.",
+            "sources": [
+              {
+                "title": "Founder Alicia Yoon on Peach Slices' first campaign: 'We're going an inch wide and a mile deep' - Glossy",
+                "url": "https://www.glossy.co/beauty/founder-alicia-yoon-on-peach-slices-first-campaign-were-going-an-inch-wide-and-a-mile-deep/",
+                "signal": ""
+              }
+            ]
+          }
+        ],
+        "whitespace": "No affordable, dermatologist-developed line specifically addresses aging skin's barrier-support needs — a gap currently only served at prestige price points.",
+        "sources": [
+          {
+            "title": "Founder Alicia Yoon on Peach Slices' first campaign: 'We're going an inch wide and a mile deep' - Glossy",
+            "url": "https://www.glossy.co/beauty/founder-alicia-yoon-on-peach-slices-first-campaign-were-going-an-inch-wide-and-a-mile-deep/",
+            "signal": ""
+          },
+          {
+            "title": "e.l.f. SKIN Is Salvation to Skincare Shame in Satirical...",
+            "url": "https://www.elfbeauty.com/articles/divine-skintervention",
+            "signal": ""
+          },
+          {
+            "title": "e.l.f. SKIN Launches Bright Icon Serum Campaign",
+            "url": "https://news.designrush.com/elf-skin-bright-icon-vitamin-c-e-ferulic-serum-campaign-beauty-marketing",
+            "signal": ""
+          },
+          {
+            "title": "Fig.1 Beauty Brings Derm-Created, Prestige-Level Skincare to Sephora.com -- Without the Prestige Prices",
+            "url": "https://www.prnewswire.com/news-releases/fig1-beauty-brings-derm-created-prestige-level-skincare-to-sephoracom--without-the-prestige-prices-302715675.html",
+            "signal": ""
+          },
+          {
+            "title": "Walgreens Unveils New Premium Skin Care Line – Affordable Luxe for Every Budget",
+            "url": "https://www.businesswire.com/news/home/20240905194546/en/Walgreens-Unveils-New-Premium-Skin-Care-Line-Affordable-Luxe-for-Every-Budget",
+            "signal": ""
+          },
+          {
+            "title": "Fig.1 enters CVS with a micro-influencer campaign - Glossy",
+            "url": "https://www.glossy.co/pop/fig-1-enters-cvs-with-a-micro-influencer-campaign/",
+            "signal": ""
+          },
+          {
+            "title": "Skin care brand Remedy launches first campaign challenging industry norms | Drug Store News",
+            "url": "https://drugstorenews.com/skin-care-brand-remedy-launches-first-campaign-challenging-industry-norms",
+            "signal": ""
+          },
+          {
+            "title": "Brand Architects: Alex Keyan of GoPure",
+            "url": "https://www.collabs.io/mag/from-concept-to-cult-favorite-alex-keyan-on-building-gopure-beauty-brand-architects/",
+            "signal": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Barrier Repairers",
+      "size": 10,
+      "share": 0.2222,
+      "color": "#8659b5",
+      "truth": "Damaged-barrier women rebuilding skin through simplicity and community",
+      "who": "Mostly women in their 20s and 30s who over-exfoliated, broke out, or hit a health wall and now prioritize calming, hydrating routines over actives. They share progress publicly, ask followers for help, and treat barrier repair as a real goal, not an aesthetic.",
+      "values": [
+        "Skin recovery over performance",
+        "Community knowledge over brand authority",
+        "Gentle consistency over quick fixes"
+      ],
+      "needs": [
+        "Simple, low-irritation product stacks",
+        "Validation that stripping back is the right move",
+        "Affordable K-beauty and drugstore barrier staples"
+      ],
+      "targetable": {
+        "age": "25-34",
+        "income": "mid",
+        "traits": [
+          "K-beauty shoppers",
+          "TikTok skincare community participants",
+          "Sensitive or reactive skin sufferers",
+          "Routine simplifiers after overuse of actives",
+          "Drugstore and mid-tier brand buyers",
+          "Peer-recommendation driven purchasers"
+        ]
+      },
+      "signature_brands": [
+        "Aestura",
+        "haruharu wonder",
+        "Bioderma"
+      ],
+      "cultural": "Healing skin is slow, communal work — the process itself is the point.",
+      "position": {
+        "x": 0.2,
+        "y": 0.45
+      },
+      "dominant_register": "WARMTH",
+      "register_mix": {
+        "BELONGING": 2,
+        "WARMTH": 8
+      },
+      "motivations": [
+        "care-support",
+        "self-expression"
+      ],
+      "exemplars": [
+        {
+          "url": "https://m.tiktok.com/v/7645297059469315341.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a6kddle2mcl3&share_item_id=7645297059469315341&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7645297059469315341.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a6kddle2mcl3&share_item_id=7645297059469315341&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "Simple skincare barrier repair routine! Your sensitive skin only needs few skincare products to heal damaged skin barrier ❤️ #skinbarrierrepair #damagedskinbarrier #skincareroutine",
+          "creator": "@contentbyaileen",
+          "platform": "tiktok"
+        },
+        {
+          "url": "https://m.tiktok.com/v/7497090799277116718.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a2ime9987eda&share_item_id=7497090799277116718&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7497090799277116718.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a2ime9987eda&share_item_id=7497090799277116718&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "The damaged barrier transformation 😧  #haruharuwonder #ceramide #skinbarrier #milky #texturedskin #glowyskin #skincare #acne ",
+          "creator": "@songofskin",
+          "platform": "tiktok"
+        },
+        {
+          "url": "https://m.tiktok.com/v/7661477118659792142.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a2ime9987eda&share_item_id=7661477118659792142&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7661477118659792142.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a2ime9987eda&share_item_id=7661477118659792142&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "long video warning: broken skin barrier night time routine :)  products: i’m from mugwort essence  @IUNIK US beta glucan serum @Paula's Choice pro collagen plump lotion @aestura_us",
+          "creator": "@christinalamxo",
+          "platform": "tiktok"
+        }
+      ],
+      "market": {
+        "takeaway": "Validate stripping back with community rituals and affordable ceramide-led simplicity",
+        "category": [
+          {
+            "what": "e.l.f. SKIN's Divine Skintervention campaign uses comedy to actively destigmatize skincare shame and champion affordable, no-fuss routines for barrier repairers.",
+            "sources": [
+              {
+                "title": "e.l.f. SKIN Is Salvation to Skincare Shame in Satirical...",
+                "url": "https://www.elfbeauty.com/articles/divine-skintervention",
+                "signal": ""
+              }
+            ]
+          }
+        ],
+        "cross_category": [],
+        "whitespace": "No brand integrates mental health support — such as anxiety-reduction tools or social-media detox prompts — directly into the barrier-repair product experience to counter routine perfectionism pressure.",
+        "sources": [
+          {
+            "title": "IKI Skincare Launches Science-Backed Skin Minimalism",
+            "url": "https://www.accessnewswire.com/newsroom/en/industrial-and-manufacturing/iki-skincare-launches-science-backed-skin-minimalism-1102423",
+            "signal": ""
+          },
+          {
+            "title": "e.l.f. SKIN Is Salvation to Skincare Shame in Satirical...",
+            "url": "https://www.elfbeauty.com/articles/divine-skintervention",
+            "signal": ""
+          },
+          {
+            "title": "Bubble",
+            "url": "https://linkedin.com/company/bubble-facecare",
+            "signal": ""
+          },
+          {
+            "title": "AESTURA, Korea’s #1 Dermatologist-Recommended Dermocosmetic Brand Laun\n– AESTURA INTERNATIONAL",
+            "url": "https://int.aestura.com/blogs/news/aestura-korea-s-1-dermatologist-recommended-dermocosmetic-brand-launches-exclusively-at-sephora",
+            "signal": ""
+          },
+          {
+            "title": "Meet The New Skincare Brand On A Mission To Boost Bare-Faced Confidence | Beauty Independent",
+            "url": "https://www.beautyindependent.com/meet-000skin-new-skincare-brand/",
+            "signal": ""
+          },
+          {
+            "title": "Butter Be Kind",
+            "url": "https://linkedin.com/company/butterbekind",
+            "signal": ""
+          },
+          {
+            "title": "Peach & Lily Making K-Beauty Mainstream | BeautyMatter",
+            "url": "https://www.beautymatter.com/articles/peach-lily",
+            "signal": ""
+          },
+          {
+            "title": "How to Repair Your Skin Barrer—And 10 Products That Will Get the Job Done For as Low as $15",
+            "url": "https://www.instyle.com/skin-barrier-beauty-11781250",
+            "signal": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Transformation Trackers",
+      "size": 8,
+      "share": 0.1778,
+      "color": "#e0485a",
+      "truth": "They document skin struggles publicly to prove the long game pays off",
+      "who": "Mostly women in their 20s, some into their 30s, who've dealt with acne, rosacea, scarring, or hyperpigmentation for months or years. They film their own face, unfiltered, to hold themselves accountable and connect with others in the same fight.",
+      "values": [
+        "Visible, unfiltered honesty",
+        "Consistency over quick fixes",
+        "Community through shared struggle"
+      ],
+      "needs": [
+        "Products that deliver results over time",
+        "Routines simple enough to stick to",
+        "Validation that the process is worth it"
+      ],
+      "targetable": {
+        "age": "18-34",
+        "income": "mid",
+        "traits": [
+          "chronic skin condition sufferers",
+          "before-and-after content consumers",
+          "pharmacy and drugstore skincare shoppers",
+          "routine-builders not impulse buyers",
+          "TikTok skincare community participants",
+          "treatment-curious (microneedling, Accutane, actives)"
+        ]
+      },
+      "signature_brands": [
+        "Accutane",
+        "Dolce & Gabbana",
+        "Urban You"
+      ],
+      "cultural": "Proof lives in the timeline — public struggle earns the right to claim results.",
+      "position": {
+        "x": 0.15,
+        "y": 0.4
+      },
+      "dominant_register": "WARMTH",
+      "register_mix": {
+        "WARMTH": 7,
+        "EDGE": 1
+      },
+      "motivations": [
+        "self-expression",
+        "care-support"
+      ],
+      "exemplars": [
+        {
+          "url": "https://m.tiktok.com/v/7341190010093325614.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6aa476f67fm6i&share_item_id=7341190010093325614&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7341190010093325614.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6aa476f67fm6i&share_item_id=7341190010093325614&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "Been waiting 6 months to post this 💕🥲 #accutane #isotretinoin #acnejourney #acne #accutanecheck #beautifulthings #itgetsbetter #nofilter ",
+          "creator": "@taylorspeg",
+          "platform": "tiktok"
+        },
+        {
+          "url": "https://m.tiktok.com/v/7564910726029102366.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6aa476f67fm6i&share_item_id=7564910726029102366&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7564910726029102366.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6aa476f67fm6i&share_item_id=7564910726029102366&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "AH. Guys 6 months of microneedling - I cannot believe all the progress my skin has made - I’m so grateful!!!",
+          "creator": "@hannahmelochewhy",
+          "platform": "tiktok"
+        },
+        {
+          "url": "https://m.tiktok.com/v/7661088095667817742.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a38c2b2amh7f&share_item_id=7661088095667817742&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7661088095667817742.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a38c2b2amh7f&share_item_id=7661088095667817742&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "#skincare #hyperpigmentation #transformation ",
+          "creator": "@jelaniheath",
+          "platform": "tiktok"
+        }
+      ],
+      "market": {
+        "takeaway": "Validate the uncomfortable middle of the journey, not just the before-and-after",
+        "category": [
+          {
+            "what": "Two Sols built a 'Purge Diary' content pillar that publicly documents the difficult first 21 days of use, turning the uncomfortable adjustment period into proof that the long game pays off.",
+            "sources": [
+              {
+                "title": "How Two Sols Built a $28M Creative Engine on Radical Honesty – D2C Times",
+                "url": "https://d2c-times.com/how-two-sols-built-a-28m-creative-engine-on-radical-honesty/",
+                "signal": ""
+              }
+            ]
+          }
+        ],
+        "cross_category": [],
+        "whitespace": "No cross-brand skin health tracking system exists — consumers are forced into fragmented logs or single-brand apps, leaving a clear gap for a neutral platform that aggregates routine data and validates long-term progress across products.",
+        "sources": [
+          {
+            "title": "How Two Sols Built a $28M Creative Engine on Radical Honesty – D2C Times",
+            "url": "https://d2c-times.com/how-two-sols-built-a-28m-creative-engine-on-radical-honesty/",
+            "signal": ""
+          },
+          {
+            "title": "Alix Earle Debuts Skin Care Line Inspired by Her Acne Journey: Exclusive Details",
+            "url": "https://people.com/alix-earle-debuts-skin-care-line-reale-actives-exclusive-interview-11933730",
+            "signal": ""
+          },
+          {
+            "title": "Simple routine, serious results | Curology",
+            "url": "https://curology.com/start1/",
+            "signal": ""
+          },
+          {
+            "title": "Paige DeSorbo’s New Skin-care Routine Completely Cleared Her Acne | Allure",
+            "url": "https://www.allure.com/sponsored/story/summer-houses-paige-desorbo-partners-with-acne-brand-face-reality",
+            "signal": ""
+          },
+          {
+            "title": "Exclusive | Lili Reinhart on how the 'anxiety' of her acne led her to launch her own skincare line, Personal Day",
+            "url": "https://pagesix.com/2024/12/20/style/lili-reinhart-acne-skincare-personal-day-interview/",
+            "signal": ""
+          },
+          {
+            "title": "\"Acne, Unfiltered\": The first-ever real person beauty campaign shot on Zoom - The Shorty Awards",
+            "url": "https://shortyawards.com/13th/peace-out-skincares-acne-unfiltered-the-first-ever-real-person-beauty-campaign-shot-on-zoom",
+            "signal": ""
+          },
+          {
+            "title": "#CUROLOGYJOURNEY - The Shorty Awards",
+            "url": "https://shortyawards.com/11th/curologyjourney",
+            "signal": ""
+          },
+          {
+            "title": "Skin care brand Remedy launches first campaign challenging industry norms | Drug Store News",
+            "url": "https://drugstorenews.com/skin-care-brand-remedy-launches-first-campaign-challenging-industry-norms",
+            "signal": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Luxury Collectors",
+      "size": 7,
+      "share": 0.1556,
+      "color": "#e08a2f",
+      "truth": "They spend big on skin and track every result",
+      "who": "Women in their 20s and 30s who treat skincare as a serious, ongoing investment. They research ingredients, repurchase proven products, and spend $100+ per item without guilt — because visible results justify the cost.",
+      "values": [
+        "Results over price",
+        "Curated, not impulsive",
+        "Skin as long-term asset"
+      ],
+      "needs": [
+        "Proof that premium products outperform",
+        "Ingredient-level justification for cost",
+        "A routine that compounds over time"
+      ],
+      "targetable": {
+        "age": "25-34",
+        "income": "premium-leaning",
+        "traits": [
+          "Sephora loyalists and sale stockers",
+          "Ingredient-literate shoppers",
+          "Skincare-first beauty consumers",
+          "High-AOV repeat purchasers",
+          "TikTok beauty content engagers",
+          "Wellness and supplement stackers"
+        ]
+      },
+      "signature_brands": [
+        "Caudalie",
+        "Estée Lauder",
+        "Sulwhasoo"
+      ],
+      "cultural": "Premium products signal that your skin deserves the best, no justification needed.",
+      "position": {
+        "x": 0.85,
+        "y": 0.9
+      },
+      "dominant_register": "PRESTIGE",
+      "register_mix": {
+        "PRESTIGE": 6,
+        "WARMTH": 1
+      },
+      "motivations": [
+        "aesthetic-vibe",
+        "status-prestige"
+      ],
+      "exemplars": [
+        {
+          "url": "https://m.tiktok.com/v/7609502448272575775.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a4ck6gc3h429&share_item_id=7609502448272575775&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7609502448272575775.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a4ck6gc3h429&share_item_id=7609502448272575775&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "but tbh glowy skin is PRICELESS✨ #luxuryskincare #skincareproducts #skincarerecommendations #glowyskin #skincaretiktok ",
+          "creator": "@cynthiamhuang",
+          "platform": "tiktok"
+        },
+        {
+          "url": "https://m.tiktok.com/v/7459946623653956910.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a4ck6gc3h429&share_item_id=7459946623653956910&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7459946623653956910.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a4ck6gc3h429&share_item_id=7459946623653956910&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "luxury skincare I think is worth the price 🤭🩷",
+          "creator": "@taylorbosmann",
+          "platform": "tiktok"
+        },
+        {
+          "url": "https://m.tiktok.com/v/7325563889263922474.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a4ck6gc3h429&share_item_id=7325563889263922474&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7325563889263922474.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a4ck6gc3h429&share_item_id=7325563889263922474&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "I HATE that these work lol 😭 #skincareroutine #skincaretips #luxuryskincare ",
+          "creator": "@jazturner16",
+          "platform": "tiktok"
+        }
+      ],
+      "market": {
+        "takeaway": "Show compounding, tracked results tied to specific ingredients to justify premium price",
+        "category": [
+          {
+            "what": "PROVEN builds consumer trust with a personalized system backed by 47 skin factors and 28M data points, delivering instrumented clinical improvements via a routine that adapts over time.",
+            "sources": [
+              {
+                "title": "Our Science: How PROVEN Builds Your Formula",
+                "url": "https://www.provenskincare.com/clinical-proof/",
+                "signal": ""
+              }
+            ]
+          }
+        ],
+        "cross_category": [
+          {
+            "what": "RoC Skincare used Visia baseline-vs-post-8-week 'eye age' scans in a documentary-style campaign to give Luxury Collectors the measurable, before/after proof they demand.",
+            "sources": [
+              {
+                "title": "Roc’s new campaign aims for deeper emotional bonds with shoppers  - Chief Marketer",
+                "url": "https://www.chiefmarketer.com/rocs-new-campaign-aims-for-deeper-emotional-bonds-with-shoppers/",
+                "signal": ""
+              }
+            ]
+          }
+        ],
+        "whitespace": "No brand directly connects specific high-cost ingredients to quantified ROI on skin outcomes — an ingredient-level cost-justification dashboard or report remains entirely unaddressed.",
+        "sources": [
+          {
+            "title": "Roc’s new campaign aims for deeper emotional bonds with shoppers  - Chief Marketer",
+            "url": "https://www.chiefmarketer.com/rocs-new-campaign-aims-for-deeper-emotional-bonds-with-shoppers/",
+            "signal": ""
+          },
+          {
+            "title": "Our Science: How PROVEN Builds Your Formula",
+            "url": "https://www.provenskincare.com/clinical-proof/",
+            "signal": ""
+          },
+          {
+            "title": "Olay Redefines Skin Longevity With “Skinsurance” Spotlighting the Supe\n – OLAY",
+            "url": "https://www.olay.com/blogs/olay-today/olay-redefines-skin-longevity-with-skinsurance-spotlighting-the-super-collection-as-a-longterm-investment-to-futureproof-your-glow",
+            "signal": ""
+          },
+          {
+            "title": "RoC® Skincare Unites Bethenny Frankel, Ramona Singer, and Sonja Morgan to Reverse the Clock by 10 Years in Iconic Reunion Campaign",
+            "url": "https://www.prnewswire.com/news-releases/roc-skincare-unites-bethenny-frankel-ramona-singer-and-sonja-morgan-to-reverse-the-clock-by-10-years-in-iconic-reunion-campaign-302736377.html",
+            "signal": ""
+          },
+          {
+            "title": "The $325 Skincare Serum Defying A Decade Of Beauty Trends",
+            "url": "https://www.forbes.com/sites/angelalei/2025/07/14/the-325-skincare-serum-defying-a-decade-of-beauty-trends/",
+            "signal": ""
+          },
+          {
+            "title": "What Will Beauty’s Era of Transparency Mean for Clinical Testing? - SkincareDailyNews.com",
+            "url": "https://skincaredailynews.com/2024/04/what-will-beautys-era-of-transparency-mean-for-clinical-testing/",
+            "signal": ""
+          },
+          {
+            "title": "With Althaea Skin, Dr. Ava Shamban becomes the latest expert founder - Glossy",
+            "url": "https://www.glossy.co/beauty/with-althaea-skin-dr-ava-shamban-becomes-the-latest-expert-founder/",
+            "signal": ""
+          },
+          {
+            "title": "Personalized 3-Step Skincare System That Adapts to You | Proven Skincare",
+            "url": "https://release.provenskincare.com/personalized-subscription/",
+            "signal": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ingredient Researchers",
+      "size": 6,
+      "share": 0.1333,
+      "color": "#9c6b3f",
+      "truth": "They research ingredients first, then build their routine around the science",
+      "who": "Women in their 20s-30s who treat skincare like a subject to study. They want to understand pH, barrier function, and formulation layering — not just follow trends. They cross-reference ingredients before buying and optimise routines with clinical precision.",
+      "values": [
+        "Formulation logic over marketing claims",
+        "Skin health as a long-term project",
+        "Evidence before aesthetics"
+      ],
+      "needs": [
+        "Ingredient-level product explanations",
+        "Layering order and compatibility guidance",
+        "Barrier repair and sensitivity solutions"
+      ],
+      "targetable": {
+        "age": "25-34",
+        "income": "mid",
+        "traits": [
+          "K-beauty and clinical skincare shoppers",
+          "Reddit and YouTube skincare researchers",
+          "Routine optimisers and multi-step users",
+          "Sensitive or acne-prone skin sufferers",
+          "Budget-to-premium range crossers",
+          "TikTok skincare education followers"
+        ]
+      },
+      "signature_brands": [
+        "SkinBetter Science",
+        "Cosrx",
+        "Isntree"
+      ],
+      "cultural": "Science is the authority — knowing the formula earns the outcome.",
+      "position": {
+        "x": 0.25,
+        "y": 0.5
+      },
+      "dominant_register": "MASTERY",
+      "register_mix": {
+        "MASTERY": 6
+      },
+      "motivations": [
+        "knowledge-rigour",
+        "care-support"
+      ],
+      "exemplars": [
+        {
+          "url": "https://m.tiktok.com/v/6825631519822990598.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a8kd8hhb7fil&share_item_id=6825631519822990598&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/6825631519822990598.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a8kd8hhb7fil&share_item_id=6825631519822990598&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "Layering the ordinary... NOT a routine I have routine videos. Just explaining the makeup of each solution. #skincare #theordinary #skincareproducts",
+          "creator": "@rileybmoriarity",
+          "platform": "tiktok"
+        },
+        {
+          "url": "https://m.tiktok.com/v/7668575521172737311.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a7c3e6gabfab&share_item_id=7668575521172737311&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7668575521172737311.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a7c3e6gabfab&share_item_id=7668575521172737311&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "high pH cleansers are shown to encourage C. acne bacteria growth, dehydrate the skin, and make it harder for your skin barrier to heal  this is why switching to a gentle low pH cle",
+          "creator": "@tchaoskin",
+          "platform": "tiktok"
+        },
+        {
+          "url": "https://m.tiktok.com/v/7691122043093257486.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a686i796eg7e&share_item_id=7691122043093257486&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7691122043093257486.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a686i796eg7e&share_item_id=7691122043093257486&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "Why is my skin SO dry + tight even after moisturizing?! 👀 If your moisturizer isn’t helping your dry skin, your hyaluronic acid doesn’t seem to be working, or your skin feels tight",
+          "creator": "@skinuncovered",
+          "platform": "tiktok"
+        }
+      ],
+      "market": {
+        "takeaway": "Win Ingredient Researchers by pairing barrier-repair science with explicit layering logic",
+        "category": [
+          {
+            "what": "Prequel markets directly to INCIDecoder-style researchers, pairing barrier-focused ingredient education with its Barrier Therapy Cream to meet consumers where their research already happens.",
+            "sources": [
+              {
+                "title": "Well-Spent #1: Getting Clear with Prequel Skin",
+                "url": "https://www.healthyfutures.blog/p/well-spent-prequel-skin",
+                "signal": ""
+              }
+            ]
+          }
+        ],
+        "cross_category": [],
+        "whitespace": "No brand offers a standardized, cross-brand compatibility tool that verifiably shows how products from different manufacturers interact when layered — consumers currently rely on trial-and-error or informal social media threads.",
+        "sources": [
+          {
+            "title": "Well-Spent #1: Getting Clear with Prequel Skin",
+            "url": "https://www.healthyfutures.blog/p/well-spent-prequel-skin",
+            "signal": ""
+          },
+          {
+            "title": "IKI Skincare Launches Science-Backed Skin Minimalism",
+            "url": "https://www.accessnewswire.com/newsroom/en/industrial-and-manufacturing/iki-skincare-launches-science-backed-skin-minimalism-1102423",
+            "signal": ""
+          },
+          {
+            "title": "Why We’re Partnering with REMEDY: Making Clinical Skincare Accessible to Everyone - Norwest",
+            "url": "https://www.norwest.com/blog/why-were-partnering-with-remedy-making-clinical-skincare-accessible-to-everyone/",
+            "signal": ""
+          },
+          {
+            "title": "Skincare Routines Matched to Your Skin | SORREL & CO",
+            "url": "https://sorrel.skin/",
+            "signal": ""
+          },
+          {
+            "title": "11 Compelling Reasons to Shop Our New Skincare Line, Versed | Who What Wear",
+            "url": "https://www.whowhatwear.com/versed-skincare-launch-products",
+            "signal": ""
+          },
+          {
+            "title": "Cetaphil® Launches Innovative Digital Campaign to Connect with Millions of Consumers Experiencing Skin Sensitivity | Galderma",
+            "url": "https://www.galderma.com/news/cetaphilr-launches-innovative-digital-campaign-connect-millions-consumers-experiencing-skin",
+            "signal": ""
+          },
+          {
+            "title": "Meet The Skincare Brand Catering To The Rising Skintellectual Class With Serious Science | Beauty Independent",
+            "url": "https://www.beautyindependent.com/acaderma-skintellectuals-serious-science-skincare/",
+            "signal": ""
+          },
+          {
+            "title": "Our Science: How PROVEN Builds Your Formula",
+            "url": "https://www.provenskincare.com/clinical-proof/",
+            "signal": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Routine Simplifiers",
+      "size": 3,
+      "share": 0.0667,
+      "color": "#2fa199",
+      "truth": "Young women who want a short, reliable routine that actually works",
+      "who": "Women in their 20s and early 30s who have settled on a small set of products they trust. They are not chasing launches or trends. They want a routine that fits into a morning without drama, delivers consistent results, and feels like a habit rather than a project.",
+      "values": [
+        "consistency over novelty",
+        "calm, manageable mornings",
+        "products that earn their place"
+      ],
+      "needs": [
+        "a short stack of proven staples",
+        "routines that fit real schedules",
+        "affordable or accessible options they can restock easily"
+      ],
+      "targetable": {
+        "age": "20-34",
+        "income": "mid",
+        "traits": [
+          "drugstore-beauty shoppers",
+          "routine-first skincare buyers",
+          "acne or oily skin concern",
+          "wellness-habit builders",
+          "TikTok beauty viewers",
+          "apartment renters in early career stage"
+        ]
+      },
+      "signature_brands": [
+        "CeraVe",
+        "Keurig",
+        "Picasso"
+      ],
+      "cultural": "A tight, reliable routine is competence — not laziness, just efficiency.",
+      "position": {
+        "x": 0.55,
+        "y": 0.45
+      },
+      "dominant_register": "BELONGING",
+      "register_mix": {
+        "BELONGING": 2,
+        "WARMTH": 1
+      },
+      "motivations": [
+        "effort-convenience",
+        "aesthetic-vibe"
+      ],
+      "exemplars": [
+        {
+          "url": "https://m.tiktok.com/v/7309127576092445995.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a8k4gbc0d2kg&share_item_id=7309127576092445995&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7309127576092445995.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a8k4gbc0d2kg&share_item_id=7309127576092445995&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "These are my skin care staples.  #oilyskinhacks #porecongestionhacks #skincareroutine #inexpensiveretinol #skincare ",
+          "creator": "@jaylonbrooke",
+          "platform": "tiktok"
+        },
+        {
+          "url": "https://m.tiktok.com/v/7290747165721349422.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6ad0307m9bdbe&share_item_id=7290747165721349422&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7290747165721349422.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6ad0307m9bdbe&share_item_id=7290747165721349422&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "Replying to @gabrielleblanco12 what’s on my morning menu 💭 how i elevated my morning routine! #morningmenu #morningroutine #mindfulness #gratitude #morningmeditation #dailyplanner ",
+          "creator": "@maceyemyers",
+          "platform": "tiktok"
+        },
+        {
+          "url": "https://m.tiktok.com/v/7699904001013189918.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3808j6g71eb&share_item_id=7699904001013189918&source=h5_m",
+          "video_url": "https://m.tiktok.com/v/7699904001013189918.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3808j6g71eb&share_item_id=7699904001013189918&source=h5_m",
+          "thumbnail_url": "",
+          "caption": "morning skincare featuring @anua_global @TORRIDEN US @mixsoon @Mason Pearson @Dairy Boy @MEETCOCOLAB @iS CLINICAL @Emi Jay ",
+          "creator": "@averybabyy",
+          "platform": "tiktok"
+        }
+      ],
+      "market": {
+        "takeaway": "Win Routine Simplifiers with proven, portable staples that fit real, mobile schedules",
+        "category": [
+          {
+            "what": "TULA Skincare distills its routine into a two-step day-and-night system, using Paige DeSorbo to signal that low-effort consistency delivers real results.",
+            "sources": [
+              {
+                "title": "TULA Skincare Taps Paige DeSorbo for New Campaign Highlighting Her Prebiotic-Powered Glow",
+                "url": "https://www.prnewswire.com/news-releases/tula-skincare-taps-paige-desorbo-for-new-campaign-highlighting-her-prebiotic-powered-glow-302654714.html",
+                "signal": ""
+              }
+            ]
+          }
+        ],
+        "cross_category": [
+          {
+            "what": "Ritual builds loyalty with Routine Simplifiers by offering a science-backed, transparent 'short stack' of daily vitamins designed as a single, non-negotiable daily habit.",
+            "sources": []
+          }
+        ],
+        "whitespace": "No brand yet owns truly backpack-ready skincare — durable, multi-functional, and portable enough for young women moving between school, sports, and social settings without a bathroom counter.",
+        "sources": [
+          {
+            "title": "e.l.f. SKIN Is Salvation to Skincare Shame in Satirical...",
+            "url": "https://www.elfbeauty.com/articles/divine-skintervention",
+            "signal": ""
+          },
+          {
+            "title": "How Two Moms Built Prereq Care To Meet Gen Alpha—And Parents—Where They Are | Beauty Independent",
+            "url": "https://www.beautyindependent.com/two-moms-built-prereq-care-meet-gen-alpha-parents-where-they-are/",
+            "signal": ""
+          },
+          {
+            "title": "TULA Skincare Taps Paige DeSorbo for New Campaign Highlighting Her Prebiotic-Powered Glow",
+            "url": "https://www.prnewswire.com/news-releases/tula-skincare-taps-paige-desorbo-for-new-campaign-highlighting-her-prebiotic-powered-glow-302654714.html",
+            "signal": ""
+          },
+          {
+            "title": "Dermatologist Brooke Jeffy’s New Gen Alpha Brand Btwn Focuses On Skincare Fundamentals | Beauty Independent",
+            "url": "https://www.beautyindependent.com/dermatologist-brooke-jeffy-gen-alpha-brand-btwn-skincare-fundamentals/",
+            "signal": ""
+          },
+          {
+            "title": "Skin care brand Remedy launches first campaign challenging industry norms | Drug Store News",
+            "url": "https://drugstorenews.com/skin-care-brand-remedy-launches-first-campaign-challenging-industry-norms",
+            "signal": ""
+          },
+          {
+            "title": "YouTube Sister Sensations, Brooklyn + Bailey McKnight Launch itk, The Next Generation of Skin Care",
+            "url": "https://www.prnewswire.com/news-releases/youtube-sister-sensations-brooklyn--bailey-mcknight-launch-itk-the-next-generation-of-skin-care-301609480.html",
+            "signal": ""
+          },
+          {
+            "title": "Rodan + Fields Declares September 18 as \"Back to Skin Day\" with National Campaign to Reset Skincare Routines Post-Summer",
+            "url": "https://www.prnewswire.com/news-releases/rodan--fields-declares-september-18-as-back-to-skin-day-with-national-campaign-to-reset-skincare-routines-post-summer-302559529.html",
+            "signal": ""
+          },
+          {
+            "title": "YouTubers Brooklyn and Bailey McKnight step into skin care with itk",
+            "url": "https://www.cosmeticsbusiness.com/youtubers-brooklyn-and-bailey-mcknight-step-into-skin-care-with-itk--203030",
+            "signal": ""
+          }
+        ]
+      }
+    }
+  ],
+  "context_facts": [
+    {
+      "fact": "The United States beauty and personal care market reached a retail value of $130 billion in 2025.",
+      "source": "Podean's Beauty eCommerce Report 2025",
+      "url": "https://podean.com/hubfs/Podeans%20Beauty%20eCommerce%20Report%202025.pdf"
+    },
+    {
+      "fact": "Online channels now account for nearly half of all beauty sales in the U.S.",
+      "source": "U.S. Skincare Products Category | Voice of Consumer Report — Grand View Research",
+      "url": "https://www.grandviewresearch.com/voice-of-consumer/us-skincare-products-category-insights"
+    },
+    {
+      "fact": "Gen Z consumers are the most frequent beauty purchasers in the U.S., though Millennials remain the highest spenders per order.",
+      "source": "U.S. Skincare Products Category | Voice of Consumer Report — Grand View Research",
+      "url": "https://www.grandviewresearch.com/voice-of-consumer/us-skincare-products-category-insights"
+    },
+    {
+      "fact": "70% of U.S. consumers report their skincare purchases are always or mostly planned rather than spontaneous.",
+      "source": "Americans' top skin concerns and how much they'd spend to treat them — YouGov",
+      "url": "https://yougov.com/en-us/articles/49300-americans-top-skin-concerns-and-how-much-theyd-spend-to-treat-them"
+    },
+    {
+      "fact": "72% of Americans cite affordability as a very or somewhat important factor when buying skincare products.",
+      "source": "Skincare Trends & Consumer Buying Behaviors — Provoke Insights",
+      "url": "https://provokeinsights.com/wp-content/uploads/2025/03/Provoke-Insights_Summer2025_Skincare.pdf"
+    }
+  ],
+  "run_params": {
+    "category": "skincare",
+    "country": "United States",
+    "market": "United States",
+    "country_code": "US",
+    "client_question": "Who are the distinct audience segments among US women aged 25 to 40 who talk about their skincare routines?",
+    "depth": "quick"
+  },
+  "metadata": {
+    "thin_coverage": false
+  }
+}

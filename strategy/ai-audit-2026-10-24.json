@@ -1,0 +1,253 @@
+{
+ "run": "2026-10-24, signed out, one run per prompt",
+ "prompt_template": "Is/Are {trend} real or hype? What are people saying about it?",
+ "perplexity": {
+  "fibermaxxing": {
+   "sources": [
+    "mcpress.mayoclinic.org",
+    "npr.org",
+    "my.clevelandclinic.org",
+    "uclahealth.org"
+   ],
+   "not_a_poll_caveat": true
+  },
+  "skin barrier repair": {
+   "sources": [
+    "achieveyourbestskin.com",
+    "onlinelibrary.wiley.com",
+    "self.com",
+    "allure.ph",
+    "health.clevelandclinic.org",
+    "nymag.com",
+    "refinery29.com",
+    "allure.com",
+    "alibaba.com"
+   ],
+   "full_list": true
+  },
+  "at-home LED masks": {
+   "sources": [
+    "mcpress.mayoclinic.org",
+    "patient.info",
+    "glamourmagazine.co.uk",
+    "news.massgeneralbrigham.org",
+    "jamanetwork.com",
+    "medicalxpress.com",
+    "scmp.com",
+    "forbes.com",
+    "reddit.com",
+    "coveteur.com",
+    "progradelist.com",
+    "gale.care",
+    "brigittearley.substack.com",
+    "telectronichub.com",
+    "pubmed.ncbi.nlm.nih.gov",
+    "powershealth.org",
+    "reachrx.ai",
+    "thedermdigest.com"
+   ],
+   "full_list": true
+  },
+  "PDRN salmon DNA serums": {
+   "sources": [],
+   "note": "answered; source list blocked by sign-in"
+  },
+  "beef tallow moisturizer": {
+   "sources": [
+    "nbcnews.com",
+    "latimes.com",
+    "health.clevelandclinic.org",
+    "npr.org",
+    "allure.com",
+    "ctpublic.org",
+    "womansworld.com",
+    "reddit.com"
+   ],
+   "full_list": true
+  },
+  "creatine for women": {
+   "sources": [
+    "womenshealthmag.com",
+    "my.clevelandclinic.org"
+   ]
+  },
+  "lifting heavy (women)": {
+   "sources": [
+    "pubmed",
+    "acsm",
+    "womenshealthmag",
+    "pmc.ncbi.nlm.nih",
+    "reddit"
+   ],
+   "not_a_poll_caveat": true
+  },
+  "cycle-synced workouts": {
+   "sources": [
+    "bbc"
+   ]
+  },
+  "cold plunges for fat loss": {
+   "sources": [
+    "pmc.ncbi.nlm.nih",
+    "npr",
+    "phelpshealth",
+    "nationalgeographic"
+   ],
+   "not_a_poll_caveat": true
+  },
+  "vinegar shots before meals": {
+   "sources": [
+    "uchicagomedicine",
+    "eatingwell",
+    "extension.wvu",
+    "reddit",
+    "hola"
+   ],
+   "uses_reddit_anecdotes": true
+  },
+  "CGM without diabetes": {
+   "sources": [
+    "popsci"
+   ]
+  },
+  "seed oils are toxic": {
+   "sources": [
+    "publichealth.jhu",
+    "npr",
+    "heart.org",
+    "harvard",
+    "med.stanford"
+   ]
+  },
+  "consistent wake-up time": {
+   "sources": [
+    "pubmed",
+    "sleep.hms.harvard",
+    "verywellhealth",
+    "nine.com",
+    "nhlbi.nih",
+    "reddit",
+    "nytimes",
+    "sleephealthjournal"
+   ],
+   "not_a_poll_caveat": true
+  },
+  "magnesium before bed": {
+   "sources": [
+    "nccih.nih",
+    "bbc.co.uk"
+   ]
+  },
+  "sleepy girl mocktail": {
+   "blocked": "signed-out limit"
+  },
+  "mouth taping": {
+   "blocked": "signed-out limit"
+  }
+ },
+ "chatgpt": {
+  "fibermaxxing": [
+   "womenshealth.gov",
+   "apnews.com",
+   "self.com",
+   "healthline.com",
+   "circana.com",
+   "target.com",
+   "metamucil.com",
+   "nowfoods.com",
+   "benefiber.com"
+  ],
+  "skin barrier repair": [
+   "reddit.com",
+   "pmc.ncbi.nlm.nih.gov"
+  ],
+  "at-home LED masks": [],
+  "PDRN salmon DNA serums": [
+   "journals.plos.org",
+   "dermatologytimes.com",
+   "allure.com",
+   "pubmed.ncbi.nlm.nih.gov"
+  ],
+  "beef tallow moisturizer": [
+   "pubmed.ncbi.nlm.nih.gov",
+   "latimes.com",
+   "reddit.com",
+   "health.clevelandclinic.org",
+   "insightios.com",
+   "scripps.org",
+   "aad.org"
+  ],
+  "creatine for women": [
+   "ods.od.nih.gov",
+   "pubmed.ncbi.nlm.nih.gov",
+   "mayoclinic.org"
+  ],
+  "lifting heavy (women)": [
+   "acsm.org",
+   "pubmed.ncbi.nlm.nih.gov",
+   "apnews.com",
+   "cdc.gov"
+  ],
+  "cycle-synced workouts": [
+   "pubmed.ncbi.nlm.nih.gov",
+   "womenshealth.gov",
+   "reddit.com",
+   "pmc.ncbi.nlm.nih.gov"
+  ],
+  "cold plunges for fat loss": [
+   "npr.org",
+   "apnews.com",
+   "nationalgeographic.com",
+   "theguardian.com",
+   "smithsonianmag.com"
+  ],
+  "vinegar shots before meals": [
+   "nutrition.bmj.com",
+   "pubmed.ncbi.nlm.nih.gov",
+   "mayoclinic.org",
+   "heart.org",
+   "womenshealthmag.com",
+   "health.harvard.edu"
+  ],
+  "CGM without diabetes": [
+   "pmc.ncbi.nlm.nih.gov",
+   "publichealth.jhu.edu",
+   "jamanetwork.com",
+   "pubmed.ncbi.nlm.nih.gov",
+   "abc17news.com",
+   "fda.gov"
+  ],
+  "seed oils are toxic": [
+   "heart.org",
+   "health.harvard.edu",
+   "publichealth.jhu.edu",
+   "ncbi.nlm.nih.gov",
+   "jacc.org"
+  ],
+  "consistent wake-up time": [
+   "heart.org",
+   "reddit.com",
+   "pubmed.ncbi.nlm.nih.gov"
+  ],
+  "magnesium before bed": [
+   "reddit.com",
+   "health.clevelandclinic.org",
+   "nccih.nih.gov",
+   "doi.org",
+   "pmc.ncbi.nlm.nih.gov",
+   "ods.od.nih.gov"
+  ],
+  "sleepy girl mocktail": [
+   "healthline.com",
+   "health.clevelandclinic.org",
+   "sleepfoundation.org",
+   "cbsnews.com"
+  ],
+  "mouth taping": [
+   "pmc.ncbi.nlm.nih.gov",
+   "health.clevelandclinic.org",
+   "pubmed.ncbi.nlm.nih.gov"
+  ]
+ },
+ "chatgpt_note": "LED masks: answered with no web citations. Fibermaxxing prompt was the women-in-their-30s + products variant."
+}

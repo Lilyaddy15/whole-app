@@ -1,0 +1,3822 @@
+{
+  "trends": [
+    {
+      "name": "Shoppers are reaching for at-home chemical peels and resurfacing treatments",
+      "narrative": "Topicals, Tome, 111Skin, and Obagi Medical all launched resurfacing formats in 2026, from bioneedle spicule masks to multi-acid peel pads. The span from mass to prestige looks like broad category appetite, not a single viral lift.",
+      "what_it_is": "Multiple brands launched at-home chemical peel and resurfacing formats in 2026, including rinse-off acid peels, bioneedle spicule masks, multi-acid peel pads, and exfoliating ampoules. A K-beauty peel shot went viral on TikTok and drew celebrity association, newsletter coverage asked whether it really clears pores, and the product appeared on Amazon at an accessible price point. The category spans mass and prestige, suggesting broad appetite rather than a niche moment.",
+      "how_it_shows_up": "",
+      "signals": [
+        "mechanism: clinic-to-home format migration. Acid concentrations and delivery formats once reserved for professional treatments are packaged for weekly at-home use.",
+        "claim type: at-home resurfacing delivering smoother, brighter, more even-toned skin",
+        "started: Visible by 2026, marked by simultaneous launches across mass and prestige price points and a TikTok-viral K-beauty peel drawing celebrity association"
+      ],
+      "evidence": [
+        {
+          "title": "Facial Peels Market in the United States | Report - IndexBox - Prices, Size, Forecast, and Companies",
+          "url": "https://www.indexbox.io/store/united-states-facial-peels-market-analysis-forecast-size-trends-and-insights/",
+          "signal": ""
+        },
+        {
+          "title": "Facial Peels Market Forecast to 2035: at-Home Skincare Rituals and Clinical-Grade Demand Drive Expansion - News and Statistics - IndexBox",
+          "url": "https://www.indexbox.io/blog/facial-peels-market-forecast-to-2035-at-home-skincare-rituals-and-clinical-grade-demand-drive-expansion/",
+          "signal": ""
+        },
+        {
+          "title": "United States Chemical Peel Market By Product, By Type, By Application, By End-Use, By Region, Competition, Forecast & Opportunities, 2020-2030F",
+          "url": "https://www.giiresearch.com/report/tsci1807150-united-states-chemical-peel-market-by-product-by.html",
+          "signal": ""
+        },
+        {
+          "title": "Longevity Leads Skincare Developments",
+          "url": "https://www.happi.com/longevity-leads-skincare-developments/",
+          "signal": ""
+        }
+      ],
+      "audience": {
+        "demographic": "",
+        "mindset": "",
+        "relationship_with_category": "",
+        "affluence": ""
+      },
+      "origin": "",
+      "origin_detail": "",
+      "subtitle": "",
+      "titles": {
+        "what_changed": "Dr. Melaxin's peel shot went viral and landed on Amazon under $14.",
+        "spread": "Prestige and mass shelves both carry the format; body care and men's grooming do not.",
+        "products": ""
+      },
+      "social_posts": [
+        {
+          "text": "\"Paula’s Choice Skin Perfecting 2% BHA Liquid Exfoliant\" (in a list of salicylic acid options) | @OlayemiKomolaf4",
+          "handle": null,
+          "url": "",
+          "query": "why is Paula's Choice worth it anymore debate Reddit"
+        },
+        {
+          "text": "\"Paula’s Choice 2% BHA Exfoliant - Oily, acne-prone skin\" (in a \"worth the hype\" list) | @OlayemiKomolaf4",
+          "handle": null,
+          "url": "",
+          "query": "why is Paula's Choice worth it anymore debate Reddit"
+        }
+      ],
+      "map_label": "At-Home Resurfacing",
+      "kind": "product",
+      "shape": "climbing",
+      "lanes": [
+        "commerce",
+        "newsletters",
+        "social_video"
+      ],
+      "basis": "demand-led",
+      "basis_line": "People are searching for it. “at home chemical peel” is at 45% of its high, which it hit 24 months ago, on 7,160 searches a month.",
+      "heat": {
+        "window": "May to Nov",
+        "recent": 100,
+        "year_ago": 100,
+        "recent_capped": true,
+        "year_ago_capped": true,
+        "search_total": 7160,
+        "cultural": "steady",
+        "search": "modest",
+        "cultural_line": "100+ pieces, against 100+ in the same months last year.",
+        "search_line": "7,160 a month.",
+        "terms": [
+          {
+            "term": "at home chemical peel",
+            "volume": 7100,
+            "direction": "flat"
+          },
+          {
+            "term": "acid peel pads",
+            "volume": 20,
+            "direction": "flat"
+          },
+          {
+            "term": "resurfacing face mask",
+            "volume": 40,
+            "direction": "up"
+          }
+        ],
+        "read": "",
+        "first_seen": "2025-05-05",
+        "comparable": false,
+        "search_lead": {
+          "term": "at home chemical peel",
+          "volume": 7100,
+          "direction": "flat"
+        },
+        "search_terms": 3
+      },
+      "states": {
+        "before_label": "Spa and clinic only",
+        "after_label": "Mass and prestige retail",
+        "before_pos": 18,
+        "after_pos": 62,
+        "verdict": ""
+      },
+      "then": [
+        {
+          "date": "2025-08",
+          "title": "United States Chemical Peel Market By Product, By Type, By Application, By End-Use, By Region, Competition, Forecast & Opportunities, 2020-2030F",
+          "url": "https://www.giiresearch.com/report/tsci1807150-united-states-chemical-peel-market-by-product-by.html",
+          "when": "Aug 2025",
+          "publisher": "GII Research",
+          "headline": "US chemical peel market"
+        },
+        {
+          "date": "2025-05",
+          "title": "Longevity Leads Skincare Developments",
+          "url": "https://www.happi.com/longevity-leads-skincare-developments/",
+          "when": "May 2025",
+          "publisher": "HAPPI",
+          "headline": "Longevity in skincare"
+        }
+      ],
+      "now": [
+        {
+          "date": "2026-05",
+          "title": "Facial Peels Market in the United States | Report - IndexBox - Prices, Size, Forecast, and Companies",
+          "url": "https://www.indexbox.io/store/united-states-facial-peels-market-analysis-forecast-size-trends-and-insights/",
+          "when": "May 2026",
+          "publisher": "IndexBox",
+          "headline": "US facial peels market"
+        },
+        {
+          "date": "2026-09",
+          "title": "Facial Peels Market Forecast to 2035: at-Home Skincare Rituals and Clinical-Grade Demand Drive Expansion - News and Statistics - IndexBox",
+          "url": "https://www.indexbox.io/blog/facial-peels-market-forecast-to-2035-at-home-skincare-rituals-and-clinical-grade-demand-drive-expansion/",
+          "when": "Sep 2026",
+          "publisher": "IndexBox",
+          "headline": "Facial peels market forecast to 2035"
+        }
+      ],
+      "curves": [
+        {
+          "term": "at home chemical peel",
+          "peak": "2020-04",
+          "months_since_peak": 77,
+          "window_months": 83,
+          "saturated": false,
+          "direction": "flat",
+          "trend_direction": "volatile",
+          "level_now": 0.45,
+          "volume": 7100,
+          "monthly": [
+            {
+              "year": 2019,
+              "month": 11,
+              "volume": 3600
+            },
+            {
+              "year": 2020,
+              "month": 1,
+              "volume": 3600
+            },
+            {
+              "year": 2020,
+              "month": 4,
+              "volume": 12100
+            },
+            {
+              "year": 2020,
+              "month": 5,
+              "volume": 6600
+            },
+            {
+              "year": 2020,
+              "month": 7,
+              "volume": 3600
+            },
+            {
+              "year": 2020,
+              "month": 9,
+              "volume": 3600
+            },
+            {
+              "year": 2020,
+              "month": 11,
+              "volume": 3600
+            },
+            {
+              "year": 2021,
+              "month": 2,
+              "volume": 12100
+            },
+            {
+              "year": 2021,
+              "month": 3,
+              "volume": 12100
+            },
+            {
+              "year": 2021,
+              "month": 5,
+              "volume": 9900
+            },
+            {
+              "year": 2021,
+              "month": 7,
+              "volume": 8100
+            },
+            {
+              "year": 2021,
+              "month": 9,
+              "volume": 8100
+            },
+            {
+              "year": 2021,
+              "month": 11,
+              "volume": 8100
+            },
+            {
+              "year": 2022,
+              "month": 1,
+              "volume": 9900
+            },
+            {
+              "year": 2022,
+              "month": 4,
+              "volume": 9900
+            },
+            {
+              "year": 2022,
+              "month": 6,
+              "volume": 8100
+            },
+            {
+              "year": 2022,
+              "month": 8,
+              "volume": 8100
+            },
+            {
+              "year": 2022,
+              "month": 10,
+              "volume": 8100
+            },
+            {
+              "year": 2023,
+              "month": 1,
+              "volume": 9900
+            },
+            {
+              "year": 2023,
+              "month": 3,
+              "volume": 12100
+            },
+            {
+              "year": 2023,
+              "month": 4,
+              "volume": 9900
+            },
+            {
+              "year": 2023,
+              "month": 6,
+              "volume": 8100
+            },
+            {
+              "year": 2023,
+              "month": 9,
+              "volume": 9900
+            },
+            {
+              "year": 2023,
+              "month": 11,
+              "volume": 12100
+            },
+            {
+              "year": 2023,
+              "month": 12,
+              "volume": 12100
+            },
+            {
+              "year": 2024,
+              "month": 2,
+              "volume": 9900
+            },
+            {
+              "year": 2024,
+              "month": 4,
+              "volume": 9900
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "volume": 8100
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "volume": 9900
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "volume": 9900
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "volume": 9900
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "volume": 9900
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "volume": 8100
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "volume": 8100
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "volume": 9900
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "volume": 6600
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "volume": 8100
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "volume": 8100
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "volume": 9900
+            },
+            {
+              "year": 2026,
+              "month": 9,
+              "volume": 6600
+            }
+          ]
+        },
+        {
+          "term": "acid peel pads",
+          "peak": "2024-09",
+          "months_since_peak": 24,
+          "window_months": 123,
+          "saturated": false,
+          "direction": "flat",
+          "trend_direction": "volatile",
+          "level_now": 0.17,
+          "volume": 20,
+          "monthly": [
+            {
+              "year": 2016,
+              "month": 7,
+              "volume": 20
+            },
+            {
+              "year": 2016,
+              "month": 10,
+              "volume": 10
+            },
+            {
+              "year": 2017,
+              "month": 1,
+              "volume": 40
+            },
+            {
+              "year": 2017,
+              "month": 4,
+              "volume": 30
+            },
+            {
+              "year": 2017,
+              "month": 8,
+              "volume": 30
+            },
+            {
+              "year": 2017,
+              "month": 10,
+              "volume": 20
+            },
+            {
+              "year": 2018,
+              "month": 3,
+              "volume": 30
+            },
+            {
+              "year": 2018,
+              "month": 4,
+              "volume": 40
+            },
+            {
+              "year": 2018,
+              "month": 8,
+              "volume": 70
+            },
+            {
+              "year": 2018,
+              "month": 12,
+              "volume": 110
+            },
+            {
+              "year": 2019,
+              "month": 1,
+              "volume": 70
+            },
+            {
+              "year": 2019,
+              "month": 4,
+              "volume": 70
+            },
+            {
+              "year": 2019,
+              "month": 7,
+              "volume": 70
+            },
+            {
+              "year": 2019,
+              "month": 10,
+              "volume": 70
+            },
+            {
+              "year": 2020,
+              "month": 2,
+              "volume": 50
+            },
+            {
+              "year": 2020,
+              "month": 7,
+              "volume": 40
+            },
+            {
+              "year": 2020,
+              "month": 8,
+              "volume": 30
+            },
+            {
+              "year": 2021,
+              "month": 1,
+              "volume": 110
+            },
+            {
+              "year": 2021,
+              "month": 2,
+              "volume": 30
+            },
+            {
+              "year": 2021,
+              "month": 6,
+              "volume": 40
+            },
+            {
+              "year": 2021,
+              "month": 9,
+              "volume": 50
+            },
+            {
+              "year": 2022,
+              "month": 1,
+              "volume": 40
+            },
+            {
+              "year": 2022,
+              "month": 2,
+              "volume": 40
+            },
+            {
+              "year": 2022,
+              "month": 5,
+              "volume": 20
+            },
+            {
+              "year": 2022,
+              "month": 9,
+              "volume": 20
+            },
+            {
+              "year": 2023,
+              "month": 1,
+              "volume": 30
+            },
+            {
+              "year": 2023,
+              "month": 2,
+              "volume": 30
+            },
+            {
+              "year": 2023,
+              "month": 6,
+              "volume": 50
+            },
+            {
+              "year": 2023,
+              "month": 10,
+              "volume": 30
+            },
+            {
+              "year": 2024,
+              "month": 2,
+              "volume": 50
+            },
+            {
+              "year": 2024,
+              "month": 3,
+              "volume": 70
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "volume": 50
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "volume": 140
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "volume": 30
+            }
+          ]
+        },
+        {
+          "term": "resurfacing face mask",
+          "peak": "2020-04",
+          "months_since_peak": 77,
+          "window_months": 122,
+          "saturated": false,
+          "direction": "up",
+          "trend_direction": "emerging",
+          "level_now": 0.26,
+          "volume": 40,
+          "monthly": [
+            {
+              "year": 2016,
+              "month": 5,
+              "volume": 30
+            },
+            {
+              "year": 2016,
+              "month": 7,
+              "volume": 10
+            },
+            {
+              "year": 2016,
+              "month": 11,
+              "volume": 20
+            },
+            {
+              "year": 2017,
+              "month": 2,
+              "volume": 70
+            },
+            {
+              "year": 2017,
+              "month": 4,
+              "volume": 30
+            },
+            {
+              "year": 2017,
+              "month": 7,
+              "volume": 40
+            },
+            {
+              "year": 2018,
+              "month": 2,
+              "volume": 70
+            },
+            {
+              "year": 2018,
+              "month": 3,
+              "volume": 40
+            },
+            {
+              "year": 2018,
+              "month": 7,
+              "volume": 40
+            },
+            {
+              "year": 2018,
+              "month": 9,
+              "volume": 40
+            },
+            {
+              "year": 2019,
+              "month": 3,
+              "volume": 40
+            },
+            {
+              "year": 2019,
+              "month": 5,
+              "volume": 40
+            },
+            {
+              "year": 2019,
+              "month": 10,
+              "volume": 50
+            },
+            {
+              "year": 2020,
+              "month": 1,
+              "volume": 90
+            },
+            {
+              "year": 2020,
+              "month": 4,
+              "volume": 140
+            },
+            {
+              "year": 2020,
+              "month": 5,
+              "volume": 140
+            },
+            {
+              "year": 2020,
+              "month": 8,
+              "volume": 70
+            },
+            {
+              "year": 2021,
+              "month": 1,
+              "volume": 110
+            },
+            {
+              "year": 2021,
+              "month": 4,
+              "volume": 110
+            },
+            {
+              "year": 2021,
+              "month": 5,
+              "volume": 70
+            },
+            {
+              "year": 2021,
+              "month": 10,
+              "volume": 110
+            },
+            {
+              "year": 2022,
+              "month": 1,
+              "volume": 140
+            },
+            {
+              "year": 2022,
+              "month": 3,
+              "volume": 110
+            },
+            {
+              "year": 2022,
+              "month": 6,
+              "volume": 140
+            },
+            {
+              "year": 2022,
+              "month": 9,
+              "volume": 70
+            },
+            {
+              "year": 2022,
+              "month": 12,
+              "volume": 90
+            },
+            {
+              "year": 2023,
+              "month": 3,
+              "volume": 70
+            },
+            {
+              "year": 2023,
+              "month": 7,
+              "volume": 90
+            },
+            {
+              "year": 2023,
+              "month": 11,
+              "volume": 140
+            },
+            {
+              "year": 2023,
+              "month": 12,
+              "volume": 140
+            },
+            {
+              "year": 2024,
+              "month": 3,
+              "volume": 110
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "volume": 110
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "volume": 140
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "volume": 40
+            }
+          ]
+        }
+      ],
+      "detail": {
+        "mechanism": "clinic-to-home format migration. Acid concentrations and delivery formats once reserved for professional treatments are packaged for weekly at-home use.",
+        "benefit": "clinic-level skin resurfacing without the appointment",
+        "ingredients": [
+          "AHA",
+          "BHA",
+          "PHA",
+          "White Rice Extract"
+        ],
+        "claim_type": "at-home resurfacing delivering smoother, brighter, more even-toned skin",
+        "who": [],
+        "started": "Visible by 2026, marked by simultaneous launches across mass and prestige price points and a TikTok-viral K-beauty peel drawing celebrity association",
+        "brands": [
+          "Topicals: Faded Dark Spot Peel Pads, multi-acid pads targeting dark spots",
+          "Tome: Foundational Treatment, a once-weekly bioneedle spicule resurfacing mask available for U.S. preorder",
+          "111Skin: Precision Peel, a rinse-off at-home chemical peel targeting uneven texture",
+          "Obagi Medical: CLENZIderm M.D. Resurfacing Multi-Acid Peel Pads, multi-layer acid exfoliation"
+        ]
+      },
+      "formats": {
+        "formats": [
+          {
+            "format": "Pre-soaked resurfacing pad",
+            "note": "Sells repeat units; pad count sets a natural repurchase cadence."
+          },
+          {
+            "format": "Single-dose ampoule peel",
+            "note": "Low unit price lowers trial barrier and drives volume."
+          }
+        ],
+        "products": [
+          "Dr. Melaxin Peel Shot Exfoliating White Rice Ampoule: TikTok-viral K-beauty ampoule available on Amazon under $18, the lowest price point in the category",
+          "Topicals Faded Dark Spot Peel Pads: multi-acid pad format targeting hyperpigmentation, extending the Faded franchise into resurfacing",
+          "111Skin Precision Peel: rinse-off at-home peel positioned at prestige price, launched through spa and specialty retail",
+          "Tome Foundational Treatment: once-weekly resurfacing mask using physical bioneedle spicule delivery, opened U.S. preorders"
+        ],
+        "spread": "",
+        "products_note": "Obagi Medical brings the pad format into the medical-brand tier, sitting above Topicals and below 111Skin on price."
+      },
+      "sub_trends": [
+        {
+          "name": "AHA",
+          "detail": ""
+        },
+        {
+          "name": "BHA",
+          "detail": ""
+        },
+        {
+          "name": "PHA",
+          "detail": ""
+        },
+        {
+          "name": "White Rice Extract",
+          "detail": ""
+        }
+      ],
+      "social_proof": [],
+      "provocation": "",
+      "provocation_overcome": "",
+      "tensions": []
+    },
+    {
+      "name": "A new FDA-approved UV filter is reshaping what sunscreen can be in the US",
+      "narrative": "Major brands had bemotrizinol formulas ready from European and Australian markets and launched within the same cycle. US shelves now carry broader spectrum coverage, greater photostability, and lighter textures than older approved filters allowed.",
+      "what_it_is": "Bemotrizinol became the first new sunscreen active approved by the FDA in more than 25 years, and major brands moved quickly to launch products containing it. Social commentary framed the approval as a policy win, and press coverage explained why the filter matters: broader spectrum coverage, greater photostability, and lighter cosmetic texture than older US-approved filters. The approval removes a long-standing regulatory constraint that had left US sunscreen formulation behind Europe and Australia.",
+      "how_it_shows_up": "",
+      "signals": [
+        "mechanism: regulatory unlock. FDA approval of bemotrizinol ends a 25-year formulation ceiling, letting brands port broader-spectrum, photostable filters already proven in European and Australian markets directly onto US shelves.",
+        "claim type: broader UV spectrum coverage with lighter, more cosmetically elegant texture",
+        "started: FDA approval of bemotrizinol as a new OTC sunscreen active, the first such approval in more than 25 years, marked the opening of this cycle"
+      ],
+      "evidence": [
+        {
+          "title": "FDA Expands Sunscreen Options for the First Time in 20 ...",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-expands-sunscreen-options-first-time-20-years",
+          "signal": ""
+        },
+        {
+          "title": "Americans get a new sunscreen option  | AP News",
+          "url": "https://apnews.com/article/bemotrizinol-bemt-new-sunscreen-ingredient-fda-7892cc598c0b553b8c9c6715d7a36d6a",
+          "signal": ""
+        },
+        {
+          "title": "A New Sunscreen Filter Is Coming to the U.S. Next Year | What Is Bemotrizinol? | Allure",
+          "url": "https://www.allure.com/story/new-sunscreen-filter-approved-bemotrizinol-bemt",
+          "signal": ""
+        },
+        {
+          "title": "What A Dermatologist Wants You to Know About Bemotrizinol, the New Sunscreen Ingredient | Health Matters | NYP",
+          "url": "https://www.nyp.org/healthmatters/6-tips-to-protect-your-skin-from-the-sun",
+          "signal": ""
+        }
+      ],
+      "audience": {
+        "demographic": "",
+        "mindset": "",
+        "relationship_with_category": "",
+        "affluence": ""
+      },
+      "origin": "",
+      "origin_detail": "",
+      "subtitle": "",
+      "titles": {
+        "what_changed": "Bemotrizinol is the first new FDA-approved sunscreen active in over 25 years.",
+        "spread": "Prestige and mass shelves both carry bemotrizinol; body sunscreen and SPF makeup have not followed.",
+        "products": ""
+      },
+      "social_posts": [
+        {
+          "text": "Another MAHA win! @FDA has cleared the first new sunscreen ingredient in decades: bemotrizinol, used safely in Europe, Australia, and parts of Asia for more than 20 years.",
+          "handle": "SecKennedy",
+          "url": "https://x.com/i/status/2110856002723606529",
+          "query": "bemotrizinol FDA approval delay American sunscreen scandal"
+        },
+        {
+          "text": "For the first time in 20 years, the US Food and Drug Administration approved a new sunscreen ingredient — bemotrizinol, or BEMT — that experts say is a safer option than many chemical ingredients in use in the United States, per CNN",
+          "handle": "unusual_whales",
+          "url": "https://x.com/i/status/2064526767671689584",
+          "query": "bemotrizinol FDA approval delay American sunscreen scandal"
+        },
+        {
+          "text": "Big day over here at Sunscreen HQ. For the first time in more than 25 years, the FDA has approved a new sunscreen filter: bemotrizinol aka BEMT. This filter has been approved for use in Europe since 1999.",
+          "handle": "yashar",
+          "url": "https://x.com/i/status/2064454590779785657",
+          "query": "bemotrizinol FDA approval delay American sunscreen scandal"
+        }
+      ],
+      "map_label": "New UV Filter Access",
+      "kind": "force",
+      "shape": "launch",
+      "lanes": [
+        "commerce",
+        "newsletters",
+        "social_argument"
+      ],
+      "basis": "demand-led",
+      "basis_line": "People are searching for it. “sunscreen with bemotrizinol” is at 40% of its high, which it hit 3 months ago, on 9,100 searches a month.",
+      "heat": {
+        "window": "May to Nov",
+        "recent": 100,
+        "year_ago": 96,
+        "recent_capped": true,
+        "year_ago_capped": false,
+        "search_total": 9100,
+        "cultural": "steady",
+        "search": "modest",
+        "cultural_line": "100+ pieces, against 96 in the same months last year.",
+        "search_line": "9,100 a month.",
+        "terms": [
+          {
+            "term": "sunscreen with bemotrizinol",
+            "volume": 9100,
+            "direction": "flat"
+          }
+        ],
+        "read": "",
+        "first_seen": "2025-05-01",
+        "comparable": true,
+        "search_lead": {
+          "term": "sunscreen with bemotrizinol",
+          "volume": 9100,
+          "direction": "flat"
+        },
+        "search_terms": 1
+      },
+      "states": {
+        "before_label": "Regulatory holdout",
+        "after_label": "Open to new actives",
+        "before_pos": 18,
+        "after_pos": 62,
+        "verdict": ""
+      },
+      "then": [
+        {
+          "date": "2025-10",
+          "title": "A New Sunscreen Filter Is Coming to the U.S. Next Year | What Is Bemotrizinol? | Allure",
+          "url": "https://www.allure.com/story/new-sunscreen-filter-approved-bemotrizinol-bemt",
+          "when": "Oct 2025",
+          "publisher": "Allure",
+          "headline": "Bemotrizinol new sunscreen filter"
+        },
+        {
+          "date": "2025-10",
+          "title": "What A Dermatologist Wants You to Know About Bemotrizinol, the New Sunscreen Ingredient | Health Matters | NYP",
+          "url": "https://www.nyp.org/healthmatters/6-tips-to-protect-your-skin-from-the-sun",
+          "when": "Oct 2025",
+          "publisher": "New York Presbyterian Health Matters",
+          "headline": "Bemotrizinol sunscreen ingredient"
+        }
+      ],
+      "now": [
+        {
+          "date": "2026-06",
+          "title": "FDA Expands Sunscreen Options for the First Time in 20 ...",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-expands-sunscreen-options-first-time-20-years",
+          "when": "Jun 2026",
+          "publisher": "FDA",
+          "headline": "Sunscreen options expansion"
+        },
+        {
+          "date": "2026-10",
+          "title": "Americans get a new sunscreen option  | AP News",
+          "url": "https://apnews.com/article/bemotrizinol-bemt-new-sunscreen-ingredient-fda-7892cc598c0b553b8c9c6715d7a36d6a",
+          "when": "Oct 2026",
+          "publisher": "AP News",
+          "headline": "New sunscreen option"
+        }
+      ],
+      "curves": [
+        {
+          "term": "sunscreen with bemotrizinol",
+          "peak": "2026-06",
+          "months_since_peak": 3,
+          "window_months": 50,
+          "saturated": false,
+          "direction": "flat",
+          "trend_direction": "volatile",
+          "level_now": 0.4,
+          "volume": 9100,
+          "monthly": [
+            {
+              "year": 2022,
+              "month": 8,
+              "volume": 20
+            },
+            {
+              "year": 2022,
+              "month": 9,
+              "volume": 10
+            },
+            {
+              "year": 2022,
+              "month": 10,
+              "volume": 0
+            },
+            {
+              "year": 2022,
+              "month": 11,
+              "volume": 10
+            },
+            {
+              "year": 2023,
+              "month": 1,
+              "volume": 10
+            },
+            {
+              "year": 2023,
+              "month": 2,
+              "volume": 10
+            },
+            {
+              "year": 2023,
+              "month": 3,
+              "volume": 260
+            },
+            {
+              "year": 2023,
+              "month": 4,
+              "volume": 70
+            },
+            {
+              "year": 2023,
+              "month": 6,
+              "volume": 30
+            },
+            {
+              "year": 2023,
+              "month": 7,
+              "volume": 140
+            },
+            {
+              "year": 2023,
+              "month": 8,
+              "volume": 70
+            },
+            {
+              "year": 2023,
+              "month": 9,
+              "volume": 20
+            },
+            {
+              "year": 2023,
+              "month": 11,
+              "volume": 30
+            },
+            {
+              "year": 2023,
+              "month": 12,
+              "volume": 110
+            },
+            {
+              "year": 2024,
+              "month": 1,
+              "volume": 50
+            },
+            {
+              "year": 2024,
+              "month": 3,
+              "volume": 30
+            },
+            {
+              "year": 2024,
+              "month": 4,
+              "volume": 70
+            },
+            {
+              "year": 2024,
+              "month": 5,
+              "volume": 2900
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "volume": 720
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "volume": 480
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "volume": 50
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "volume": 90
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "volume": 40
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "volume": 40500
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "volume": 22200
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "volume": 18100
+            }
+          ]
+        }
+      ],
+      "detail": {
+        "mechanism": "regulatory unlock. FDA approval of bemotrizinol ends a 25-year formulation ceiling, letting brands port broader-spectrum, photostable filters already proven in European and Australian markets directly onto US shelves.",
+        "benefit": "lighter sunscreen that actually blocks more of the spectrum",
+        "ingredients": [
+          "Bemotrizinol"
+        ],
+        "claim_type": "broader UV spectrum coverage with lighter, more cosmetically elegant texture",
+        "who": [],
+        "started": "FDA approval of bemotrizinol as a new OTC sunscreen active, the first such approval in more than 25 years, marked the opening of this cycle",
+        "brands": [
+          "Ultra Violette: Unblock Screen, the first US product to launch with bemotrizinol after FDA approval",
+          "Neutrogena: two new facial sunscreens formulated with bemotrizinol, positioned as a mainstream entry point for the new filter",
+          "La Roche-Posay: new BEMT-based sunscreen joining the first wave of bemotrizinol launches on US shelves"
+        ]
+      },
+      "formats": {
+        "formats": [
+          {
+            "format": "Percentage-labeled broad-spectrum SPF with named filter disclosure",
+            "note": "Turns regulatory novelty into a shelf-differentiating label claim."
+          },
+          {
+            "format": "Cross-market formula transfer: existing international SKU relaunched for US approval",
+            "note": "Amortizes R&D across markets; US launch cost is regulatory, not formulation."
+          }
+        ],
+        "products": [
+          "Ultra Violette Unblock Screen: first US product to carry bemotrizinol, launched immediately after FDA approval.",
+          "Neutrogena BEMT facial sunscreens (two SKUs): mass-market entry that tests mainstream consumer uptake of the new filter."
+        ],
+        "spread": "",
+        "products_note": ""
+      },
+      "sub_trends": [
+        {
+          "name": "Bemotrizinol",
+          "detail": ""
+        }
+      ],
+      "social_proof": [],
+      "provocation": "",
+      "provocation_overcome": "",
+      "tensions": []
+    },
+    {
+      "name": "Consumers are connecting internal health markers to what their skin looks like",
+      "narrative": "Vogue and health newsletters have given women a working vocabulary for ferritin, thyroid hormones, and iron levels as causes of acne, hair loss, and dull skin. New American Society of Hematology guidelines raising the diagnostic threshold for iron deficiency look like what will expand the pool of women who connect a lab result to their complexion.",
+      "what_it_is": "Newsletter writers covered iron deficiency, thyroid hormones, and ferritin levels as explanations for skin, hair, and nail changes, framing these as things doctors underdiagnose in women. The term 'ferritin face' appeared in Vogue as social-media shorthand for the skin symptoms of low iron. New ASH guidelines raising diagnostic thresholds for iron deficiency are likely to increase the number of women who receive a diagnosis, expanding the population who may connect a deficiency to their complexion. This is a behavior shift: women are seeking systemic explanations for topical problems.",
+      "how_it_shows_up": "",
+      "signals": [
+        "mechanism: biomarker translation. Lab values like ferritin and thyroid hormones are reframed as explanations for visible skin and hair symptoms, giving consumers a systemic vocabulary for topical complaints.",
+        "claim type: internal deficiency as root cause of skin, hair, and nail changes",
+        "started: Visible by mid-2026, when Vogue published the term 'ferritin face' and ASH released revised iron-deficiency diagnostic thresholds"
+      ],
+      "evidence": [
+        {
+          "title": "“Gen Next” treats beauty claims as guilty until proven innocent, report finds",
+          "url": "https://www.personalcareinsights.com/news/gen-z-skin-wellness-trends.html",
+          "signal": ""
+        },
+        {
+          "title": "Beyond skin and hair: Six beauty-from-within trends to watch",
+          "url": "https://www.nutraingredients.com/Article/2026/10/13/beyond-skin-and-hair-six-beauty-from-within-trends-to-watch/",
+          "signal": ""
+        },
+        {
+          "title": "How beauty and wellness are converging: insights from Unilever R&D head",
+          "url": "https://www.nutraingredients.com/Article/2025/10/14/how-beauty-and-wellness-are-converging-insights-from-unilever-rd-head/",
+          "signal": ""
+        },
+        {
+          "title": "64970 Patient Perception of Skin Health: Stress and Diet",
+          "url": "https://doi.org/10.1016/j.jaad.2025.05.1044",
+          "signal": ""
+        }
+      ],
+      "audience": {
+        "demographic": "",
+        "mindset": "",
+        "relationship_with_category": "",
+        "affluence": ""
+      },
+      "origin": "",
+      "origin_detail": "",
+      "subtitle": "",
+      "titles": {
+        "what_changed": "Women are now seeking blood-test explanations for skin and hair symptoms.",
+        "spread": "Editorial and clinical vocabulary leads; no product tier has followed yet.",
+        "products": ""
+      },
+      "social_posts": [
+        {
+          "text": "Skin issue ➜ Root cause Acne ➜ Insulin resistance Dark spots ➜ Excessive tyrosinase activity ... Flaking / dryness ➜ Impaired skin barrier",
+          "handle": "Outdoctrination",
+          "url": "https://x.com/i/status/2107532842490040777",
+          "query": "US women aged 25-40 skincare complaints what they argue about"
+        }
+      ],
+      "map_label": "Biomarker Skin Reading",
+      "kind": "behavior",
+      "shape": "climbing",
+      "lanes": [
+        "adjacent",
+        "newsletters"
+      ],
+      "basis": "demand-led",
+      "basis_line": "People are searching for it. “low ferritin hair loss” is at 85% of its high, on 1,600 searches a month.",
+      "heat": {
+        "window": "May to Nov",
+        "recent": 98,
+        "year_ago": 100,
+        "recent_capped": false,
+        "year_ago_capped": true,
+        "search_total": 1600,
+        "cultural": "steady",
+        "search": "modest",
+        "cultural_line": "98 pieces, against 100+ in the same months last year.",
+        "search_line": "1,600 a month.",
+        "terms": [
+          {
+            "term": "low ferritin hair loss",
+            "volume": 910,
+            "direction": "up"
+          },
+          {
+            "term": "thyroid skin symptoms",
+            "volume": 390,
+            "direction": "flat"
+          },
+          {
+            "term": "iron deficiency skin",
+            "volume": 300,
+            "direction": "up"
+          }
+        ],
+        "read": "",
+        "first_seen": "2025-05-01",
+        "comparable": true,
+        "search_lead": {
+          "term": "low ferritin hair loss",
+          "volume": 910,
+          "direction": "up"
+        },
+        "search_terms": 3
+      },
+      "states": {
+        "before_label": "Topical fixes only",
+        "after_label": "Systemic root-cause seeking",
+        "before_pos": 18,
+        "after_pos": 42,
+        "verdict": ""
+      },
+      "then": [
+        {
+          "date": "2025-10",
+          "title": "How beauty and wellness are converging: insights from Unilever R&D head",
+          "url": "https://www.nutraingredients.com/Article/2025/10/14/how-beauty-and-wellness-are-converging-insights-from-unilever-rd-head/",
+          "when": "Oct 2025",
+          "publisher": "NutraIngredients",
+          "headline": "Beauty and wellness convergence"
+        },
+        {
+          "date": "2025-09",
+          "title": "64970 Patient Perception of Skin Health: Stress and Diet",
+          "url": "https://doi.org/10.1016/j.jaad.2025.05.1044",
+          "when": "Sep 2025",
+          "publisher": "Journal of the American Academy of Dermatology",
+          "headline": "Patient perception of skin health"
+        }
+      ],
+      "now": [
+        {
+          "date": "2026-07",
+          "title": "“Gen Next” treats beauty claims as guilty until proven innocent, report finds",
+          "url": "https://www.personalcareinsights.com/news/gen-z-skin-wellness-trends.html",
+          "when": "Jul 2026",
+          "publisher": "Personal Care Insights",
+          "headline": "Gen Z skin wellness trends"
+        },
+        {
+          "date": "2026-10",
+          "title": "Beyond skin and hair: Six beauty-from-within trends to watch",
+          "url": "https://www.nutraingredients.com/Article/2026/10/13/beyond-skin-and-hair-six-beauty-from-within-trends-to-watch/",
+          "when": "Oct 2026",
+          "publisher": "NutraIngredients",
+          "headline": ""
+        }
+      ],
+      "curves": [
+        {
+          "term": "low ferritin hair loss",
+          "peak": "2026-09",
+          "months_since_peak": 0,
+          "window_months": 131,
+          "saturated": false,
+          "direction": "up",
+          "trend_direction": "peaking",
+          "level_now": 0.85,
+          "volume": 910,
+          "monthly": [
+            {
+              "year": 2015,
+              "month": 11,
+              "volume": 590
+            },
+            {
+              "year": 2016,
+              "month": 4,
+              "volume": 320
+            },
+            {
+              "year": 2016,
+              "month": 5,
+              "volume": 390
+            },
+            {
+              "year": 2016,
+              "month": 10,
+              "volume": 480
+            },
+            {
+              "year": 2017,
+              "month": 1,
+              "volume": 390
+            },
+            {
+              "year": 2017,
+              "month": 3,
+              "volume": 480
+            },
+            {
+              "year": 2017,
+              "month": 7,
+              "volume": 390
+            },
+            {
+              "year": 2017,
+              "month": 9,
+              "volume": 320
+            },
+            {
+              "year": 2018,
+              "month": 1,
+              "volume": 390
+            },
+            {
+              "year": 2018,
+              "month": 5,
+              "volume": 320
+            },
+            {
+              "year": 2018,
+              "month": 8,
+              "volume": 210
+            },
+            {
+              "year": 2018,
+              "month": 12,
+              "volume": 210
+            },
+            {
+              "year": 2019,
+              "month": 2,
+              "volume": 140
+            },
+            {
+              "year": 2019,
+              "month": 7,
+              "volume": 260
+            },
+            {
+              "year": 2019,
+              "month": 8,
+              "volume": 260
+            },
+            {
+              "year": 2020,
+              "month": 1,
+              "volume": 260
+            },
+            {
+              "year": 2020,
+              "month": 5,
+              "volume": 260
+            },
+            {
+              "year": 2020,
+              "month": 7,
+              "volume": 480
+            },
+            {
+              "year": 2020,
+              "month": 12,
+              "volume": 590
+            },
+            {
+              "year": 2021,
+              "month": 1,
+              "volume": 590
+            },
+            {
+              "year": 2021,
+              "month": 4,
+              "volume": 480
+            },
+            {
+              "year": 2021,
+              "month": 7,
+              "volume": 590
+            },
+            {
+              "year": 2021,
+              "month": 11,
+              "volume": 590
+            },
+            {
+              "year": 2022,
+              "month": 3,
+              "volume": 720
+            },
+            {
+              "year": 2022,
+              "month": 5,
+              "volume": 590
+            },
+            {
+              "year": 2022,
+              "month": 8,
+              "volume": 720
+            },
+            {
+              "year": 2023,
+              "month": 1,
+              "volume": 590
+            },
+            {
+              "year": 2023,
+              "month": 3,
+              "volume": 590
+            },
+            {
+              "year": 2023,
+              "month": 6,
+              "volume": 590
+            },
+            {
+              "year": 2023,
+              "month": 9,
+              "volume": 720
+            },
+            {
+              "year": 2024,
+              "month": 2,
+              "volume": 720
+            },
+            {
+              "year": 2024,
+              "month": 4,
+              "volume": 590
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "volume": 720
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "volume": 880
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "volume": 880
+            },
+            {
+              "year": 2026,
+              "month": 9,
+              "volume": 1300
+            }
+          ]
+        },
+        {
+          "term": "thyroid skin symptoms",
+          "peak": "2021-02",
+          "months_since_peak": 67,
+          "window_months": 123,
+          "saturated": false,
+          "direction": "flat",
+          "trend_direction": "volatile",
+          "level_now": 0.07,
+          "volume": 390,
+          "monthly": [
+            {
+              "year": 2016,
+              "month": 9,
+              "volume": 30
+            },
+            {
+              "year": 2016,
+              "month": 11,
+              "volume": 70
+            },
+            {
+              "year": 2017,
+              "month": 1,
+              "volume": 50
+            },
+            {
+              "year": 2017,
+              "month": 4,
+              "volume": 20
+            },
+            {
+              "year": 2017,
+              "month": 9,
+              "volume": 50
+            },
+            {
+              "year": 2017,
+              "month": 10,
+              "volume": 40
+            },
+            {
+              "year": 2018,
+              "month": 2,
+              "volume": 70
+            },
+            {
+              "year": 2018,
+              "month": 5,
+              "volume": 50
+            },
+            {
+              "year": 2018,
+              "month": 8,
+              "volume": 20
+            },
+            {
+              "year": 2018,
+              "month": 10,
+              "volume": 10
+            },
+            {
+              "year": 2019,
+              "month": 3,
+              "volume": 90
+            },
+            {
+              "year": 2019,
+              "month": 4,
+              "volume": 90
+            },
+            {
+              "year": 2019,
+              "month": 7,
+              "volume": 90
+            },
+            {
+              "year": 2020,
+              "month": 1,
+              "volume": 210
+            },
+            {
+              "year": 2020,
+              "month": 4,
+              "volume": 210
+            },
+            {
+              "year": 2020,
+              "month": 7,
+              "volume": 260
+            },
+            {
+              "year": 2020,
+              "month": 10,
+              "volume": 1000
+            },
+            {
+              "year": 2021,
+              "month": 1,
+              "volume": 2900
+            },
+            {
+              "year": 2021,
+              "month": 2,
+              "volume": 3600
+            },
+            {
+              "year": 2021,
+              "month": 5,
+              "volume": 2900
+            },
+            {
+              "year": 2021,
+              "month": 8,
+              "volume": 880
+            },
+            {
+              "year": 2021,
+              "month": 11,
+              "volume": 2400
+            },
+            {
+              "year": 2022,
+              "month": 2,
+              "volume": 2900
+            },
+            {
+              "year": 2022,
+              "month": 5,
+              "volume": 1900
+            },
+            {
+              "year": 2022,
+              "month": 8,
+              "volume": 1300
+            },
+            {
+              "year": 2022,
+              "month": 11,
+              "volume": 1000
+            },
+            {
+              "year": 2023,
+              "month": 3,
+              "volume": 1000
+            },
+            {
+              "year": 2023,
+              "month": 6,
+              "volume": 880
+            },
+            {
+              "year": 2023,
+              "month": 9,
+              "volume": 720
+            },
+            {
+              "year": 2023,
+              "month": 12,
+              "volume": 720
+            },
+            {
+              "year": 2024,
+              "month": 3,
+              "volume": 880
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "volume": 720
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "volume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "volume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 9,
+              "volume": 320
+            }
+          ]
+        },
+        {
+          "term": "iron deficiency skin",
+          "peak": "2019-09",
+          "months_since_peak": 84,
+          "window_months": 137,
+          "saturated": false,
+          "direction": "up",
+          "trend_direction": "emerging",
+          "level_now": 0.47,
+          "volume": 300,
+          "monthly": [
+            {
+              "year": 2015,
+              "month": 4,
+              "volume": 70
+            },
+            {
+              "year": 2015,
+              "month": 7,
+              "volume": 70
+            },
+            {
+              "year": 2015,
+              "month": 10,
+              "volume": 70
+            },
+            {
+              "year": 2016,
+              "month": 4,
+              "volume": 90
+            },
+            {
+              "year": 2016,
+              "month": 5,
+              "volume": 90
+            },
+            {
+              "year": 2016,
+              "month": 10,
+              "volume": 90
+            },
+            {
+              "year": 2016,
+              "month": 12,
+              "volume": 70
+            },
+            {
+              "year": 2017,
+              "month": 4,
+              "volume": 70
+            },
+            {
+              "year": 2017,
+              "month": 8,
+              "volume": 70
+            },
+            {
+              "year": 2018,
+              "month": 2,
+              "volume": 140
+            },
+            {
+              "year": 2018,
+              "month": 3,
+              "volume": 140
+            },
+            {
+              "year": 2018,
+              "month": 8,
+              "volume": 110
+            },
+            {
+              "year": 2018,
+              "month": 10,
+              "volume": 110
+            },
+            {
+              "year": 2019,
+              "month": 1,
+              "volume": 140
+            },
+            {
+              "year": 2019,
+              "month": 7,
+              "volume": 320
+            },
+            {
+              "year": 2019,
+              "month": 9,
+              "volume": 480
+            },
+            {
+              "year": 2019,
+              "month": 11,
+              "volume": 320
+            },
+            {
+              "year": 2020,
+              "month": 4,
+              "volume": 260
+            },
+            {
+              "year": 2020,
+              "month": 6,
+              "volume": 260
+            },
+            {
+              "year": 2020,
+              "month": 12,
+              "volume": 260
+            },
+            {
+              "year": 2021,
+              "month": 2,
+              "volume": 320
+            },
+            {
+              "year": 2021,
+              "month": 4,
+              "volume": 260
+            },
+            {
+              "year": 2021,
+              "month": 9,
+              "volume": 260
+            },
+            {
+              "year": 2022,
+              "month": 1,
+              "volume": 320
+            },
+            {
+              "year": 2022,
+              "month": 4,
+              "volume": 320
+            },
+            {
+              "year": 2022,
+              "month": 6,
+              "volume": 320
+            },
+            {
+              "year": 2022,
+              "month": 10,
+              "volume": 260
+            },
+            {
+              "year": 2023,
+              "month": 3,
+              "volume": 320
+            },
+            {
+              "year": 2023,
+              "month": 4,
+              "volume": 320
+            },
+            {
+              "year": 2023,
+              "month": 8,
+              "volume": 260
+            },
+            {
+              "year": 2024,
+              "month": 1,
+              "volume": 390
+            },
+            {
+              "year": 2024,
+              "month": 3,
+              "volume": 480
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "volume": 390
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "volume": 260
+            }
+          ]
+        }
+      ],
+      "detail": {
+        "mechanism": "biomarker translation. Lab values like ferritin and thyroid hormones are reframed as explanations for visible skin and hair symptoms, giving consumers a systemic vocabulary for topical complaints.",
+        "benefit": "finally know why my skin and hair look this way",
+        "ingredients": [],
+        "claim_type": "internal deficiency as root cause of skin, hair, and nail changes",
+        "who": [
+          "American Society of Hematology",
+          "Vogue"
+        ],
+        "started": "Visible by mid-2026, when Vogue published the term 'ferritin face' and ASH released revised iron-deficiency diagnostic thresholds",
+        "brands": []
+      },
+      "formats": {
+        "formats": [],
+        "products": [],
+        "spread": "",
+        "products_note": "No brand has yet shipped a product built around ferritin or thyroid framing for skin."
+      },
+      "sub_trends": [],
+      "social_proof": [],
+      "provocation": "",
+      "provocation_overcome": "",
+      "tensions": []
+    },
+    {
+      "name": "Microplastic and contaminant concerns are pressing on ingredient trust",
+      "narrative": "Lancet-level outlets linked plastic chemicals to multiple health harms, and a nontargeted analysis of 113 personal care and cleaning products found widespread contaminants and mislabeling. California microplastic legislation is being studied as a policy template, putting formulation scrutiny on a regulatory track that brands have not yet positioned against.",
+      "what_it_is": "A nontargeted chemical analysis of 113 personal care and cleaning products found widespread contaminants and mislabeling. Lancet-level coverage linked plastic chemicals and microplastics to multiple health harms. California microplastic legislation is being analyzed as a policy model. Taken together, these create regulatory and reputational pressure on personal care formulations that is arriving from outside the category and that brands have not yet fully absorbed.",
+      "how_it_shows_up": "",
+      "signals": [
+        "mechanism: Contaminant disclosure pressure. Independent chemical analysis and legislative scrutiny force brands to account for what is in formulations beyond the label.",
+        "claim type: Ingredient transparency and contaminant-free formulation",
+        "started: Became visible when nontargeted chemical analysis of 113 personal care and cleaning products documented widespread contaminants and mislabeling, and Lancet-level outlets connected plastic chemicals to health harms."
+      ],
+      "evidence": [
+        {
+          "title": "Hidden Hazards:\nNontargeted Chemical Analysis Reveals\nWidespread Contaminants and Mislabeling in Personal Care and Cleaning\nProducts | Environment & Health | ACS Publications",
+          "url": "https://pubs.acs.org/ehnea2/article/doi/10.1021/envhealth.6c00181/5252510/Hidden-Hazards-Nontargeted-Chemical-Analysis",
+          "signal": ""
+        },
+        {
+          "title": "US beauty consumers prioritize ingredient transparency over brand image",
+          "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+          "signal": ""
+        },
+        {
+          "title": "Microplastics in Cosmetics: Emerging Risks for Skin Health and the Environment",
+          "url": "https://www.mdpi.com/2079-9284/12/4/171",
+          "signal": ""
+        },
+        {
+          "title": "4 U.S. Bills Propose Ban on 18 Cosmetic Ingredients, Fill ...",
+          "url": "https://www.cosmeticsandtoiletries.com/regulations/safety/news/22946734/4-federal-bills-propose-ban-on-18-cosmetic-ingredients-fill-the-mocra-gap",
+          "signal": ""
+        }
+      ],
+      "audience": {
+        "demographic": "",
+        "mindset": "",
+        "relationship_with_category": "",
+        "affluence": ""
+      },
+      "origin": "",
+      "origin_detail": "",
+      "subtitle": "",
+      "titles": {
+        "what_changed": "Trace-contaminant findings in personal care products are now reaching general-audience media.",
+        "spread": "Ingredient scrutiny sits at premium and indie tiers; mass brands have not repositioned.",
+        "products": ""
+      },
+      "social_posts": [],
+      "map_label": "Ingredient Contamination Pressure",
+      "kind": "force",
+      "shape": "climbing",
+      "lanes": [
+        "adjacent",
+        "newsletters"
+      ],
+      "basis": "supply-led",
+      "basis_line": "Brands and press are moving on this, but shoppers are not searching for it: 240 searches a month across 3 terms. Real, but pushed rather than pulled.",
+      "heat": {
+        "window": "May to Nov",
+        "recent": 98,
+        "year_ago": 100,
+        "recent_capped": false,
+        "year_ago_capped": true,
+        "search_total": 240,
+        "cultural": "steady",
+        "search": "small",
+        "cultural_line": "98 pieces, against 100+ in the same months last year.",
+        "search_line": "240 a month.",
+        "terms": [
+          {
+            "term": "paraben free products",
+            "volume": 170,
+            "direction": "down"
+          },
+          {
+            "term": "microplastic free shampoo",
+            "volume": 60,
+            "direction": "flat"
+          },
+          {
+            "term": "toxic chemicals in shampoo",
+            "volume": 10,
+            "direction": "flat"
+          }
+        ],
+        "read": "",
+        "first_seen": "2025-05-02",
+        "comparable": true,
+        "search_lead": {
+          "term": "paraben free products",
+          "volume": 170,
+          "direction": "down"
+        },
+        "search_terms": 3
+      },
+      "states": {
+        "before_label": "Lab-level concern",
+        "after_label": "Consumer-press coverage",
+        "before_pos": 12,
+        "after_pos": 38,
+        "verdict": ""
+      },
+      "then": [
+        {
+          "date": "2025-07",
+          "title": "Microplastics in Cosmetics: Emerging Risks for Skin Health and the Environment",
+          "url": "https://www.mdpi.com/2079-9284/12/4/171",
+          "when": "Jul 2025",
+          "publisher": "MDPI",
+          "headline": "Microplastics in cosmetics"
+        },
+        {
+          "date": "2025-07",
+          "title": "4 U.S. Bills Propose Ban on 18 Cosmetic Ingredients, Fill ...",
+          "url": "https://www.cosmeticsandtoiletries.com/regulations/safety/news/22946734/4-federal-bills-propose-ban-on-18-cosmetic-ingredients-fill-the-mocra-gap",
+          "when": "Jul 2025",
+          "publisher": "Cosmetics & Toiletries",
+          "headline": "Federal bills ban cosmetic ingredients"
+        }
+      ],
+      "now": [
+        {
+          "date": "2026-08",
+          "title": "Hidden Hazards:\nNontargeted Chemical Analysis Reveals\nWidespread Contaminants and Mislabeling in Personal Care and Cleaning\nProducts | Environment & Health | ACS Publications",
+          "url": "https://pubs.acs.org/ehnea2/article/doi/10.1021/envhealth.6c00181/5252510/Hidden-Hazards-Nontargeted-Chemical-Analysis",
+          "when": "Aug 2026",
+          "publisher": "ACS Environmental Health & Engineering News",
+          "headline": "Contaminants in personal care products"
+        },
+        {
+          "date": "2026-10",
+          "title": "US beauty consumers prioritize ingredient transparency over brand image",
+          "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+          "when": "Oct 2026",
+          "publisher": "Personal Care Insights",
+          "headline": "Ingredient transparency priority"
+        }
+      ],
+      "curves": [
+        {
+          "term": "paraben free products",
+          "peak": "2022-06",
+          "months_since_peak": 51,
+          "window_months": 61,
+          "saturated": false,
+          "direction": "down",
+          "trend_direction": "declining",
+          "level_now": 0.1,
+          "volume": 170,
+          "monthly": [
+            {
+              "year": 2021,
+              "month": 9,
+              "volume": 140
+            },
+            {
+              "year": 2021,
+              "month": 10,
+              "volume": 210
+            },
+            {
+              "year": 2021,
+              "month": 12,
+              "volume": 170
+            },
+            {
+              "year": 2022,
+              "month": 1,
+              "volume": 170
+            },
+            {
+              "year": 2022,
+              "month": 3,
+              "volume": 170
+            },
+            {
+              "year": 2022,
+              "month": 4,
+              "volume": 260
+            },
+            {
+              "year": 2022,
+              "month": 6,
+              "volume": 720
+            },
+            {
+              "year": 2022,
+              "month": 7,
+              "volume": 260
+            },
+            {
+              "year": 2022,
+              "month": 9,
+              "volume": 210
+            },
+            {
+              "year": 2022,
+              "month": 10,
+              "volume": 260
+            },
+            {
+              "year": 2022,
+              "month": 12,
+              "volume": 260
+            },
+            {
+              "year": 2023,
+              "month": 1,
+              "volume": 210
+            },
+            {
+              "year": 2023,
+              "month": 3,
+              "volume": 320
+            },
+            {
+              "year": 2023,
+              "month": 4,
+              "volume": 260
+            },
+            {
+              "year": 2023,
+              "month": 6,
+              "volume": 140
+            },
+            {
+              "year": 2023,
+              "month": 7,
+              "volume": 170
+            },
+            {
+              "year": 2023,
+              "month": 9,
+              "volume": 140
+            },
+            {
+              "year": 2023,
+              "month": 10,
+              "volume": 210
+            },
+            {
+              "year": 2023,
+              "month": 12,
+              "volume": 210
+            },
+            {
+              "year": 2024,
+              "month": 1,
+              "volume": 260
+            },
+            {
+              "year": 2024,
+              "month": 3,
+              "volume": 210
+            },
+            {
+              "year": 2024,
+              "month": 5,
+              "volume": 170
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "volume": 720
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "volume": 480
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "volume": 720
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "volume": 70
+            }
+          ]
+        },
+        {
+          "term": "microplastic free shampoo",
+          "peak": "2026-03",
+          "months_since_peak": 6,
+          "window_months": 87,
+          "saturated": false,
+          "direction": "flat",
+          "trend_direction": "volatile",
+          "level_now": 0.24,
+          "volume": 60,
+          "monthly": [
+            {
+              "year": 2019,
+              "month": 7,
+              "volume": 0
+            },
+            {
+              "year": 2019,
+              "month": 9,
+              "volume": 0
+            },
+            {
+              "year": 2019,
+              "month": 11,
+              "volume": 0
+            },
+            {
+              "year": 2020,
+              "month": 1,
+              "volume": 0
+            },
+            {
+              "year": 2020,
+              "month": 3,
+              "volume": 0
+            },
+            {
+              "year": 2020,
+              "month": 5,
+              "volume": 0
+            },
+            {
+              "year": 2020,
+              "month": 8,
+              "volume": 0
+            },
+            {
+              "year": 2020,
+              "month": 10,
+              "volume": 0
+            },
+            {
+              "year": 2020,
+              "month": 12,
+              "volume": 0
+            },
+            {
+              "year": 2021,
+              "month": 2,
+              "volume": 10
+            },
+            {
+              "year": 2021,
+              "month": 4,
+              "volume": 10
+            },
+            {
+              "year": 2021,
+              "month": 6,
+              "volume": 10
+            },
+            {
+              "year": 2021,
+              "month": 10,
+              "volume": 30
+            },
+            {
+              "year": 2021,
+              "month": 11,
+              "volume": 10
+            },
+            {
+              "year": 2022,
+              "month": 1,
+              "volume": 10
+            },
+            {
+              "year": 2022,
+              "month": 3,
+              "volume": 10
+            },
+            {
+              "year": 2022,
+              "month": 5,
+              "volume": 10
+            },
+            {
+              "year": 2022,
+              "month": 7,
+              "volume": 10
+            },
+            {
+              "year": 2022,
+              "month": 10,
+              "volume": 20
+            },
+            {
+              "year": 2022,
+              "month": 12,
+              "volume": 10
+            },
+            {
+              "year": 2023,
+              "month": 2,
+              "volume": 10
+            },
+            {
+              "year": 2023,
+              "month": 4,
+              "volume": 10
+            },
+            {
+              "year": 2023,
+              "month": 6,
+              "volume": 10
+            },
+            {
+              "year": 2023,
+              "month": 9,
+              "volume": 10
+            },
+            {
+              "year": 2023,
+              "month": 12,
+              "volume": 30
+            },
+            {
+              "year": 2024,
+              "month": 1,
+              "volume": 20
+            },
+            {
+              "year": 2024,
+              "month": 3,
+              "volume": 20
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "volume": 70
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "volume": 50
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "volume": 40
+            }
+          ]
+        },
+        {
+          "term": "toxic chemicals in shampoo",
+          "peak": "2021-01",
+          "months_since_peak": 68,
+          "window_months": 131,
+          "saturated": false,
+          "direction": "flat",
+          "trend_direction": "volatile",
+          "level_now": 0.04,
+          "volume": 10,
+          "monthly": [
+            {
+              "year": 2015,
+              "month": 12,
+              "volume": 30
+            },
+            {
+              "year": 2016,
+              "month": 3,
+              "volume": 40
+            },
+            {
+              "year": 2016,
+              "month": 5,
+              "volume": 20
+            },
+            {
+              "year": 2016,
+              "month": 9,
+              "volume": 30
+            },
+            {
+              "year": 2016,
+              "month": 12,
+              "volume": 30
+            },
+            {
+              "year": 2017,
+              "month": 4,
+              "volume": 40
+            },
+            {
+              "year": 2017,
+              "month": 6,
+              "volume": 20
+            },
+            {
+              "year": 2017,
+              "month": 10,
+              "volume": 30
+            },
+            {
+              "year": 2018,
+              "month": 1,
+              "volume": 40
+            },
+            {
+              "year": 2018,
+              "month": 4,
+              "volume": 20
+            },
+            {
+              "year": 2018,
+              "month": 9,
+              "volume": 20
+            },
+            {
+              "year": 2019,
+              "month": 1,
+              "volume": 40
+            },
+            {
+              "year": 2019,
+              "month": 2,
+              "volume": 30
+            },
+            {
+              "year": 2019,
+              "month": 5,
+              "volume": 30
+            },
+            {
+              "year": 2019,
+              "month": 8,
+              "volume": 20
+            },
+            {
+              "year": 2020,
+              "month": 2,
+              "volume": 50
+            },
+            {
+              "year": 2020,
+              "month": 4,
+              "volume": 50
+            },
+            {
+              "year": 2020,
+              "month": 7,
+              "volume": 30
+            },
+            {
+              "year": 2020,
+              "month": 9,
+              "volume": 30
+            },
+            {
+              "year": 2021,
+              "month": 1,
+              "volume": 260
+            },
+            {
+              "year": 2021,
+              "month": 4,
+              "volume": 110
+            },
+            {
+              "year": 2021,
+              "month": 7,
+              "volume": 70
+            },
+            {
+              "year": 2021,
+              "month": 11,
+              "volume": 50
+            },
+            {
+              "year": 2022,
+              "month": 2,
+              "volume": 40
+            },
+            {
+              "year": 2022,
+              "month": 5,
+              "volume": 50
+            },
+            {
+              "year": 2022,
+              "month": 9,
+              "volume": 40
+            },
+            {
+              "year": 2023,
+              "month": 1,
+              "volume": 50
+            },
+            {
+              "year": 2023,
+              "month": 4,
+              "volume": 50
+            },
+            {
+              "year": 2023,
+              "month": 7,
+              "volume": 30
+            },
+            {
+              "year": 2023,
+              "month": 9,
+              "volume": 50
+            },
+            {
+              "year": 2024,
+              "month": 2,
+              "volume": 50
+            },
+            {
+              "year": 2024,
+              "month": 4,
+              "volume": 40
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "volume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "volume": 10
+            }
+          ]
+        }
+      ],
+      "detail": {
+        "mechanism": "Contaminant disclosure pressure. Independent chemical analysis and legislative scrutiny force brands to account for what is in formulations beyond the label.",
+        "benefit": "know exactly what you're putting on your skin",
+        "ingredients": [],
+        "claim_type": "Ingredient transparency and contaminant-free formulation",
+        "who": [],
+        "started": "Became visible when nontargeted chemical analysis of 113 personal care and cleaning products documented widespread contaminants and mislabeling, and Lancet-level outlets connected plastic chemicals to health harms.",
+        "brands": []
+      },
+      "formats": {
+        "formats": [
+          {
+            "format": "Full-ingredient disclosure label with contaminant-absence claims",
+            "note": "Turns regulatory pressure into a shelf differentiator, commands premium pricing."
+          },
+          {
+            "format": "Third-party tested, certificate-of-analysis product",
+            "note": "Outsources credibility to a lab, reducing brand liability on safety claims."
+          }
+        ],
+        "products": [],
+        "spread": "",
+        "products_note": ""
+      },
+      "sub_trends": [],
+      "social_proof": [],
+      "provocation": "",
+      "provocation_overcome": "",
+      "tensions": []
+    },
+    {
+      "name": "Brands are building products around skin longevity and cellular aging",
+      "narrative": "A double-blind firmness serum, a cellular-senescence topical tested in an eczema trial, and a copper-peptide gel with published research all launched in 2026 on the same logic: maintain and optimize, not reverse. Newsletter writers are already stress-testing which of those claims the underlying studies support.",
+      "what_it_is": "Multiple products launched in 2026 with explicit longevity positioning: a serum backed by a double-blind clinical study on firmness and elasticity, a topical targeting cellular senescence tested in an eczema trial, a peptide gel developed around a copper peptide with published research, and a moisturizer from a longevity-focused brand. Newsletter coverage asked which of these products the evidence actually supports. The framing has shifted from anti-aging, which promises reversal, to longevity, which promises maintenance and biological optimization.",
+      "how_it_shows_up": "",
+      "signals": [
+        "mechanism: claim substitution. Brands replace anti-aging reversal language with longevity and biological optimization framing to reposition maintenance as a scientific goal.",
+        "claim type: longevity and cellular optimization backed by clinical or published research",
+        "started: 2026, marked by multiple simultaneous launches explicitly using longevity positioning and newsletter scrutiny of whether the underlying research supports the claims"
+      ],
+      "evidence": [
+        {
+          "title": "Peach & Lily launches Zombie Cream at Ulta Beauty",
+          "url": "https://www.glossy.co/beauty/peach-lily-zombie-cream-ulta-beauty/",
+          "signal": ""
+        },
+        {
+          "title": "Darkfin Labs, Founded by a Stem Cell Biologist, Brings Longevity Science to Ulta Beauty",
+          "url": "https://www.prnewswire.com/news-releases/darkfin-labs-founded-by-a-stem-cell-biologist-brings-longevity-science-to-ulta-beauty-302866777.html",
+          "signal": ""
+        },
+        {
+          "title": "Rapalogix | Pro-Longevity TORC1 Dermatology Therapeutics ...",
+          "url": "https://www.rapalogix.com/",
+          "signal": ""
+        },
+        {
+          "title": "Acaderma - Employees, Jobs, Stock & Culture | LinkedIn",
+          "url": "https://linkedin.com/company/acadermaskincare",
+          "signal": ""
+        }
+      ],
+      "audience": {
+        "demographic": "",
+        "mindset": "",
+        "relationship_with_category": "",
+        "affluence": ""
+      },
+      "origin": "",
+      "origin_detail": "",
+      "subtitle": "",
+      "titles": {
+        "what_changed": "Longevity has replaced anti-aging as the organizing claim on new serums and moisturizers.",
+        "spread": "Prestige and Ulta carry this positioning; drugstore and body care show none of it.",
+        "products": ""
+      },
+      "social_posts": [],
+      "map_label": "Longevity Skincare",
+      "kind": "product",
+      "shape": "climbing",
+      "lanes": [
+        "aesthetics",
+        "commerce",
+        "newsletters"
+      ],
+      "basis": "unmeasured",
+      "basis_line": "No search term for this carried measurable volume, so it is judged on press and launches only, not on demand.",
+      "heat": {
+        "window": "May to Nov",
+        "recent": 100,
+        "year_ago": 100,
+        "recent_capped": true,
+        "year_ago_capped": true,
+        "search_total": 0,
+        "cultural": "steady",
+        "search": "unmeasured",
+        "cultural_line": "100+ pieces, against 100+ in the same months last year.",
+        "search_line": "no volume recorded.",
+        "terms": [],
+        "read": "",
+        "first_seen": "2025-05-07",
+        "comparable": false,
+        "search_terms": 0
+      },
+      "states": {
+        "before_label": "Anti-aging framing",
+        "after_label": "Longevity positioning",
+        "before_pos": 35,
+        "after_pos": 58,
+        "verdict": ""
+      },
+      "then": [
+        {
+          "date": "2025-09",
+          "title": "Rapalogix | Pro-Longevity TORC1 Dermatology Therapeutics ...",
+          "url": "https://www.rapalogix.com/",
+          "when": "Sep 2025",
+          "publisher": "Rapalogix",
+          "headline": ""
+        },
+        {
+          "date": "2025-08",
+          "title": "Acaderma - Employees, Jobs, Stock & Culture | LinkedIn",
+          "url": "https://linkedin.com/company/acadermaskincare",
+          "when": "Aug 2025",
+          "publisher": "LinkedIn",
+          "headline": ""
+        }
+      ],
+      "now": [
+        {
+          "date": "2026-07",
+          "title": "Peach & Lily launches Zombie Cream at Ulta Beauty",
+          "url": "https://www.glossy.co/beauty/peach-lily-zombie-cream-ulta-beauty/",
+          "when": "Jul 2026",
+          "publisher": "Glossy",
+          "headline": "Peach & Lily Zombie Cream at Ulta"
+        },
+        {
+          "date": "2026-09",
+          "title": "Darkfin Labs, Founded by a Stem Cell Biologist, Brings Longevity Science to Ulta Beauty",
+          "url": "https://www.prnewswire.com/news-releases/darkfin-labs-founded-by-a-stem-cell-biologist-brings-longevity-science-to-ulta-beauty-302866777.html",
+          "when": "Sep 2026",
+          "publisher": "PR Newswire",
+          "headline": "Darkfin Labs longevity science at Ulta"
+        }
+      ],
+      "curves": [],
+      "detail": {
+        "mechanism": "claim substitution. Brands replace anti-aging reversal language with longevity and biological optimization framing to reposition maintenance as a scientific goal.",
+        "benefit": "skin that ages better, not just looks younger",
+        "ingredients": [
+          "Copper peptide",
+          "Rapamycin"
+        ],
+        "claim_type": "longevity and cellular optimization backed by clinical or published research",
+        "who": [],
+        "started": "2026, marked by multiple simultaneous launches explicitly using longevity positioning and newsletter scrutiny of whether the underlying research supports the claims",
+        "brands": [
+          "Peach & Lily: Zombie Cream targeting cellular senescence, launched at Ulta Beauty",
+          "Darkfin Labs: longevity-science skincare founded by a stem cell biologist, launched at Ulta Beauty",
+          "Rapalogix: Pro-Longevity TORC1 Dermatology Therapeutics targeting cellular aging pathways",
+          "Acaderma: peptide-focused formulations built around published ingredient research"
+        ]
+      },
+      "formats": {
+        "formats": [
+          {
+            "format": "Percentage-labeled or mechanism-named single ingredient hero",
+            "note": "Signals scientific rigor and justifies premium pricing in two words."
+          },
+          {
+            "format": "Clinical-trial-referenced serum",
+            "note": "Borrows trial credibility to separate from claim-only competitors."
+          }
+        ],
+        "products": [
+          "Rapalogix Pro-Longevity TORC1 Dermatology Therapeutics: targets the TORC1 pathway, a mechanism borrowed from longevity medicine rather than conventional cosmetic science.",
+          "Darkfin Labs (Ulta Beauty launch): founded by a stem cell biologist, positioning cellular biology credentials as the brand's primary differentiator at mass-prestige retail.",
+          "Peach & Lily Zombie Cream: named around cellular senescence, framing the promise as clearing out damaged cells rather than adding actives."
+        ],
+        "spread": "",
+        "products_note": "Acaderma leads with double-blind clinical claims while Darkfin and Rapalogix anchor the category in longevity biology."
+      },
+      "sub_trends": [
+        {
+          "name": "Copper peptide",
+          "detail": ""
+        },
+        {
+          "name": "Rapamycin",
+          "detail": ""
+        }
+      ],
+      "social_proof": [],
+      "provocation": "",
+      "provocation_overcome": "",
+      "tensions": []
+    }
+  ],
+  "summary": "- At-home resurfacing has moved from niche to broad: four brands launched clinical-strength acid and spicule formats in 2026, a K-beauty peel shot went viral on TikTok, and the category now spans mass to prestige price points.\n- FDA approval of bemotrizinol, the first new sunscreen active in over 25 years, lets brands port photostable broad-spectrum filters already standard in Europe and Australia onto US shelves, removing a long-standing formulation ceiling.\n- Women are connecting internal health to skin appearance, driven by \"ferritin face\" coverage in Vogue and new ASH guidelines raising iron-deficiency thresholds, while longevity-positioned products with clinical backing and contaminant scrutiny from outside the category add further pressure on brands to substantiate claims.",
+  "spotlight": {
+    "stat": "25 years",
+    "line": "since the US approved a new sunscreen UV filter",
+    "pill": "SUNSCREEN"
+  },
+  "argument": "US skincare in 2026 is being pulled in two directions at once: toward simpler, skin-first aesthetics that treat a healthy complexion as the end goal rather than the canvas, and toward more sophisticated actives and delivery systems that promise clinical results at home. Both movements reward the same consumer, a woman in her late twenties or thirties who is willing to spend on fewer, better things and who increasingly treats her skin as a long-term investment rather than a daily performance.",
+  "axes": {
+    "x": {
+      "label": "Relationship to the category's existing way of doing things",
+      "left": "works within existing structures",
+      "right": "routes around them"
+    },
+    "y": {
+      "label": "What pulls people in",
+      "bottom": "rational / economic",
+      "top": "emotional / expressive"
+    },
+    "quadrants": {
+      "tl": {
+        "name": "The Constrained Romantic",
+        "posture": "Wants the feeling, accepts the framework",
+        "brief": "Make it familiar. Meet them inside the category's existing shape."
+      },
+      "tr": {
+        "name": "The Sovereign Self",
+        "posture": "Wants the feeling on their own terms",
+        "brief": "Sell the choice. Choosing differently is itself the value."
+      },
+      "bl": {
+        "name": "The Pragmatic Conformist",
+        "posture": "Follows the system for financial gain",
+        "brief": "Compete on the number. Nothing else will land."
+      },
+      "br": {
+        "name": "The Autonomous Optimizer",
+        "posture": "Hacks the system to extract maximum value",
+        "brief": "Give them the tools. They will build it themselves otherwise."
+      }
+    },
+    "items": [
+      {
+        "name": "Shoppers are reaching for at-home chemical peels and resurfacing treatments",
+        "label": "At-Home Resurfacing",
+        "x": 60,
+        "y": -45,
+        "why": "At-home chemical peels route around the professional dermatology and med-spa channel entirely, placing them well into the bypass half of the axis, and the appeal is primarily rational: consumers are chasing measurable skin-texture results at a fraction of the in-office cost, not expressing identity or feeling."
+      },
+      {
+        "name": "Consumers are connecting internal health markers to what their skin looks like",
+        "label": "Biomarker Skin Reading",
+        "x": 55,
+        "y": -30,
+        "why": "Framing skin as a readout of ferritin or thyroid levels bypasses conventional dermatology and beauty retail by routing through health newsletters and self-ordered lab work, and the pull is largely rational: people are following a diagnostic logic, not an expressive one, though a degree of identity investment in being the kind of person who tracks their own biomarkers nudges the score slightly toward the emotional side."
+      },
+      {
+        "name": "Brands are building products around skin longevity and cellular aging",
+        "label": "Longevity Skincare",
+        "x": -20,
+        "y": 30,
+        "why": "Longevity-positioned products sell through conventional prestige retail and are backed by clinical studies that work within the established credentialing system, keeping them close to the center on the horizontal axis, and their appeal leans emotional: the promise of cellular aging reversal and the identity of someone who invests in their biological future pulls harder than a straightforward cost-benefit calculation."
+      }
+    ],
+    "forces": [
+      {
+        "name": "A new FDA-approved UV filter is reshaping what sunscreen can be in the US",
+        "label": "New UV Filter Access",
+        "why": "Bemotrizinol's approval breaks a decades-long regulatory bottleneck, expanding what sunscreen formulas can contain and raising consumer expectations for both efficacy and elegance across the entire SPF segment."
+      },
+      {
+        "name": "Microplastic and contaminant concerns are pressing on ingredient trust",
+        "label": "Ingredient Contamination Pressure",
+        "why": "Widespread contaminant findings and high-profile coverage erode baseline trust in product labeling, pushing brands toward greater transparency and third-party verification regardless of their positioning."
+      }
+    ],
+    "system_referent": "Here, the system is the professional skincare channel: licensed dermatologists, med-spa procedures, and the prestige retail infrastructure that certifies and distributes products through those gatekeepers.",
+    "headline": "Consumers are moving clinical logic into their own hands while brands still hold the emotional high ground at the center of the category.",
+    "empty_region": {
+      "where": "The expressive, bypass corner: high on feeling, high on routing around the establishment",
+      "claim": "Nothing in this space is selling identity or self-expression through channels that cut out the category's institutions, which means no trend is yet turning DIY skincare into a cultural statement the way analogous movements have in food or fitness."
+    }
+  },
+  "cultural_short": {
+    "force": "Consumers demanding proof that products change skin biology, not just appearance, at the ingredient and cellular level.",
+    "prediction": "Brands positioning sunscreens with bemotrizinol around longevity and cellular protection will show measurably higher repeat-purchase rates than SPF-only positioned competitors in US e-commerce data by Q3 2027.",
+    "test_category": "Retail purchasing behavior"
+  },
+  "shared_mechanisms": [
+    {
+      "mechanism": "Concentration credential closes sale",
+      "runs_through": [
+        "Shoppers are reaching for at-home chemical peels and resurfacing treatments",
+        "A new FDA-approved UV filter is reshaping what sunscreen can be in the US"
+      ],
+      "line": "Acid percentage on a peel bottle and an FDA approval number on a sunscreen both give the shopper a verifiable proxy for clinical efficacy, replacing a feeling-word with a figure."
+    },
+    {
+      "mechanism": "Lab number replaces sensory promise",
+      "runs_through": [
+        "Shoppers are reaching for at-home chemical peels and resurfacing treatments",
+        "Consumers are connecting internal health markers to what their skin looks like",
+        "Brands are building products around skin longevity and cellular aging"
+      ],
+      "line": "Peel brands print pH and acid percentage, biomarker products cite ferritin ranges, and longevity lines reference senolytic pathways, each asking the shopper to read a biological figure rather than a texture or glow claim."
+    },
+    {
+      "mechanism": "Label silence becomes legal and reputational risk",
+      "runs_through": [
+        "A new FDA-approved UV filter is reshaping what sunscreen can be in the US",
+        "Microplastic and contaminant concerns are pressing on ingredient trust"
+      ],
+      "line": "Bemotrizinol approval removes the regulatory ceiling that let US brands omit a superior UV filter, and independent microplastic testing removes the practical ceiling that let brands omit contaminant data, so staying quiet on the label is now the riskier position."
+    }
+  ],
+  "watchlist": [
+    {
+      "name": "Korean skincare has moved from niche interest to default reference point",
+      "claim": "Korean skincare terms collectively account for well over 400,000 monthly searches, making K-beauty the single largest named-origin cluster in skincare search demand. Creator videos show K-beauty products sitting alongside mass US brands in everyday routines without explanation or framing, and a K-beauty peel drove one of the most-covered product moments of the year. The category no longer needs to be introduced.",
+      "reason": "Big, but not moving. It is the category's furniture. People are searching for it. “korean sunscreen” is at 43% of its high, which it hit 20 months ago, on 60,400 searches a month.",
+      "lanes": [
+        "commerce",
+        "search_demand",
+        "social_video"
+      ]
+    },
+    {
+      "name": "Women are treating glowing, bare-looking skin as the goal, not the starting point",
+      "claim": "Glass skin, glazed skin, quiet luxury beauty, and no-makeup makeup all converge on the same idea: the complexion itself is the look. Press coverage, creator videos, and street-style reporting from 2026 all frame flawless skin as a status signal that replaces, rather than precedes, makeup. Search demand for moisturizers, serums, and gentle cleansers runs into the hundreds of thousands of monthly queries, consistent with a consumer building a skin-quality routine rather than a color-cosmetics one.",
+      "reason": "Past its high and slipping. “tinted moisturizer” peaked 15 months ago and sits at 45% of that high, still drawing 67,270 searches a month.",
+      "lanes": [
+        "aesthetics",
+        "search_demand",
+        "social_video"
+      ]
+    },
+    {
+      "name": "Women are using LED and light-based devices at home for skin improvement",
+      "claim": "A systematic review evaluated at-home LED photobiomodulation devices for facial rejuvenation and found meaningful evidence for their effects. Press coverage and wellness reporting frame red light therapy as moving from professional studios into home use. The aesthetics lane shows the look these consumers are chasing, and the device category is one of the routes they are using to get there. Creator content shows pore vacuums and other at-home tools alongside topical routines, indicating that device-based steps are becoming normalized in everyday skincare.",
+      "reason": "The wave has broken. “red light therapy device” peaked 8 months ago and sits at 21% of that high, still drawing 100,900 searches a month.",
+      "lanes": [
+        "adjacent",
+        "aesthetics",
+        "social_video"
+      ]
+    }
+  ],
+  "divergences": [
+    {
+      "what": "Slugging and occlusive layering appear as active, enthusiastic practice in creator videos, with high view counts and strong community identification. Press coverage and expert commentary treat the same techniques as viral claims worth debunking or qualifying, suggesting a gap between how the behavior lives on video platforms and how the professional beauty press evaluates it.",
+      "lane_a": "Creator videos on TikTok",
+      "lane_b": "Press and expert beauty coverage"
+    },
+    {
+      "what": "Red light therapy is framed in wellness and trend and design coverage coverage as an established and growing home ritual. The clinical literature is more cautious, noting that dosimetry, device quality, and study design vary enough that efficacy claims outrun the evidence in many consumer-facing contexts.",
+      "lane_a": "Aesthetics and wellness press coverage",
+      "lane_b": "Peer-reviewed clinical and dermatology literature"
+    }
+  ],
+  "not_established": [
+    "Whether the longevity-positioned skincare products that launched in 2026 are converting at meaningful volume, or whether the clinical claims are driving purchase decisions versus functioning as brand credibility signals.",
+    "Whether the microplastic and contaminant findings are changing formulation decisions or purchasing behavior among US women aged 25-40, as opposed to generating media coverage without downstream consumer action.",
+    "The degree to which iron deficiency awareness is translating into skincare product choices specifically, versus driving women toward supplementation or medical consultation."
+  ],
+  "connective": {
+    "answer_headline": "Proof of biological change has become the price of entry, and brands that cannot show it are losing ground to those that can.",
+    "axes_why": "",
+    "bridge": "The same demand for mechanism-level evidence that pushed bemotrizinol into mainstream sunscreen formulas is driving shoppers toward at-home resurfacing treatments they can feel working, while longevity serums backed by clinical data on cellular markers are pulling consumers away from products that promise only a surface glow. Microplastic contamination findings have made ingredient scrutiny a baseline expectation rather than a niche concern, and the newsletter-driven conversation linking ferritin and thyroid levels to visible skin changes has trained a large audience to read their skin as a readout of internal biology.",
+    "prediction_intro": "",
+    "test_why": "Retail purchasing behavior sits outside the logic that connects clinical credibility to brand-led emotional storytelling, because a shopper at the shelf or in a checkout flow is making a decision under time pressure with incomplete information, which is exactly where emotionally resonant packaging and price have historically overridden ingredient evidence. If biologically grounded claims are genuinely driving the category, that pressure should show up in what people actually buy, not only in what they say they value or what earns media attention.",
+    "held_intro": "",
+    "basis_intro": ""
+  },
+  "basis_rollup": "Of the 5 trends here: 3 with people already searching, 1 with brands pushing, 1 with no search read.",
+  "coverage_note": "Coverage counts are capped in both periods for 2 of the 5 trends, so no year-on-year comparison is available for them. The other 3 carry real counts.",
+  "run_params": {
+    "category": "skincare",
+    "country": "United States",
+    "cohort": "US women aged 25-40",
+    "cohort_applied": true,
+    "cohort_coverage": 3,
+    "focus": "",
+    "focus_applied": false,
+    "date_range": "Last 3 months",
+    "date_range_applies_to": [
+      "aesthetics",
+      "commerce",
+      "adjacent"
+    ],
+    "today": "2026-11-01",
+    "lanes": {
+      "search_demand": 700,
+      "newsletters": 254,
+      "aesthetics": 30,
+      "commerce": 30,
+      "adjacent": 32,
+      "social_video": 69,
+      "social_argument": 68
+    },
+    "video_platforms": [
+      "tiktok"
+    ],
+    "video_provider": "tiktok",
+    "video_lane_note": ""
+  },
+  "trend_tensions": [],
+  "geometry": {},
+  "retrofit_status": "pending",
+  "market_coverage": {
+    "note": "",
+    "other_market_references": 6,
+    "other_markets": [
+      "Australia"
+    ],
+    "off_market_dropped": 0,
+    "local_demand_data": true,
+    "on_market_fraction": 0.458
+  },
+  "metadata": {
+    "feed_videos": [
+      {
+        "url": "https://m.tiktok.com/v/7702209578884173070.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a96h9a429cl7&share_item_id=7702209578884173070&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7702209578884173070.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a96h9a429cl7&share_item_id=7702209578884173070&source=h5_m",
+        "engagement": {
+          "plays": 613,
+          "likes": 35
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7669529611344121101.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a96h9a429cl7&share_item_id=7669529611344121101&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7669529611344121101.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a96h9a429cl7&share_item_id=7669529611344121101&source=h5_m",
+        "engagement": {
+          "plays": 15346,
+          "likes": 1567
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7672818262513683726.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a96h9a429cl7&share_item_id=7672818262513683726&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7672818262513683726.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a96h9a429cl7&share_item_id=7672818262513683726&source=h5_m",
+        "engagement": {
+          "plays": 17698,
+          "likes": 1563
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7586043768390929678.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a96h9a429cl7&share_item_id=7586043768390929678&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7586043768390929678.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a96h9a429cl7&share_item_id=7586043768390929678&source=h5_m",
+        "engagement": {
+          "plays": 1263123,
+          "likes": 107514
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7703219389931343135.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7703219389931343135&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7703219389931343135.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7703219389931343135&source=h5_m",
+        "engagement": {
+          "plays": 106,
+          "likes": 0
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7701236833388137742.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7701236833388137742&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7701236833388137742.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7701236833388137742&source=h5_m",
+        "engagement": {
+          "plays": 237,
+          "likes": 22
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7667993242603998495.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7667993242603998495&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7667993242603998495.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7667993242603998495&source=h5_m",
+        "engagement": {
+          "plays": 319,
+          "likes": 24
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7522954949077224759.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7522954949077224759&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7522954949077224759.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7522954949077224759&source=h5_m",
+        "engagement": {
+          "plays": 32510,
+          "likes": 4785
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7702946275871771934.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7702946275871771934&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7702946275871771934.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7702946275871771934&source=h5_m",
+        "engagement": {
+          "plays": 456,
+          "likes": 19
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7670555721997602062.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7670555721997602062&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7670555721997602062.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7670555721997602062&source=h5_m",
+        "engagement": {
+          "plays": 1087762,
+          "likes": 194376
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7701078186909584654.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7701078186909584654&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7701078186909584654.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a71cbbbfld3c&share_item_id=7701078186909584654&source=h5_m",
+        "engagement": {
+          "plays": 285,
+          "likes": 26
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7068385408492703023.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a6ek2b3khk9l&share_item_id=7068385408492703023&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7068385408492703023.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a6ek2b3khk9l&share_item_id=7068385408492703023&source=h5_m",
+        "engagement": {
+          "plays": 675998,
+          "likes": 36450
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7451454471424625966.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a6ek2b3khk9l&share_item_id=7451454471424625966&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7451454471424625966.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a6ek2b3khk9l&share_item_id=7451454471424625966&source=h5_m",
+        "engagement": {
+          "plays": 289933,
+          "likes": 24120
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7222783265965460742.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a6ek2b3khk9l&share_item_id=7222783265965460742&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7222783265965460742.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a6ek2b3khk9l&share_item_id=7222783265965460742&source=h5_m",
+        "engagement": {
+          "plays": 2789977,
+          "likes": 51491
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7666928614784552223.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7666928614784552223&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7666928614784552223.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7666928614784552223&source=h5_m",
+        "engagement": {
+          "plays": 2359,
+          "likes": 24
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7137483473295576363.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7137483473295576363&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7137483473295576363.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7137483473295576363&source=h5_m",
+        "engagement": {
+          "plays": 6610079,
+          "likes": 541152
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7672581568401116446.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7672581568401116446&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7672581568401116446.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7672581568401116446&source=h5_m",
+        "engagement": {
+          "plays": 774,
+          "likes": 21
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7608735790406946062.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7608735790406946062&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7608735790406946062.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7608735790406946062&source=h5_m",
+        "engagement": {
+          "plays": 1194,
+          "likes": 37
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7082469476070935854.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7082469476070935854&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7082469476070935854.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7082469476070935854&source=h5_m",
+        "engagement": {
+          "plays": 95498,
+          "likes": 6811
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7627314976406916382.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7627314976406916382&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7627314976406916382.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7627314976406916382&source=h5_m",
+        "engagement": {
+          "plays": 9854,
+          "likes": 147
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7618605010951146765.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7618605010951146765&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7618605010951146765.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a31e46854gie&share_item_id=7618605010951146765&source=h5_m",
+        "engagement": {
+          "plays": 48129,
+          "likes": 1330
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7702729232757050654.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a7l81jadedk6&share_item_id=7702729232757050654&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7702729232757050654.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a7l81jadedk6&share_item_id=7702729232757050654&source=h5_m",
+        "engagement": {
+          "plays": 1870,
+          "likes": 13
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7669886688503631135.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a7l81jadedk6&share_item_id=7669886688503631135&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7669886688503631135.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a7l81jadedk6&share_item_id=7669886688503631135&source=h5_m",
+        "engagement": {
+          "plays": 18692,
+          "likes": 205
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7666874234798394638.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a7l81jadedk6&share_item_id=7666874234798394638&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7666874234798394638.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a7l81jadedk6&share_item_id=7666874234798394638&source=h5_m",
+        "engagement": {
+          "plays": 1228,
+          "likes": 23
+        }
+      }
+    ],
+    "feed_posts": [
+      {
+        "text": "Paula’s choice truly works like magic but it’s so expensive </3",
+        "handle": "nakhren00ri",
+        "url": ""
+      },
+      {
+        "text": "Paula’s Choice is worth it idc",
+        "handle": "birdschooledu",
+        "url": ""
+      },
+      {
+        "text": "Here to tell y’all that Paula’s Choice BHA is one of the best products I’ve ever used , it’s worth every penny",
+        "handle": "s__ofori",
+        "url": ""
+      },
+      {
+        "text": "\"Paula’s Choice 10% Niacinamide Booster\" (in a list of niacinamide recs) | @DestinyNnamdi_",
+        "handle": null,
+        "url": ""
+      },
+      {
+        "text": "\"Paula’s Choice C15 Super Booster\" (in a list of vitamin C serums) | @DestinyNnamdi_",
+        "handle": null,
+        "url": ""
+      },
+      {
+        "text": "\"Paula’s Choice Skin Perfecting 2% BHA Liquid Exfoliant\" (in a list of salicylic acid options) | @OlayemiKomolaf4",
+        "handle": null,
+        "url": ""
+      },
+      {
+        "text": "\"Paula’s Choice Clinical Discoloration Repair Serum\" (in a hyperpigmentation list) | @OlayemiKomolaf4",
+        "handle": null,
+        "url": ""
+      },
+      {
+        "text": "\"Paula’s Choice 2% BHA Exfoliant - Oily, acne-prone skin\" (in a \"worth the hype\" list) | @OlayemiKomolaf4",
+        "handle": null,
+        "url": ""
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2114639150666187097",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2108826585222795761",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2055011865156038935",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2116543521779835100",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2076017026418582004",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2082168448268820920",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2089472417739506015",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2084231309442818143",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2115456552714866710",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2050898550800732555",
+        "kind": "citation"
+      },
+      {
+        "text": "Another MAHA win! @FDA has cleared the first new sunscreen ingredient in decades: bemotrizinol, used safely in Europe, Australia, and parts of Asia for more than 20 years.",
+        "handle": "SecKennedy",
+        "url": "https://x.com/i/status/2110856002723606529"
+      },
+      {
+        "text": "For the first time in 20 years, the US Food and Drug Administration approved a new sunscreen ingredient — bemotrizinol, or BEMT — that experts say is a safer option than many chemical ingredients in use in the United States, per CNN",
+        "handle": "unusual_whales",
+        "url": "https://x.com/i/status/2064526767671689584"
+      },
+      {
+        "text": "Big day over here at Sunscreen HQ. For the first time in more than 25 years, the FDA has approved a new sunscreen filter: bemotrizinol aka BEMT. This filter has been approved for use in Europe since 1999.",
+        "handle": "yashar",
+        "url": "https://x.com/i/status/2064454590779785657"
+      },
+      {
+        "text": "A sunscreen ingredient used for decades in South Korea and Europe is now reaching U.S. shelves. Bemotrizinol, or BEMT is the first new sunscreen ingredient cleared by the FDA in more than 25 years. Why the wait? In part, different regulatory requirements",
+        "handle": "AP",
+        "url": "https://x.com/i/status/2112681541461545300"
+      },
+      {
+        "text": "FDA approved no new sunscreen filters from the late 1990s until bemotrizinol in June 2026. Newer options like Tinosorb have been used safely in Europe/Asia for decades. US rules treat sunscreen as a drug needing extensive absorption and safety data",
+        "handle": "grok",
+        "url": "https://x.com/i/status/2115271836464247029"
+      },
+      {
+        "text": "☀️ Big news for sunscreen users: @US_FDA has approved Bemotrizinol — the first new sunscreen active ingredient approved in the U.S. in more than 20 years. More innovation. More options. More than two decades in the making.",
+        "handle": "HHSResponse",
+        "url": "https://x.com/i/status/2066515049179435063"
+      },
+      {
+        "text": "The first sunscreens containing bemotrizinol, or BEMT, have arrived Stateside from Neutrogena, La Roche-Posay, and Ultra Violette.",
+        "handle": "strategist",
+        "url": "https://x.com/i/status/2116552322541400290"
+      },
+      {
+        "text": "Bemotrizinol blocks both UVA and UVB rays with low absorption through the skin, and the FDA cleared it in June at up to 6% for adults and children 6 months and older. The last new active ingredient added to the U.S. sunscreen list came in 1999.",
+        "handle": "MelDMann",
+        "url": "https://x.com/i/status/2112718149393301672"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2111462235113468094",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2111927673551462787",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2116652213795713509",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2089036849654161532",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2072093338308940262",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2088957220348141788",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2115966653368537593",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2082880933531963565",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2114711669142089751",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2114419238723031180",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2070973442388623498",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2116173185586712602",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2115064656561680855",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2072410238838308996",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2056371963627524448",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2115962754180030641",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2093727574774153704",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2052418281081115098",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2052781695300960559",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2115537719330025607",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2113633105776890343",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2062970591104405765",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2109500054214267079",
+        "kind": "citation"
+      },
+      {
+        "text": "The skincare industry has turned basic hygiene into a luxury competition. A woman with ten expensive products is seen as 'investing in herself' while the woman using soap and moisturiser is treated like she has given up😕😕 Maybe her skin simply doesn't need all that🤷‍♀️",
+        "handle": "just_Enhle07",
+        "url": "https://x.com/i/status/2079794680116511044"
+      },
+      {
+        "text": "Skin issue ➜ Root cause Acne ➜ Insulin resistance Dark spots ➜ Excessive tyrosinase activity ... Flaking / dryness ➜ Impaired skin barrier",
+        "handle": "Outdoctrination",
+        "url": "https://x.com/i/status/2107532842490040777"
+      },
+      {
+        "text": "I had been using the same skincare routine for months and suddenly started getting tiny bumps all over my cheeks. ... I realized I had been layering three different products with the same active ingredient every night.",
+        "handle": "Ivyy_heree",
+        "url": "https://x.com/i/status/2108225977616671045"
+      },
+      {
+        "text": "My issue has always been that there's so many individual products and tools that you need ... without having the decades of experience that cis women have AND I have sensory issues with feeling products on my face",
+        "handle": "bunnydumas",
+        "url": "https://x.com/i/status/2115640247967171009"
+      },
+      {
+        "text": "Gen Z and Millennials spend $1,754–$2,670/year on skincare and cosmetic products. 27% of them have gone into DEBT because of it.",
+        "handle": "Helios_Movement",
+        "url": "https://x.com/i/status/2107726581728776558"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2115113141856071996",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2116135629805195542",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2116666225678057864",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2115727568817008758",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2080296207822270914",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2112878175739101209",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2114807691054866604",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2113942284387733901",
+        "kind": "citation"
+      },
+      {
+        "text": "",
+        "handle": null,
+        "url": "https://x.com/i/status/2112533388863447291",
+        "kind": "citation"
+      }
+    ]
+  }
+}

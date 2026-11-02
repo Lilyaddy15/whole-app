@@ -217,6 +217,8 @@ def run(args):
         return
 
     import anthropic  # imported here so --dry-run works without the SDK
+    sys.path.insert(0, str(ROOT / "agents"))
+    import keys; keys.load()  # noqa: E702
     client = anthropic.Anthropic()
     out = load_out()
     for c in claims:

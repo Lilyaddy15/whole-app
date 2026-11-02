@@ -11,18 +11,18 @@ const EDITION = {
     {kind:'moved', topic:'nutrition', kicker:'What moved', title:'Protein in everything just peaked',
      body:'Posts about protein-spiked snacks fell for the fourth month in a row. Fiber is filling the gap, and “30 grams a day” is now the number people share.',
      stat:'−18%', statLabel:'protein-snack posts vs. last month', open:'issue:nutrition:life', follow:'trend:nutrition:Protein in everything'},
-    {kind:'game', topic:'beauty', claim:'beauty-beef-tallow-moisturizer'},
+    {kind:'game', topic:'beauty', claim:'beauty-glass-skin-over-exfoliation'},
     {kind:'asking', topic:'sleep', kicker:'Asking, not posting', title:'Why do I wake up at 3am?', mult:'3.3×',
      body:'Searched more than three times as often as it’s posted. Stress, alcohol and hormone shifts come up most in the conversation.', open:'issue:sleep:asking'},
     {kind:'study', topic:'exercise', kicker:'New in the research', title:'Creatine helps women get stronger, gently',
      body:'A 2026 review of seven trials in women after menopause found small gains in strength and lean mass when creatine was paired with strength training, and no sign of harm.',
      claim:'exercise-creatine-for-women', open:'issue:exercise:hype'},
-    {kind:'who', topic:'beauty', kicker:'Who’s talking', title:'Meet the Early Peri',
-     quote:'Nobody told me my skin would change at 38.', body:'18% of the beauty conversation, and growing fastest in search.', open:'issue:beauty:who'},
+    {kind:'who', topic:'beauty', kicker:'Who’s talking', title:'Meet the Barrier Repairers',
+     quote:'Healing skin is slow, communal work — the process itself is the point.', body:'22% of the skincare conversation. They over-exfoliated, broke out, and now rebuild with a few gentle products.', open:'issue:beauty:who'},
     {kind:'thread', thread:'glp1', kicker:'Thread', title:'GLP-1s are changing food, faces and the gym',
      body:'One story running through three of your issues this week.', open:'thread:glp1'},
-    {kind:'shop', topic:'beauty', kicker:'Worth it this week', title:'The $10 primer people keep choosing',
-     body:'e.l.f. Power Grip is the most-named dupe for Milk Makeup’s $38 Hydro Grip. People say it holds up all day.', open:'issue:beauty:shop'}
+    {kind:'shop', topic:'beauty', kicker:'Dupe it', title:'The $17 serum shoppers swap for a $185 one',
+     body:'Shoppers call e.l.f.’s Bright Icon vitamin C serum “almost identical in formulation” to SkinCeuticals C E Ferulic.', open:'issue:beauty:shop'}
   ]
 };
 
@@ -30,13 +30,13 @@ const EDITION = {
 const FOLLOW_UPDATES = {
   'trend:nutrition:Fibermaxxing': {status:'rising', text:'Still rising: up 12% this week.'},
   'trend:nutrition:Protein in everything': {status:'peaked', text:'Down for the fourth month in a row.'},
-  'trend:beauty:LED masks': {status:'rising', text:'Up again, mostly in “is it worth it” posts.'},
+  'trend:beauty:Bemotrizinol sunscreen': {status:'rising', text:'Still 18,100 searches in August after its June spike.'},
   'trend:exercise:Weighted vests': {status:'rising', text:'Up 4× this year. Walking pad posts are pairing with it.'},
   'trend:sleep:Sleepmaxxing': {status:'rising', text:'Up 9% this week.'},
   'claim:exercise-creatine-for-women': {status:'study', text:'A 2026 review in women after menopause was added to the evidence.'},
   'claim:sleep-mouth-taping': {status:'study', text:'A 2026 meta-analysis on nasal obstruction was added. Still Hype.'},
   'product:nutrition:0': {status:'price', text:'Now $2.29 at Amazon.'},
-  'product:beauty:1': {status:'price', text:'The e.l.f. dupe is back in stock at Target.'},
+  'product:beauty:0': {status:'price', text:'$17.99 at Target, $2 less than Ulta.'},
   'search:Is creatine safe for women?': {status:'ready', text:'Your deep dive is ready.'}
 };
 

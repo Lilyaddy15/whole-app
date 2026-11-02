@@ -1,0 +1,1956 @@
+{
+  "unified_narrative": "",
+  "themes": [
+    {
+      "name": "Online skincare shoppers treat DTC free trials as deliberate traps",
+      "whats_shifting": "Direct-to-consumer skincare brands offer free trials and bury the subscription terms in checkout fine print. Women shopping online recognize the pattern, label it a trap, and close the tab before the sample ships.",
+      "narrative": "Reviewers warn each other in near-identical language: 'don't buy before you read this.' The complaints follow a pattern. A free or risk-free trial ships a sample, then monthly charges appear. Cancellation requires phone calls during limited hours. Brands like Belle Epoque, Nuavive, Neulift, and Reawaken share the same funnel structure and draw the same accusations.",
+      "brand_relevance": "Any DTC skincare brand selling through trial funnels faces immediate credibility loss with this cohort. Publish full ingredient lists and upfront pricing on the landing page. If the business model requires subscriptions, make cancellation a single click and say so above the fold.",
+      "share": {
+        "pct_of_corpus": 1.7,
+        "pct_of_search": 89.2
+      },
+      "verbatims": [
+        {
+          "quote": "The free trial is far from free… automatically enrolled in a monthly payment cycle.",
+          "speaker": "A consumer quoted in the review article",
+          "stance": "held",
+          "source": "Belle Epoque Eye Cream Review (UPDATED 2026): Don't Buy Before You Read This!",
+          "url": ""
+        },
+        {
+          "quote": "This product could contain anything.",
+          "speaker": "A consumer commenting on Nuavive's lack of ingredient disclosure",
+          "stance": "held",
+          "source": "Nuavive Eye Cream Review (UPDATED 2026): Don't Buy Before You Read This!",
+          "url": ""
+        },
+        {
+          "quote": "The $90 price point seems even worse because users don't see the price point before agreeing to the terms of the automatic payment cycle.",
+          "speaker": "A reviewer or consumer quoted in the article",
+          "stance": "held",
+          "source": "Neulift Eye Cream Review (UPDATED 2026): Don't Buy Before You Read This!",
+          "url": ""
+        }
+      ],
+      "brand_moves": [],
+      "brand_gap": "Legitimate DTC skincare brands have largely abandoned free-trial continuity funnels in favor of low-cost discovery kits or one-time travel sizes, while predatory operators rely on churn rather than public-facing brand pivots.",
+      "cultural_read": "Asking for help without performing strength first is already culturally expensive. A free trial lets a shopper try without admitting she needs to. Brands that weaponize that opening convert the one purchase format that required no self-justification into the one that costs the most.",
+      "unsayable": "The trap works because wanting help with your skin is already a small admission of failure.",
+      "evidence": [
+        {
+          "title": "Belle Epoque Eye Cream Review (UPDATED 2026): Don't Buy Before You Read This!",
+          "url": "https://dietsinreview.com/diet_column/09/belle-epoque-eye-cream-review/",
+          "signal": ""
+        },
+        {
+          "title": "Nuavive Eye Cream Review (UPDATED 2026): Don't Buy Before You Read This!",
+          "url": "https://dietsinreview.com/diet_column/09/nuavive-eye-cream-review/",
+          "signal": ""
+        },
+        {
+          "title": "Neulift Eye Cream Review (UPDATED 2026): Don't Buy Before You Read This!",
+          "url": "https://dietsinreview.com/diet_column/09/neulift-eye-cream-review/",
+          "signal": ""
+        },
+        {
+          "title": "Reawaken Eye Cream Review (UPDATED 2026): Don't Buy Before You Read This!",
+          "url": "https://dietsinreview.com/diet_column/09/reawaken-eye-cream-review/",
+          "signal": ""
+        }
+      ],
+      "origin": "",
+      "origin_detail": "",
+      "search_volume": {
+        "entities": [
+          "skincare free trial scam",
+          "cancel subscription",
+          "eye cream reviews"
+        ],
+        "entities_en": [
+          "skincare free trial scam",
+          "cancel subscription"
+        ],
+        "the_numbers": "",
+        "results": [
+          {
+            "keyword": "skincare free trial scam",
+            "monthly": []
+          },
+          {
+            "keyword": "cancel subscription",
+            "volume": 21300,
+            "trend_direction": "peaking",
+            "monthly": [
+              {
+                "year": 2024,
+                "month": 9,
+                "volume": 40500
+              },
+              {
+                "year": 2024,
+                "month": 10,
+                "volume": 27100
+              },
+              {
+                "year": 2024,
+                "month": 11,
+                "volume": 18100
+              },
+              {
+                "year": 2025,
+                "month": 0,
+                "volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "volume": 18100
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "volume": 18100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "volume": 18100
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "volume": 18100
+              },
+              {
+                "year": 2026,
+                "month": 0,
+                "volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "volume": 18100
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "volume": 18100
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "volume": 18100
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "volume": 18100
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "volume": 18100
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 7,
+                "volume": 27100
+              },
+              {
+                "year": 2026,
+                "month": 8,
+                "volume": 33100
+              }
+            ]
+          },
+          {
+            "keyword": "eye cream reviews",
+            "volume": 180,
+            "trend_direction": "declining",
+            "monthly": [
+              {
+                "year": 2024,
+                "month": 9,
+                "volume": 260
+              },
+              {
+                "year": 2024,
+                "month": 10,
+                "volume": 720
+              },
+              {
+                "year": 2024,
+                "month": 11,
+                "volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 0,
+                "volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 0,
+                "volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 7,
+                "volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 8,
+                "volume": 210
+              }
+            ]
+          }
+        ]
+      },
+      "embedded_examples": [],
+      "social_proof": [],
+      "sub_themes": [
+        {
+          "name": "Free-trial DTC skincare brands are financial traps",
+          "narrative": "US consumers distrust direct-to-consumer skincare brands that use free-trial or risk-free offers to enroll customers in hidden auto-renewal subscriptions with unclear pricing and difficult cancellation processes. These tactics are seen as predatory and fundamentally dishonest, undermining trust in DTC as a discovery channel."
+        },
+        {
+          "name": "Lack of ingredient disclosure signals brand untrustworthiness",
+          "narrative": "US consumers view skincare brands that refuse to disclose ingredients or provide transparent product information as inherently untrustworthy, especially when combined with aggressive marketing or subscription models. Ingredient transparency is a non-negotiable baseline for legitimacy."
+        },
+        {
+          "name": "Unsubstantiated claims without ingredient proof signal scams",
+          "narrative": "US consumers distrust skincare brands that make dramatic efficacy claims (e.g., 'more effective than Botox') without explaining formulation or providing ingredient-level evidence, viewing such marketing as a hallmark of DTC scams. This skepticism extends to indie brands that prioritize hype over verifiable product composition."
+        },
+        {
+          "name": "Established retail channels offer safer skincare discovery",
+          "narrative": "US women prefer buying skincare through traditional retailers like Sephora, Ulta, and drugstores where pricing is transparent, ingredients are disclosed, and customer service is reliable, viewing these channels as inherently more trustworthy than DTC-only brands relying on free trials and aggressive marketing. This preference reflects a broader skepticism of indie and influencer-driven DTC discovery."
+        }
+      ],
+      "who": "Online skincare shoppers",
+      "agrees_on": "Buying skincare online should be convenient and transparent",
+      "pushes_back": "DTC brands hide real costs behind free trials and auto-renewals",
+      "arguing_with": "DTC skincare brands",
+      "thin": true
+    },
+    {
+      "name": "Skeptical beauty viewers demand visible proof influencers actually use the product",
+      "whats_shifting": "Beauty influencers tell followers a serum changed their skin. Viewers now scroll back through months of posts looking for the product in the background, the reorder receipt, the unstaged morning routine, proof the bottle actually lives on the shelf.",
+      "narrative": "The Tate McRae ad backlash crystallized the standard. Viewers and aestheticians pointed out she appeared not to apply the product. Comments read: 'If you can't even put it on your face, why should I buy it?'",
+      "brand_relevance": "Require creators to demonstrate real application over multiple posts, not a single sponsored moment. Disclose every material relationship in the first three seconds of video. For brands selling through Sephora or Ulta, in-store trial stations offer a credibility layer that digital-only endorsement cannot match.",
+      "share": {
+        "pct_of_corpus": 30
+      },
+      "verbatims": [
+        {
+          "quote": "like literally here's a picture of my skin after I do this in the morning",
+          "speaker": "A creator in a Target beauty aisle",
+          "stance": "held",
+          "source": "skincare that is less than $20 from the target beauty section that has",
+          "url": "https://m.tiktok.com/v/7688818228168019213.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6aa4m8d0d3h15&share_item_id=7688818228168019213&source=h5_m"
+        },
+        {
+          "quote": "The audience has trained influencers into what works... those fake before and afters… (million-view) videos.",
+          "speaker": "A podcast participant discussing how audience demand shapes influencer content",
+          "stance": "held",
+          "source": "The UGLY Truth About Fake Beauty Reviews & Influencer Content",
+          "url": ""
+        },
+        {
+          "quote": "If you're going to take a brand deal, be genuine.",
+          "speaker": "A commenter quoted in the article discussing influencer skincare ads",
+          "stance": "held",
+          "source": "Tate McRae's beauty ad fail is a wake-up call for brands using influencers | The Star",
+          "url": ""
+        }
+      ],
+      "brand_moves": [
+        {
+          "brand": "CeraVe",
+          "move": "Launched the 'Michael CeraVe' campaign and 'Cleanse Like a Derm' series featuring board-certified dermatologists demonstrating real routine usage and visibly unedited applications to counter influencer skepticism in early 2024.",
+          "url": ""
+        },
+        {
+          "brand": "The Ordinary",
+          "move": "Introduced marketing communications and creator briefs in 2024 centered on 'science over hype,' requiring partner creators to show empty dropper bottles and discuss long-term skin barrier timelines rather than overnight transformations.",
+          "url": ""
+        }
+      ],
+      "brand_gap": "",
+      "cultural_read": "In a culture where status must be earned rather than assigned, a paid endorsement reads as given. Viewers demand the unstaged bottle on the bathroom shelf because daily use is the only proof of earning that cannot be faked for a single shoot.",
+      "unsayable": "",
+      "evidence": [
+        {
+          "title": "Tate McRae's beauty ad fail is a wake-up call for brands using influencers | The Star",
+          "url": "https://www.thestar.com.my/lifestyle/style/2026/08/12/tate-mcraes-beauty-ad-fail-is-a-wake-up-call-for-brands-using-influencers",
+          "signal": ""
+        },
+        {
+          "title": "Sephora sued over 1,600 skincare products marketed to tweens and teens",
+          "url": "https://ppc.land/sephora-sued-over-1-600-skincare-products-marketed-to-tweens-and-teens/",
+          "signal": ""
+        },
+        {
+          "title": "How to Evaluate Beauty Product Reviews From Creators: An Evidence-Based Guide",
+          "url": "https://macmyths.com/how-to-evaluate-beauty-product-reviews-and-recommendations-from-creators/",
+          "signal": ""
+        },
+        {
+          "title": "Negative Reviews Couldn't Stop Mikayla Nogueira's POV Beauty",
+          "url": "https://puck.news/fashion/2026/9/negative-reviews-couldnt-stop-mikayla-nogueiras-pov-beauty",
+          "signal": ""
+        }
+      ],
+      "origin": "",
+      "origin_detail": "",
+      "search_volume": {
+        "entities": [
+          "influencer skincare honest",
+          "Sephora Squad paid",
+          "fake beauty reviews"
+        ],
+        "entities_en": [
+          "influencer skincare honest",
+          "fake beauty reviews"
+        ],
+        "the_numbers": "",
+        "results": [
+          {
+            "keyword": "influencer skincare honest",
+            "monthly": []
+          },
+          {
+            "keyword": "Sephora Squad paid",
+            "monthly": []
+          },
+          {
+            "keyword": "fake beauty reviews",
+            "monthly": []
+          }
+        ]
+      },
+      "embedded_examples": [],
+      "social_proof": [
+        {
+          "video_url": "https://m.tiktok.com/v/7688818228168019213.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6aa4m8d0d3h15&share_item_id=7688818228168019213&source=h5_m",
+          "url": "https://m.tiktok.com/v/7688818228168019213.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6aa4m8d0d3h15&share_item_id=7688818228168019213&source=h5_m",
+          "caption": "skincare that is less than $20 from the target beauty section that has helped give me my DREAM skin!!!  #targetskincare #skintok #affordableskincare #glowyskin #besttargetskincare @byoma @Bubble Skinc",
+          "hashtags": [
+            "targetskincare",
+            "skintok",
+            "affordableskincare",
+            "glowyskin",
+            "besttargetskincare"
+          ],
+          "engagement": {
+            "plays": 59726,
+            "likes": 6595,
+            "comments": 54,
+            "shares": 81
+          },
+          "platform": "tiktok",
+          "scores": {
+            "topic_fit": 0.5,
+            "country_fit": 1,
+            "authenticity": 0.5,
+            "quote": "like literally here's a picture of my skin after I do this in the morning",
+            "speaker": "A creator in a Target beauty aisle",
+            "reasoning": "The video shows an influencer shopping in a US Target store and recommending affordable skincare with a personal photo result, touching on product recommendations though not deeply addressing viewer skepticism or lack of proof.",
+            "recency": 0.6,
+            "composite_score": 0.66
+          },
+          "quote": "like literally here's a picture of my skin after I do this in the morning",
+          "speaker": "A creator in a Target beauty aisle"
+        }
+      ],
+      "sub_themes": [
+        {
+          "name": "Influencer skincare reviews are driven by algorithms, not honesty",
+          "narrative": "US consumers recognize that influencer skincare content relies on fake before-and-after photos, exaggerated results, and manufactured drama to drive engagement and virality, not to provide truthful product evaluation. The algorithmic incentive structure trains both influencers and audiences to expect and accept deception."
+        },
+        {
+          "name": "Influencer disclosure gaps undermine skincare discovery trust",
+          "narrative": "US consumers, particularly younger women and parents, distrust skincare recommendations from influencers when commercial relationships are undisclosed or obscured. They believe influencer-driven discovery through programs like Sephora Squad and TikTok collaborations masks paid endorsements as authentic word-of-mouth, especially when products are marketed to minors or teens without age-appropriate warnings."
+        },
+        {
+          "name": "Influencer skincare ads must show visible, genuine product use to be credible",
+          "narrative": "US consumers, especially younger women and Gen Z audiences, reject influencer-driven skincare content that appears staged or lacks visible product application. They demand authentic demonstrations and transparency about actual usage, viewing polished but unconvincing ads as untrustworthy and potentially manipulative, particularly when targeting vulnerable audiences."
+        },
+        {
+          "name": "Influencer-backed brands win at traditional retail despite online hostility",
+          "narrative": "US shoppers show strong in-store demand for influencer-driven brands like POV Beauty at Sephora, contradicting negative online reviews and social media sentiment. They trust their own product experience over internet discourse, suggesting that traditional retail discovery and hands-on trial can overcome influencer reputation damage and online skepticism."
+        }
+      ],
+      "who": "Skeptical beauty viewers",
+      "agrees_on": "Influencer recommendations shape what people try first",
+      "pushes_back": "Staged ads, undisclosed deals, and algorithmic incentives hollow out credibility",
+      "arguing_with": "Influencer-brand partnerships",
+      "thin": false
+    },
+    {
+      "name": "Project Pan women find better products by finishing them instead of replacing them",
+      "whats_shifting": "Beauty brands release new products every season and reward haul culture with PR packages and affiliate deals. Women who commit to finishing what they own report that the best performers only reveal themselves after months of daily use.",
+      "narrative": "Panners document months-long use of a single moisturizer or serum and report that products they initially disliked became preferred over time. Group members share cruelty-free status, past controversies, and brand ownership before recommending a purchase. One participant described finishing a foundation she 'hated at first' and concluding it was 'actually fine, just different.'",
+      "brand_relevance": "Brands that reward long-term use, through refill programs, loyalty tiers tied to repurchase rather than trial, or content that documents extended efficacy, align with this cohort. Sponsor panning creators rather than haul creators. Publish usage-over-time data rather than first-impression testimonials.",
+      "share": {
+        "pct_of_corpus": 2,
+        "pct_of_search": 0.1
+      },
+      "verbatims": [
+        {
+          "quote": "Drugstore products that are not worth your money",
+          "speaker": "A cosmetic chemist on TikTok",
+          "stance": "held",
+          "source": "Drugstore products I would actually repurchase as a cosmetic chemist 👩",
+          "url": "https://m.tiktok.com/v/7626513465301060877.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a668b2jdc4mk&share_item_id=7626513465301060877&source=h5_m"
+        },
+        {
+          "quote": "I have bought all of the very expensive stuff from like the Botox spas",
+          "speaker": "A millennial creator on TikTok",
+          "stance": "held",
+          "source": "Let’s stop letting these high end skincare companies capitalize off of",
+          "url": "https://m.tiktok.com/v/7211948535909043502.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a668b2jdc4mk&share_item_id=7211948535909043502&source=h5_m"
+        },
+        {
+          "quote": "When you buy a new product, that product's packaging has already been created… the packaging would stay, perhaps up to 100 years, in a landfill.",
+          "speaker": "A US panner quoted in the piece",
+          "stance": "held",
+          "source": "Project Pan: Meet the Beauty Community That Just Wants You to Finish Your Makeup | Vogue",
+          "url": ""
+        }
+      ],
+      "brand_moves": [
+        {
+          "brand": "Kiehl's",
+          "move": "Updated its 'Recycle & Be Rewarded' program in U.S. stores in April 2024, directly converting returned empty containers into immediate loyalty points redeemable at checkout to incentivize full product pan completion.",
+          "url": ""
+        },
+        {
+          "brand": "Lush",
+          "move": "Expanded its 'Bring It Back' scheme allowing U.S. customers to redeem five clean, fully finished black pot empties for a free fresh face mask or receive $1 off per empty.",
+          "url": ""
+        }
+      ],
+      "brand_gap": "",
+      "cultural_read": "Haul culture frames the new purchase as the achievement. Project Pan inverts that: the discipline of finishing becomes the proof of character, and the product that survives months of daily use earns its place rather than inheriting it from a PR package.",
+      "unsayable": "",
+      "evidence": [
+        {
+          "title": "Project Pan: Meet the Beauty Community That Just Wants You to Finish Your Makeup | Vogue",
+          "url": "https://www.vogue.com/article/the-beauty-community-that-just-wants-you-to-finish-your-makeup",
+          "signal": ""
+        },
+        {
+          "title": "The Skincare Products I Actually Use",
+          "url": "https://kristinmcgee.substack.com/p/the-skincare-products-i-actually",
+          "signal": ""
+        },
+        {
+          "title": "Sydney Utendal Loves Giving Herself At-Home Facials",
+          "url": "https://www.thecut.com/article/sydney-utendal-loves-giving-herself-at-home-facials.html",
+          "signal": ""
+        }
+      ],
+      "origin": "",
+      "origin_detail": "",
+      "search_volume": {
+        "entities": [
+          "project pan skincare",
+          "de-influencing",
+          "finish before buying"
+        ],
+        "entities_en": [
+          "project pan skincare",
+          "de-influencing"
+        ],
+        "the_numbers": "",
+        "results": [
+          {
+            "keyword": "project pan skincare",
+            "volume": 20,
+            "trend_direction": "volatile",
+            "monthly": [
+              {
+                "year": 2024,
+                "month": 8,
+                "volume": 0
+              },
+              {
+                "year": 2024,
+                "month": 9,
+                "volume": 0
+              },
+              {
+                "year": 2024,
+                "month": 10,
+                "volume": 0
+              },
+              {
+                "year": 2024,
+                "month": 11,
+                "volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 0,
+                "volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 0,
+                "volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 7,
+                "volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "de-influencing",
+            "monthly": []
+          },
+          {
+            "keyword": "finish before buying",
+            "monthly": []
+          }
+        ]
+      },
+      "embedded_examples": [],
+      "social_proof": [
+        {
+          "video_url": "https://m.tiktok.com/v/7626513465301060877.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a668b2jdc4mk&share_item_id=7626513465301060877&source=h5_m",
+          "url": "https://m.tiktok.com/v/7626513465301060877.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a668b2jdc4mk&share_item_id=7626513465301060877&source=h5_m",
+          "caption": "Drugstore products I would actually repurchase as a cosmetic chemist 👩‍🔬  My top picks @Walgreens Tinted Mineral 50 ultra - light fluid face sunscreen closest dupe to La roche Posay tinted sunscreen- ",
+          "hashtags": [
+            "drugstoreskinscare",
+            "affordableskincare",
+            "skincareonabudget",
+            "dupes",
+            "skincaredupes"
+          ],
+          "engagement": {
+            "plays": 253281,
+            "likes": 32632,
+            "comments": 74,
+            "shares": 812
+          },
+          "platform": "tiktok",
+          "scores": {
+            "topic_fit": 0.5,
+            "country_fit": 1,
+            "authenticity": 0.5,
+            "quote": "Drugstore products that are not worth your money",
+            "speaker": "A cosmetic chemist on TikTok",
+            "reasoning": "The video provides drugstore product recommendations and dupe comparisons by a cosmetic chemist, aligning moderately with consumer value insights within a US Walgreens setting.",
+            "recency": 0.8,
+            "composite_score": 0.68
+          },
+          "quote": "Drugstore products that are not worth your money",
+          "speaker": "A cosmetic chemist on TikTok"
+        },
+        {
+          "video_url": "https://m.tiktok.com/v/7211948535909043502.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a668b2jdc4mk&share_item_id=7211948535909043502&source=h5_m",
+          "url": "https://m.tiktok.com/v/7211948535909043502.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a668b2jdc4mk&share_item_id=7211948535909043502&source=h5_m",
+          "caption": "Let’s stop letting these high end skincare companies capitalize off of our fear of getting older. You can find amazing products at Walgreens that have basically the same ingredients as the high end st",
+          "hashtags": [
+            "millennial",
+            "millennialsoftiktok",
+            "skincareroutine",
+            "matureskincare"
+          ],
+          "engagement": {
+            "plays": 602334,
+            "likes": 39455,
+            "comments": 500,
+            "shares": 2424
+          },
+          "platform": "tiktok",
+          "scores": {
+            "topic_fit": 0.5,
+            "country_fit": 1,
+            "authenticity": 0.5,
+            "quote": "I have bought all of the very expensive stuff from like the Botox spas",
+            "speaker": "A millennial creator on TikTok",
+            "reasoning": "The video discusses overspending on skincare versus affordable alternatives, which is tangentially related to the insight about finishing products rather than buying expensive ones, and is authentic US creator content.",
+            "recency": 0.8,
+            "composite_score": 0.68
+          },
+          "quote": "I have bought all of the very expensive stuff from like the Botox spas",
+          "speaker": "A millennial creator on TikTok"
+        }
+      ],
+      "sub_themes": [
+        {
+          "name": "Finishing products reveals true value over launch hype",
+          "narrative": "US women who pan products discover that extended use changes their assessment of skincare and makeup, finding items they initially disliked become acceptable or useful through real-world testing. This practical evaluation contradicts impulse-driven discovery based on new product launches and influencer hauls."
+        },
+        {
+          "name": "Mindful use counters influencer-driven consumption culture",
+          "narrative": "US women reject constant product hauls and brand launches in favor of finishing what they own, viewing this as a direct critique of the beauty industry's packaging waste and the influencer model that drives frequent purchasing. Project Pan represents a deliberate shift away from discovery through new releases."
+        },
+        {
+          "name": "Ethical brand transparency shapes discovery over hype",
+          "narrative": "US women in beauty communities prioritize cruelty-free status, social responsibility, and past industry behavior when deciding which brands to support, using peer-shared information about brand ethics to filter out launches and marketing hype. Discovery happens through creator networks and group discussions rather than traditional retail or brand advertising."
+        },
+        {
+          "name": "Peer recommendations replace traditional brand marketing",
+          "narrative": "US women discover skincare and beauty brands through creator networks, Reddit threads, and Facebook groups where members share ethical evaluations and product experiences, rather than through traditional retail displays or brand advertising. This peer-driven discovery ecosystem determines which brands gain trust and support."
+        }
+      ],
+      "who": "Project Pan women",
+      "agrees_on": "The beauty industry pushes too many launches and too much waste",
+      "pushes_back": "Finishing what you own reveals value that haul culture buries",
+      "arguing_with": "The launch cycle",
+      "thin": false
+    },
+    {
+      "name": "Values-driven brand shoppers boycott legacy names that betray their own messaging",
+      "whats_shifting": "Skincare brands run campaigns about authenticity and mental health. The same brands quietly drop ambassadors who disclose personal struggles, and charge more for baby-labeled bottles filled with the same formula adult shoppers buy.",
+      "narrative": "The Neutrogena backlash produced a specific pledge: 'I will never buy again.' Users on Reddit and Threads framed the contract termination as abandonment during a vulnerable moment, directly contradicting the brand's wellness positioning. External (press) coverage in the New York Post and HuffPost amplified the boycott.",
+      "brand_relevance": "Audit every public-facing value claim against current business practices, pricing structures, and ambassador contracts. If the brand says it supports mental health, the ambassador contract must reflect that during a crisis. If a baby line exists, the formulation difference must be real and communicable.",
+      "share": {
+        "pct_of_corpus": 29.4
+      },
+      "verbatims": [
+        {
+          "quote": "I will never buy one of their products again in my life.",
+          "speaker": "A Reddit user discussing the Neutrogena boycott",
+          "stance": "held",
+          "source": "Fans Vow 'I Will Never Buy Again' as Neutrogena Faces Massive Boycott Over Hayden Panettiere Dispute | IBTimes UK",
+          "url": ""
+        },
+        {
+          "quote": "So [Neutrogena] wanna tell us what's wrong with [postpartum] depression",
+          "speaker": "A fan posting on social media in response to the Neutrogena controversy",
+          "stance": "held",
+          "source": "Neutrogena Admits To Failing Hayden Panettiere | HuffPost Entertainment",
+          "url": ""
+        },
+        {
+          "quote": "I do use their products, but I will not be buying any more, ever again.",
+          "speaker": "A Reddit user pledging to boycott Neutrogena",
+          "stance": "held",
+          "source": "Hayden Panettiere fans boycott Neutrogena over canceled contract revelation",
+          "url": ""
+        }
+      ],
+      "brand_moves": [
+        {
+          "brand": "Dove",
+          "move": "Launched the '#KeepTheGrey' initiative and expanded the 'Real Beauty' platform in 2024 by publicly pledging never to use generative AI models to represent real skin and women in brand advertising.",
+          "url": ""
+        },
+        {
+          "brand": "Rare Beauty",
+          "move": "Pledged an additional commitment to youth mental health via the Rare Impact Fund Summit in May 2024 to visibly align corporate donations with founder Selena Gomez's mental health disclosures.",
+          "url": ""
+        }
+      ],
+      "brand_gap": "",
+      "cultural_read": "Wellness campaigns ask consumers to be vulnerable. When a brand drops an ambassador for being publicly vulnerable, it reveals the campaign as a costume over a standard commercial contract. The boycott pledge is about the shopper who disclosed her own struggles to a brand she believed meant it.",
+      "unsayable": "",
+      "evidence": [
+        {
+          "title": "Fans Vow 'I Will Never Buy Again' as Neutrogena Faces Massive Boycott Over Hayden Panettiere Dispute | IBTimes UK",
+          "url": "https://www.ibtimes.co.uk/fans-vow-i-will-never-buy-again-neutrogena-faces-massive-boycott-over-hayden-panettiere-dispute-1815139",
+          "signal": ""
+        },
+        {
+          "title": "Neutrogena Admits To Failing Hayden Panettiere | HuffPost Entertainment",
+          "url": "https://www.huffpost.com/entry/neutrogena-hayden-panettiere-unsupported_n_6a875fc3e4b0e9f1dd282c6f",
+          "signal": ""
+        },
+        {
+          "title": "Hayden Panettiere fans boycott Neutrogena over canceled contract revelation",
+          "url": "https://nypost.com/2026/08/18/lifestyle/hayden-panettiere-fans-boycott-neutrogena-over-canceled-contract-revelation/",
+          "signal": ""
+        },
+        {
+          "title": "CeraVe, Eucerin face class actions over alleged 'baby' skincare price premiums",
+          "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/cerave-eucerin-face-class-actions-over-alleged-baby-skincare-price-premiums/",
+          "signal": ""
+        },
+        {
+          "title": "Are Bath & Body Works Products Getting Worse?",
+          "url": "https://wegotthiscovered.com/social-media/it-is-gone-texas-woman-takes-a-whiff-of-her-new-16-bath-and-body-works-spray-and-decides-the-company-is-a-scam/",
+          "signal": ""
+        }
+      ],
+      "origin": "",
+      "origin_detail": "",
+      "search_volume": {
+        "entities": [
+          "Neutrogena boycott",
+          "CeraVe baby same formula",
+          "Bath Body Works overpriced"
+        ],
+        "entities_en": [
+          "Neutrogena boycott",
+          "CeraVe baby formula same"
+        ],
+        "the_numbers": "",
+        "results": [
+          {
+            "keyword": "Neutrogena boycott",
+            "monthly": []
+          },
+          {
+            "keyword": "CeraVe baby same formula",
+            "monthly": []
+          },
+          {
+            "keyword": "Bath Body Works overpriced",
+            "monthly": []
+          },
+          {
+            "keyword": "CeraVe baby formula same",
+            "monthly": []
+          }
+        ]
+      },
+      "embedded_examples": [],
+      "social_proof": [],
+      "sub_themes": [
+        {
+          "name": "Established brands lose trust when they abandon influencers over personal disclosures",
+          "narrative": "US consumers, particularly women, view contract terminations or distancing by legacy skincare brands as punitive when influencers speak publicly about mental health or personal struggles. This perceived abandonment erodes trust in the brand and triggers boycott sentiment, suggesting that established brands face heightened accountability for how they treat ambassadors during vulnerable moments."
+        },
+        {
+          "name": "Traditional brands must publicly support mental health causes or face boycotts",
+          "narrative": "US consumers expect established skincare brands to take concrete, values-aligned action on social issues like postpartum depression, not just issue statements. When brands appear to distance themselves from advocates speaking about mental health, consumers view this as a betrayal of stated brand values and mobilize boycotts, signaling that brand loyalty now hinges on perceived ethical alignment."
+        },
+        {
+          "name": "Consumers weaponize social media boycotts to punish legacy brands for perceived ethical lapses",
+          "narrative": "US women aged 25-40 use coordinated social media campaigns and public boycott pledges to hold established skincare brands accountable for past or present actions perceived as unethical. This represents a shift in consumer power where viral sentiment on Reddit, TikTok, and Threads can directly impact brand reputation and purchasing intent, regardless of product quality."
+        },
+        {
+          "name": "Established brands exploit baby labeling for premium pricing",
+          "narrative": "US parents believe major skincare brands like CeraVe and Eucerin use 'baby' branding and infant-focused marketing to justify price premiums of 35% or more, even when formulas are identical to adult versions. They view this as deceptive marketing that exploits parental concern rather than reflecting genuine product differentiation."
+        }
+      ],
+      "who": "Values-driven brand shoppers",
+      "agrees_on": "Legacy brands should act on stated values, not just advertise them",
+      "pushes_back": "Brands punish ambassadors for personal disclosures and charge premiums for identical formulas",
+      "arguing_with": "Legacy brand marketing",
+      "thin": false
+    },
+    {
+      "name": "Mall skincare targets cannot identify predatory stores because they keep rebranding",
+      "whats_shifting": "Consumer advocates warn shoppers to research a store before buying. Kiosk networks like OroGold and Vine Vera rebrand under new names after complaints pile up, so the store a shopper walks into has no traceable history.",
+      "narrative": "NPR documents hundreds of complaints across multiple states. Shoppers describe being led into back rooms, told products deliver 'Botox-like results,' and pressured into purchases exceeding a thousand dollars. Former employees confirm commission structures that incentivize escalation. BBB complaints cluster around the same parent network across different store names.",
+      "brand_relevance": "Legitimate indie skincare brands selling in malls or pop-ups should publish pricing, ingredients, and return policies visibly at point of sale. Differentiate from predatory operators by name: 'We are not affiliated with Mazal Group brands' is a concrete trust signal for this audience.",
+      "share": {
+        "pct_of_corpus": 2.2,
+        "pct_of_search": 0.5
+      },
+      "verbatims": [
+        {
+          "quote": "No exchanges, no returns. Final sale.",
+          "speaker": "A stamp on receipts at mall skincare stores, reflecting the policy imposed on customers",
+          "stance": "held",
+          "source": "How mall skincare stores targeted hundreds of shoppers",
+          "url": ""
+        },
+        {
+          "quote": "They're buying these skincare products that are getting complaints… always from Mazal Group.",
+          "speaker": "An investigator quoted in the NPR report",
+          "stance": "held",
+          "source": "The skincare scheme that led to lawsuits and a federal investigation",
+          "url": ""
+        },
+        {
+          "quote": "What we do is basically a scam.",
+          "speaker": "A former employee of the mall skincare store network",
+          "stance": "held",
+          "source": "How one network of mall skincare stores targeted vulnerable people across the U.S.",
+          "url": ""
+        }
+      ],
+      "brand_moves": [],
+      "brand_gap": "Predatory mall kiosk networks (such as those tied to OroGold, Vine Vera, or Tresor Rare) operate through decentralized LLCs and evasive shell rebrands, and no legitimate brand is running counter-initiatives against them.",
+      "cultural_read": "The self-made mythology assumes a fair contest where effort and research protect you. Rebranding breaks that assumption by making research useless. Shoppers who did their homework still walked into a store with no history to find.",
+      "unsayable": "The con works because the culture insists individual vigilance is sufficient protection against predatory commerce.",
+      "evidence": [
+        {
+          "title": "How mall skincare stores targeted hundreds of shoppers",
+          "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+          "signal": ""
+        },
+        {
+          "title": "How one network of mall skincare stores targeted vulnerable people across the U.S.",
+          "url": "https://www.npr.org/2026/10/14/nx-s1-5992778/how-one-network-of-mall-skincare-stores-targeted-vulnerable-people-across-the-u-s",
+          "signal": ""
+        },
+        {
+          "title": "Southern California skincare retailer faces allegations of employing aggressive sales strategies.",
+          "url": "https://newsdive.net/2026/08/28/southern-california-skincare-retailer-faces-allegations-of-employing-aggressive-sales-strategies/",
+          "signal": ""
+        }
+      ],
+      "origin": "",
+      "origin_detail": "",
+      "search_volume": {
+        "entities": [
+          "mall skincare scam",
+          "OroGold reviews",
+          "Mazal Group skincare"
+        ],
+        "entities_en": [
+          "mall skincare scam",
+          "OroGold reviews"
+        ],
+        "the_numbers": "",
+        "results": [
+          {
+            "keyword": "mall skincare scam",
+            "monthly": []
+          },
+          {
+            "keyword": "OroGold reviews",
+            "volume": 130,
+            "trend_direction": "declining",
+            "monthly": [
+              {
+                "year": 2024,
+                "month": 9,
+                "volume": 210
+              },
+              {
+                "year": 2024,
+                "month": 10,
+                "volume": 170
+              },
+              {
+                "year": 2024,
+                "month": 11,
+                "volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 0,
+                "volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 0,
+                "volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 7,
+                "volume": 110
+              },
+              {
+                "year": 2026,
+                "month": 8,
+                "volume": 90
+              }
+            ]
+          },
+          {
+            "keyword": "Mazal Group skincare",
+            "monthly": []
+          }
+        ]
+      },
+      "embedded_examples": [],
+      "social_proof": [],
+      "sub_themes": [
+        {
+          "name": "Mall skincare kiosks use coercion to exploit vulnerable shoppers",
+          "narrative": "US consumers report that traditional retail skincare experiences in malls, particularly kiosks and storefronts tied to networks like Mazal Group, employ aggressive high-pressure sales tactics, missing price tags, and no-refund policies to trap shoppers into thousands of dollars in unwanted purchases. These practices target vulnerable populations and undermine trust in in-person skincare retail."
+        },
+        {
+          "name": "Rebranding and multi-brand networks hide predatory skincare practices",
+          "narrative": "US consumers distrust skincare brands that operate under multiple names or are part of larger distributor networks like Mazal Group, which frequently rebrand and relocate to evade complaints and regulatory scrutiny. This opacity signals predatory intent and makes it difficult for shoppers to identify and avoid problematic brands."
+        },
+        {
+          "name": "Indie and mall-based skincare brands use coercive sales tactics to justify inflated prices",
+          "narrative": "US consumers report aggressive, high-pressure sales strategies at mall-based skincare retailers (Bee & Co, brands under Mazal Group including OroGold, Vine Vera, Lionesse) where staff employ coercion, misleading efficacy claims like Botox-like results, and manipulative tactics to sell expensive packages. Consumers feel trapped into large purchases through deceptive promises and lack of transparent refund policies, eroding trust in indie and mall-based skincare brands compared to traditional retail channels."
+        }
+      ],
+      "who": "Mall skincare targets",
+      "agrees_on": "In-person skincare shopping should feel safe and transparent",
+      "pushes_back": "Kiosk networks use coercion, hidden pricing, and constant rebranding to trap buyers",
+      "arguing_with": "Mall skincare operators",
+      "thin": false
+    },
+    {
+      "name": "Ingredient-literate shoppers reject packaging and naming tricks as fake innovation",
+      "whats_shifting": "Ingredient-literate shoppers dismiss packaging redesigns, hero-ingredient names, and antipollution claims as noise. Brands keep launching products built around those signals rather than around what the INCI list actually contains.",
+      "narrative": "The 'Eye Patch Gate' debate, where Fenty, Glow Recipe, and Huda Beauty launched near-identical eye patches, made the case publicly: similar packaging across brands signals a lack of real formulation work.",
+      "brand_relevance": "Lead with formulation data, not packaging design. If a hero ingredient is in the product name, its INCI position should be first or second. For retailers, curate by ingredient story and clinical backing rather than brand prestige or influencer affiliation.",
+      "share": {
+        "pct_of_corpus": 32.2,
+        "pct_of_search": 10.2
+      },
+      "verbatims": [
+        {
+          "quote": "This ELF Vitamin C serum is almost identical in formulation to the SkinCeuticals C E Ferulic",
+          "speaker": "A skincare shopper at Target",
+          "stance": "held",
+          "source": "I need answers!! 😭 Can’t wait to try this one 👀 From someone who’s tri",
+          "url": "https://m.tiktok.com/v/7565046595952053517.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a4fa0jg3j89k&share_item_id=7565046595952053517&source=h5_m"
+        },
+        {
+          "quote": "This paraben free product on target you scroll all the way down",
+          "speaker": "A creator building an AI shopping assistant",
+          "stance": "held",
+          "source": "We found this data by analyzing 20,000 skincare products across Sephor",
+          "url": "https://m.tiktok.com/v/7661806218138094879.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a9ljbahjkgeh&share_item_id=7661806218138094879&source=h5_m"
+        },
+        {
+          "quote": "Why did I just realize that Walgreens is duping all the Sephora brands",
+          "speaker": "A creator at Walgreens on TikTok",
+          "stance": "held",
+          "source": "Walgreens skincare dupes vs the Originals. Are they really dupes? save",
+          "url": "https://m.tiktok.com/v/7634359418435636511.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a70fc2ie9e1g&share_item_id=7634359418435636511&source=h5_m"
+        }
+      ],
+      "brand_moves": [
+        {
+          "brand": "The Inkey List",
+          "move": "Restructured product naming and front-of-pack copy in 2024 to foreground exact percentage bio-actives and functional skin goals instead of proprietary blend nicknames.",
+          "url": ""
+        },
+        {
+          "brand": "Paula's Choice",
+          "move": "Published comprehensive ingredient-concentration breakdowns and transparent clinical dossiers across 2023–2024 to explain exact pH levels and active percentages over marketing buzzwords.",
+          "url": ""
+        }
+      ],
+      "brand_gap": "",
+      "cultural_read": "American consumer culture rewards the appearance of invention. Reading the INCI list is the act that strips that reward away, because it shows the formula was not built, only named. Shoppers who can read the list treat packaging as a claim about effort, then check whether the effort was actually done.",
+      "unsayable": "",
+      "evidence": [
+        {
+          "title": "Eye Patch Gate: Fenty, Glow Recipe & Huda Beauty Debate",
+          "url": "https://cosmeticsdaily.com/news/eye-patch-gate-beauty-innovation-2026/",
+          "signal": ""
+        },
+        {
+          "title": "8 Derm-Tested, Editor-Approved Sensitive Skincare Products From CVS",
+          "url": "https://www.marieclaire.com/beauty/wellness/best-editor-recommended-sensitive-skincare-cvs/",
+          "signal": ""
+        },
+        {
+          "title": "The Best Beauty Products at the New Target Beauty Studio",
+          "url": "https://stylecaster.com/beauty/beauty-trends/1234949384/best-beauty-brands-target-beauty-studio/",
+          "signal": ""
+        },
+        {
+          "title": "FDA approves bemotrizinol, opening door to Korean sunscreen in the U.S.",
+          "url": "https://www.koreajoongangdaily.com/business/is-the-new-us-regulation-an-open-door-or-obstacle-for-ksunscreens/12818291",
+          "signal": ""
+        },
+        {
+          "title": "Consumer Reports Has Named The Absolute Worst Sunscreen Lotion Based On Overall Satisfaction",
+          "url": "https://www.islands.com/2245766/coppertone-tear-free-worst-sunscreen-lotion-overall-satisfaction-consumer-reports/",
+          "signal": ""
+        },
+        {
+          "title": "A Suit Over '100% Virgin Coconut Oil' Says the Oil Sits Fifth or Lower on the Ingredient List.",
+          "url": "https://beauty2point0.com/blog/hero-ingredient-naming-inci-position-claims-2026",
+          "signal": ""
+        },
+        {
+          "title": "Clear the Air: Is Pollution Making Your Skin Worse? | Vogue",
+          "url": "https://www.vogue.com/article/is-pollution-making-your-skin-worse",
+          "signal": ""
+        },
+        {
+          "title": "The Era of 'Undetectable' Aesthetics: Why Natural-Looking Results Are Taking Over",
+          "url": "https://www.westdermatology.com/2026/08/21/era-of-undetectable-aesthetics/",
+          "signal": ""
+        }
+      ],
+      "origin": "",
+      "origin_detail": "",
+      "search_volume": {
+        "entities": [
+          "INCI list check",
+          "derm tested moisturizer",
+          "K-beauty sunscreen FDA"
+        ],
+        "entities_en": [
+          "INCI ingredient list",
+          "dermatologist tested skincare",
+          "K-beauty sunscreen US"
+        ],
+        "the_numbers": "",
+        "results": [
+          {
+            "keyword": "INCI list check",
+            "monthly": []
+          },
+          {
+            "keyword": "derm tested moisturizer",
+            "monthly": []
+          },
+          {
+            "keyword": "K-beauty sunscreen FDA",
+            "monthly": []
+          },
+          {
+            "keyword": "INCI ingredient list",
+            "volume": 60,
+            "trend_direction": "peaking",
+            "monthly": [
+              {
+                "year": 2024,
+                "month": 9,
+                "volume": 20
+              },
+              {
+                "year": 2024,
+                "month": 10,
+                "volume": 40
+              },
+              {
+                "year": 2024,
+                "month": 11,
+                "volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 0,
+                "volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 0,
+                "volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 7,
+                "volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 8,
+                "volume": 70
+              }
+            ]
+          },
+          {
+            "keyword": "dermatologist tested skincare",
+            "volume": 2400,
+            "trend_direction": "volatile",
+            "monthly": [
+              {
+                "year": 2024,
+                "month": 9,
+                "volume": 210
+              },
+              {
+                "year": 2024,
+                "month": 10,
+                "volume": 590
+              },
+              {
+                "year": 2024,
+                "month": 11,
+                "volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 0,
+                "volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "volume": 8100
+              },
+              {
+                "year": 2026,
+                "month": 0,
+                "volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "volume": 2400
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "volume": 2400
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "volume": 1300
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 7,
+                "volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 8,
+                "volume": 390
+              }
+            ]
+          },
+          {
+            "keyword": "K-beauty sunscreen US",
+            "monthly": []
+          }
+        ]
+      },
+      "embedded_examples": [],
+      "social_proof": [
+        {
+          "video_url": "https://m.tiktok.com/v/7565046595952053517.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a4fa0jg3j89k&share_item_id=7565046595952053517&source=h5_m",
+          "url": "https://m.tiktok.com/v/7565046595952053517.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a4fa0jg3j89k&share_item_id=7565046595952053517&source=h5_m",
+          "caption": "I need answers!! 😭 Can’t wait to try this one 👀 From someone who’s tried every expensive vitamin C serum out there… this @elfcosmetics $17 dupe might be the one 👏🏻 #skincaredupe #dermatologistapproved",
+          "hashtags": [
+            "skincaredupe",
+            "dermatologistapproved",
+            "vitamincserum",
+            "skincarefinds",
+            "elfcosmetics"
+          ],
+          "engagement": {
+            "plays": 233822,
+            "likes": 12820,
+            "comments": 185,
+            "shares": 1575
+          },
+          "platform": "tiktok",
+          "scores": {
+            "topic_fit": 0.8,
+            "country_fit": 1,
+            "authenticity": 0.9,
+            "quote": "This ELF Vitamin C serum is almost identical in formulation to the SkinCeuticals C E Ferulic",
+            "speaker": "A skincare shopper at Target",
+            "reasoning": "The video aligns well with comparing active formulations across price points based on dermatologist advice in the US, featuring authentic in-store footage and on-screen text.",
+            "recency": 0.8,
+            "composite_score": 0.88
+          },
+          "quote": "This ELF Vitamin C serum is almost identical in formulation to the SkinCeuticals C E Ferulic",
+          "speaker": "A skincare shopper at Target"
+        },
+        {
+          "video_url": "https://m.tiktok.com/v/7661806218138094879.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a9ljbahjkgeh&share_item_id=7661806218138094879&source=h5_m",
+          "url": "https://m.tiktok.com/v/7661806218138094879.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a9ljbahjkgeh&share_item_id=7661806218138094879&source=h5_m",
+          "caption": "We found this data by analyzing 20,000 skincare products across Sephora, Ulta and Target. The problem is the FDA does not review cosmetics or their claims before sale. We want to protect every consume",
+          "hashtags": [
+            "skincare",
+            "scam",
+            "parabenfree",
+            "sulfatefree",
+            "silicone"
+          ],
+          "engagement": {
+            "plays": 318,
+            "likes": 8,
+            "comments": 0,
+            "shares": 0
+          },
+          "platform": "tiktok",
+          "scores": {
+            "topic_fit": 0.8,
+            "country_fit": 1,
+            "authenticity": 0.5,
+            "quote": "This paraben free product on target you scroll all the way down",
+            "speaker": "A creator building an AI shopping assistant",
+            "reasoning": "The video demonstrates checking ingredient lists to expose misleading product naming claims, fitting the insight well, and uses US retail sites like Target.",
+            "recency": 0.5,
+            "composite_score": 0.77
+          },
+          "quote": "This paraben free product on target you scroll all the way down",
+          "speaker": "A creator building an AI shopping assistant"
+        },
+        {
+          "video_url": "https://m.tiktok.com/v/7634359418435636511.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a70fc2ie9e1g&share_item_id=7634359418435636511&source=h5_m",
+          "url": "https://m.tiktok.com/v/7634359418435636511.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a70fc2ie9e1g&share_item_id=7634359418435636511&source=h5_m",
+          "caption": "Walgreens skincare dupes vs the Originals. Are they really dupes? save this before your next drugstore run 💊 🔬We ran  Walgreens skincare dupes against their luxury originals through our clinical scori",
+          "hashtags": [
+            "skincaredupe",
+            "walgreens",
+            "paulaschoice",
+            "skincare",
+            "dupes"
+          ],
+          "engagement": {
+            "plays": 1235,
+            "likes": 66,
+            "comments": 6,
+            "shares": 2
+          },
+          "platform": "tiktok",
+          "scores": {
+            "topic_fit": 1,
+            "country_fit": 1,
+            "authenticity": 1,
+            "quote": "Why did I just realize that Walgreens is duping all the Sephora brands",
+            "speaker": "A creator at Walgreens on TikTok",
+            "reasoning": "The creator reviews Walgreens skincare dupes against luxury brands using clinical ingredient analysis, matching the ingredient-literate shopper insight, filmed in a US Walgreens store as authentic UGC.",
+            "recency": 0.5,
+            "composite_score": 0.95
+          },
+          "quote": "Why did I just realize that Walgreens is duping all the Sephora brands",
+          "speaker": "A creator at Walgreens on TikTok"
+        }
+      ],
+      "sub_themes": [
+        {
+          "name": "Real product differentiation matters more than packaging novelty",
+          "narrative": "US consumers increasingly scrutinize skincare claims and reject packaging-driven marketing as innovation. They demand substantive ingredient and formulation differences to justify premium pricing, viewing similar packaging across brands as evidence of lack of true differentiation and favoring brands that transparently explain what makes their products unique."
+        },
+        {
+          "name": "Dermatologist-tested drugstore brands beat indie hype",
+          "narrative": "US women aged 25-40 with sensitive skin trust established, affordable brands available at traditional retailers like CVS when they carry dermatologist-tested formulations and barrier-supporting ingredients. They value accessible price points, in-store expert guidance, and proven efficacy over indie or DTC brands, even if those alternatives carry influencer endorsement."
+        },
+        {
+          "name": "Clinical validation and dermatologist backing trump influencer endorsement",
+          "narrative": "US consumers increasingly demand science-backed, dermatologist-aligned skincare with transparent evidence of efficacy and safety. They view creator enthusiasm as marketing noise rather than proof, and they favor established brands with clinical credibility over influencer-driven launches or unverified indie options."
+        },
+        {
+          "name": "Specialty retail curators win over mass-market assortment",
+          "narrative": "US women aged 25-40 prefer curated, indie-forward beauty retail experiences like Target Beauty Studio over the broad, mass-market approach of traditional big-box retailers. They value discovery of niche and international brands in an accessible, mainstream setting rather than the influencer-dominated, mega-brand-heavy lineups of Ulta or Sephora."
+        }
+      ],
+      "who": "Ingredient-literate shoppers",
+      "agrees_on": "What is in the formula matters more than who sells it or how it is packaged",
+      "pushes_back": "Packaging novelty, hero-ingredient naming, and antipollution hype substitute for real differentiation",
+      "arguing_with": "Brand marketing departments",
+      "thin": false
+    }
+  ],
+  "summary": "Peer scrutiny now decides which skincare brands survive discovery.\n\nWomen aged 25 to 40 are vetting brands before buying, and the vetting is punishing. DTC free-trial brands like Belle Epoque, Nuavive, and Neulift draw near-identical fraud warnings because their subscription traps require phone calls to escape, and ingredient-literate shoppers read that opacity as proof of a scam. Neutrogena's boycott shows established brands are equally exposed: one perceived ethical lapse and social media converts brand loyalty into a liability. The one channel holding ground is traditional retail, which these shoppers describe as safer precisely because it is curated and accountable. Influencer-backed brands still move product at shelf, but only when viewers can see the product actually applied. A brand that cannot show its formula and cannot demonstrate genuine use loses the sale before it starts.",
+  "geometry": {},
+  "reading": "The conversation women are having runs almost entirely on values and credentials, while the problem that actually sends them searching for answers is mechanical and immediate. Two complaints dominate coverage: brands whose public commitments contradict their conduct, and brands whose ingredient claims are dressed-up noise. Both require the shopper to do interpretive work, to read a brand's history or decode an INCI list. The complaint that draws nearly ninety percent of search demand requires none of that: a checkout page hid a subscription term and money left the account. That complaint gets under two percent of coverage. The category is producing sophisticated critique for a sophisticated audience while the largest volume of active need goes unaddressed.\n\nAlmost every heavily covered complaint sits on the credentials side of how shoppers verify what they believe. Ingredient literacy, corporate ownership records, press documentation: the dominant voices in this space treat the INCI list as the minimum unit of trust. The complaints that rely on peer observation and collective memory, the influencer audit, the project pan discipline, the mall kiosk warning passed between friends, are all marginal by coverage share. The credentialed mode is winning the conversation. It is losing the search bar, where the questions are blunter and the shopper wants to know whether she was just scammed, not whether niacinamide was oversold.\n\nA brand that enters this space with a transparency argument, clean ingredients, honest labeling, published sourcing, is walking into the most crowded part of the room. That argument is already being made at volume, and the audience making it is also the audience most equipped to find the gaps in it. The opening is elsewhere: the shopper who got charged after a free trial, who has no vocabulary for what happened and no peer network that warned her in time. No established voice is speaking to her. A brand that does, plainly and without requiring her to learn anything first, owns a position that the rest of the category has left completely vacant.",
+  "cultural_insight": "Women in this conversation are doing their own investigative work: reading INCI lists, auditing influencer post histories, researching brand ownership before buying. That impulse is distinctly American, the idea that you protect yourself by becoming an expert, that no institution or regulator will do it for you. The shopper who decodes niacinamide percentages and the one who screenshots a Neutrogena press release are both running the same logic: if you got taken, you didn't do enough homework. The conversation rewards that posture heavily, which is why ingredient literacy and values-based boycotts together account for more than sixty percent of what gets discussed.\n\nThe shopper who got charged after a free trial is running a different problem. She did not fail to research. She was deceived at the checkout page, and she has no framework for that because American consumer culture does not easily accommodate 'the system cheated me' as a resting position. She looks for someone to warn her in plain terms, and nobody in this space is doing that. A brand that speaks to her directly, names what happened, explains the mechanics of the trap without requiring her to learn anything first, owns a position built on something the rest of the category cannot offer: permission to have been fooled without it meaning she failed.",
+  "lane_divergence": [
+    {
+      "theme": "Online skincare shoppers treat DTC free trials as deliberate traps",
+      "press_pct": 1.7,
+      "search_pct": 89.2,
+      "monthly_volume": 21480,
+      "clips": 0,
+      "verdict": "under_served",
+      "gap_points": 87.5
+    },
+    {
+      "theme": "Ingredient-literate shoppers reject packaging and naming tricks as fake innovation",
+      "press_pct": 32.2,
+      "search_pct": 10.2,
+      "monthly_volume": 2460,
+      "clips": 3,
+      "verdict": "over_covered",
+      "gap_points": 22
+    }
+  ],
+  "axes": {
+    "x_axis": {
+      "label": "Where the shopper locates the deception: in the brand's structure or in the brand's stated values",
+      "low_end": "The shopper is angry about a mechanical trick: hidden terms, aggressive commissions, identical formulas in different packaging. The complaint is about how the purchase is engineered, not what the brand claims to stand for.",
+      "high_end": "The shopper is angry because the brand made a public promise about wellness, authenticity, or care, and then acted against it. The complaint is about the gap between the brand's own words and its conduct.",
+      "low_label": "tricked by the structure",
+      "high_label": "betrayed by the promise"
+    },
+    "y_axis": {
+      "label": "Who the shopper trusts to verify the claim: peer observation and personal accumulation or credentialed reading and institutional record",
+      "low_end": "The shopper relies on what peers have witnessed and shared, what she has used long enough to judge herself, or what a crowd of commenters has collectively flagged. Authority comes from lived repetition and mutual warning.",
+      "high_end": "The shopper relies on the INCI list, press documentation, BBB complaint records, or the traceable corporate ownership of a brand. Authority comes from a record that exists outside any one person's experience.",
+      "low_label": "trusted through shared experience",
+      "high_label": "verified through external record"
+    },
+    "quadrants": [
+      {
+        "position": "high_x_high_y",
+        "title": "betrayed by the promise, verified through external record",
+        "description": "Shoppers hold brands to their own public language and use press coverage, corporate histories, and documented policy changes as the evidence that the betrayal happened."
+      },
+      {
+        "position": "high_x_low_y",
+        "title": "betrayed by the promise, trusted through shared experience",
+        "description": "Shoppers feel the contradiction between a brand's wellness messaging and its conduct, and that feeling is confirmed and amplified by what peers report and repeat to each other."
+      },
+      {
+        "position": "low_x_high_y",
+        "title": "tricked by the structure, verified through external record",
+        "description": "Shoppers identify a mechanical deception, hidden subscription terms, rebranded kiosk networks, or identical formulas, and point to complaint databases, NPR reporting, or INCI lists as proof."
+      },
+      {
+        "position": "low_x_low_y",
+        "title": "tricked by the structure, trusted through shared experience",
+        "description": "Shoppers recognize a pattern of structural manipulation because peers have described it in near-identical terms, and the collective warning is itself the evidence that the trick is real."
+      }
+    ],
+    "positions": [
+      {
+        "theme": "Online skincare shoppers treat DTC free trials as deliberate traps",
+        "x": 0.15,
+        "y": 0.2,
+        "rationale": "The complaint is about funnel mechanics, buried terms, and phone-only cancellation, not broken brand values. Peer warnings in near-identical language are the primary verification tool, placing this low on both axes."
+      },
+      {
+        "theme": "Skeptical beauty viewers demand visible proof influencers actually use the product",
+        "x": 0.35,
+        "y": 0.35,
+        "rationale": "The deception is structural, a paid post dressed as personal use, but the standard being applied edges toward a promise of authenticity. Verification is collective and observational: crowds scrolling back through post histories rather than consulting external records."
+      },
+      {
+        "theme": "Project Pan women find better products by finishing them instead of replacing them",
+        "x": 0.1,
+        "y": 0.15,
+        "rationale": "The critique targets haul culture's mechanics, seasonal launches and affiliate incentives, and authority rests entirely on months of personal use and peer documentation. No institutional record is invoked."
+      },
+      {
+        "theme": "Values-driven brand shoppers boycott legacy names that betray their own messaging",
+        "x": 0.88,
+        "y": 0.62,
+        "rationale": "The anger is explicitly about the gap between a brand's wellness positioning and its conduct. Press coverage in the New York Post and HuffPost amplifies the boycott, adding external documentation, though the emotional core is peer-shared outrage."
+      },
+      {
+        "theme": "Mall skincare targets cannot identify predatory stores because they keep rebranding",
+        "x": 0.2,
+        "y": 0.9,
+        "rationale": "The deception is structural and mechanical: commission incentives, rebrand cycles, and back-room pressure tactics. Verification is almost entirely institutional: NPR reporting, BBB complaint records, and former-employee testimony."
+      },
+      {
+        "theme": "Ingredient-literate shoppers reject packaging and naming tricks as fake innovation",
+        "x": 0.25,
+        "y": 0.82,
+        "rationale": "The complaint is about structural tricks in naming and packaging rather than broken brand promises. The INCI list is the explicit authority, placing this high on the external-record axis."
+      }
+    ],
+    "basis": "interpretive"
+  },
+  "unattributed_pct": 2.5,
+  "diversity": {
+    "mean_cosine": 0.48,
+    "collapsed": false,
+    "closest_pair": [
+      "Values-driven brand shoppers boycott legacy names that betray their own messaging",
+      "Ingredient-literate shoppers reject packaging and naming tricks as fake innovation"
+    ],
+    "closest_cosine": 0.612
+  },
+  "metadata": {
+    "exa_results_count": 580,
+    "articles_after_filter": 6055,
+    "verified_videos": [
+      {
+        "url": "https://m.tiktok.com/v/7273501311830707498.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7273501311830707498&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7273501311830707498.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7273501311830707498&source=h5_m",
+        "engagement": {
+          "plays": 2734456,
+          "likes": 6442
+        },
+        "multimodal": {
+          "video_summary": "A creator showcases the Eight Saints Discovery Kit, highlighting eight free sample-size skincare products available for just the cost of shipping."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7680390383301430542.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7680390383301430542&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7680390383301430542.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7680390383301430542&source=h5_m",
+        "engagement": {
+          "plays": 78083,
+          "likes": 3407
+        },
+        "multimodal": {
+          "video_summary": "A person scans various skincare and body care products at a Dollar Tree store using an ingredient-analysis app."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7669129236447350029.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7669129236447350029&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7669129236447350029.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7669129236447350029&source=h5_m",
+        "engagement": {
+          "plays": 31641,
+          "likes": 1051
+        },
+        "multimodal": {
+          "video_summary": "An esthetician discusses skincare brand Skinbetter Science going direct-to-consumer and how it affects med spas and estheticians earning commissions."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7233499706209389866.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7233499706209389866&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7233499706209389866.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7233499706209389866&source=h5_m",
+        "engagement": {
+          "plays": 445998,
+          "likes": 2205
+        },
+        "multimodal": {
+          "video_summary": "A woman shows an Eight Saints skincare discovery kit with trial products, routine guide, and coupon."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7678587656380353805.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7678587656380353805&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7678587656380353805.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7678587656380353805&source=h5_m",
+        "engagement": {
+          "plays": 199222,
+          "likes": 5217
+        },
+        "multimodal": {
+          "video_summary": "A poster advertising a Cordiale Skincare Ambassador program is placed on a brick wall, prompting viewers to check the caption to apply."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7658343677898657054.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7658343677898657054&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7658343677898657054.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7658343677898657054&source=h5_m",
+        "engagement": {
+          "plays": 19112,
+          "likes": 879
+        },
+        "multimodal": {
+          "video_summary": "A creator excitedly shares notifications of getting their first approved free skincare sample from COSRX on TikTok Shop."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7685811034774392077.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7685811034774392077&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7685811034774392077.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6abg1bkk5ikcb&share_item_id=7685811034774392077&source=h5_m",
+        "engagement": {
+          "plays": 133,
+          "likes": 4
+        },
+        "multimodal": {
+          "video_summary": "A creator showcases a collection of skincare products received as TikTok Shop free samples and demonstrates using them for acne treatment."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7288064623561968939.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7288064623561968939&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7288064623561968939.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7288064623561968939&source=h5_m",
+        "engagement": {
+          "plays": 3549671,
+          "likes": 389998
+        },
+        "multimodal": {
+          "video_summary": "A creator showcases budget-friendly skincare products for clear skin available at Target and Ulta."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7528470314884320542.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7528470314884320542&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7528470314884320542.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7528470314884320542&source=h5_m",
+        "engagement": {
+          "plays": 45861,
+          "likes": 3020
+        },
+        "multimodal": {
+          "video_summary": "A creator visits Target to review and evaluate various skincare brands for nontoxic and clean ingredients."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7684771391329094943.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7684771391329094943&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7684771391329094943.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7684771391329094943&source=h5_m",
+        "engagement": {
+          "plays": 13994,
+          "likes": 229
+        },
+        "multimodal": {
+          "video_summary": "A shopper visits a Target skincare demo booth to test the new Eucerin Radiant Tone products and receives a free sample bag."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7702446774388149518.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7702446774388149518&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7702446774388149518.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7702446774388149518&source=h5_m",
+        "engagement": {
+          "plays": 476,
+          "likes": 19
+        },
+        "multimodal": {
+          "video_summary": "A woman explains a Walgreens curbside couponing deal to get $40 worth of beauty and personal care products for free."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7700322380027022605.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7700322380027022605&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7700322380027022605.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7700322380027022605&source=h5_m",
+        "engagement": {
+          "plays": 33091,
+          "likes": 1729
+        },
+        "multimodal": {
+          "video_summary": "A woman unboxes a free promotional goodie bag from Walgreens received after getting a flu vaccine, highlighting skincare and haircare items inside."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7560467325233794318.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7560467325233794318&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7560467325233794318.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7560467325233794318&source=h5_m",
+        "engagement": {
+          "plays": 44438,
+          "likes": 1837
+        },
+        "multimodal": {
+          "video_summary": "A creator showcases various skincare product dupes at Walgreens compared to high-end brands like Youth to the People, Paula’s Choice, and Laneige."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7591495354705579278.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7591495354705579278&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7591495354705579278.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7591495354705579278&source=h5_m",
+        "engagement": {
+          "plays": 3791,
+          "likes": 174
+        },
+        "multimodal": {
+          "video_summary": "A creator empties a container of beauty and skincare samples and goes through each one, identifying whether they came from Target, Sephora, or other sources."
+        }
+      },
+      {
+        "url": "https://m.tiktok.com/v/7303701516177722655.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7303701516177722655&source=h5_m",
+        "video_url": "https://m.tiktok.com/v/7303701516177722655.html?u_code=0&preview_pb=0&sharer_language=en&_d=f6a3559f965i15&share_item_id=7303701516177722655&source=h5_m",
+        "engagement": {
+          "plays": 163987,
+          "likes": 5882
+        },
+        "multimodal": {
+          "video_summary": "A dermatologist reviews new Walgreens drugstore skincare dupes."
+        }
+      }
+    ],
+    "thin_coverage": false
+  }
+}

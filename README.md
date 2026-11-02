@@ -30,6 +30,24 @@ A clickable prototype of a phone app: a weekly health and beauty magazine for wo
 - **New card**: add any topic. Adding **Sleep** runs a mock pipeline and finishes into a full issue.
 - **About**: an in-app explainer of every section (tap the *i* on the home screen).
 
+## Keys
+
+Every agent reads its keys from `.env` (gitignored; this repo is public). Copy `.env.example` to `.env` and fill it in, then check with `python3 agents/keys.py` (free). One `ANTHROPIC_API_KEY` covers the run planner, the Evidence Agent, the Editor Agent and the search agent. The `ANTHROPOLOGIC_*` values are the Anthropologic API service account.
+
+## The run planner
+
+`agents/anthropologic/run_planner.py` turns a topic, a reader question or a thread into Anthropologic runs. Claude picks the pipelines (Discourse, Trends, Segmentation, Futures) and fills every input; Anthropologic's own focus options are fetched for free and Claude picks the matching one. It shows the plan and credit total, submits only after you type `y`, submits all runs at once, waits, saves each output to `runs/<name>/`, and writes the combined file the Editor Agent reads.
+
+```bash
+python3 agents/anthropologic/run_planner.py --topic Beauty                 # plan only (Claude call, no credits)
+python3 agents/anthropologic/run_planner.py --topic Beauty --submit        # plan, confirm, run, collect
+python3 agents/anthropologic/run_planner.py --question "Do LED masks work?" --budget 20
+python3 agents/anthropologic/run_planner.py --collect runs/beauty          # resume collecting
+python3 agents/anthropologic/client.py --check                             # test the Anthropologic login (free)
+```
+
+Credits per run: Discourse and Trends 10, Segmentation 100, Futures 200. Default budget 130.
+
 ## The Evidence Agent
 
 The pipelines say what people *say*. The Evidence Agent adds what the *research* says, for every "Real or hype?" verdict.
@@ -100,6 +118,9 @@ agents/citations/               citation checker (PubMed / Crossref)
 agents/evidence_check/          the Evidence Agent and its claims list
 agents/editor/                  the Editor Agent and sample pipeline input
 agents/search/                  the search planning agent
+agents/anthropologic/           Anthropologic API client and the run planner
+agents/keys.py                  loads .env and checks keys
+runs/                           saved Anthropologic run outputs
 scripts/export_claims.mjs       exports claims for the Evidence Agent
 scripts/apply_drafts.mjs        publishes Editor Agent drafts into the app
 ```
